@@ -10,6 +10,10 @@ import ContactSection from './components/ContactSection';
 import FloatingCallButton from './components/FloatingCallButton';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Pages
 import Home from './index';
 import About from './about';
 import WheelchairRamps from './wheelchair-ramps';
