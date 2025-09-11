@@ -8,34 +8,21 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Video */}
-      <div className="absolute inset-0 w-full h-full">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-          poster="https://www.facebook.com/photo?fbid=1593237332040918&set=a.753432222688104"
-        >
-          <source 
-            src="https://assets.mixkit.co/videos/preview/mixkit-elderly-man-using-wheelchair-ramp-40213-large.mp4" 
-            type="video/mp4" 
-          />
-          <source 
-            src="https://assets.mixkit.co/videos/preview/mixkit-senior-woman-with-walker-in-modern-home-40208-large.mp4" 
-            type="video/mp4" 
-          />
-        </video>
-        
-        {/* Video Overlay */}
-        <div className={`absolute inset-0 ${
-          highContrastMode 
-            ? 'bg-black/80' 
-            : 'bg-gradient-to-r from-blue-900/90 via-blue-800/80 to-blue-900/90'
-        }`}></div>
-      </div>
+    <section
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24"
+      style={{
+        backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=iV6LtpRjIg7KRPusTL3VoQ&oh=00_AfbHjh0sM7WrtXYUnx-gavLFAVwoMn5h9vLUYjXBKmk5Bw&oe=68C8A4D9')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      {/* Overlay */}
+      <div className={`absolute inset-0 ${
+        highContrastMode 
+          ? 'bg-black/70' 
+          : 'bg-black/40'
+      }`}></div>
 
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
