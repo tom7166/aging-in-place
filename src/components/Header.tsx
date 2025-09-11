@@ -25,6 +25,12 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
     { href: '#why-choose', label: 'Why Choose Us' },
     { href: '#service-areas', label: 'Service Areas' },
     { href: '#faq', label: 'FAQ' }
+    <li><a href="/accessible-bathrooms">Accessible Bathrooms</a></li>
+<li><a href="/kitchen-modifications">Kitchen Modifications</a></li>
+<li><a href="/door-widening">Door Widening</a></li>
+<li><a href="/aging-in-place">Aging in Place</a></li>
+<li><a href="/disability-modifications">Disability Modifications</a></li>
+
   ];
 
   const scrollToSection = (href: string) => {
