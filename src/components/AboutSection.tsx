@@ -92,7 +92,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ highContrastMode }) => {
                 highContrastMode ? 'border-4 border-white' : ''
               }`}>
                 <img 
-                  src="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=aMHPlB6B1p-HtViBZ9ExEg&oh=00_AfY5frJRqgS-lhLM2Ogqsvp2CV7SC11sVrmPHDMJLxisig&oe=68C8A4D9" 
+                  src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/546417693_1593234648707853_7333267281190014656_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=M7odgeyokXUQ7kNvwHQ9sBs&_nc_oc=AdnT7w4i9yN0gqRjPSEzbnzHO5Pyxw5XJXRQIKMVs5Kq09n_XasdLOCFDRi2d7CsGUSmkv84ym-q64oPRnrmbVUq&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=hxT8Wp0VpRhsHVn9fJqd0A&oh=00_AfZOwq_bMVw5H3VwF8bRkOAPb8oFJGTnnuepmk6y-F5k-g&oe=68C8A805" 
                   alt="Aaron Michael Services team working on accessibility modifications in Buffalo home"
                   className="w-full h-80 object-cover"
                   loading="lazy"
