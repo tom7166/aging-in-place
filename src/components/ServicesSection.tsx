@@ -1,157 +1,158 @@
-import React from 'react';
-import { 
-  Accessibility, 
-  Bath, 
-  Home, 
-  DoorOpen, 
-  Heart, 
-  Wrench,
-  Phone,
-  CheckCircle 
-} from 'lucide-react';
-import { SERVICES, CONTACT_INFO } from '../utils/constants';
+import React from "react";
+import { Accessibility, Bath, Home, DoorOpen, Heart, Wrench } from "lucide-react";
+import { CONTACT_INFO } from "../utils/constants";
 
-interface ServicesSectionProps {
-  highContrastMode: boolean;
-}
+const services = [
+  {
+    icon: <Accessibility size={36} className="text-green-500" />,
+    title: "Wheelchair Ramp Installation",
+    description: `
+      Safe, strong, and ADA-compliant wheelchair ramps for Buffalo homes.
+      We build wood, aluminum, and concrete ramps tailored to your property.
+      Every ramp meets ADA slope standards, includes safety rails, and is built to last through WNY winters.
+    `,
+    bullets: [
+      "Custom design for your property",
+      "Portable and permanent options",
+      "Aluminum, wood, or concrete builds",
+      "Insurance & grant assistance available",
+    ],
+    keywords: "wheelchair ramps Buffalo, ADA ramp contractor, handicap ramps WNY",
+  },
+  {
+    icon: <Bath size={36} className="text-green-500" />,
+    title: "Accessible Bathroom Remodels",
+    description: `
+      Bathrooms are the #1 place for slips and falls. We remodel bathrooms to make them
+      safe, stylish, and accessible for seniors and people with disabilities.
+      Our work is informed by real family disability experience.
+    `,
+    bullets: [
+      "Roll-in showers with grab bars",
+      "Walk-in tubs for easy bathing",
+      "Comfort-height toilets",
+      "Slip-resistant flooring",
+    ],
+    keywords: "accessible bathroom Buffalo, walk-in tubs WNY, roll-in showers contractor",
+  },
+  {
+    icon: <Home size={36} className="text-green-500" />,
+    title: "Accessible Kitchen Modifications",
+    description: `
+      We make Buffalo kitchens functional for everyone by lowering counters,
+      installing pull-out shelves, and upgrading appliances for easy reach.
+      Cook, eat, and live independently without barriers.
+    `,
+    bullets: [
+      "Lowered countertops & cabinets",
+      "Pull-out pantry and shelving systems",
+      "Side-hinged & drawer-style ovens",
+      "Lighting & smart appliance upgrades",
+    ],
+    keywords: "accessible kitchen Buffalo, disability kitchen remodel, kitchen modifications WNY",
+  },
+  {
+    icon: <DoorOpen size={36} className="text-green-500" />,
+    title: "Door Widening & Hallway Adjustments",
+    description: `
+      Narrow doors and hallways are a daily obstacle for wheelchair users.
+      We expand doorways to ADA standards (36+ inches) while protecting your home’s structure.
+    `,
+    bullets: [
+      "Door widening up to ADA standards",
+      "Pocket & sliding door installation",
+      "Hallway adjustments for mobility devices",
+      "Structural integrity guaranteed",
+    ],
+    keywords: "door widening Buffalo, accessible doors WNY, ADA contractor near me",
+  },
+  {
+    icon: <Heart size={36} className="text-green-500" />,
+    title: "Aging-in-Place Upgrades",
+    description: `
+      90% of Buffalo seniors want to age at home instead of moving into nursing facilities.
+      We provide smart modifications that keep homes safe, comfortable, and independent.
+    `,
+    bullets: [
+      "Grab bars & stair railings",
+      "Non-slip flooring",
+      "Better lighting throughout",
+      "Bedroom & entryway accessibility",
+    ],
+    keywords: "aging in place Buffalo, senior home upgrades WNY, independent living contractor",
+  },
+  {
+    icon: <Wrench size={36} className="text-green-500" />,
+    title: "Specialized Disability Modifications",
+    description: `
+      Every disability is unique. We create custom modifications for mobility, vision, hearing,
+      and cognitive accessibility — designed to support your family’s real needs.
+    `,
+    bullets: [
+      "Visual contrast for low vision",
+      "Voice & remote-activated home controls",
+      "Smart home integration",
+      "Custom carpentry & modifications",
+    ],
+    keywords: "disability modifications Buffalo, accessible homes WNY, ADA upgrades contractor",
+  },
+];
 
-const getServiceIcon = (iconName: string) => {
-  const iconProps = { size: 48, className: 'mx-auto mb-4' };
-  switch (iconName) {
-    case 'accessibility': return <Accessibility {...iconProps} />;
-    case 'bath': return <Bath {...iconProps} />;
-    case 'home': return <Home {...iconProps} />;
-    case 'door-open': return <DoorOpen {...iconProps} />;
-    case 'heart': return <Heart {...iconProps} />;
-    case 'wrench': return <Wrench {...iconProps} />;
-    default: return <Accessibility {...iconProps} />;
-  }
-};
-
-const ServicesSection: React.FC<ServicesSectionProps> = ({ highContrastMode }) => {
+const ServicesSection: React.FC<{ highContrastMode: boolean }> = ({ highContrastMode }) => {
   return (
-    <section 
-      id="services" 
-      className={`py-20 ${
-        highContrastMode ? 'bg-gray-900 text-white' : 'bg-white'
-      }`}
-    >
-      <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto">
-          {/* Section Header */}
-          <div className="text-center mb-16">
-            <h2 className={`text-4xl md:text-5xl font-bold mb-6 ${
-              highContrastMode ? 'text-white' : 'text-blue-900'
-            }`}>
-              Our Services
-            </h2>
-            <p className={`text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed ${
-              highContrastMode ? 'text-white' : 'text-gray-600'
-            }`}>
-              Comprehensive ADA modifications and accessibility solutions for Buffalo and Western New York
-            </p>
-          </div>
+    <section className="relative py-20 bg-gray-50 dark:bg-gray-900" id="services">
+      <div className="container mx-auto px-6 text-center">
+        <h2
+          className={`text-3xl md:text-5xl font-extrabold mb-8 ${
+            highContrastMode ? "text-white" : "text-gray-900"
+          }`}
+        >
+          Accessibility & ADA Services in Buffalo, NY
+        </h2>
+        <p
+          className={`max-w-3xl mx-auto text-lg md:text-xl mb-16 ${
+            highContrastMode ? "text-gray-200" : "text-gray-600"
+          }`}
+        >
+          From wheelchair ramps to full home renovations, we help families across Western New York
+          create homes that are safe, functional, and built for independence.
+        </p>
 
-          {/* Services Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {SERVICES.map((service, index) => (
-              <div 
-                key={index}
-                className={`p-8 rounded-2xl text-center transition-all duration-300 hover:scale-105 transform ${
-                  highContrastMode 
-                    ? 'bg-black border-2 border-white hover:border-yellow-400' 
-                    : 'bg-gray-50 hover:bg-blue-50 shadow-lg hover:shadow-xl border border-gray-100'
-                }`}
-              >
-                <div className={`${
-                  highContrastMode ? 'text-yellow-400' : 'text-blue-600'
-                }`}>
-                  {getServiceIcon(service.icon)}
-                </div>
-                
-                <h3 className={`text-2xl font-bold mb-4 ${
-                  highContrastMode ? 'text-white' : 'text-blue-900'
-                }`}>
-                  {service.title}
-                </h3>
-                
-                <p className={`text-lg mb-6 leading-relaxed ${
-                  highContrastMode ? 'text-white' : 'text-gray-700'
-                }`}>
-                  {service.description}
-                </p>
-
-                {/* Keywords for SEO */}
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {service.keywords.slice(0, 2).map((keyword, idx) => (
-                    <span 
-                      key={idx}
-                      className={`px-3 py-1 text-sm rounded-full ${
-                        highContrastMode 
-                          ? 'bg-gray-800 text-yellow-400 border border-yellow-400' 
-                          : 'bg-blue-100 text-blue-800'
-                      }`}
-                    >
-                      {keyword}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* Service Highlights */}
-          <div className={`p-8 md:p-12 rounded-2xl ${
-            highContrastMode 
-              ? 'bg-black border-2 border-white' 
-              : 'bg-gradient-to-r from-blue-600 to-blue-800 text-white'
-          }`}>
-            <div className="text-center mb-8">
-              <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                Why Buffalo Families Choose Us
-              </h3>
-              <p className="text-xl">
-                Every project includes these essential features
-              </p>
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className={`p-8 rounded-2xl shadow-lg transition-transform transform hover:scale-105 ${
+                highContrastMode
+                  ? "bg-gray-800 border border-gray-700 text-white"
+                  : "bg-white border border-gray-200 text-gray-800"
+              }`}
+            >
+              <div className="flex justify-center mb-4">{service.icon}</div>
+              <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
+              <p className="mb-6">{service.description}</p>
+              <ul className="text-left list-disc list-inside space-y-2">
+                {service.bullets.map((bullet, idx) => (
+                  <li key={idx} className="text-sm md:text-base">
+                    {bullet}
+                  </li>
+                ))}
+              </ul>
             </div>
+          ))}
+        </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                "ADA Compliance Guaranteed",
-                "Insurance Assistance",
-                "Free Consultations",
-                "Emergency Services"
-              ].map((feature, index) => (
-                <div key={index} className="flex items-center space-x-3">
-                  <CheckCircle 
-                    className={highContrastMode ? 'text-yellow-400' : 'text-green-400'} 
-                    size={24} 
-                  />
-                  <span className={`font-semibold ${
-                    highContrastMode ? 'text-white' : 'text-white'
-                  }`}>
-                    {feature}
-                  </span>
-                </div>
-              ))}
-            </div>
-
-            {/* CTA in Services */}
-            <div className="text-center mt-10">
-              <a
-                href={`tel:${CONTACT_INFO.phone}`}
-                className={`inline-flex items-center space-x-3 px-8 py-4 rounded-xl font-bold text-xl transition-all duration-300 hover:scale-105 transform ${
-                  highContrastMode
-                    ? 'bg-white text-black hover:bg-yellow-400 border-2 border-white'
-                    : 'bg-green-600 text-white hover:bg-green-500 border-2 border-green-400'
-                }`}
-                aria-label={`Call Aaron Michael Services at ${CONTACT_INFO.displayPhone}`}
-              >
-                <Phone size={24} />
-                <span>Get Your Free Consultation: {CONTACT_INFO.displayPhone}</span>
-              </a>
-            </div>
-          </div>
+        <div className="mt-16">
+          <a
+            href={`tel:${CONTACT_INFO.phone}`}
+            className={`inline-block px-10 py-5 rounded-2xl font-bold text-xl md:text-2xl shadow-xl transition-all duration-300 hover:scale-105 ${
+              highContrastMode
+                ? "bg-white text-black hover:bg-yellow-400 border-4 border-white"
+                : "bg-green-600 text-white hover:bg-green-500 border-4 border-green-400"
+            }`}
+          >
+            Call Now for a Free Consultation: {CONTACT_INFO.displayPhone}
+          </a>
         </div>
       </div>
     </section>
