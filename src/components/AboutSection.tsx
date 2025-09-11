@@ -1,5 +1,7 @@
 import React from 'react';
 import { CONTACT_INFO } from '../utils/constants';
+import AboutSchema from './components/AboutSchema';
+
 
 const AboutSection: React.FC = () => {
   return (
