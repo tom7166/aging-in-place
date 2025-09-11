@@ -45,12 +45,12 @@ const AboutSection: React.FC<AboutSectionProps> = ({ highContrastMode }) => {
                     <h3 className={`text-2xl font-bold mb-4 ${
                       highContrastMode ? 'text-white' : 'text-blue-900'
                     }`}>
-                      It Started with Aaron
+                      It Started with Noah
                     </h3>
                     <p className={`text-lg leading-relaxed mb-4 ${
                       highContrastMode ? 'text-white' : 'text-gray-700'
                     }`}>
-                      When our family member Aaron was born with disabilities, we quickly learned that Buffalo homes weren't built for everyone. Simple things like getting through doorways, using the bathroom safely, or accessing the kitchen became daily challenges.
+                      When our son Noah, was born with disabilities, we quickly learned that Buffalo homes weren't built for everyone. Simple things like getting through doorways, using the bathroom safely, or accessing the kitchen became daily challenges.
                     </p>
                     <p className={`text-lg leading-relaxed ${
                       highContrastMode ? 'text-white' : 'text-gray-700'
@@ -92,7 +92,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ highContrastMode }) => {
                 highContrastMode ? 'border-4 border-white' : ''
               }`}>
                 <img 
-                  src="https://images.pexels.com/photos/7659575/pexels-photo-7659575.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" 
+                  src="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=aMHPlB6B1p-HtViBZ9ExEg&oh=00_AfY5frJRqgS-lhLM2Ogqsvp2CV7SC11sVrmPHDMJLxisig&oe=68C8A4D9" 
                   alt="Aaron Michael Services team working on accessibility modifications in Buffalo home"
                   className="w-full h-80 object-cover"
                   loading="lazy"
