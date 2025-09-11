@@ -31,6 +31,16 @@ import NotFound from './not-found';
 const App: React.FC = () => {
   return (
     <Router>
+      function App() {
+  return (
+    <Router>
+      <NavBar />   {/* Navbar always visible */}
+      <Routes>
+        {/* your pages here */}
+      </Routes>
+    </Router>
+  );
+}
       <Routes>
         {/* Main Pages */}
         <Route path="/" element={<Home />} />
