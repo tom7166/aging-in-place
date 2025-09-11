@@ -17,7 +17,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
           loop
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          poster="https://images.pexels.com/photos/7659564/pexels-photo-7659564.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          poster="https://www.facebook.com/photo?fbid=1593237332040918&set=a.753432222688104"
         >
           <source 
             src="https://assets.mixkit.co/videos/preview/mixkit-elderly-man-using-wheelchair-ramp-40213-large.mp4" 
