@@ -4,7 +4,7 @@ import App from './App.tsx';
 import './index.css';
 import { BrowserRouter } from "react-router-dom";
 
-<BrowserRouter basename="/tom7166">
+<BrowserRouter basename="/aaron-michael-services">
   <App />
 </BrowserRouter>
 
