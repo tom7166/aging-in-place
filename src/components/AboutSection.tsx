@@ -25,6 +25,14 @@ const AboutSection: React.FC = () => {
           Our mission is simple: <em>help families maintain independence and quality of life at home</em> 
           through professional, reliable, and ADA-compliant modifications.
         </p>
+<main className="flex-grow">
+  <HeroSection highContrastMode={false} />
+  <ServicesSection />
+  <AboutSection />
+  <UnifiedSchema />   {/* <-- injects LocalBusiness + FAQ schema */}
+  <FAQSection faqs={FAQS} />
+  <ContactSection />
+</main>
 
         <a
           href={`tel:${CONTACT_INFO.phone}`}
