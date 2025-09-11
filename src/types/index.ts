@@ -18,6 +18,9 @@ const IndexPage: React.FC = () => {
         <meta name="description" content="Aaron Michael Services is Buffalo's trusted ADA contractor specializing in wheelchair ramps, accessible bathrooms, kitchen modifications, door widening, and aging-in-place upgrades. Serving Buffalo and all of WNY. Free consultations." />
         <meta name="keywords" content="Buffalo ADA contractor, wheelchair ramps Buffalo, accessible bathroom Buffalo, aging in place WNY, disability home modifications, ADA compliance Buffalo, home accessibility WNY" />
         <link rel="canonical" href="https://aaronmichaelservices.com/" />
+        <meta property="og:image" content="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=iV6LtpRjIg7KRPusTL3VoQ&oh=00_AfbHjh0sM7WrtXYUnx-gavLFAVwoMn5h9vLUYjXBKmk5Bw&oe=68C8A4D9" />
+<meta name="twitter:image" content="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=iV6LtpRjIg7KRPusTL3VoQ&oh=00_AfbHjh0sM7WrtXYUnx-gavLFAVwoMn5h9vLUYjXBKmk5Bw&oe=68C8A4D9" />
+
       </head>
 
       {/* Hero Section */}
