@@ -1,6 +1,249 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aaronmichaelservices.com/#organization",
+      "name": "Aaron Michael Services",
+      "alternateName": ["Buffalo ADA Contractor", "WNY Accessibility Specialist"],
+      "description": "Buffalo's premier ADA contractor specializing in wheelchair ramps, accessible bathrooms, and aging-in-place modifications for elderly and disabled residents",
+      "url": "https://aaronmichaelservices.com",
+      "telephone": "+17166236879",
+      "email": "Thomasstory716@hotmail.com.com",
+      "foundingDate": "2015",
+      "founder": {
+        "@type": "Person",
+        "name": "Tom Story",
+        "description": "Founder with 22+ years construction experience and personal disability experience"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "containedInPlace": {
+            "@type": "State", 
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Cheektowaga"
+        },
+        {
+          "@type": "City", 
+          "name": "Amherst"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "Niagara Falls"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864", 
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "openingHours": [
+        "Mo-Fr 07:00-18:00",
+        "Sa 08:00-16:00"
+      ],
+      "priceRange": "$$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": ["Cash", "Check", "Credit Card", "Insurance"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ADA Home Modification Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "@id": "https://aaronmichaelservices.com/#wheelchair-ramps",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wheelchair Ramp Installation Buffalo",
+              "description": "Custom ADA-compliant wheelchair ramps designed for Buffalo weather and home styles",
+              "provider": {
+                "@id": "https://aaronmichaelservices.com/#organization"
+              },
+              "areaServed": "Western New York",
+              "offers": {
+                "@type": "Offer",
+                "priceRange": "$2400-$8500",
+                "priceCurrency": "USD"
+              }
+            }
+          },
+          {
+            "@type": "Offer", 
+            "@id": "https://aaronmichaelservices.com/#accessible-bathrooms",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accessible Bathroom Renovation Buffalo",
+              "description": "Walk-in showers, grab bars, ADA bathroom modifications for Buffalo homes",
+              "provider": {
+                "@id": "https://aaronmichaelservices.com/#organization"  
+              },
+              "areaServed": "Western New York",
+              "offers": {
+                "@type": "Offer",
+                "priceRange": "$7000-$25000", 
+                "priceCurrency": "USD"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://aaronmichaelservices.com/#aging-in-place", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Aging in Place Modifications Buffalo",
+              "description": "Home modifications allowing Buffalo seniors to age safely at home",
+              "provider": {
+                "@id": "https://aaronmichaelservices.com/#organization"
+              },
+              "areaServed": "Western New York",
+              "offers": {
+                "@type": "Offer",
+                "priceRange": "$3000-$30000",
+                "priceCurrency": "USD"
+              }
+            }
+          }
+        ]
+      },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aaronmichaelservices.com/images/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "image": [
+        "https://aaronmichaelservices.com/images/wheelchair-ramp-buffalo.jpg",
+        "https://aaronmichaelservices.com/images/accessible-bathroom-wny.jpg", 
+        "https://aaronmichaelservices.com/images/aging-in-place-buffalo.jpg"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/aaron-michael-services",
+        "https://www.facebook.com/aaronmichaelservices",
+        "https://www.youtube.com/@BuffaloHomeAccess"
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Voice Search & Answer Engine Optimized FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage", 
+  "@id": "https://yourdomain.com/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do wheelchair ramps cost in Buffalo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wheelchair ramp costs in Buffalo range from $2,400-$8,500 depending on length and complexity. Straight ramps (16 feet) cost $2,400-$3,200, L-shaped ramps cost $3,200-$4,800, and custom designs cost $4,800-$8,500. Factors affecting cost include snow load requirements for Buffalo weather, permit fees, material selection, and site preparation needs."
+      }
+    },
+    {
+      "@type": "Question", 
+      "name": "Who installs wheelchair ramps in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aaron Michael Services is Buffalo's leading ADA contractor specializing in wheelchair ramp installation. With 22+ years of construction experience and exclusive accessibility focus since 2015, we serve Buffalo, Cheektowaga, Amherst, Tonawanda, Niagara Falls, and all of Western New York. Call 716-623-6879 for free consultation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What accessibility modifications are covered by insurance in New York?", 
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many accessibility modifications are covered by insurance in New York. Medicare covers grab bars and safety equipment (80% coverage), medically necessary bathroom modifications (varies), and ramps supporting home health services. Medicaid waiver programs include NHTD Waiver (up to $15,000), CDPAP equipment, and TBI Waiver comprehensive coverage. Success rate with proper documentation is 67%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do accessible bathroom renovations take in Buffalo?",
+      "acceptedAnswer": {
+        "@type": "Answer", 
+        "text": "Accessible bathroom renovations in Buffalo typically take: Walk-in shower conversion (3-5 days), complete bathroom renovation (7-10 days), grab bar installation only (4-6 hours), planning and permits (1-2 weeks). Buffalo-specific factors include permit processing time, winter weather delays, and older home electrical updates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes a Buffalo home aging-in-place ready?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aging-in-place ready Buffalo homes have: Bathroom safety (walk-in shower, grab bars, comfort-height toilet, non-slip flooring), entry/exit safety (wheelchair ramp or stair lift, lever handles, adequate lighting), interior navigation (36-inch doorways, hallway grab bars, accessible switches), and kitchen accessibility (lowered counters, pull-out shelving, accessible appliances)."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service-Specific Schema for Better AEO Performance -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://aaronmichaelservices.com/#ada-services",
+  "name": "ADA Home Modification Services Buffalo",
+  "description": "Professional ADA compliance and accessibility modification services for Buffalo and Western New York homes",
+  "provider": {
+    "@id": "https://aaronmichaelservices.com/#organization"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "New York",
+    "containsPlace": [
+      {"@type": "City", "name": "Buffalo"},
+      {"@type": "City", "name": "Cheektowaga"}, 
+      {"@type": "City", "name": "Amherst"},
+      {"@type": "City", "name": "Tonawanda"},
+      {"@type": "City", "name": "Niagara Falls"}
+    ]
+  },
+  "serviceOutput": [
+    {
+      "@type": "Thing",
+      "name": "ADA Compliant Home",
+      "description": "Home modified to meet ADA accessibility standards"
+    }
+  ],
+  "serviceType": [
+    "Wheelchair Ramp Installation",
+    "Accessible Bathroom Renovation", 
+    "Aging in Place Modifications",
+    "Door Widening Services",
+    "Kitchen Accessibility Upgrades",
+    "Grab Bar Installation",
+    "Home Accessibility Assessment"
+  ]
+}
+</script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
