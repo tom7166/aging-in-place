@@ -2,7 +2,7 @@
   "name": "aaron-michael-services",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://tom7166.github.io/AARON-MICHAEL-SERVICES",
+  "homepage": "https://tom7166.github.io/aging-in-place",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
