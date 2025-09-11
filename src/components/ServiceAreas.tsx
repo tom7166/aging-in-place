@@ -39,7 +39,7 @@ const ServiceAreas: React.FC<ServiceAreasProps> = ({ highContrastMode }) => {
                 highContrastMode ? 'bg-gray-800' : 'bg-blue-50'
               }`}>
                 <img 
-                  src="https://images.pexels.com/photos/7919/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" 
+                  src="https://upstatenyaatsp.org/wp-content/uploads/2015/05/nys-map-western.gif" 
                   alt="Buffalo and Western New York service area map showing Aaron Michael Services coverage"
                   className="w-full h-full object-cover opacity-80"
                   loading="lazy"
