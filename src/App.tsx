@@ -8,6 +8,7 @@ import ServiceAreas from './components/ServiceAreas';
 import FAQ from './components/FAQ';
 import ContactSection from './components/ContactSection';
 import FloatingCallButton from './components/FloatingCallButton';
+import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 import React from 'react';
