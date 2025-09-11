@@ -50,6 +50,19 @@ const App: React.FC = () => {
     </Router>
   );
 };
+import NavBar from './components/NavBar';
+
+function App() {
+  return (
+    <Router>
+      <NavBar />
+      <Routes>
+        {/* your routes here */}
+      </Routes>
+    </Router>
+  );
+}
+
 function App() {
   const [highContrastMode, setHighContrastMode] = useState(false);
 
