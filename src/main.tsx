@@ -9,7 +9,7 @@ import React from "react";
 
 ReactDOM.createRoot (document.getELementById("root")!).render(
   <React.StrictMode>
-<BrowserRouter basename="/aaron-michael-services">
+<BrowserRouter basename="/aging-in-place">
   <App />
 </BrowserRouter>
   </React.StrictMode>
