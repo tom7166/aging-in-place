@@ -17,10 +17,10 @@ export const localBusinessSchema: SchemaData = {
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Your Street Address Here",
+    "streetAddress": "14 Mariemont Ave",
     "addressLocality": "Buffalo",
     "addressRegion": "NY",
-    "postalCode": "14201",
+    "postalCode": "14220",
     "addressCountry": "US"
   },
   "geo": {
