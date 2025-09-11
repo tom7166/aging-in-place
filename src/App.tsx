@@ -10,7 +10,42 @@ import ContactSection from './components/ContactSection';
 import FloatingCallButton from './components/FloatingCallButton';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
+import Home from './index';
+import About from './about';
+import WheelchairRamps from './wheelchair-ramps';
+import AccessibleBathrooms from './accessible-bathrooms';
+import KitchenModifications from './kitchen-modifications';
+import DoorWidening from './door-widening';
+import AgingInPlace from './aging-in-place';
+import DisabilityModifications from './disability-modifications';
+import Contact from './contact';
 
+// Optional: 404 Page
+import NotFound from './not-found';
+
+const App: React.FC = () => {
+  return (
+    <Router>
+      <Routes>
+        {/* Main Pages */}
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+
+        {/* Service Pages */}
+        <Route path="/wheelchair-ramps" element={<WheelchairRamps />} />
+        <Route path="/accessible-bathrooms" element={<AccessibleBathrooms />} />
+        <Route path="/kitchen-modifications" element={<KitchenModifications />} />
+        <Route path="/door-widening" element={<DoorWidening />} />
+        <Route path="/aging-in-place" element={<AgingInPlace />} />
+        <Route path="/disability-modifications" element={<DisabilityModifications />} />
+
+        {/* Catch-all for 404 */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
+  );
+};
 function App() {
   const [highContrastMode, setHighContrastMode] = useState(false);
 
