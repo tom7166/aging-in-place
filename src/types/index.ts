@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Phone, MapPin, Star } from 'lucide-react';
 import { CONTACT_INFO, SERVICES, FAQs, localBusinessSchema, generateFAQSchema, injectSchema } from '../utils/constants';
+import UnifiedSchema from './components/UnifiedSchema';
+
 
 const IndexPage: React.FC = () => {
   useEffect(() => {
