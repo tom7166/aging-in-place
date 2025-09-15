@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 
 import Home from './pages/index';
-import About from './about';
+import About from './pages/about';
 import WheelchairRamps from './pages/wheelchair-ramps';
 import AccessibleBathrooms from './pages/accessible-bathrooms';
 import KitchenModifications from './pages/kitchen-modifications';
@@ -14,7 +14,7 @@ import DoorWidening from './pages/door-widening';
 import AgingInPlace from './pages/aging-in-place';
 import DisabilityModifications from './pages/disability-modifications';
 import Contact from './pages/contact';
-import NotFound from '.pages//not-found';
+import NotFound from './pages/not-found';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
