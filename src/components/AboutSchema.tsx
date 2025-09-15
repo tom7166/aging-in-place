@@ -7,7 +7,7 @@ const AboutSchema = () => {
       "@type": "LocalBusiness",
       "name": "Aaron Michael Services",
       "image": "https://aaronmichaelservices.com/images/logo.png",
-      "telephone": "+17166236879",
+      "telephone": "+17165337108",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "14 Mariemont Ave",
