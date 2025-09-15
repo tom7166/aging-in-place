@@ -1,19 +1,18 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   
-  // Set the base path to your GitHub Pages repo
-  base: '/aging-in-place/',
+  base: "/",   // <- this is the only change from GitHub Pages
 
   server: {
-    port: 5173, // optional, default port for dev server
+    port: 5173,
   },
 
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     sourcemap: true,
   },
-});
+})
