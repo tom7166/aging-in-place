@@ -1,6 +1,6 @@
-export default {
+modeule.exports = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+      tailwindcss: {},
+      autoprefixer: {},
   },
 };
