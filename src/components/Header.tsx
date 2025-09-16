@@ -33,13 +33,14 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
   }, []);
 
   const mainNavItems = [
-    { href: '#about', label: 'Our Story' },
-    { href: '#why-choose', label: 'Why Choose Us' },
-    { href: '#service-areas', label: 'Service Areas' },
+    { href: '#about', label: 'About' },
+    { href: '#why-choose', label: 'Why Us' },
+    { href: '#service-areas', label: 'Areas' },
     { href: '#faq', label: 'FAQ' }
   ];
 
   const serviceItems = [
+    { href: '#services', label: 'All Services' },
     { href: '/accessible-bathrooms', label: 'Accessible Bathrooms' },
     { href: '/kitchen-modifications', label: 'Kitchen Modifications' },
     { href: '/door-widening', label: 'Door Widening' },
@@ -56,9 +57,15 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
         setIsServicesDropdownOpen(false);
       }
     } else {
-      // For page navigation, you might want to use your router
+      // For page navigation
       window.location.href = href;
+      setIsMenuOpen(false);
+      setIsServicesDropdownOpen(false);
     }
+  };
+
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -71,76 +78,81 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
       </a>
       
       <header 
-        className={`fixed w-full top-0 z-40 transition-all duration-300 ${
+        className={`fixed w-full top-0 z-50 transition-all duration-300 ${
           isScrolled 
-            ? `${highContrastMode ? 'bg-black border-white' : 'bg-white'} shadow-lg border-b`
+            ? `${highContrastMode ? 'bg-black/95' : 'bg-white/95'} backdrop-blur-sm border-b ${highContrastMode ? 'border-white/20' : 'border-gray-200'}`
             : 'bg-transparent'
         }`}
         role="banner"
       >
-        <nav className="container mx-auto px-4 py-4">
+        <nav className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            {/* Logo */}
-            <div className={`text-xl font-bold ${
-              highContrastMode 
-                ? 'text-white' 
-                : isScrolled 
-                  ? 'text-blue-900' 
-                  : 'text-white'
-            }`}>
+            {/* Clickable Logo */}
+            <button
+              onClick={handleLogoClick}
+              className={`text-lg font-light tracking-wide transition-colors duration-200 hover:opacity-80 ${
+                highContrastMode 
+                  ? 'text-white' 
+                  : isScrolled 
+                    ? 'text-gray-900' 
+                    : 'text-white'
+              }`}
+            >
               {CONTACT_INFO.businessName}
-            </div>
+            </button>
 
-            {/* Desktop Navigation */}
+            {/* Desktop Navigation - Minimal */}
             <div className="hidden lg:flex items-center space-x-8">
               {mainNavItems.map((item) => (
                 <button
                   key={item.href}
                   onClick={() => scrollToSection(item.href)}
-                  className={`font-medium transition-colors duration-200 hover:scale-105 transform ${
+                  className={`text-sm font-medium transition-all duration-200 hover:opacity-70 ${
                     highContrastMode
-                      ? 'text-white hover:text-yellow-400'
+                      ? 'text-white'
                       : isScrolled
-                        ? 'text-gray-700 hover:text-blue-600'
-                        : 'text-white hover:text-green-400'
+                        ? 'text-gray-700'
+                        : 'text-white'
                   }`}
                 >
                   {item.label}
                 </button>
               ))}
 
-              {/* Services Dropdown */}
+              {/* Services Dropdown - Minimal */}
               <div className="relative" ref={dropdownRef}>
                 <button
                   onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
-                  className={`flex items-center space-x-1 font-medium transition-colors duration-200 hover:scale-105 transform ${
+                  className={`flex items-center space-x-1 text-sm font-medium transition-all duration-200 hover:opacity-70 ${
                     highContrastMode
-                      ? 'text-white hover:text-yellow-400'
+                      ? 'text-white'
                       : isScrolled
-                        ? 'text-gray-700 hover:text-blue-600'
-                        : 'text-white hover:text-green-400'
+                        ? 'text-gray-700'
+                        : 'text-white'
                   }`}
                 >
                   <span>Services</span>
-                  <ChevronDown size={16} className={`transition-transform ${isServicesDropdownOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown size={14} className={`transition-transform duration-200 ${isServicesDropdownOpen ? 'rotate-180' : ''}`} />
                 </button>
 
-                {/* Dropdown Menu */}
+                {/* Minimal Dropdown Menu */}
                 {isServicesDropdownOpen && (
-                  <div className={`absolute top-full left-0 mt-2 w-64 rounded-lg shadow-lg border z-50 ${
+                  <div className={`absolute top-full right-0 mt-3 w-56 rounded-xl shadow-xl border backdrop-blur-sm z-50 ${
                     highContrastMode 
-                      ? 'bg-black border-white' 
-                      : 'bg-white border-gray-200'
+                      ? 'bg-black/95 border-white/20' 
+                      : 'bg-white/95 border-gray-200'
                   }`}>
-                    <div className="py-2">
-                      {serviceItems.map((item) => (
+                    <div className="py-3">
+                      {serviceItems.map((item, index) => (
                         <button
                           key={item.href}
                           onClick={() => scrollToSection(item.href)}
-                          className={`w-full text-left px-4 py-3 transition-colors ${
+                          className={`w-full text-left px-4 py-3 text-sm transition-all duration-200 ${
+                            index === 0 ? 'border-b ' + (highContrastMode ? 'border-white/20' : 'border-gray-200') : ''
+                          } ${
                             highContrastMode
-                              ? 'text-white hover:bg-gray-800 hover:text-yellow-400'
-                              : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
+                              ? 'text-white hover:bg-white/10'
+                              : 'text-gray-700 hover:bg-gray-50'
                           }`}
                         >
                           {item.label}
@@ -152,39 +164,39 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
               </div>
             </div>
 
-            {/* Phone Number & Controls */}
-            <div className="flex items-center space-x-4">
+            {/* Right Side - Minimal Controls */}
+            <div className="flex items-center space-x-3">
               <button
                 onClick={toggleHighContrast}
-                className={`p-2 rounded-full transition-colors ${
+                className={`p-2 rounded-full transition-all duration-200 hover:scale-105 ${
                   highContrastMode
-                    ? 'bg-white text-black hover:bg-yellow-400'
-                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                    ? 'bg-white/20 text-white hover:bg-white/30'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
                 aria-label="Toggle high contrast mode"
               >
-                <Eye size={20} />
+                <Eye size={18} />
               </button>
 
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
-                className={`hidden md:flex items-center space-x-2 px-4 py-2 rounded-full font-bold transition-all duration-200 hover:scale-105 transform ${
+                className={`hidden md:flex items-center space-x-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105 ${
                   highContrastMode
-                    ? 'bg-white text-black hover:bg-yellow-400'
-                    : 'bg-green-600 text-white hover:bg-green-700'
+                    ? 'bg-white text-black hover:bg-gray-200'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
                 }`}
                 aria-label={`Call us at ${CONTACT_INFO.displayPhone}`}
               >
-                <Phone size={18} />
-                <span className="text-lg">{CONTACT_INFO.displayPhone}</span>
+                <Phone size={16} />
+                <span>{CONTACT_INFO.displayPhone}</span>
               </a>
 
-              {/* Mobile Menu Button */}
+              {/* Minimal Mobile Menu Button */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className={`lg:hidden p-2 rounded-md ${
+                className={`lg:hidden p-2 rounded-md transition-all duration-200 ${
                   highContrastMode
-                    ? 'text-white hover:bg-gray-800'
+                    ? 'text-white hover:bg-white/10'
                     : isScrolled
                       ? 'text-gray-700 hover:bg-gray-100'
                       : 'text-white hover:bg-white/10'
@@ -192,55 +204,59 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                 aria-label="Toggle mobile menu"
                 aria-expanded={isMenuOpen}
               >
-                {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
               </button>
             </div>
           </div>
 
-          {/* Mobile Menu */}
+          {/* Mobile Menu - Clean & Minimal */}
           {isMenuOpen && (
-            <div className={`lg:hidden mt-4 py-4 border-t ${
+            <div className={`lg:hidden mt-6 py-6 border-t backdrop-blur-sm ${
               highContrastMode 
-                ? 'border-white bg-black' 
+                ? 'border-white/20 bg-black/95' 
                 : isScrolled 
-                  ? 'border-gray-200 bg-white' 
-                  : 'border-white/20 bg-black/50 backdrop-blur-sm'
+                  ? 'border-gray-200 bg-white/95' 
+                  : 'border-white/20 bg-black/80'
             }`}>
-              <div className="flex flex-col space-y-4">
+              <div className="space-y-6">
                 {/* Main nav items for mobile */}
-                {mainNavItems.map((item) => (
-                  <button
-                    key={item.href}
-                    onClick={() => scrollToSection(item.href)}
-                    className={`text-left font-medium transition-colors ${
-                      highContrastMode
-                        ? 'text-white hover:text-yellow-400'
-                        : isScrolled
-                          ? 'text-gray-700 hover:text-blue-600'
-                          : 'text-white hover:text-green-400'
-                    }`}
-                  >
-                    {item.label}
-                  </button>
-                ))}
+                <div className="space-y-4">
+                  {mainNavItems.map((item) => (
+                    <button
+                      key={item.href}
+                      onClick={() => scrollToSection(item.href)}
+                      className={`block w-full text-left font-medium transition-colors ${
+                        highContrastMode
+                          ? 'text-white hover:text-gray-300'
+                          : isScrolled
+                            ? 'text-gray-700 hover:text-gray-900'
+                            : 'text-white hover:text-gray-200'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
 
                 {/* Services section for mobile */}
-                <div className="pt-2">
-                  <div className={`text-sm font-semibold mb-2 ${
-                    highContrastMode ? 'text-yellow-400' : 'text-gray-500'
+                <div className={`pt-4 border-t space-y-3 ${
+                  highContrastMode ? 'border-white/20' : 'border-gray-200'
+                }`}>
+                  <div className={`text-xs font-semibold uppercase tracking-wide ${
+                    highContrastMode ? 'text-gray-400' : 'text-gray-500'
                   }`}>
-                    Services:
+                    Services
                   </div>
                   {serviceItems.map((item) => (
                     <button
                       key={item.href}
                       onClick={() => scrollToSection(item.href)}
-                      className={`block w-full text-left font-medium transition-colors pl-4 py-1 ${
+                      className={`block w-full text-left font-medium transition-colors pl-4 ${
                         highContrastMode
-                          ? 'text-white hover:text-yellow-400'
+                          ? 'text-white hover:text-gray-300'
                           : isScrolled
-                            ? 'text-gray-600 hover:text-blue-600'
-                            : 'text-gray-200 hover:text-green-400'
+                            ? 'text-gray-600 hover:text-gray-800'
+                            : 'text-gray-200 hover:text-white'
                       }`}
                     >
                       {item.label}
@@ -250,14 +266,14 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                 
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
-                  className={`flex items-center space-x-2 px-4 py-3 rounded-lg font-bold text-lg transition-all mt-4 ${
+                  className={`flex items-center justify-center space-x-2 px-6 py-3 rounded-full font-medium text-sm transition-all mt-6 ${
                     highContrastMode
-                      ? 'bg-white text-black hover:bg-yellow-400'
-                      : 'bg-green-600 text-white hover:bg-green-700'
+                      ? 'bg-white text-black hover:bg-gray-200'
+                      : 'bg-blue-600 text-white hover:bg-blue-700'
                   }`}
                   aria-label={`Call us at ${CONTACT_INFO.displayPhone}`}
                 >
-                  <Phone size={20} />
+                  <Phone size={18} />
                   <span>Call {CONTACT_INFO.displayPhone}</span>
                 </a>
               </div>
