@@ -5,16 +5,16 @@ import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 
-import Home from './pages/index';
-import About from './pages/about';
-import WheelchairRamps from './pages/wheelchair-ramps';
-import AccessibleBathrooms from './pages/accessible-bathrooms';
-import KitchenModifications from './pages/kitchen-modifications';
-import DoorWidening from './pages/door-widening';
-import AgingInPlace from './pages/aging-in-place';
-import DisabilityModifications from './pages/disability-modifications';
-import Contact from './pages/Contact';
-import NotFound from './pages/Not-Found';
+import Home from './pages/index.tsx';
+import About from './pages/about.tsx';
+import WheelchairRamps from './pages/wheelchair-ramps.tsx';
+import AccessibleBathrooms from './pages/accessible-bathrooms.tsx';
+import KitchenModifications from './pages/kitchen-modifications.tsx';
+import DoorWidening from './pages/door-widening.tsx';
+import AgingInPlace from './pages/aging-in-place.tsx';
+import DisabilityModifications from './pages/disability-modifications.tsx';
+import Contact from './pages/Contact.tsx';
+import NotFound from './pages/Not-Found.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
