@@ -8,22 +8,21 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
       {/* Background Image */}
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?...')`,
-          backgroundSize: 'cover', // ✅ fill the screen
-          backgroundPosition: 'center', // ✅ keeps subject visible
+          backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFqY2ftY2dUQ7kNvwG4Fjjc&_nc_oc=Adm8oRh2D9YE2a2pq2Oy2q1lJ_goCsII2PZ6YYQvQAsdqY60VNMRLsefD_YQzInPzOsxYgULaMUn7gJPF6LECskK&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=DXIZ0aPT_1JOSAq07Y1vug&oh=00_AfaqLD2Ub-WNm6Oms1NCGIUXxQmnXOebbfeUNLn-4KMgtg&oe=68CE9399')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       >
-        {/* Overlay */}
         <div
           className={`absolute inset-0 ${
             highContrastMode
-              ? 'bg-black/70'
-              : 'bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80'
+              ? 'bg-black/80'
+              : 'bg-gradient-to-r from-blue-900/90 via-blue-800/80 to-blue-900/90'
           }`}
         ></div>
       </div>
@@ -56,7 +55,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             York since 2011.
           </p>
 
-          {/* Highlights */}
           <div
             className={`flex flex-wrap justify-center items-center gap-8 mb-12 ${
               highContrastMode ? 'text-white' : 'text-blue-100'
@@ -87,13 +85,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
                 }
                 size={22}
               />
-              <span className="font-semibold">
-                Licensed • Insured • ADA Specialist
-              </span>
+              <span className="font-semibold">Licensed • Insured • ADA Specialist</span>
             </div>
           </div>
 
-          {/* Call to Action */}
           <div className="space-y-6">
             <a
               href={`tel:${CONTACT_INFO.phone}`}
@@ -117,7 +112,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             </p>
           </div>
 
-          {/* Quote */}
           <div
             className={`mt-12 p-6 rounded-xl ${
               highContrastMode
