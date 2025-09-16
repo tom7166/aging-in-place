@@ -6,7 +6,7 @@ import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/sc
 import { FAQS } from './utils/constants';
 
 import Home from './pages/index';
-import About from './pages/about';
+import About from './pages/About';
 import WheelchairRamps from './pages/wheelchair-ramps';
 import AccessibleBathrooms from './pages/accessible-bathrooms';
 import KitchenModifications from './pages/kitchen-modifications';
