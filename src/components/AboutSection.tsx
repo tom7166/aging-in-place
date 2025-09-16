@@ -2,8 +2,8 @@ import React from 'react';
 import { Heart, Home, Users, Award, Shield, CheckCircle } from 'lucide-react';
 
 const CONTACT_INFO = {
-  phone: '716-239-8969',
-  displayPhone: '(716) 239-8969'
+  phone: '716-533-7108',
+  displayPhone: '(716) 533-7108'
 };
 
 const AboutSection: React.FC = () => {
