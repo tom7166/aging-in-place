@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import { Phone, MapPin, Star, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO } from '../utils/constants';
 
@@ -8,14 +8,14 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24 md:pt-32">
       {/* Background Image */}
       <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center"
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFqY2ftY2dUQ7kNvwG4Fjjc&_nc_oc=Adm8oRh2D9YE2a2pq2Oy2q1lJ_goCsII2PZ6YYQvQAsdqY60VNMRLsefD_YQzInPzOsxYgULaMUn7gJPF6LECskK&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=DXIZ0aPT_1JOSAq07Y1vug&oh=00_AfaqLD2Ub-WNm6Oms1NCGIUXxQmnXOebbfeUNLn-4KMgtg&oe=68CE9399')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundSize: 'contain', // makes the image fit without getting cut
+          backgroundPosition: 'center top',
         }}
       >
         <div
@@ -28,9 +28,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center pt-20">
+      <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-5xl mx-auto">
-          {/* Main Headline */}
           <h1
             className={`text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight ${
               highContrastMode ? 'text-white' : 'text-white'
@@ -46,7 +45,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             </span>
           </h1>
 
-          {/* Subheading */}
           <p
             className={`text-xl md:text-2xl mb-10 leading-relaxed ${
               highContrastMode ? 'text-white' : 'text-blue-100'
@@ -57,7 +55,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             York since 2011.
           </p>
 
-          {/* Trust Indicators */}
           <div
             className={`flex flex-wrap justify-center items-center gap-8 mb-12 ${
               highContrastMode ? 'text-white' : 'text-blue-100'
@@ -92,7 +89,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             </div>
           </div>
 
-          {/* Call to Action */}
           <div className="space-y-6">
             <a
               href={`tel:${CONTACT_INFO.phone}`}
@@ -116,7 +112,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             </p>
           </div>
 
-          {/* Buffalo Story Connection */}
           <div
             className={`mt-12 p-6 rounded-xl ${
               highContrastMode
@@ -163,4 +158,3 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
 };
 
 export default HeroSection;
-
