@@ -24,13 +24,12 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
     { href: '#services', label: 'Services' },
     { href: '#why-choose', label: 'Why Choose Us' },
     { href: '#service-areas', label: 'Service Areas' },
-    { href: '#faq', label: 'FAQ' }
-    <li><a href="/accessible-bathrooms">Accessible Bathrooms</a></li>
-<li><a href="/kitchen-modifications">Kitchen Modifications</a></li>
-<li><a href="/door-widening">Door Widening</a></li>
-<li><a href="/aging-in-place">Aging in Place</a></li>
-<li><a href="/disability-modifications">Disability Modifications</a></li>
-
+    { href: '#faq', label: 'FAQ' },
+    { href: '/accessible-bathrooms', label: 'Accessible Bathrooms' },
+    { href: '/kitchen-modifications', label: 'Kitchen Modifications' },
+    { href: '/door-widening', label: 'Door Widening' },
+    { href: '/aging-in-place', label: 'Aging in Place' },
+    { href: '/disability-modifications', label: 'Disability Modifications' }
   ];
 
   const scrollToSection = (href: string) => {
