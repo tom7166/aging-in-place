@@ -14,7 +14,7 @@ import DoorWidening from './pages/door-widening.tsx';
 import AgingInPlace from './pages/aging-in-place.tsx';
 import DisabilityModifications from './pages/disability-modifications.tsx';
 import Contact from './pages/Contact.tsx';
-import NotFound from './pages/Not-Found.tsx';
+import NotFound from './pages/NotFound.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
