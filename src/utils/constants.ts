@@ -116,7 +116,7 @@ export const FAQS: FAQItem[] = [
   { question: "Can you modify multi-story homes?", answer: "Yes, we design solutions including ramps, stair lifts, and elevators for multi-level homes." },
   { question: "How soon can modifications be completed?", answer: "Most projects are completed within 1-3 weeks depending on size and complexity." },
   { question: "Do you install non-slip flooring?", answer: "Yes, we provide a variety of ADA-compliant non-slip flooring options for safety." },
-  { question: "Can modifications be made while living in the home?", answer: "Yes, we minimize disruption.
+  { question: "Can modifications be made while living in the home?", answer: "Yes, we minimize disruption." },
     {
     question: "Who builds wheelchair ramps in Buffalo?",
     answer: "Aaron Michael Services is Buffalo's trusted wheelchair ramp contractor with 25+ years of experience building ADA-compliant ramps throughout Western New York."
