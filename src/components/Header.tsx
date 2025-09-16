@@ -39,14 +39,14 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
     { href: '#faq', label: 'FAQ' }
   ];
 
-  const serviceItems = [
-    { href: '#services', label: 'All Services' },
-    { href: '/accessible-bathrooms', label: 'Accessible Bathrooms' },
-    { href: '/kitchen-modifications', label: 'Kitchen Modifications' },
-    { href: '/door-widening', label: 'Door Widening' },
-    { href: '/aging-in-place', label: 'Aging in Place' },
-    { href: '/disability-modifications', label: 'Disability Modifications' }
-  ];
+ const serviceItems = [
+  { href: '#services', label: 'All Services' },
+  { href: '#/accessible-bathrooms', label: 'Accessible Bathrooms' },
+  { href: '#/kitchen-modifications', label: 'Kitchen Modifications' },
+  { href: '#/door-widening', label: 'Door Widening' },
+  { href: '#/aging-in-place', label: 'Aging in Place' },
+  { href: '#/disability-modifications', label: 'Disability Modifications' }
+];
 
   const scrollToSection = (href: string) => {
     if (href.startsWith('#')) {
