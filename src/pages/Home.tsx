@@ -2,12 +2,12 @@ import React from 'react';
 
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
+import AboutSection from '../pages/about.tsx';
 import ServicesSection from '../components/ServicesSection';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ServiceAreas from '../components/ServiceAreas';
 import FAQ from '../components/FAQ';
-import ContactSection from '../components/ContactSection';
+import ContactSection from '../pages/Contact.tsx';
 import FloatingCallButton from '../components/FloatingCallButton';
 
 interface HomeProps {
