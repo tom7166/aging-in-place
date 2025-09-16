@@ -57,6 +57,7 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
         }`}
         role="banner"
       >
+        <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className={`text-xl font-bold ${
