@@ -52,12 +52,11 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
       <header 
         className={`fixed w-full top-0 z-40 transition-all duration-300 ${
           isScrolled 
-            ? `${highContrastMode ? 'bg-black border-white' : 'bg-white'} shadow-lg border-b` 
+            ? `${highContrastMode ? 'bg-black border-white' : 'bg-white'} shadow-lg border-b`
             : 'bg-transparent'
         }`}
         role="banner"
       >
-        <nav className="container mx-auto px-4 py-3" role="navigation" aria-label="Main navigation">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className={`text-xl font-bold ${

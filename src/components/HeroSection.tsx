@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CrR1h1E02pMQ7kNvwFF5QVS&_nc_oc=Adl5hwmn26fQU4fApodMylhad-W5HJF011S5vEnGT1pRYIB_2ywIBmU98D56coRUj8q-5Vlb3BXBglLRTwJTjSsp&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=iV6LtpRjIg7KRPusTL3VoQ&oh=00_AfbHjh0sM7WrtXYUnx-gavLFAVwoMn5h9vLUYjXBKmk5Bw&oe=68C8A4D9')`,
+          backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFqY2ftY2dUQ7kNvwG4Fjjc&_nc_oc=Adm8oRh2D9YE2a2pq2Oy2q1lJ_goCsII2PZ6YYQvQAsdqY60VNMRLsefD_YQzInPzOsxYgULaMUn7gJPF6LECskK&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=DXIZ0aPT_1JOSAq07Y1vug&oh=00_AfaqLD2Ub-WNm6Oms1NCGIUXxQmnXOebbfeUNLn-4KMgtg&oe=68CE9399')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -28,7 +28,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
+      <div className="relative z-10 container mx-auto px-4 text-center pt-20">
         <div className="max-w-5xl mx-auto">
           {/* Main Headline */}
           <h1
