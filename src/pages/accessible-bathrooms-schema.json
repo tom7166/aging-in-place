@@ -1,0 +1,480 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#service",
+      "name": "Accessible Bathroom Renovation Buffalo NY",
+      "alternateName": [
+        "Walk-in Shower Installation Buffalo",
+        "ADA Bathroom Renovation WNY",
+        "Accessible Bathroom Contractor Buffalo",
+        "Bathroom Safety Modifications Buffalo"
+      ],
+      "description": "Professional accessible bathroom renovations in Buffalo NY. Walk-in showers, grab bars, ADA compliance modifications for elderly and disabled residents throughout Western New York.",
+      "url": "https://aaronmichaelservices.com/#/accessible-bathrooms",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://aaronmichaelservices.com/#organization",
+        "name": "Aaron Michael Services",
+        "telephone": "+17165337108",
+        "email": "info@aaronmichaelservices.com",
+        "url": "https://aaronmichaelservices.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "14 Mariemont Ave",
+          "addressLocality": "Buffalo",
+          "addressRegion": "NY",
+          "postalCode": "14220",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "foundingDate": "2015",
+        "founder": {
+          "@type": "Person",
+          "name": "Tom",
+          "description": "Buffalo ADA contractor with 22+ years construction experience and personal disability understanding"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aaronmichaelservices.com/images/logo.png",
+          "width": 300,
+          "height": 300
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Cheektowaga"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "North Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "Kenmore"
+        },
+        {
+          "@type": "City",
+          "name": "West Seneca"
+        },
+        {
+          "@type": "City",
+          "name": "Hamburg"
+        },
+        {
+          "@type": "City",
+          "name": "Orchard Park"
+        },
+        {
+          "@type": "City",
+          "name": "Lackawanna"
+        },
+        {
+          "@type": "City",
+          "name": "Lancaster"
+        },
+        {
+          "@type": "City",
+          "name": "Depew"
+        },
+        {
+          "@type": "City",
+          "name": "Clarence"
+        },
+        {
+          "@type": "City",
+          "name": "Niagara Falls"
+        },
+        {
+          "@type": "City",
+          "name": "Lockport"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "serviceType": [
+        "Walk-in Shower Installation",
+        "Grab Bar Installation",
+        "ADA Bathroom Renovation",
+        "Accessible Bathroom Design",
+        "Bathroom Safety Modifications",
+        "Comfort Height Toilet Installation",
+        "Zero Threshold Shower Entry",
+        "Wheelchair Accessible Bathroom",
+        "Aging in Place Bathroom Modifications",
+        "Disability Bathroom Accommodations"
+      ],
+      "category": [
+        "ADA Contractor",
+        "Accessibility Specialist",
+        "Bathroom Renovation",
+        "Home Modification",
+        "Disability Services"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$7000-$25000",
+        "priceCurrency": "USD",
+        "availability": "InStock",
+        "validFrom": "2024-01-01",
+        "validThrough": "2024-12-31",
+        "itemCondition": "NewCondition",
+        "warranty": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P12M",
+          "warrantyScope": "Full workmanship and materials warranty"
+        }
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:716-533-7108",
+          "actionPlatform": "telephone"
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Free Accessibility Assessment"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Buffalo Accessible Bathroom Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Walk-in Shower Conversion",
+              "description": "Convert dangerous bathtub to safe walk-in shower with zero threshold entry"
+            },
+            "price": "8500-15000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Grab Bar Installation",
+              "description": "Professional grab bar installation rated for 250+ pounds"
+            },
+            "price": "350-800",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Complete Accessible Bathroom Renovation",
+              "description": "Full ADA compliant bathroom renovation with all accessibility features"
+            },
+            "price": "12000-25000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bathroom Door Widening",
+              "description": "Widen bathroom doorways to 36-inch minimum for wheelchair access"
+            },
+            "price": "1200-3500",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do accessible bathroom renovations cost in Buffalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accessible bathroom renovations in Buffalo cost $7,000-$25,000 depending on scope. Walk-in shower conversions start at $8,500, grab bar installation $350-$800, complete renovations $12,000-$25,000. Many modifications are covered by Medicare and insurance with proper documentation. Aaron Michael Services achieves 67% insurance approval rate.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a bathroom ADA accessible?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ADA accessible bathrooms have 60-inch wheelchair turning space, grab bars supporting 250+ pounds, shower entries with maximum 1/2 inch threshold, 36-inch doorways, comfort-height toilets, and accessible sink placement with knee clearance. Buffalo building codes may require additional electrical and ventilation updates.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who installs accessible bathrooms in Buffalo NY?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services installs accessible bathrooms in Buffalo NY. We specialize exclusively in ADA modifications with 22+ years construction experience, personal disability understanding, and 67% insurance approval rate. Serving Buffalo, Cheektowaga, Amherst, Tonawanda, Niagara Falls, and all of Western New York. Call 716-533-7108.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do accessible bathroom renovations take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Accessible bathroom renovation timelines: Grab bar installation 4-6 hours, walk-in shower conversion 3-5 days, complete bathroom renovation 7-10 days. Buffalo permit processing adds 1-2 weeks to planning phase. Winter weather may extend timelines.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are accessible bathroom modifications covered by insurance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many accessible bathroom modifications are covered by insurance. Medicare covers grab bars and safety equipment at 80%, medically necessary modifications often approved. New York Medicaid waiver programs provide up to $15,000 for home modifications. Aaron Michael Services achieves 67% insurance approval rate with proper documentation.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why choose Aaron Michael Services for Buffalo accessible bathrooms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose Aaron Michael Services because we're Buffalo's only contractor specializing exclusively in accessibility modifications since 2015. 22+ years construction experience, personal disability understanding, 67% insurance approval success, comprehensive Buffalo building code knowledge, and weather-specific expertise for Western New York homes.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between walk-in showers and traditional bathtubs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walk-in showers eliminate 18-inch step-over height that causes falls, provide wheelchair/walker accessibility, include built-in safety features, and increase home value 12-18%. Traditional bathtubs create fall risks, limit accessibility, and become liabilities as homeowners age. One fall-related injury costs $47,000 average in Buffalo area.",
+            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#webpage",
+      "url": "https://aaronmichaelservices.com/#/accessible-bathrooms",
+      "name": "Accessible Bathroom Renovation Buffalo NY | Walk-in Showers & ADA Compliance | Aaron Michael Services",
+      "description": "Professional accessible bathroom renovations in Buffalo NY. Walk-in showers, grab bars, ADA compliance. Medicare coverage available. Free consultations. Call 716-533-7108.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://aaronmichaelservices.com/#website",
+        "name": "Aaron Michael Services",
+        "url": "https://aaronmichaelservices.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Accessible Bathroom Renovations Buffalo"
+      },
+      "mainEntity": {
+        "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#service"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://aaronmichaelservices.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://aaronmichaelservices.com/#/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Accessible Bathrooms",
+            "item": "https://aaronmichaelservices.com/#/accessible-bathrooms"
+          }
+        ]
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2",
+          ".faq-question",
+          ".expert-quote",
+          ".cta-section"
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aaronmichaelservices.com/#organization",
+      "name": "Aaron Michael Services",
+      "alternateName": [
+        "Aaron Michael Services Buffalo",
+        "Buffalo ADA Contractor",
+        "WNY Accessibility Specialist"
+      ],
+      "url": "https://aaronmichaelservices.com",
+      "telephone": "+17165337108",
+      "email": "info@aaronmichaelservices.com",
+      "foundingDate": "2015",
+      "description": "Buffalo's premier ADA contractor specializing in wheelchair ramps, accessible bathrooms, and aging-in-place modifications for Western New York families.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "New York",
+        "containsPlace": [
+          "Buffalo",
+          "Cheektowaga",
+          "Amherst",
+          "Tonawanda",
+          "Niagara Falls",
+          "Western New York"
+        ]
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "sameAs": [
+        "https://www.facebook.com/aaronmichaelservices",
+        "https://www.linkedin.com/company/aaron-michael-services",
+        "https://www.youtube.com/@BuffaloHomeAccess"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aaronmichaelservices.com/images/logo.png",
+        "width": 300,
+        "height": 300
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+17165337108",
+        "contactType": "customer service",
+        "areaServed": "US-NY",
+        "availableLanguage": "English",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday", 
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Bathroom Renovations"
+        },
+        "areaServed": "Western New York"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aaronmichaelservices.com/#localbusiness",
+      "name": "Aaron Michael Services",
+      "image": [
+        "https://aaronmichaelservices.com/images/accessible-bathroom-buffalo.jpg",
+        "https://aaronmichaelservices.com/images/walk-in-shower-installation.jpg",
+        "https://aaronmichaelservices.com/images/grab-bar-installation-buffalo.jpg"
+      ],
+      "telephone": "+17165337108",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "url": "https://aaronmichaelservices.com",
+      "priceRange": "$$$",
+      "paymentAccepted": [
+        "Cash",
+        "Check", 
+        "Credit Card",
+        "Insurance",
+        "Medicare",
+        "Medicaid"
+      ],
+      "currenciesAccepted": "USD",
+      "openingHours": [
+        "Mo-Fr 07:00-18:00",
+        "Sa 08:00-16:00"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  ]
+}
