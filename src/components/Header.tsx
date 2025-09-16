@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Phone, Menu, X, Eye } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Phone, Menu, X, Eye, ChevronDown } from 'lucide-react';
 import { CONTACT_INFO } from '../utils/constants';
 
 interface HeaderProps {
@@ -10,6 +10,8 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,12 +21,25 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = [
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsServicesDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const mainNavItems = [
     { href: '#about', label: 'Our Story' },
-    { href: '#services', label: 'Services' },
     { href: '#why-choose', label: 'Why Choose Us' },
     { href: '#service-areas', label: 'Service Areas' },
-    { href: '#faq', label: 'FAQ' },
+    { href: '#faq', label: 'FAQ' }
+  ];
+
+  const serviceItems = [
     { href: '/accessible-bathrooms', label: 'Accessible Bathrooms' },
     { href: '/kitchen-modifications', label: 'Kitchen Modifications' },
     { href: '/door-widening', label: 'Door Widening' },
@@ -33,10 +48,16 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
   ];
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      setIsMenuOpen(false);
+    if (href.startsWith('#')) {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setIsMenuOpen(false);
+        setIsServicesDropdownOpen(false);
+      }
+    } else {
+      // For page navigation, you might want to use your router
+      window.location.href = href;
     }
   };
 
@@ -72,7 +93,7 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
-              {navItems.map((item) => (
+              {mainNavItems.map((item) => (
                 <button
                   key={item.href}
                   onClick={() => scrollToSection(item.href)}
@@ -87,6 +108,48 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                   {item.label}
                 </button>
               ))}
+
+              {/* Services Dropdown */}
+              <div className="relative" ref={dropdownRef}>
+                <button
+                  onClick={() => setIsServicesDropdownOpen(!isServicesDropdownOpen)}
+                  className={`flex items-center space-x-1 font-medium transition-colors duration-200 hover:scale-105 transform ${
+                    highContrastMode
+                      ? 'text-white hover:text-yellow-400'
+                      : isScrolled
+                        ? 'text-gray-700 hover:text-blue-600'
+                        : 'text-white hover:text-green-400'
+                  }`}
+                >
+                  <span>Services</span>
+                  <ChevronDown size={16} className={`transition-transform ${isServicesDropdownOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {/* Dropdown Menu */}
+                {isServicesDropdownOpen && (
+                  <div className={`absolute top-full left-0 mt-2 w-64 rounded-lg shadow-lg border z-50 ${
+                    highContrastMode 
+                      ? 'bg-black border-white' 
+                      : 'bg-white border-gray-200'
+                  }`}>
+                    <div className="py-2">
+                      {serviceItems.map((item) => (
+                        <button
+                          key={item.href}
+                          onClick={() => scrollToSection(item.href)}
+                          className={`w-full text-left px-4 py-3 transition-colors ${
+                            highContrastMode
+                              ? 'text-white hover:bg-gray-800 hover:text-yellow-400'
+                              : 'text-gray-700 hover:bg-gray-50 hover:text-blue-600'
+                          }`}
+                        >
+                          {item.label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Phone Number & Controls */}
@@ -144,7 +207,8 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                   : 'border-white/20 bg-black/50 backdrop-blur-sm'
             }`}>
               <div className="flex flex-col space-y-4">
-                {navItems.map((item) => (
+                {/* Main nav items for mobile */}
+                {mainNavItems.map((item) => (
                   <button
                     key={item.href}
                     onClick={() => scrollToSection(item.href)}
@@ -159,10 +223,34 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                     {item.label}
                   </button>
                 ))}
+
+                {/* Services section for mobile */}
+                <div className="pt-2">
+                  <div className={`text-sm font-semibold mb-2 ${
+                    highContrastMode ? 'text-yellow-400' : 'text-gray-500'
+                  }`}>
+                    Services:
+                  </div>
+                  {serviceItems.map((item) => (
+                    <button
+                      key={item.href}
+                      onClick={() => scrollToSection(item.href)}
+                      className={`block w-full text-left font-medium transition-colors pl-4 py-1 ${
+                        highContrastMode
+                          ? 'text-white hover:text-yellow-400'
+                          : isScrolled
+                            ? 'text-gray-600 hover:text-blue-600'
+                            : 'text-gray-200 hover:text-green-400'
+                      }`}
+                    >
+                      {item.label}
+                    </button>
+                  ))}
+                </div>
                 
                 <a
                   href={`tel:${CONTACT_INFO.phone}`}
-                  className={`flex items-center space-x-2 px-4 py-3 rounded-lg font-bold text-lg transition-all ${
+                  className={`flex items-center space-x-2 px-4 py-3 rounded-lg font-bold text-lg transition-all mt-4 ${
                     highContrastMode
                       ? 'bg-white text-black hover:bg-yellow-400'
                       : 'bg-green-600 text-white hover:bg-green-700'
