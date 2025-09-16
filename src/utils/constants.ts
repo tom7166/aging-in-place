@@ -159,7 +159,7 @@ export const FAQS: FAQItem[] = [
   },
   {
     question: "How do I schedule a consultation?",
-    answer: "You can schedule a consultation by calling 716-623-6879 or filling out our contact form on the website."
+    answer: "You can schedule a consultation by calling 716-533-7108 or filling out our contact form on the website."
   },
   {
     question: "What areas do you serve?",
