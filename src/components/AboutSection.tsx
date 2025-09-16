@@ -74,7 +74,7 @@ const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-700"><strong>Licensed City of Buffalo Contractor</strong> since 2011</p>
+                  <p className="text-gray-700"><strong> CAPS Certified Contractor</strong> since 2011</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
