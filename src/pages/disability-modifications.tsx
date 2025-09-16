@@ -30,7 +30,6 @@ const DisabilityModifications: React.FC = () => {
         "Erie County", "Niagara County", "Western New York", "WNY"
       ]
     };
-    
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.text = JSON.stringify(schema);
