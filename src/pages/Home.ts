@@ -57,8 +57,7 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
 
           <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
             <p className="text-md text-gray-700 mb-4">
-              We would appreciate & encourage you using our bars on job leads we send you. However, we understand
-              that the timeframe for installation may require you to source bars from a different provider...
+              Quality Made Grab Bars, not that Amazon Junk!
             </p>
 
             <div className="bg-blue-50 border border-blue-200 rounded p-4">
