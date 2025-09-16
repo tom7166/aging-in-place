@@ -13,8 +13,8 @@ import KitchenModifications from './pages/kitchen-modifications';
 import DoorWidening from './pages/door-widening';
 import AgingInPlace from './pages/aging-in-place';
 import DisabilityModifications from './pages/disability-modifications';
-import Contact from './pages/contact';
-import NotFound from './pages/not-found';
+import Contact from './pages/Contact';
+import NotFound from './pages/Not-Found';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
