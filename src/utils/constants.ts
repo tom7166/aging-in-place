@@ -1,7 +1,7 @@
 import type { ContactInfo, ServiceItem, FAQItem } from '../types';
 
 export const CONTACT_INFO: ContactInfo = {
-  phone: "7166236879",
+  phone: "716-533-7108",
   displayPhone: "716-533-7108",
   businessName: "Aaron Michael Services",
   tagline: "Buffalo's Trusted ADA Contractor",
