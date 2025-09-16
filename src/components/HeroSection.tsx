@@ -1,4 +1,4 @@
-  import React from 'react';
+import React from 'react';
 import { Phone, MapPin, Star, ShieldCheck } from 'lucide-react';
 import { CONTACT_INFO } from '../utils/constants';
 
@@ -14,15 +14,16 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?...')`,
-          backgroundSize: 'contain', // whole image fits, no cropping
-          backgroundPosition: 'center top',
+          backgroundSize: 'cover', // ✅ fill the screen
+          backgroundPosition: 'center', // ✅ keeps subject visible
         }}
       >
+        {/* Overlay */}
         <div
           className={`absolute inset-0 ${
             highContrastMode
-              ? 'bg-black/80'
-              : 'bg-gradient-to-r from-blue-900/90 via-blue-800/80 to-blue-900/90'
+              ? 'bg-black/70'
+              : 'bg-gradient-to-r from-blue-900/80 via-blue-800/70 to-blue-900/80'
           }`}
         ></div>
       </div>
@@ -31,7 +32,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-5xl mx-auto">
           <h1
-            className={`text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight text-white`}
+            className={`text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight ${
+              highContrastMode ? 'text-white' : 'text-white'
+            }`}
           >
             Buffalo’s #1 ADA & Accessibility Contractor
             <span
@@ -53,7 +56,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             York since 2011.
           </p>
 
-          {/* Trust Indicators */}
+          {/* Highlights */}
           <div
             className={`flex flex-wrap justify-center items-center gap-8 mb-12 ${
               highContrastMode ? 'text-white' : 'text-blue-100'
@@ -61,24 +64,32 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
           >
             <div className="flex items-center space-x-2">
               <Star
-                className={highContrastMode ? 'text-yellow-400' : 'text-yellow-300'}
+                className={
+                  highContrastMode ? 'text-yellow-400' : 'text-yellow-300'
+                }
                 size={22}
               />
               <span className="font-semibold">5-Star Local Reputation</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin
-                className={highContrastMode ? 'text-yellow-400' : 'text-green-400'}
+                className={
+                  highContrastMode ? 'text-yellow-400' : 'text-green-400'
+                }
                 size={22}
               />
               <span className="font-semibold">Serving Buffalo & WNY</span>
             </div>
             <div className="flex items-center space-x-2">
               <ShieldCheck
-                className={highContrastMode ? 'text-yellow-400' : 'text-green-400'}
+                className={
+                  highContrastMode ? 'text-yellow-400' : 'text-green-400'
+                }
                 size={22}
               />
-              <span className="font-semibold">Licensed • Insured • ADA Specialist</span>
+              <span className="font-semibold">
+                Licensed • Insured • ADA Specialist
+              </span>
             </div>
           </div>
 
@@ -91,6 +102,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
                   ? 'bg-white text-black hover:bg-yellow-400 border-4 border-white'
                   : 'bg-green-600 text-white hover:bg-green-500 border-4 border-green-400'
               }`}
+              aria-label={`Call Aaron Michael Services at ${CONTACT_INFO.displayPhone}`}
             >
               <Phone size={34} className="md:w-10 md:h-10" />
               <span>Free Quote: {CONTACT_INFO.displayPhone}</span>
@@ -105,7 +117,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
             </p>
           </div>
 
-          {/* Local Quote */}
+          {/* Quote */}
           <div
             className={`mt-12 p-6 rounded-xl ${
               highContrastMode
@@ -113,10 +125,18 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
                 : 'bg-white/10 backdrop-blur-sm border border-white/20'
             }`}
           >
-            <p className="text-lg md:text-xl font-semibold italic text-white">
+            <p
+              className={`text-lg md:text-xl font-semibold italic ${
+                highContrastMode ? 'text-white' : 'text-white'
+              }`}
+            >
               “Buffalo raised us. Buffalo built us. Buffalo made us.”
             </p>
-            <p className={`mt-2 ${highContrastMode ? 'text-white' : 'text-blue-100'}`}>
+            <p
+              className={`mt-2 ${
+                highContrastMode ? 'text-white' : 'text-blue-100'
+              }`}
+            >
               We’re a local family with personal disability experience —
               committed to making WNY homes safer, stronger, and more accessible
               for generations.
