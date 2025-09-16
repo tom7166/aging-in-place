@@ -1,11 +1,11 @@
 import React from 'react';
 import { CONTACT_INFO } from '../utils/constants';
-import AboutSchema from './components/AboutSchema';
-
+import AboutSchema from './AboutSchema';
 
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-gray-50">
+      <AboutSchema />
       <div className="max-w-7xl mx-auto px-6 text-center md:text-left">
         <h2 className="text-4xl font-bold text-gray-900 mb-6">
           About Aaron Michael Services
@@ -25,14 +25,6 @@ const AboutSection: React.FC = () => {
           Our mission is simple: <em>help families maintain independence and quality of life at home</em> 
           through professional, reliable, and ADA-compliant modifications.
         </p>
-<main className="flex-grow">
-  <HeroSection highContrastMode={false} />
-  <ServicesSection />
-  <AboutSection />
-  <UnifiedSchema />   {/* <-- injects LocalBusiness + FAQ schema */}
-  <FAQSection faqs={FAQS} />
-  <ContactSection />
-</main>
 
         <a
           href={`tel:${CONTACT_INFO.phone}`}

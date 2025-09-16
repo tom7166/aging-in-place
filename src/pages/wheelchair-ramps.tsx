@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { generateFAQSchema } from '../../utils/schema';
 
 const WheelchairRamps: React.FC = () => {
   useEffect(() => {

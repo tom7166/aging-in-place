@@ -2,13 +2,14 @@ import React from 'react';
 
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
-import AboutSection from '../pages/about.tsx';
+import AboutSection from '../components/AboutSection';
 import ServicesSection from '../components/ServicesSection';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ServiceAreas from '../components/ServiceAreas';
 import FAQ from '../components/FAQ';
-import ContactSection from '../pages/Contact.tsx';
+import ContactSection from '../components/ContactSection';
 import FloatingCallButton from '../components/FloatingCallButton';
+import Footer from '../components/Footer';
 
 interface HomeProps {
   highContrastMode: boolean;
@@ -24,7 +25,7 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
       {/* Main Content */}
       <main id="main-content" role="main">
         <HeroSection highContrastMode={highContrastMode} />
-        <AboutSection highContrastMode={highContrastMode} />
+        <AboutSection />
         <ServicesSection highContrastMode={highContrastMode} />
         <WhyChooseUs highContrastMode={highContrastMode} />
         <ServiceAreas highContrastMode={highContrastMode} />
@@ -74,31 +75,7 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
       </section>
 
       {/* Footer */}
-      <footer
-        className={`py-8 text-center border-t ${
-          highContrastMode ? 'bg-black text-white border-white' : 'bg-gray-900 text-white border-gray-200'
-        }`}
-        role="contentinfo"
-      >
-        <div className="container mx-auto px-4">
-          <p className="text-lg font-semibold mb-2">
-            Aaron Michael Services - Buffalo's Trusted ADA Contractor
-          </p>
-          <p className={`mb-4 ${highContrastMode ? 'text-white' : 'text-gray-300'}`}>
-            Building Independence Throughout Buffalo & Western New York Since 2015
-          </p>
-          <p className={`text-sm ${highContrastMode ? 'text-white' : 'text-gray-400'}`}>
-            Licensed • Insured • Family-Owned • Emergency Services Available
-          </p>
-          <div
-            className={`mt-6 pt-6 border-t text-sm ${
-              highContrastMode ? 'border-white text-white' : 'border-gray-700 text-gray-400'
-            }`}
-          >
-            © 2025 Aaron Michael Services. All rights reserved. 14 Mariemont Ave Buffalo, NY 14220
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

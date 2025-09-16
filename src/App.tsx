@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 
-import Home from './pages/index.tsx';
+import Home from './pages/Home';
 import About from './pages/about.tsx';
 import WheelchairRamps from './pages/wheelchair-ramps.tsx';
 import AccessibleBathrooms from './pages/accessible-bathrooms.tsx';
