@@ -10,7 +10,7 @@ const AccessibleBathrooms: React.FC = () => {
       "provider": {
         "@type": "LocalBusiness",
         "name": "Aaron Michael Services",
-        "telephone": "+17166236879",
+        "telephone": "+17165337108",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "14 Mariemont Ave",
