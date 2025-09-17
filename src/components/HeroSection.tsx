@@ -9,9 +9,10 @@ interface HeroSectionProps {
 const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
+      
       {/* Background Image */}
       <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 w-full h-center bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFqY2ftY2dUQ7kNvwG4Fjjc&_nc_oc=Adm8oRh2D9YE2a2pq2Oy2q1lJ_goCsII2PZ6YYQvQAsdqY60VNMRLsefD_YQzInPzOsxYgULaMUn7gJPF6LECskK&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=DXIZ0aPT_1JOSAq07Y1vug&oh=00_AfaqLD2Ub-WNm6Oms1NCGIUXxQmnXOebbfeUNLn-4KMgtg&oe=68CE9399')`,
           backgroundSize: 'cover',
