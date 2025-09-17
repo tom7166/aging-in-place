@@ -52,7 +52,7 @@ const nav = () => {
               <ul className={`${servicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden transition-all duration-300 mt-2 space-y-1 pl-4`}>
                 <li>
                   <Link 
-                    to="/#/kitchen-modifications" 
+                    to="https://aaronmichaelservices.com//#/kitchen-modifications" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -61,7 +61,7 @@ const nav = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/#/disability-modifications" 
+                    to="https://aaronmichaelservices.com//#/disability-modifications" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -70,7 +70,7 @@ const nav = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/#/aging-in-place" 
+                    to="https://aaronmichaelservices.com//#/aging-in-place" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -79,7 +79,7 @@ const nav = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/#/accessible-bathrooms" 
+                    to="https://aaronmichaelservices.com//#/accessible-bathrooms" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -88,7 +88,7 @@ const nav = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/#/door-widening" 
+                    to="https://aaronmichaelservices.com//#/door-widening" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -97,7 +97,7 @@ const nav = () => {
                 </li>
                 <li>
                   <Link 
-                    to="/#/wheelchair-ramps" 
+                    to="https://aaronmichaelservices.com//#/wheelchair-ramps" 
                     className="block px-4 py-2 hover:bg-green-600 rounded-md transition-colors"
                     onClick={toggleMenu}
                   >
@@ -108,7 +108,7 @@ const nav = () => {
             </li>
             <li>
               <Link 
-                to="/#/about" 
+                to="https://aaronmichaelservices.com//#/about" 
                 className="block px-4 py-3 rounded-md hover:bg-green-600 transition-colors"
                 onClick={toggleMenu}
               >
@@ -117,7 +117,7 @@ const nav = () => {
             </li>
             <li>
               <Link 
-                to="/#/contact" 
+                to="https://aaronmichaelservices.com//#/contact" 
                 className="block px-4 py-3 rounded-md hover:bg-green-600 transition-colors"
                 onClick={toggleMenu}
               >
