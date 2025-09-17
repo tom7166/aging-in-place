@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from './components/navbar';
+import nav from './components/nav'; // <-- lowercase nav as requested
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 
 import Home from './pages/Home';
 import About from './pages/about.tsx';
-import Contact from './pages/Contact.tsx';
 import WheelchairRamps from './pages/wheelchair-ramps.tsx';
 import AccessibleBathrooms from './pages/accessible-bathrooms.tsx';
 import KitchenModifications from './pages/kitchen-modifications.tsx';
 import DoorWidening from './pages/door-widening.tsx';
 import AgingInPlace from './pages/aging-in-place.tsx';
 import DisabilityModifications from './pages/disability-modifications.tsx';
+import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 
 const App: React.FC = () => {
@@ -27,16 +27,13 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      {/* Floating Navbar appears on all pages */}
-      <navbar />
+      {/* Floating Nav always visible */}
+      <nav />
 
-      {/* Main Routes */}
-      <div className="pt-24"> {/* ensures content is not hidden behind fixed navbar */}
+      {/* Page Routes */}
+      <div className="pt-20"> {/* Push content down so nav doesn't overlap */}
         <Routes>
-          <Route
-            path="/"
-            element={<Home highContrastMode={highContrastMode} toggleHighContrast={toggleHighContrast} />}
-          />
+          <Route path="/" element={<Home highContrastMode={highContrastMode} toggleHighContrast={toggleHighContrast} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/wheelchair-ramps" element={<WheelchairRamps />} />
