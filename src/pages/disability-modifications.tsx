@@ -497,7 +497,7 @@ const DisabilityModificationsPage = () => {
 
                   {/* Before/After Image Placeholder */}
                   <div className="bg-gray-200 rounded-lg p-8 text-center mb-8">
-                    <h4 className="text-xl font-bold mb-4">Before & After: Buffalo Family's Autism-Friendly Home</h4>
+                    <h4 className="text-xl font-bold mb-4">Buffalo Family's Autism-Friendly Home</h4>
                     <p className="text-gray-600">
                       [Image: https://khamush.com/wp-content/uploads/2024/12/Role-of-Sensory-Rooms-in-Reducing-Anxiety-and-Stress.jpg]
                     </p>
