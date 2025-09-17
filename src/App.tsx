@@ -28,7 +28,7 @@ const App: React.FC = () => {
   return (
     <Router>
       {/* Floating Navbar appears on all pages */}
-      <Navbar />
+      <navbar />
 
       {/* Main Routes */}
       <div className="pt-24"> {/* ensures content is not hidden behind fixed navbar */}
