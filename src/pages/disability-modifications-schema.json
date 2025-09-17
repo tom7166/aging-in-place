@@ -414,4 +414,68 @@
           "dayOfWeek": [
             "Monday",
             "Tuesday",
-            "Wednesday
+            "Wednesday",
+             "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "disability-modifications"
+        },
+        "areaServed": "Western New York"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aaronmichaelservices.com/#localbusiness",
+      "name": "Aaron Michael Services",
+      "image": [
+        "https://aaronmichaelservices.com/images/aging-in-place-buffalo.jpg",
+        "https://aaronmichaelservices.com/images/senior-home-safety.jpg",
+        "https://aaronmichaelservices.com/images/grab-bar-installation.jpg"
+      ],
+      "telephone": "+17165337108",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "url": "https://aaronmichaelservices.com",
+      "priceRange": "$$$",
+      "paymentAccepted": [
+        "Cash",
+        "Check",
+        "Credit Card",
+        "Insurance",
+        "Medicare",
+        "Medicaid"
+      ],
+      "currenciesAccepted": "USD",
+      "openingHours": [
+        "Mo-Fr 07:00-18:00",
+        "Sa 08:00-16:00"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "156",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  ]
+}
