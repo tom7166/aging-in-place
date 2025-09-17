@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const toggleMobileServices = () => setMobileServicesOpen(!mobileServicesOpen);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md shadow-md">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md shadow-md">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold text-green-600">
@@ -24,42 +24,44 @@ const Navbar: React.FC = () => {
               Services ▼
             </button>
             {/* Desktop Dropdown */}
-            <ul className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
+            <ul className="absolute left-0 mt-2 w-56 bg-white shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
               <li>
-                <Link
-                  to="/services/ada"
-                  className="block px-4 py-2 hover:bg-green-50 rounded-md"
-                >
-                  ADA Modifications
+                <Link to="/pages/kitchen-modifications" className="block px-4 py-2 hover:bg-green-50 rounded-md">
+                  Kitchen Modifications
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/services/bathrooms"
-                  className="block px-4 py-2 hover:bg-green-50 rounded-md"
-                >
-                  Bathroom Remodels
+                <Link to="/pages/disability-modifications" className="block px-4 py-2 hover:bg-green-50 rounded-md">
+                  Disability Modifications
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/services/ramps"
-                  className="block px-4 py-2 hover:bg-green-50 rounded-md"
-                >
+                <Link to="/pages/aging-in-place" className="block px-4 py-2 hover:bg-green-50 rounded-md">
+                  Aging in Place
+                </Link>
+              </li>
+              <li>
+                <Link to="/pages/accessible-bathrooms" className="block px-4 py-2 hover:bg-green-50 rounded-md">
+                  Accessible Bathrooms
+                </Link>
+              </li>
+              <li>
+                <Link to="/pages/door-widening" className="block px-4 py-2 hover:bg-green-50 rounded-md">
+                  Door Widening
+                </Link>
+              </li>
+              <li>
+                <Link to="/pages/wheelchair-ramps" className="block px-4 py-2 hover:bg-green-50 rounded-md">
                   Ramps & Railings
                 </Link>
               </li>
             </ul>
           </li>
           <li>
-            <Link to="/about" className="hover:text-green-600 transition-colors">
-              About
-            </Link>
+            <Link to="/pages/about" className="hover:text-green-600 transition-colors">About</Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-green-600 transition-colors">
-              Contact
-            </Link>
+            <Link to="/pages/contact" className="hover:text-green-600 transition-colors">Contact</Link>
           </li>
         </ul>
 
@@ -85,46 +87,42 @@ const Navbar: React.FC = () => {
               </button>
               <ul className={`pl-4 mt-2 space-y-1 ${mobileServicesOpen ? 'block' : 'hidden'}`}>
                 <li>
-                  <Link
-                    to="/services/ada"
-                    className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors"
-                  >
-                    ADA Modifications
+                  <Link to="/pages/kitchen-modifications" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
+                    Kitchen Modifications
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/services/bathrooms"
-                    className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors"
-                  >
-                    Bathroom Remodels
+                  <Link to="/pages/disability-modifications" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
+                    Disability Modifications
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/services/ramps"
-                    className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors"
-                  >
+                  <Link to="/pages/aging-in-place" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
+                    Aging in Place
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/pages/accessible-bathrooms" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
+                    Accessible Bathrooms
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/pages/door-widening" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
+                    Door Widening
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/pages/wheelchair-ramps" className="block px-2 py-1 hover:bg-green-100 rounded-md transition-colors">
                     Ramps & Railings
                   </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link
-                to="/about"
-                className="block px-2 py-1 rounded-md hover:bg-green-50 transition-colors"
-              >
-                About
-              </Link>
+              <Link to="/pages/about" className="block px-2 py-1 rounded-md hover:bg-green-50 transition-colors">About</Link>
             </li>
             <li>
-              <Link
-                to="/contact"
-                className="block px-2 py-1 rounded-md hover:bg-green-50 transition-colors"
-              >
-                Contact
-              </Link>
+              <Link to="/pages/contact" className="block px-2 py-1 rounded-md hover:bg-green-50 transition-colors">Contact</Link>
             </li>
           </ul>
         </div>
