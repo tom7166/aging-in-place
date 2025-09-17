@@ -13,7 +13,7 @@ const nav = () => {
     <>
       {/* Floating Hamburger Button */}
       <button
-        className="fixed top-6 right-6 z-[9999] p-3 rounded-full bg-green-700 text-white shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110"
+        className="fixed top-6 right-6 z-[9999] p-3 rounded-full bg-green-700 text-blue shadow-lg hover:bg-green-600 transition-all duration-300 hover:scale-110"
         onClick={toggleMenu}
       >
         {menuOpen ? <X size={24} /> : <Menu size={24} />}
