@@ -1,1 +1,417 @@
-
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://aaronmichaelservices.com/#/disability-modifications#service",
+      "name": "Disability Home Modifications Buffalo NY",
+      "alternateName": [
+        "Autism Home Modifications Buffalo",
+        "Special Needs Home Modifications WNY",
+        "Disability Accessible Home Buffalo",
+        "Children Disability Home Modifications"
+      ],
+      "description": "Professional disability home modifications in Buffalo NY. Accessible homes for children and adults with autism, cerebral palsy, and other disabilities. Personal understanding from contractor with disabled child.",
+      "url": "https://aaronmichaelservices.com/#/disability-modifications",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://aaronmichaelservices.com/#organization",
+        "name": "Aaron Michael Services",
+        "telephone": "+17165337108",
+        "email": "info@aaronmichaelservices.com",
+        "url": "https://aaronmichaelservices.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "14 Mariemont Ave",
+          "addressLocality": "Buffalo",
+          "addressRegion": "NY",
+          "postalCode": "14220",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "foundingDate": "2015",
+        "founder": {
+          "@type": "Person",
+          "name": "Tom",
+          "description": "CAPS Certified contractor with 22+ years experience and father of son with autism, providing personal understanding of disability challenges"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aaronmichaelservices.com/images/logo.png",
+          "width": 300,
+          "height": 300
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Cheektowaga"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "North Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "Kenmore"
+        },
+        {
+          "@type": "City",
+          "name": "West Seneca"
+        },
+        {
+          "@type": "City",
+          "name": "Hamburg"
+        },
+        {
+          "@type": "City",
+          "name": "Orchard Park"
+        },
+        {
+          "@type": "City",
+          "name": "Lackawanna"
+        },
+        {
+          "@type": "City",
+          "name": "Lancaster"
+        },
+        {
+          "@type": "City",
+          "name": "Depew"
+        },
+        {
+          "@type": "City",
+          "name": "Clarence"
+        },
+        {
+          "@type": "City",
+          "name": "Niagara Falls"
+        },
+        {
+          "@type": "City",
+          "name": "Lockport"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "serviceType": [
+        "Autism Home Modifications",
+        "Sensory Room Creation",
+        "Disability Safety Systems",
+        "Accessible Bathroom for Disabled Children",
+        "Wheelchair Accessible Home Modifications",
+        "Cerebral Palsy Home Modifications",
+        "Intellectual Disability Home Modifications",
+        "Special Needs Home Safety",
+        "Developmental Disability Home Modifications",
+        "Children Disability Accommodations"
+      ],
+      "category": [
+        "Disability Contractor",
+        "Special Needs Services",
+        "Autism Specialist",
+        "Home Modification",
+        "CAPS Certified Contractor"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$3000-$50000",
+        "priceCurrency": "USD",
+        "availability": "InStock",
+        "validFrom": "2024-01-01",
+        "validThrough": "2024-12-31",
+        "itemCondition": "NewCondition",
+        "warranty": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P12M",
+          "warrantyScope": "Full workmanship and materials warranty"
+        }
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:716-533-7108",
+          "actionPlatform": "telephone"
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Free Family Disability Consultation"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "94",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Buffalo Disability Home Modification Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sensory Room Creation",
+              "description": "Custom sensory-friendly spaces for children with autism and sensory processing disorders"
+            },
+            "price": "3500-8000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Safety & Security Systems",
+              "description": "Specialized safety systems for children with intellectual and developmental disabilities"
+            },
+            "price": "2000-6000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Accessible Bathroom for Disabled Children",
+              "description": "Fully accessible bathrooms designed for children with physical disabilities"
+            },
+            "price": "8000-18000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Complete Disability Home Modification",
+              "description": "Comprehensive home modifications for children and adults with multiple disabilities"
+            },
+            "price": "15000-50000",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aaronmichaelservices.com/#/disability-modifications#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do disability home modifications cost in Buffalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disability home modifications in Buffalo range from $3,000-$50,000 depending on needs. Sensory rooms $3,500-$8,000, safety systems $2,000-$6,000, accessible bathrooms $8,000-$18,000, complete home modifications $15,000-$50,000. Many modifications are covered by insurance, Medicaid waivers, and New York state programs with proper documentation.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What disabilities do you specialize in for Buffalo home modifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services specializes in modifications for autism spectrum disorders, cerebral palsy, intellectual and developmental disabilities, mobility impairments, sensory processing disorders, and multiple disabilities. Personal experience as father of son with autism provides deep understanding of sensory needs, safety concerns, and family dynamics.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who provides disability home modifications in Buffalo NY?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services provides disability home modifications in Buffalo NY. CAPS Certified contractor with 22+ years experience, father of son with autism providing personal understanding, 250+ families with disabled children served, 78% insurance approval success rate. Serving all of Western New York. Call 716-533-7108.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are disability home modifications covered by insurance in New York?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many disability modifications are covered by insurance and New York state programs. Medicaid waivers provide up to $15,000 for home modifications, Medicare covers medically necessary equipment, private insurance often covers accessibility improvements. Aaron Michael Services helps navigate funding with 78% approval success rate.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do disability home modifications take to complete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Disability home modification timelines vary by project scope: Sensory rooms 3-5 days, safety systems 1-2 days, accessible bathrooms 5-7 days, complete home modifications 1-3 weeks. Buffalo permit processing may add time, but we work efficiently to minimize disruption to families with special needs.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Aaron Michael Services different for disability modifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services brings personal experience as father of son with autism, 22+ years construction experience, CAPS certification, understanding of disability-specific needs, 78% insurance navigation success rate, and genuine empathy. We don't just build modifications - we build understanding and support for Buffalo families with disabled children.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you create sensory rooms for children with autism in Buffalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Aaron Michael Services specializes in creating sensory rooms for children with autism in Buffalo. As father of son with autism, we understand sensory needs and create calming spaces with specialized lighting, sound dampening, and sensory-friendly materials. Cost ranges $3,500-$8,000, often covered by insurance and state programs.",
+            "url": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aaronmichaelservices.com/#/disability-modifications#webpage",
+      "url": "https://aaronmichaelservices.com/#/disability-modifications",
+      "name": "Disability Home Modifications Buffalo NY | Autism & Special Needs | Aaron Michael Services",
+      "description": "Professional disability home modifications in Buffalo NY. Accessible homes for children and adults with autism, cerebral palsy, and disabilities. Personal understanding. Call 716-533-7108.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://aaronmichaelservices.com/#website",
+        "name": "Aaron Michael Services",
+        "url": "https://aaronmichaelservices.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Disability Home Modifications Buffalo"
+      },
+      "mainEntity": {
+        "@id": "https://aaronmichaelservices.com/#/disability-modifications#service"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://aaronmichaelservices.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://aaronmichaelservices.com/#/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Disability Modifications",
+            "item": "https://aaronmichaelservices.com/#/disability-modifications"
+          }
+        ]
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2",
+          ".faq-question",
+          ".expert-quote",
+          ".personal-story",
+          ".cta-section"
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aaronmichaelservices.com/#organization",
+      "name": "Aaron Michael Services",
+      "alternateName": [
+        "Aaron Michael Services Buffalo",
+        "Buffalo Disability Home Modification Contractor",
+        "WNY Autism Home Modification Specialist"
+      ],
+      "url": "https://aaronmichaelservices.com",
+      "telephone": "+17165337108",
+      "email": "info@aaronmichaelservices.com",
+      "foundingDate": "2015",
+      "description": "Buffalo's premier disability home modification contractor specializing in autism, cerebral palsy, and special needs accommodations. CAPS certified with personal disability experience.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "New York",
+        "containsPlace": [
+          "Buffalo",
+          "Cheektowaga",
+          "Amherst",
+          "Tonawanda",
+          "Niagara Falls",
+          "Western New York"
+        ]
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "sameAs": [
+        "https://www.facebook.com/aaronmichaelservices",
+        "https://www.linkedin.com/company/aaron-michael-services",
+        "https://www.youtube.com/@BuffaloHomeAccess"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aaronmichaelservices.com/images/logo.png",
+        "width": 300,
+        "height": 300
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+17165337108",
+        "contactType": "customer service",
+        "areaServed": "US-NY",
+        "availableLanguage": "English",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday
