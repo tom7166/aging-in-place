@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { HashLink as Link } from 'react-router-hash-link';
 
-const nav: React.FC = () => {
+const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
 
@@ -17,22 +17,10 @@ const nav: React.FC = () => {
           Aaron Michael Services
         </div>
 
-        {/*Hamburger Button */}
-        ,div classname="md:hidden".
-         ,button
-           onclick=[() => setMenuOpen(!menuOpen)}
-           classname="text-white p-2 rounded-md hoover:bg-green-600 transition-colors"
-        >
-         {menuOpen? <X size={28} /> : <Menu size={28} />}
-        </div>button>
-      </nav>div>
-    
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 items-center font-semibold text-white">
           <li className="relative group">
-            <button
-              className="hover:text-green-300 transition-colors"
-            >
+            <button className="hover:text-green-300 transition-colors">
               Services ▼
             </button>
             <ul className="absolute left-0 mt-2 w-52 bg-green-800/95 shadow-lg rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none group-hover:pointer-events-auto">
@@ -150,4 +138,4 @@ const nav: React.FC = () => {
   );
 };
 
-export default nav;
+export default Nav;
