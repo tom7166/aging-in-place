@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
-import nav from './components/nav'; // <-- lowercase nav as requested
+import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
 import { FAQS } from './utils/constants';
 
@@ -27,21 +27,21 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      {/* Floating Nav always visible */}
-      <nav />
+      {/* Hamburger Navigation */}
+      <NavBar />
 
       {/* Page Routes */}
-      <div className="pt-20"> {/* Push content down so nav doesn't overlap */}
+      <div> {/* Remove padding since hamburger nav doesn't need it */}
         <Routes>
           <Route path="/" element={<Home highContrastMode={highContrastMode} toggleHighContrast={toggleHighContrast} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/wheelchair-ramps" element={<WheelchairRamps />} />
-          <Route path="/accessible-bathrooms" element={<AccessibleBathrooms />} />
-          <Route path="/kitchen-modifications" element={<KitchenModifications />} />
-          <Route path="/door-widening" element={<DoorWidening />} />
-          <Route path="/aging-in-place" element={<AgingInPlace />} />
-          <Route path="/disability-modifications" element={<DisabilityModifications />} />
+          <Route path="/services/wheelchair-ramps" element={<WheelchairRamps />} />
+          <Route path="/services/accessible-bathrooms" element={<AccessibleBathrooms />} />
+          <Route path="/services/kitchen-modifications" element={<KitchenModifications />} />
+          <Route path="/services/door-widening" element={<DoorWidening />} />
+          <Route path="/services/aging-in-place" element={<AgingInPlace />} />
+          <Route path="/services/disability-modifications" element={<DisabilityModifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
