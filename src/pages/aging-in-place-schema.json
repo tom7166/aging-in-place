@@ -1,1 +1,480 @@
-
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://aaronmichaelservices.com/#/aging-in-place#service",
+      "name": "Aging in Place Home Modifications Buffalo NY",
+      "alternateName": [
+        "Senior Home Safety Modifications Buffalo",
+        "Aging in Place Services WNY",
+        "Buffalo Senior Home Modifications",
+        "Home Safety for Seniors Buffalo"
+      ],
+      "description": "Professional aging in place home modifications in Buffalo NY. Help seniors stay home safely with accessibility upgrades, safety modifications, and independence solutions for Western New York families.",
+      "url": "https://aaronmichaelservices.com/#/aging-in-place",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://aaronmichaelservices.com/#organization",
+        "name": "Aaron Michael Services",
+        "telephone": "+17165337108",
+        "email": "info@aaronmichaelservices.com",
+        "url": "https://aaronmichaelservices.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "14 Mariemont Ave",
+          "addressLocality": "Buffalo",
+          "addressRegion": "NY",
+          "postalCode": "14220",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "foundingDate": "2015",
+        "founder": {
+          "@type": "Person",
+          "name": "Tom",
+          "description": "CAPS Certified Aging in Place Specialist with 22+ years construction experience and personal disability understanding"
+        },
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aaronmichaelservices.com/images/logo.png",
+          "width": 300,
+          "height": 300
+        }
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "New York"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Cheektowaga"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "North Tonawanda"
+        },
+        {
+          "@type": "City",
+          "name": "Kenmore"
+        },
+        {
+          "@type": "City",
+          "name": "West Seneca"
+        },
+        {
+          "@type": "City",
+          "name": "Hamburg"
+        },
+        {
+          "@type": "City",
+          "name": "Orchard Park"
+        },
+        {
+          "@type": "City",
+          "name": "Lackawanna"
+        },
+        {
+          "@type": "City",
+          "name": "Lancaster"
+        },
+        {
+          "@type": "City",
+          "name": "Depew"
+        },
+        {
+          "@type": "City",
+          "name": "Clarence"
+        },
+        {
+          "@type": "City",
+          "name": "Niagara Falls"
+        },
+        {
+          "@type": "City",
+          "name": "Lockport"
+        }
+      ],
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "serviceType": [
+        "Aging in Place Home Modifications",
+        "Senior Home Safety Modifications",
+        "Grab Bar Installation",
+        "Stair Lift Installation",
+        "Home Safety Assessment",
+        "Fall Prevention Modifications",
+        "Senior Bathroom Safety",
+        "Home Accessibility for Seniors",
+        "Independent Living Modifications",
+        "Senior Home Adaptations"
+      ],
+      "category": [
+        "Aging in Place Contractor",
+        "Senior Services",
+        "Home Modification",
+        "Accessibility Specialist",
+        "CAPS Certified Contractor"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$5000-$45000",
+        "priceCurrency": "USD",
+        "availability": "InStock",
+        "validFrom": "2024-01-01",
+        "validThrough": "2024-12-31",
+        "itemCondition": "NewCondition",
+        "warranty": {
+          "@type": "WarrantyPromise",
+          "durationOfWarranty": "P12M",
+          "warrantyScope": "Full workmanship and materials warranty"
+        }
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "tel:716-533-7108",
+          "actionPlatform": "telephone"
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Free Home Safety Assessment"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "156",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Buffalo Aging in Place Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Grab Bar Installation Package",
+              "description": "Strategic grab bar placement throughout home for fall prevention"
+            },
+            "price": "800-2500",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stair Lift Installation",
+              "description": "Professional stair lift installation for multi-level Buffalo homes"
+            },
+            "price": "3500-8000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bathroom Safety Conversion",
+              "description": "Complete bathroom safety modifications for aging in place"
+            },
+            "price": "8500-18000",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Complete Aging in Place Package",
+              "description": "Comprehensive home modifications for safe independent living"
+            },
+            "price": "15000-45000",
+            "priceCurrency": "USD"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aaronmichaelservices.com/#/aging-in-place#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do aging in place modifications cost in Buffalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aging in place modifications in Buffalo range from $5,000-$45,000 depending on scope. Basic safety packages start at $5,000, grab bar installations $800-$2,500, stair lifts $3,500-$8,000, bathroom conversions $8,500-$18,000, and complete aging in place packages $15,000-$45,000. Many modifications are covered by insurance and New York state programs.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What modifications help Buffalo seniors age in place safely?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Essential aging in place modifications include grab bars throughout the home, improved lighting with motion sensors, non-slip flooring, stair lifts for multi-level homes, wheelchair ramps, door widening, accessible bathrooms, and kitchen modifications. Buffalo homes often need winter safety features like heated entryways and non-slip exterior surfaces.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who provides aging in place services in Buffalo NY?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services provides aging in place services in Buffalo NY. We're CAPS Certified Aging in Place Specialists with 22+ years experience, serving 400+ seniors, 87% success rate for 10+ years, personal disability understanding, and comprehensive knowledge of Buffalo building codes. Serving all of Western New York. Call 716-533-7108.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are aging in place modifications covered by insurance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many aging in place modifications are covered by insurance. Medicare covers grab bars and safety equipment at 80%, medically necessary modifications often approved. New York NHTD waiver provides up to $15,000 for home modifications. Aaron Michael Services helps navigate insurance options with 67% approval success rate.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do aging in place renovations take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aging in place renovation timelines vary by scope: Grab bar installation 1 day, stair lift installation 1-2 days, bathroom safety conversions 3-5 days, complete aging in place packages 1-2 weeks. Buffalo permit processing and winter weather may extend timelines.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between aging in place and assisted living?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aging in place with home modifications costs $15,000 average one-time vs assisted living $50,400 annually in Buffalo. Aging in place preserves independence, family connections, familiar environment, and pets. 87% of Buffalo seniors with proper modifications successfully age in place for 10+ years, saving over $489,000 compared to assisted living.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why choose Aaron Michael Services for Buffalo aging in place modifications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Choose Aaron Michael Services because we're CAPS Certified Aging in Place Specialists with 22+ years experience, 400+ seniors served, 87% success rate for 10+ years, personal disability understanding, comprehensive Buffalo building code knowledge, and insurance navigation expertise with 67% approval rate. Family-owned Buffalo business serving all of Western New York.",
+            "url": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aaronmichaelservices.com/#/aging-in-place#webpage",
+      "url": "https://aaronmichaelservices.com/#/aging-in-place",
+      "name": "Aging in Place Home Modifications Buffalo NY | Senior Home Safety | Aaron Michael Services",
+      "description": "Professional aging in place home modifications in Buffalo NY. Help seniors stay home safely with accessibility upgrades, safety modifications. Alternative to assisted living. Call 716-533-7108.",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://aaronmichaelservices.com/#website",
+        "name": "Aaron Michael Services",
+        "url": "https://aaronmichaelservices.com"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Aging in Place Home Modifications Buffalo"
+      },
+      "mainEntity": {
+        "@id": "https://aaronmichaelservices.com/#/aging-in-place#service"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://aaronmichaelservices.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://aaronmichaelservices.com/#/services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Aging in Place",
+            "item": "https://aaronmichaelservices.com/#/aging-in-place"
+          }
+        ]
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2",
+          ".faq-question",
+          ".expert-quote",
+          ".cta-section"
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aaronmichaelservices.com/#organization",
+      "name": "Aaron Michael Services",
+      "alternateName": [
+        "Aaron Michael Services Buffalo",
+        "Buffalo Aging in Place Contractor",
+        "WNY Senior Home Modification Specialist"
+      ],
+      "url": "https://aaronmichaelservices.com",
+      "telephone": "+17165337108",
+      "email": "info@aaronmichaelservices.com",
+      "foundingDate": "2015",
+      "description": "Buffalo's premier aging in place contractor specializing in senior home safety modifications, grab bar installation, and accessibility upgrades for Western New York families.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "New York",
+        "containsPlace": [
+          "Buffalo",
+          "Cheektowaga",
+          "Amherst",
+          "Tonawanda",
+          "Niagara Falls",
+          "Western New York"
+        ]
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.8864",
+          "longitude": "-78.8784"
+        },
+        "geoRadius": "80467"
+      },
+      "sameAs": [
+        "https://www.facebook.com/aaronmichaelservices",
+        "https://www.linkedin.com/company/aaron-michael-services",
+        "https://www.youtube.com/@BuffaloHomeAccess"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aaronmichaelservices.com/images/logo.png",
+        "width": 300,
+        "height": 300
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+17165337108",
+        "contactType": "customer service",
+        "areaServed": "US-NY",
+        "availableLanguage": "English",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      },
+      "makesOffer": {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Aging in Place Home Modifications"
+        },
+        "areaServed": "Western New York"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aaronmichaelservices.com/#localbusiness",
+      "name": "Aaron Michael Services",
+      "image": [
+        "https://aaronmichaelservices.com/images/aging-in-place-buffalo.jpg",
+        "https://aaronmichaelservices.com/images/senior-home-safety.jpg",
+        "https://aaronmichaelservices.com/images/grab-bar-installation.jpg"
+      ],
+      "telephone": "+17165337108",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "42.8864",
+        "longitude": "-78.8784"
+      },
+      "url": "https://aaronmichaelservices.com",
+      "priceRange": "$$$",
+      "paymentAccepted": [
+        "Cash",
+        "Check",
+        "Credit Card",
+        "Insurance",
+        "Medicare",
+        "Medicaid"
+      ],
+      "currenciesAccepted": "USD",
+      "openingHours": [
+        "Mo-Fr 07:00-18:00",
+        "Sa 08:00-16:00"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "156",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+  ]
+}
