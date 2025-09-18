@@ -1,0 +1,202 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Door Widening Buffalo NY",
+  "description": "Professional door widening services in Buffalo NY for wheelchair accessibility. ADA compliant door modifications for homes and businesses. Expert framing and drywall work throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/door-widening",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Door Widening and Accessibility Modifications",
+  "category": "Accessibility Modifications",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Wheelchair Users, Elderly, Disabled, Homeowners"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Door Widening Services",
+    "description": "ADA compliant door widening for wheelchair accessibility in Buffalo NY homes and businesses",
+    "price": "800-3500",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Interior Non-Load Bearing Door",
+        "price": "800-1500",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Interior Load-Bearing Door",
+        "price": "1500-2800",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Exterior Entry Door",
+        "price": "2000-3500", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Door Widening Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Interior Door Widening",
+          "description": "Professional widening of interior doors for wheelchair accessibility including bathroom, bedroom, and hallway doors"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Exterior Door Widening",
+          "description": "Front and back door widening for wheelchair access with proper structural support and weatherproofing"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Load-Bearing Wall Modifications",
+          "description": "Structural modifications for load-bearing walls including proper header installation and engineering"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "ADA Compliance",
+    "Buffalo Building Codes", 
+    "Structural Engineering",
+    "Accessibility Modifications",
+    "Door Installation",
+    "Framing and Carpentry",
+    "Drywall and Finishing",
+    "Permit Applications",
+    "Insurance Documentation"
+  ],
+  "slogan": "Professional Door Widening for Buffalo Accessibility",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sarah M."
+      },
+      "reviewBody": "Aaron widened our bathroom door perfectly. Professional work, clean finish, and handled all the permits. Highly recommend for accessibility modifications in Buffalo."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/door-widening"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Door Widening Assessment"
+    }
+  }
+}
