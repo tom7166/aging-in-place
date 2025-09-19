@@ -6,7 +6,7 @@ interface FAQProps {
   highContrastMode: boolean;
 }
 
-const FAQ: React.FC<FAQProps> = ({ highContrastMode }) => {
+const CustomFAQ: React.FC<FAQProps> = ({ highContrastMode }) => {
   const [openItems, setOpenItems] = useState<number[]>([]);
 
   const toggleItem = (index: number) => {
