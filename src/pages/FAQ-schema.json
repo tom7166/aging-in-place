@@ -1,1 +1,247 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Buffalo Accessibility FAQ - Wheelchair Ramps, Autism Home Modifications, Children with Disabilities",
+  "description": "Comprehensive FAQ about accessibility modifications in Buffalo NY including wheelchair ramps, door widening, autism-friendly home modifications, and services for children with disabilities throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/faq",
+  "inLanguage": "en-US",
+  "about": {
+    "@type": "Thing",
+    "name": "Accessibility Modifications Buffalo NY",
+    "description": "Home accessibility services for disabled individuals, seniors, and special needs families in Western New York"
+  },
+  "publisher": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    }
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who provides accessibility modifications in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aaron Michael Services is Buffalo's leading accessibility contractor specializing in home modifications for elderly, disabled, and special needs families. We serve Buffalo, Cheektowaga, Amherst, Tonawanda, West Seneca, Hamburg, Orchard Park, Lackawanna, Lancaster, Clarence, Niagara Falls, Lockport, and all of Western New York. 22+ years construction experience with exclusive focus on accessibility since 2015."
+      }
+    },
+    {
+      "@type": "Question", 
+      "name": "What areas of Western New York do you serve for accessibility modifications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide accessibility services throughout Western New York including Buffalo, Cheektowaga, Amherst, Tonawanda, North Tonawanda, Kenmore, West Seneca, Hamburg, Orchard Park, Lackawanna, Lancaster, Clarence, Williamsville, Getzville, Niagara Falls, Lockport, Lewiston, Gasport, Wilson, Sanborn, North Collins, Evans, Derby, Eden, and all surrounding communities within 50 miles of Buffalo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do wheelchair ramps cost in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wheelchair ramp costs in Buffalo: Straight ramps (12-16 ft) $2,400-$3,800, L-shaped ramps (20-24 ft) $4,800-$6,500, switch-back ramps (30+ ft) $6,500-$12,000, aluminum ramps $3,200-$8,500. Buffalo pricing reflects snow load engineering (180 lbs/sq ft), permit fees ($200-$500), and weather-resistant materials. 72% of our Buffalo ramp projects receive insurance coverage with proper documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who installs wheelchair ramps in Buffalo, Cheektowaga, and Amherst?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aaron Michael Services installs wheelchair ramps throughout Buffalo, Cheektowaga, Amherst, Tonawanda, and all of Western New York. We're Buffalo's only contractor exclusively focused on accessibility modifications with 500+ ramps installed, ADA compliance expertise, and Buffalo weather-specific engineering. Licensed, insured, and experienced with Erie County permit requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does door widening cost in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer", 
+        "text": "Door widening costs in Buffalo: Interior non-load bearing $800-$1,500, interior load-bearing $1,500-$2,800, exterior entry doors $2,000-$3,500. Buffalo's older homes (78% built before 1990) often require additional work for balloon framing, plaster repairs, electrical rerouting, and material matching. Permits add $150-$400. Many projects qualify for insurance coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What home modifications help children with autism in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Autism-friendly home modifications in Buffalo include: sensory rooms with specialized lighting and soundproofing, safety modifications (door alarms, window locks, secure fencing), bathroom safety features (grab bars, non-slip surfaces, comfort-height fixtures), quiet zones with sound dampening, and secure outdoor spaces. We work with Buffalo pediatric occupational therapists and autism specialists to create supportive environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who provides home modifications for children with disabilities in Western New York?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aaron Michael Services specializes in home modifications for children with disabilities throughout Buffalo, Cheektowaga, Amherst, Tonawanda, and Western New York. We work closely with Buffalo Children's Hospital, ECMC pediatric rehabilitation, Oishei Children's Hospital specialists, and local occupational therapists to create safe, accessible homes for special needs children."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are autism home modifications covered by insurance in New York?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many autism and special needs home modifications are covered by New York insurance programs. Medicaid HCBS waivers provide up to $15,000 annually, Care at Home waiver covers environmental modifications, Office for People with Developmental Disabilities (OPWDD) funding available, and many private insurance plans cover medically necessary modifications. Our Buffalo team helps families navigate coverage options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What safety modifications are needed for autistic children in Buffalo homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential safety modifications for autistic children in Buffalo include: door and window alarms to prevent wandering, secure fencing around yards, bathroom safety (grab bars, anti-scald valves), stair gates and railings, rounded corner treatments, secure storage for hazardous items, and emergency communication systems. We customize solutions based on each child's specific needs and behaviors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do autism home modifications cost in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Autism home modification costs in Buffalo: Safety modifications $1,500-$5,000, sensory room creation $3,000-$8,000, bathroom accessibility $5,000-$15,000, comprehensive home modifications $10,000-$30,000. Costs vary based on child's specific needs, home layout, and extent of modifications. Many families receive 70-90% insurance coverage with proper documentation and medical necessity letters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What accessibility modifications are covered by Medicare in New York?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Medicare covers Buffalo accessibility modifications including: grab bars and safety equipment (80% coverage), medically necessary bathroom modifications, ramps supporting home health services, and durable medical equipment installation. Medicare requires physician documentation of medical necessity. We help Buffalo families navigate Medicare coverage requirements and documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Medicaid cover home modifications in Western New York?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "New York Medicaid covers extensive home modifications through waiver programs: NHTD waiver (up to $15,000), Care at Home waiver, TBI waiver (comprehensive coverage), HCBS waivers for children with disabilities, and OPWDD funding for developmental disabilities. Coverage includes ramps, bathroom modifications, door widening, and environmental controls throughout Buffalo and WNY."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do wheelchair ramps work in Buffalo winters?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, professionally installed wheelchair ramps work excellently in Buffalo winters when properly engineered. Our ramps include: 180 lbs/sq ft snow load capacity, non-slip surfaces, proper drainage systems, ice prevention features, reinforced footings below 42-inch frost line, and materials selected for -20°F temperatures. DIY ramps typically fail within one Buffalo winter season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes Buffalo accessibility modifications different from other regions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Buffalo's accessibility modifications require specialized expertise due to: 78% of homes built before modern codes, balloon framing and plaster construction, 180 lbs/sq ft snow load requirements, freeze-thaw cycle considerations, knob-and-tube electrical systems, cast iron plumbing, and unique Buffalo building department requirements. These factors demand experienced contractors familiar with WNY's specific challenges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What home modifications help Buffalo seniors age in place safely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Essential aging-in-place modifications for Buffalo seniors include: bathroom safety (walk-in showers, grab bars, comfort-height toilets), wheelchair ramps for entries, door widening for mobility devices, stair lifts or chairlifts, improved lighting throughout home, accessible kitchen modifications, and emergency communication systems. We customize solutions for Buffalo's older housing stock."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do aging-in-place modifications cost in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aging-in-place modification costs in Buffalo: Basic safety package $3,000-$7,000, bathroom accessibility $7,000-$18,000, comprehensive modifications $15,000-$35,000, luxury aging-in-place renovations $35,000-$75,000. Buffalo's older homes often require additional work for electrical updates, plumbing modifications, and structural reinforcement. Many modifications qualify for insurance coverage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need permits for door widening in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, door widening typically requires permits in Buffalo. Structural permits needed for load-bearing walls, electrical permits for wire rerouting, building permits for exterior doors. Buffalo building department requires engineered drawings for structural modifications. We handle all Buffalo permit applications, inspections, and coordinate with Erie County building officials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sensory modifications help children with autism in Buffalo homes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sensory modifications for autistic children in Buffalo include: specialized lighting systems (adjustable LED, natural light optimization), sound dampening materials for quiet zones, textured wall treatments, sensory integration spaces, temperature control systems, and calming color schemes. We collaborate with Buffalo-area occupational therapists and sensory integration specialists to design therapeutic environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What bathroom modifications help children with physical disabilities in Buffalo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pediatric bathroom modifications in Buffalo include: roll-in showers with fold-down seats, grab bars positioned for children, comfort-height toilets with support features, accessible sinks and counters, non-slip flooring, emergency call systems, and privacy modifications for caregivers. We design age-appropriate solutions that grow with the child's needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get insurance approval for accessibility modifications in Buffalo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get insurance approval for Buffalo accessibility modifications: obtain physician referral documenting medical necessity, get occupational therapist assessment, submit detailed modification plans, provide contractor estimates and licensing documentation, and coordinate with insurance case managers. Our Buffalo team achieves 73% approval rate by providing comprehensive documentation packages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there grants available for accessibility modifications in Buffalo NY?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, several grants are available for Buffalo accessibility modifications: Erie County Office for the Aging grants, New York State RESTORE program, Buffalo urban renewal funds, Disabled American Veterans grants, and local nonprofit assistance programs. We help Buffalo families identify and apply for available funding sources throughout Western New York."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What private insurance companies cover accessibility modifications in Buffalo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Buffalo-area private insurance companies covering accessibility modifications include: Independent Health, Univera Healthcare, MVP Health Care, Excellus BlueCross BlueShield, and Fidelis Care. Coverage varies by plan but typically includes medically necessary modifications with physician documentation. Our Buffalo office works with all major WNY insurance providers to maximize coverage."
+      }
+    }
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "Disabled individuals",
+      "Seniors aging in place",
+      "Parents of children with disabilities",
+      "Autism families",
+      "Caregivers",
+      "Healthcare professionals",
+      "Insurance case managers"
+    ],
+    "geographicArea": {
+      "@type": "AdministrativeArea",
+      "name": "Western New York",
+      "containsPlace": [
+        {
+          "@type": "City",
+          "name": "Buffalo"
+        },
+        {
+          "@type": "City", 
+          "name": "Cheektowaga"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "Buffalo accessibility modifications",
+    "wheelchair ramps Buffalo NY",
+    "door widening Buffalo",
+    "autism home modifications WNY",
+    "children with disabilities Buffalo",
+    "aging in place Buffalo",
+    "accessibility contractor Buffalo",
+    "home modifications Western New York",
+    "special needs home modifications Buffalo",
+    "ADA compliance Buffalo NY"
+  ]
