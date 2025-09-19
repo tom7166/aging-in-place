@@ -13,6 +13,7 @@ import KitchenModifications from './pages/kitchen-modifications.tsx';
 import DoorWidening from './pages/door-widening.tsx';
 import AgingInPlace from './pages/aging-in-place.tsx';
 import DisabilityModifications from './pages/disability-modifications.tsx';
+import FAQ from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 
