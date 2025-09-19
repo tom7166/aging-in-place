@@ -13,7 +13,7 @@ import KitchenModifications from './pages/kitchen-modifications.tsx';
 import DoorWidening from './pages/door-widening.tsx';
 import AgingInPlace from './pages/aging-in-place.tsx';
 import DisabilityModifications from './pages/disability-modifications.tsx';
-import FAQ from './pages/FAQ.tsx';
+import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 
@@ -43,6 +43,7 @@ const App: React.FC = () => {
           <Route path="/services/door-widening" element={<DoorWidening />} />
           <Route path="/services/aging-in-place" element={<AgingInPlace />} />
           <Route path="/services/disability-modifications" element={<DisabilityModifications />} />
+          <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

@@ -10,6 +10,8 @@ import FAQ from '../components/FAQ';
 import ContactSection from '../components/ContactSection';
 import FloatingCallButton from '../components/FloatingCallButton';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
+import { MessageCircle } from 'lucide-react';
 
 interface HomeProps {
   highContrastMode: boolean;
@@ -32,6 +34,31 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
         <FAQ highContrastMode={highContrastMode} />
         <ContactSection highContrastMode={highContrastMode} />
       </main>
+
+      {/* FAQ Link Section - Before GrabBars Partner Section */}
+      <section className="bg-blue-50 py-12 px-6 md:px-12">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="flex items-center justify-center mb-6">
+              <MessageCircle className="w-12 h-12 text-blue-600 mr-4" />
+              <h2 className="text-3xl font-bold text-gray-900">
+                Have Questions About Accessibility?
+              </h2>
+            </div>
+            <p className="text-lg text-gray-700 mb-6">
+              Get answers to common questions about wheelchair ramps, accessible bathrooms, 
+              aging in place modifications, and ADA compliance in Buffalo and Western New York.
+            </p>
+            <Link
+              to="/faq"
+              className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+            >
+              <MessageCircle className="w-5 h-5 mr-2" />
+              View All FAQs
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Floating Call Button */}
       <FloatingCallButton highContrastMode={highContrastMode} />
