@@ -1,0 +1,269 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Kitchen Remodeling Buffalo NY",
+  "description": "Expert kitchen remodelers in Buffalo NY specializing in accessible, modern kitchen renovations. ADA compliant kitchens for aging in place and universal design throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/buffalo-ny-kitchen-remodeling",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Kitchen Remodeling and Universal Design",
+  "category": "Home Improvement and Accessibility Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Seniors, Disabled individuals, Families seeking universal design"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Kitchen Remodeling Services",
+    "description": "Universal design kitchen renovations for accessibility and aging in place in Buffalo NY",
+    "price": "15000-85000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Basic Accessibility Updates",
+        "description": "Pull-out shelves, enhanced lighting, accessible hardware",
+        "price": "8000-15000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Partial Universal Renovation",
+        "description": "Layout changes, multi-height counters, accessible storage",
+        "price": "18000-35000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Complete Accessible Kitchen",
+        "description": "Full universal design renovation with all accessibility features",
+        "price": "25000-65000", 
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Luxury Universal Design",
+        "description": "Premium materials with comprehensive accessibility features",
+        "price": "45000-85000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Kitchen Remodeling Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Universal Design Kitchen Layout",
+          "description": "Multi-height counters and accessible kitchen layouts for all users"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Kitchen Storage",
+          "description": "Pull-out shelving systems and accessible cabinet solutions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Kitchen Accessibility Modifications",
+          "description": "Lever handles, touch-activated faucets, and accessible appliances"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Kitchen Lighting Design",
+          "description": "Under-cabinet LED lighting and enhanced visibility systems"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Universal Kitchen Design",
+    "Buffalo Building Codes", 
+    "ADA Compliance",
+    "Accessible Kitchen Layouts",
+    "Multi-height Counters",
+    "Pull-out Storage Systems",
+    "Kitchen Accessibility Modifications",
+    "Aging in Place Design",
+    "Kitchen Lighting Design",
+    "Buffalo Electrical Systems",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Kitchen Remodelers for Buffalo Universal Design",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "67",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Patricia S."
+      },
+      "reviewBody": "Aaron created the perfect accessible kitchen for our Buffalo home. The multi-height counters let both my husband and I cook comfortably. Professional work and great attention to universal design principles."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "James M."
+      },
+      "reviewBody": "Excellent kitchen remodel in Amherst. Aaron understood our needs for accessible storage and lighting. The pull-out shelves make everything so much easier to reach. Highly recommend for accessible renovations."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/buffalo-ny-kitchen-remodeling"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Kitchen Remodeling Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services-kitchen",
+    "https://www.houzz.com/professionals/kitchen-remodelers/aaron-michael-services"
+  ]
+}
