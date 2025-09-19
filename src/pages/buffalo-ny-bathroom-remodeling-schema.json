@@ -1,0 +1,262 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Bathroom Remodeling Buffalo NY",
+  "description": "Expert bathroom remodelers in Buffalo NY specializing in accessible, modern, and affordable bathroom renovation services. ADA compliant bathrooms for aging in place and disability accessibility throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/buffalo-ny-bathroom-remodeling",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Bathroom Remodeling and Accessibility Modifications",
+  "category": "Home Improvement and Accessibility Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Seniors, Disabled individuals, Families seeking accessibility modifications"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Bathroom Remodeling Services",
+    "description": "ADA compliant bathroom renovations for accessibility and aging in place in Buffalo NY",
+    "price": "8000-35000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Basic Safety Updates",
+        "description": "Grab bars, non-slip flooring, safety modifications",
+        "price": "3500-7500",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Walk-in Shower Conversion",
+        "description": "Tub to accessible shower conversion with grab bars and seat",
+        "price": "8500-16500",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Full Accessible Renovation",
+        "description": "Complete barrier-free bathroom remodel with ADA compliance",
+        "price": "15000-35000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Bathroom Remodeling Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Walk-in Shower Installation",
+          "description": "Professional conversion of bathtubs to accessible walk-in showers with safety features"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Bathroom Renovation",
+          "description": "Complete bathroom remodeling with ADA compliance for aging in place and disability accessibility"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Grab Bar Installation",
+          "description": "Professional installation of grab bars and safety equipment in bathrooms"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Barrier-Free Bathroom Design",
+          "description": "Custom design and construction of barrier-free bathrooms for wheelchair accessibility"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "ADA Compliance",
+    "Buffalo Building Codes", 
+    "Accessible Bathroom Design",
+    "Walk-in Shower Installation",
+    "Grab Bar Installation",
+    "Bathroom Safety Modifications",
+    "Aging in Place Renovations",
+    "Disability Accommodations",
+    "Buffalo Plumbing Systems",
+    "Electrical Code Compliance",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Bathroom Remodelers for Buffalo Accessibility",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "89",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Margaret K."
+      },
+      "reviewBody": "Aaron transformed our Buffalo bathroom into a beautiful, accessible space. The walk-in shower is perfect for my husband's mobility needs. Professional work and handled all permits."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Robert T."
+      },
+      "reviewBody": "Outstanding bathroom remodel in Cheektowaga. Aaron understood our accessibility needs and delivered exactly what we wanted. Great communication throughout the project."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/buffalo-ny-bathroom-remodeling"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Bathroom Remodeling Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services",
+    "https://www.bbb.org/us/ny/buffalo/profile/contractor/aaron-michael-services"
+  ]
+}
