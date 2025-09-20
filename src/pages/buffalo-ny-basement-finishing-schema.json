@@ -1,0 +1,270 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Basement Finishing Buffalo NY",
+  "description": "Expert basement finishing contractors in Buffalo NY specializing in waterproof, accessible basement renovations. Transform your Buffalo basement into livable space with proper moisture control and accessibility features.",
+  "url": "https://aaronmichaelservices.com/#/buffalo-ny-basement-finishing",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Basement Finishing and Waterproofing",
+  "category": "Home Construction and Basement Renovation",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Families needing extra space, Property investors, Multi-generational households"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Basement Finishing Services",
+    "description": "Waterproof basement renovations with accessibility features for Buffalo NY homes",
+    "price": "25000-95000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P5Y",
+      "warrantyScope": "Waterproofing and Structural Work"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Basic Finished Basement",
+        "description": "600-800 sq ft basic finishing with waterproofing",
+        "price": "25000-40000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Full Living Space",
+        "description": "800-1200 sq ft complete basement renovation",
+        "price": "40000-65000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Luxury Accessible Suite",
+        "description": "1000-1500 sq ft premium basement with accessibility features",
+        "price": "65000-95000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Basement Finishing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Basement Waterproofing",
+          "description": "Professional moisture control and waterproofing systems for Buffalo basements"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Basement Family Room",
+          "description": "Recreation and entertainment spaces in finished basements"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Basement Bedroom Suite",
+          "description": "Guest bedrooms and living suites with accessibility features"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Basement Bathroom Addition",
+          "description": "Full bathrooms and accessible facilities in finished basements"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Basement Home Office",
+          "description": "Quiet workspace and study areas in finished basements"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Basement Finishing",
+    "Buffalo Building Codes", 
+    "Basement Waterproofing",
+    "Moisture Control Systems",
+    "Basement Accessibility Design",
+    "HVAC for Basements",
+    "Basement Electrical Systems",
+    "Mold Prevention",
+    "Buffalo Soil Conditions",
+    "Basement Insulation",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Basement Finishing Contractors for Buffalo Waterproofing",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "58",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Michael R."
+      },
+      "reviewBody": "Aaron finished our Buffalo basement perfectly. No moisture issues after 3 years and the family room is used daily. Professional waterproofing made all the difference. Excellent work throughout."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Susan T."
+      },
+      "reviewBody": "Outstanding basement renovation in Amherst. Aaron understood Buffalo's moisture challenges and created a dry, comfortable living space. The accessible bathroom was built perfectly. Highly recommend."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/buffalo-ny-basement-finishing"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Basement Finishing Assessment"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services-basement",
+    "https://www.homeadvisor.com/rated.aaron-michael-services.basement-finishing.buffalo-ny"
+  ]
+}
