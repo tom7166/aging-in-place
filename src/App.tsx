@@ -48,6 +48,10 @@ import AmherstKitchenRemodeling from './pages/cities/amherst/amherst-ny-kitchen-
 import AmherstHomeAdditions from './pages/cities/amherst/amherst-ny-home-additions.tsx';
 import AmherstBasementFinishing from './pages/cities/amherst/amherst-ny-basement-finishing.tsx';
 import AmherstFlooringInstallation from './pages/cities/amherst/amherst-ny-flooring-installation.tsx';
+import BuffaloAccessibleBathroomRemodeling from './pages/cities/buffalo/buffalo-ny-accessible-bathroom-remodeling.tsx';
+import AmherstWheelchairRampInstallation from './pages/cities/amherst/amherst-ny-wheelchair-ramp-installation.tsx';
+import KenmoreSmallBathroomRemodel from './pages/cities/kenmore/kenmore-ny-small-bathroom-remodel.tsx';
+import TonawandaBasementFinishingEgress from './pages/cities/tonawanda/tonawanda-ny-basement-finishing-egress.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -113,6 +117,10 @@ const App: React.FC = () => {
           <Route path="/amherst-ny-home-additions" element={<AmherstHomeAdditions />} />
           <Route path="/amherst-ny-basement-finishing" element={<AmherstBasementFinishing />} />
           <Route path="/amherst-ny-flooring-installation" element={<AmherstFlooringInstallation />} />
+          <Route path="/buffalo-ny-accessible-bathroom-remodeling" element={<BuffaloAccessibleBathroomRemodeling />} />
+          <Route path="/amherst-ny-wheelchair-ramp-installation" element={<AmherstWheelchairRampInstallation />} />
+          <Route path="/kenmore-ny-small-bathroom-remodel" element={<KenmoreSmallBathroomRemodel />} />
+          <Route path="/tonawanda-ny-basement-finishing-egress" element={<TonawandaBasementFinishingEgress />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
