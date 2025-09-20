@@ -1,0 +1,277 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Flooring Installation Buffalo NY",
+  "description": "Expert flooring installation contractors in Buffalo NY specializing in accessible, slip-resistant flooring solutions. Professional hardwood, vinyl, tile, and carpet installation with safety features throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/buffalo-ny-flooring-installation",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Flooring Installation and Safety Solutions",
+  "category": "Home Flooring and Accessibility Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Seniors, Disabled individuals, Families seeking safety improvements"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Flooring Installation Services",
+    "description": "Accessible, slip-resistant flooring installation for Buffalo NY homes",
+    "price": "3-18",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Installation and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Luxury Vinyl Plank Installation",
+        "description": "Waterproof, non-slip luxury vinyl with accessibility features",
+        "price": "4-8",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Accessible Carpet Installation",
+        "description": "Low-pile, antimicrobial carpet for safety and accessibility",
+        "price": "3-7",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Porcelain Tile Installation",
+        "description": "Non-slip porcelain tile with level transitions",
+        "price": "8-15", 
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Engineered Hardwood Installation",
+        "description": "Slip-resistant hardwood flooring with accessibility features",
+        "price": "6-12", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Flooring Installation Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Luxury Vinyl Plank Installation",
+          "description": "Waterproof, slip-resistant vinyl flooring with accessibility features"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Tile Installation",
+          "description": "Non-slip ceramic and porcelain tile with level transitions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Safety Carpet Installation",
+          "description": "Low-pile, antimicrobial carpet for accessibility and safety"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Hardwood Flooring Installation",
+          "description": "Engineered hardwood with slip-resistant finishes"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Subfloor Preparation",
+          "description": "Moisture barriers, leveling, and accessibility modifications"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Flooring Installation",
+    "Buffalo Building Codes", 
+    "Accessible Flooring Design",
+    "Non-slip Flooring Solutions",
+    "Subfloor Preparation",
+    "Moisture Barrier Installation",
+    "Level Transition Installation",
+    "Safety Flooring Features",
+    "Buffalo Climate Considerations",
+    "Flooring Accessibility Compliance",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Flooring Installation for Buffalo Safety and Accessibility",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "73",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dorothy K."
+      },
+      "reviewBody": "Aaron installed beautiful luxury vinyl throughout our Buffalo home. The non-slip surface gives us confidence and it looks amazing. Perfect for my husband's walker. Professional installation and great attention to safety details."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Frank M."
+      },
+      "reviewBody": "Excellent tile work in our Amherst bathroom. Aaron made sure all transitions were level for wheelchair access. No more tripping hazards and the non-slip surface works perfectly. Highly recommend for accessible flooring."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/buffalo-ny-flooring-installation"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Flooring Installation Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services-flooring",
+    "https://www.homeadvisor.com/rated.aaron-michael-services.flooring.buffalo-ny"
+  ]
+}
