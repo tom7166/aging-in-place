@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   
-  base: "/aging-in-place/",
+  // Remove base path for standard deployment
+  base: "/",
 
   server: {
     port: 5173,
