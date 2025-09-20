@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   
-  base: "/",   // <- this is the only change from GitHub Pages
+  base: "/aging-in-place/",
 
   server: {
     port: 5173,
