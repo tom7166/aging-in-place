@@ -22,6 +22,11 @@ import AccessibleRemodelingBuffalo from './pages/cities/buffalo/accessible-remod
 import RemodelingContractorBuffalo from './pages/cities/buffalo/remodeling-contractor-buffalo-ny.tsx';
 import AccessibleRemodelingTonawanda from './pages/cities/tonawanda/accessible-remodeling-tonawanda-ny.tsx';
 import RemodelingContractorTonawanda from './pages/cities/tonawanda/remodeling-contractor-tonawanda-ny.tsx';
+import TonawandaBathroomRemodeling from './pages/cities/tonawanda/tonawanda-ny-bathroom-remodeling.tsx';
+import TonawandaKitchenRemodeling from './pages/cities/tonawanda/tonawanda-ny-kitchen-remodeling.tsx';
+import TonawandaHomeAdditions from './pages/cities/tonawanda/tonawanda-ny-home-additions.tsx';
+import TonawandaBasementFinishing from './pages/cities/tonawanda/tonawanda-ny-basement-finishing.tsx';
+import TonawandaFlooringInstallation from './pages/cities/tonawanda/tonawanda-ny-flooring-installation.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -61,6 +66,11 @@ const App: React.FC = () => {
           <Route path="/remodeling-contractor-buffalo-ny" element={<RemodelingContractorBuffalo />} />
           <Route path="/accessible-remodeling-tonawanda-ny" element={<AccessibleRemodelingTonawanda />} />
           <Route path="/remodeling-contractor-tonawanda-ny" element={<RemodelingContractorTonawanda />} />
+          <Route path="/tonawanda-ny-bathroom-remodeling" element={<TonawandaBathroomRemodeling />} />
+          <Route path="/tonawanda-ny-kitchen-remodeling" element={<TonawandaKitchenRemodeling />} />
+          <Route path="/tonawanda-ny-home-additions" element={<TonawandaHomeAdditions />} />
+          <Route path="/tonawanda-ny-basement-finishing" element={<TonawandaBasementFinishing />} />
+          <Route path="/tonawanda-ny-flooring-installation" element={<TonawandaFlooringInstallation />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
