@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Remodeling Contractor Tonawanda NY",
+  "description": "Expert remodeling contractors in Tonawanda NY specializing in accessible home renovations. Kitchen, bathroom, basement, and whole-home remodeling with universal design for the Twin Cities and Western New York.",
+  "url": "https://aaronmichaelservices.com/#/remodeling-contractor-tonawanda-ny",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Home Remodeling and Universal Design",
+  "category": "Home Renovation and Construction Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Tonawanda homeowners, Property investors, Seniors, Families seeking accessibility improvements"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Remodeling Contractor Services",
+    "description": "Accessible home renovations with universal design for Tonawanda NY families",
+    "price": "5000-180000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "67",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/remodeling-contractor-tonawanda-ny"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Remodeling Consultation"
+    }
+  }
+}
