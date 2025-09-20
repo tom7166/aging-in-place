@@ -13,6 +13,11 @@ import KitchenModifications from './pages/kitchen-modifications.tsx';
 import DoorWidening from './pages/door-widening.tsx';
 import AgingInPlace from './pages/aging-in-place.tsx';
 import DisabilityModifications from './pages/disability-modifications.tsx';
+import BuffaloBathroomRemodeling from './pages/buffalo-ny-bathroom-remodeling.tsx';
+import BuffaloKitchenRemodeling from './pages/buffalo-ny-kitchen-remodeling.tsx';
+import BuffaloHomeAdditions from './pages/buffalo-ny-home-additions.tsx';
+import BuffaloBasementFinishing from './pages/buffalo-ny-basement-finishing.tsx';
+import BuffaloFlooringInstallation from './pages/buffalo-ny-flooring-installation.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -43,6 +48,11 @@ const App: React.FC = () => {
           <Route path="/services/door-widening" element={<DoorWidening />} />
           <Route path="/services/aging-in-place" element={<AgingInPlace />} />
           <Route path="/services/disability-modifications" element={<DisabilityModifications />} />
+          <Route path="/services/bathroom-remodeling" element={<BuffaloBathroomRemodeling />} />
+          <Route path="/services/kitchen-remodeling" element={<BuffaloKitchenRemodeling />} />
+          <Route path="/services/home-additions" element={<BuffaloHomeAdditions />} />
+          <Route path="/services/basement-finishing" element={<BuffaloBasementFinishing />} />
+          <Route path="/services/flooring-installation" element={<BuffaloFlooringInstallation />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

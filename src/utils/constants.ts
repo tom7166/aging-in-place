@@ -17,37 +17,78 @@ export const SERVICES: ServiceItem[] = [
     icon: "accessibility",
     title: "Wheelchair Ramps",
     description: "Custom-built wheelchair ramps for Buffalo homes. Aluminum, wood, and concrete options available. ADA-compliant slopes and safety features.",
-    keywords: ["wheelchair ramps Buffalo", "ADA ramps WNY", "accessibility ramps"]
+    keywords: ["wheelchair ramps Buffalo", "ADA ramps WNY", "accessibility ramps"],
+    link: "/services/wheelchair-ramps"
   },
   {
     icon: "bath",
     title: "Accessible Bathrooms",
     description: "Complete bathroom remodels for accessibility. Walk-in tubs, roll-in showers, grab bars, and comfort-height toilets throughout Buffalo area.",
-    keywords: ["accessible bathroom Buffalo", "walk-in tub installation", "ADA bathroom remodel"]
+    keywords: ["accessible bathroom Buffalo", "walk-in tub installation", "ADA bathroom remodel"],
+    link: "/services/accessible-bathrooms"
   },
   {
     icon: "home",
     title: "Kitchen Modifications",
     description: "Lower countertops, accessible cabinets, and easy-reach appliances. Making Buffalo kitchens work for everyone.",
-    keywords: ["accessible kitchen Buffalo", "kitchen modifications WNY", "disability kitchen remodel"]
+    keywords: ["accessible kitchen Buffalo", "kitchen modifications WNY", "disability kitchen remodel"],
+    link: "/services/kitchen-modifications"
   },
   {
     icon: "door-open",
     title: "Door Widening",
     description: "Expand doorways to 36+ inches for wheelchair access. Expert carpentry maintaining your Buffalo home's structural integrity.",
-    keywords: ["door widening Buffalo", "wheelchair accessible doors", "ADA door installation"]
+    keywords: ["door widening Buffalo", "wheelchair accessible doors", "ADA door installation"],
+    link: "/services/door-widening"
   },
   {
     icon: "heart",
     title: "Aging in Place",
     description: "Comprehensive home modifications helping Buffalo seniors stay independent. Handrails, lighting, flooring, and safety upgrades.",
-    keywords: ["aging in place Buffalo", "senior home modifications", "independent living upgrades"]
+    keywords: ["aging in place Buffalo", "senior home modifications", "independent living upgrades"],
+    link: "/services/aging-in-place"
   },
   {
     icon: "wrench",
     title: "Disability Modifications",
     description: "Specialized modifications for all disabilities. Vision, mobility, and cognitive accessibility solutions for Buffalo families.",
-    keywords: ["disability home modifications", "accessible home upgrades Buffalo", "ADA compliance"]
+    keywords: ["disability home modifications", "accessible home upgrades Buffalo", "ADA compliance"],
+    link: "/services/disability-modifications"
+  },
+  {
+    icon: "building",
+    title: "Home Additions",
+    description: "Accessible room additions and home expansions. Master suites, family rooms, and in-law suites with universal design.",
+    keywords: ["home additions Buffalo", "accessible additions WNY", "master suite contractor"],
+    link: "/services/home-additions"
+  },
+  {
+    icon: "layers",
+    title: "Basement Finishing",
+    description: "Waterproof basement renovations with accessibility features. Transform unused space into comfortable living areas.",
+    keywords: ["basement finishing Buffalo", "waterproof basements WNY", "accessible basement contractor"],
+    link: "/services/basement-finishing"
+  },
+  {
+    icon: "chef-hat",
+    title: "Kitchen Remodeling",
+    description: "Complete kitchen renovations with universal design. Beautiful, accessible kitchens for multi-generational living.",
+    keywords: ["kitchen remodeling Buffalo", "universal design kitchens WNY", "accessible kitchen contractor"],
+    link: "/services/kitchen-remodeling"
+  },
+  {
+    icon: "hammer",
+    title: "Bathroom Remodeling",
+    description: "Full bathroom renovations combining style with accessibility. Modern bathrooms that prioritize safety and independence.",
+    keywords: ["bathroom remodeling Buffalo", "accessible bathroom renovation WNY", "ADA bathroom contractor"],
+    link: "/services/bathroom-remodeling"
+  },
+  {
+    icon: "layers",
+    title: "Flooring Installation",
+    description: "Safe, slip-resistant flooring solutions. Professional installation with accessibility features and level transitions.",
+    keywords: ["flooring installation Buffalo", "accessible flooring WNY", "non-slip flooring contractor"],
+    link: "/services/flooring-installation"
   }
 ];
 

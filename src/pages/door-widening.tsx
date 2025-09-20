@@ -48,7 +48,7 @@ const DoorWideningPage = () => {
               <nav className="mb-6 text-green-200">
                 <div className="flex items-center space-x-2 text-sm">
                   <Home className="w-4 h-4" />
-                  <a href="#" className="hover:text-white">Home</a>
+                  <Link to="/" className="hover:text-white">Home</Link>
                   <ArrowRight className="w-3 h-3" />
                   <span>Services</span>
                   <ArrowRight className="w-3 h-3" />

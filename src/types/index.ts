@@ -15,6 +15,7 @@ export interface ServiceItem {
   title: string;
   description: string;
   keywords: string[];
+  link: string;
 }
 
 export interface FAQItem {

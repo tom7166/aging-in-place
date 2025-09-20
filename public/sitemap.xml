@@ -21,7 +21,7 @@
 
   <!-- Services Pages -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/ada-modifications</loc>
+    <loc>https://aaronmichaelservices.com/#/services/wheelchair-ramps</loc>
     <priority>0.8</priority>
   </url>
 
@@ -31,7 +31,17 @@
   </url>
 
   <url>
+    <loc>https://aaronmichaelservices.com/#/services/bathroom-remodeling</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://aaronmichaelservices.com/#/services/kitchen-modifications</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/#/services/kitchen-remodeling</loc>
     <priority>0.8</priority>
   </url>
 
@@ -51,12 +61,17 @@
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/bathrooms</loc>
+    <loc>https://aaronmichaelservices.com/#/services/home-additions</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/wheelchair-ramps</loc>
+    <loc>https://aaronmichaelservices.com/#/services/basement-finishing</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/#/services/flooring-installation</loc>
     <priority>0.8</priority>
   </url>
 

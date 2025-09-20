@@ -56,7 +56,7 @@ const AccessibleBathroomsPage = () => {
               <nav className="mb-6 text-blue-200">
                 <div className="flex items-center space-x-2 text-sm">
                   <Home className="w-4 h-4" />
-                  <a href="https://aaronmichaelservices.com/" className="hover:text-white">Home</a>
+                  <Link to="/" className="hover:text-white">Home</Link>
                   <ArrowRight className="w-3 h-3" />
                   <span>Services</span>
                   <ArrowRight className="w-3 h-3" />

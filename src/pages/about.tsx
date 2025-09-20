@@ -128,7 +128,7 @@ const About: React.FC = () => {
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <a 
-              href="/contact" 
+              href="#/contact" 
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               Get Free Consultation

@@ -78,10 +78,15 @@ const NavBar: React.FC = () => {
   const serviceItems = [
     { label: 'Wheelchair Ramps', path: '/services/wheelchair-ramps' },
     { label: 'Accessible Bathrooms', path: '/services/accessible-bathrooms' },
+    { label: 'Bathroom Remodeling', path: '/services/bathroom-remodeling' },
     { label: 'Kitchen Modifications', path: '/services/kitchen-modifications' },
+    { label: 'Kitchen Remodeling', path: '/services/kitchen-remodeling' },
     { label: 'Door Widening', path: '/services/door-widening' },
     { label: 'Aging in Place', path: '/services/aging-in-place' },
-    { label: 'Disability Modifications', path: '/services/disability-modifications' }
+    { label: 'Disability Modifications', path: '/services/disability-modifications' },
+    { label: 'Home Additions', path: '/services/home-additions' },
+    { label: 'Basement Finishing', path: '/services/basement-finishing' },
+    { label: 'Flooring Installation', path: '/services/flooring-installation' }
   ];
 
   return (

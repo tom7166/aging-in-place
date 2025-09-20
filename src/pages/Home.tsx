@@ -10,8 +10,8 @@ import FAQ from '../components/FAQ';
 import ContactSection from '../components/ContactSection';
 import FloatingCallButton from '../components/FloatingCallButton';
 import Footer from '../components/Footer';
-import { Link } from 'react-router-dom';
-import { MessageCircle } from 'lucide-react';
+import { Link, useNavigate } from 'react-router-dom';
+import { MessageCircle, ArrowRight, Building, Layers, ChefHat, Hammer } from 'lucide-react';
 
 interface HomeProps {
   highContrastMode: boolean;
@@ -19,6 +19,8 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => {
+  const navigate = useNavigate();
+
   return (
     <div className={`min-h-screen ${highContrastMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`}>
       {/* Header Navigation */}
@@ -56,6 +58,69 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
               <MessageCircle className="w-5 h-5 mr-2" />
               View All FAQs
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Services Showcase */}
+      <section className="bg-white py-16 px-6 md:px-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Complete Home Renovation & Accessibility Services
+            </h2>
+            <p className="text-xl text-gray-600">
+              From single modifications to complete home transformations - we build accessible Buffalo homes
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                icon: <Hammer className="w-12 h-12 text-blue-600" />,
+                title: "Bathroom Remodeling",
+                description: "Complete bathroom renovations with accessibility and style",
+                link: "/services/bathroom-remodeling"
+              },
+              {
+                icon: <ChefHat className="w-12 h-12 text-orange-600" />,
+                title: "Kitchen Remodeling", 
+                description: "Universal design kitchens that work for everyone",
+                link: "/services/kitchen-remodeling"
+              },
+              {
+                icon: <Building className="w-12 h-12 text-green-600" />,
+                title: "Home Additions",
+                description: "Expand your home with accessible room additions",
+                link: "/services/home-additions"
+              },
+              {
+                icon: <Layers className="w-12 h-12 text-purple-600" />,
+                title: "Basement Finishing",
+                description: "Waterproof, accessible basement living spaces",
+                link: "/services/basement-finishing"
+              }
+            ].map((service, index) => (
+              <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex justify-center mb-4">
+                  {service.icon}
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600 text-center mb-4">
+                  {service.description}
+                </p>
+                <div className="text-center">
+                  <Link 
+                    to={service.link}
+                    className="inline-flex items-center text-blue-600 hover:text-blue-800 font-semibold transition-colors"
+                  >
+                    Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                  </Link>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -107,4 +172,3 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
 };
 
 export default Home;
-

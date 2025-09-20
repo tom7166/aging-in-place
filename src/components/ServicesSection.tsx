@@ -1,11 +1,13 @@
 import React from "react";
-import { Accessibility, Bath, Home, DoorOpen, Heart, Wrench } from "lucide-react";
+import { Accessibility, Bath, Home, DoorOpen, Heart, Wrench, Building, Layers, ChefHat, Hammer } from "lucide-react";
 import { CONTACT_INFO } from "../utils/constants";
+import { Link } from "react-router-dom";
 
 const services = [
   {
     icon: <Accessibility size={36} className="text-green-500" />,
     title: "Wheelchair Ramp Installation",
+    link: "/services/wheelchair-ramps",
     description: `
       Safe, strong, and ADA-compliant wheelchair ramps for Buffalo homes.
       We build wood, aluminum, and concrete ramps tailored to your property.
@@ -22,6 +24,7 @@ const services = [
   {
     icon: <Bath size={36} className="text-green-500" />,
     title: "Accessible Bathroom Remodels",
+    link: "/services/accessible-bathrooms",
     description: `
       Bathrooms are the #1 place for slips and falls. We remodel bathrooms to make them
       safe, stylish, and accessible for seniors and people with disabilities.
@@ -38,6 +41,7 @@ const services = [
   {
     icon: <Home size={36} className="text-green-500" />,
     title: "Accessible Kitchen Modifications",
+    link: "/services/kitchen-modifications",
     description: `
       We make Buffalo kitchens functional for everyone by lowering counters,
       installing pull-out shelves, and upgrading appliances for easy reach.
@@ -54,6 +58,7 @@ const services = [
   {
     icon: <DoorOpen size={36} className="text-green-500" />,
     title: "Door Widening & Hallway Adjustments",
+    link: "/services/door-widening",
     description: `
       Narrow doors and hallways are a daily obstacle for wheelchair users.
       We expand doorways to ADA standards (36+ inches) while protecting your home’s structure.
@@ -69,6 +74,7 @@ const services = [
   {
     icon: <Heart size={36} className="text-green-500" />,
     title: "Aging-in-Place Upgrades",
+    link: "/services/aging-in-place",
     description: `
       90% of Buffalo seniors want to age at home instead of moving into nursing facilities.
       We provide smart modifications that keep homes safe, comfortable, and independent.
@@ -84,6 +90,7 @@ const services = [
   {
     icon: <Wrench size={36} className="text-green-500" />,
     title: "Specialized Disability Modifications",
+    link: "/services/disability-modifications",
     description: `
       Every disability is unique. We create custom modifications for mobility, vision, hearing,
       and cognitive accessibility — designed to support your family’s real needs.
@@ -95,6 +102,86 @@ const services = [
       "Custom carpentry & modifications",
     ],
     keywords: "disability modifications Buffalo, accessible homes WNY, ADA upgrades contractor",
+  },
+  {
+    icon: <Building size={36} className="text-green-500" />,
+    title: "Home Additions & Expansions",
+    link: "/services/home-additions",
+    description: `
+      Expand your Buffalo home with accessible additions. Master suites, family rooms, 
+      and in-law suites designed with universal access from the ground up.
+    `,
+    bullets: [
+      "First-floor master bedroom suites",
+      "Accessible family room additions",
+      "Multi-generational living spaces",
+      "Foundation and structural expertise",
+    ],
+    keywords: "home additions Buffalo, accessible additions WNY, master suite contractor",
+  },
+  {
+    icon: <Layers size={36} className="text-green-500" />,
+    title: "Basement Finishing & Waterproofing",
+    link: "/services/basement-finishing",
+    description: `
+      Transform Buffalo basements into livable, accessible spaces. Professional waterproofing 
+      and finishing that withstands WNY's challenging climate conditions.
+    `,
+    bullets: [
+      "Moisture control and waterproofing",
+      "Accessible basement living spaces",
+      "Family rooms and home offices",
+      "Buffalo climate-specific construction",
+    ],
+    keywords: "basement finishing Buffalo, waterproof basements WNY, accessible basement contractor",
+  },
+  {
+    icon: <ChefHat size={36} className="text-green-500" />,
+    title: "Complete Kitchen Remodeling",
+    link: "/services/kitchen-remodeling",
+    description: `
+      Full kitchen renovations with universal design principles. Beautiful, accessible 
+      kitchens that work for every family member regardless of age or ability.
+    `,
+    bullets: [
+      "Universal design kitchen layouts",
+      "Multi-height counters and work surfaces",
+      "Accessible appliance placement",
+      "Enhanced lighting and storage systems",
+    ],
+    keywords: "kitchen remodeling Buffalo, universal design kitchens WNY, accessible kitchen contractor",
+  },
+  {
+    icon: <Hammer size={36} className="text-green-500" />,
+    title: "Complete Bathroom Remodeling",
+    link: "/services/bathroom-remodeling",
+    description: `
+      Full bathroom renovations combining style with accessibility. Modern, beautiful 
+      bathrooms that prioritize safety and independence for Buffalo families.
+    `,
+    bullets: [
+      "Walk-in shower conversions",
+      "ADA compliant design and layout",
+      "Grab bars and safety features",
+      "Modern finishes with accessibility focus",
+    ],
+    keywords: "bathroom remodeling Buffalo, accessible bathroom renovation WNY, ADA bathroom contractor",
+  },
+  {
+    icon: <Layers size={36} className="text-green-500" />,
+    title: "Accessible Flooring Installation",
+    link: "/services/flooring-installation",
+    description: `
+      Safe, slip-resistant flooring solutions for Buffalo homes. Professional installation 
+      with accessibility features and level transitions for mobility devices.
+    `,
+    bullets: [
+      "Non-slip surface treatments",
+      "Level transitions for wheelchairs",
+      "Easy-to-clean materials",
+      "Buffalo climate-appropriate options",
+    ],
+    keywords: "flooring installation Buffalo, accessible flooring WNY, non-slip flooring contractor",
   },
 ];
 
@@ -129,7 +216,9 @@ const ServicesSection: React.FC<{ highContrastMode: boolean }> = ({ highContrast
               }`}
             >
               <div className="flex justify-center mb-4">{service.icon}</div>
-              <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
+              <Link to={service.link} className="block">
+                <h3 className="text-2xl font-bold mb-4 hover:text-green-600 transition-colors">{service.title}</h3>
+              </Link>
               <p className="mb-6">{service.description}</p>
               <ul className="text-left list-disc list-inside space-y-2">
                 {service.bullets.map((bullet, idx) => (
@@ -138,6 +227,18 @@ const ServicesSection: React.FC<{ highContrastMode: boolean }> = ({ highContrast
                   </li>
                 ))}
               </ul>
+              <div className="mt-6">
+                <Link 
+                  to={service.link}
+                  className={`inline-block px-6 py-3 rounded-lg font-semibold transition-colors ${
+                    highContrastMode
+                      ? "bg-white text-black hover:bg-yellow-400"
+                      : "bg-green-600 text-white hover:bg-green-700"
+                  }`}
+                >
+                  Learn More
+                </Link>
+              </div>
             </div>
           ))}
         </div>

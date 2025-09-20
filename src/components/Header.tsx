@@ -41,15 +41,21 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
 
  const serviceItems = [
   { href: '#services', label: 'All Services' },
-  { href: '#/accessible-bathrooms', label: 'Accessible Bathrooms' },
-  { href: '#/kitchen-modifications', label: 'Kitchen Modifications' },
-  { href: '#/door-widening', label: 'Door Widening' },
-  { href: '#/aging-in-place', label: 'Aging in Place' },
-  { href: '#/disability-modifications', label: 'Disability Modifications' }
+  { href: '/services/wheelchair-ramps', label: 'Wheelchair Ramps' },
+  { href: '/services/accessible-bathrooms', label: 'Accessible Bathrooms' },
+  { href: '/services/bathroom-remodeling', label: 'Bathroom Remodeling' },
+  { href: '/services/kitchen-modifications', label: 'Kitchen Modifications' },
+  { href: '/services/kitchen-remodeling', label: 'Kitchen Remodeling' },
+  { href: '/services/door-widening', label: 'Door Widening' },
+  { href: '/services/aging-in-place', label: 'Aging in Place' },
+  { href: '/services/disability-modifications', label: 'Disability Modifications' },
+  { href: '/services/home-additions', label: 'Home Additions' },
+  { href: '/services/basement-finishing', label: 'Basement Finishing' },
+  { href: '/services/flooring-installation', label: 'Flooring Installation' }
 ];
 
   const scrollToSection = (href: string) => {
-    if (href.startsWith('#')) {
+    if (href.startsWith('#') && !href.includes('/')) {
       const element = document.querySelector(href);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -58,7 +64,7 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
       }
     } else {
       // For page navigation
-      window.location.href = href;
+      window.location.hash = href;
       setIsMenuOpen(false);
       setIsServicesDropdownOpen(false);
     }
