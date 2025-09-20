@@ -34,6 +34,13 @@ import KenmoreKitchenRemodeling from './pages/cities/kenmore/kenmore-ny-kitchen-
 import KenmoreHomeAdditions from './pages/cities/kenmore/kenmore-ny-home-additions.tsx';
 import KenmoreBasementFinishing from './pages/cities/kenmore/kenmore-ny-basement-finishing.tsx';
 import KenmoreFlooringInstallation from './pages/cities/kenmore/kenmore-ny-flooring-installation.tsx';
+import AccessibleRemodelingNorthTonawanda from './pages/cities/north-tonawanda/accessible-remodeling-north-tonawanda-ny.tsx';
+import RemodelingContractorNorthTonawanda from './pages/cities/north-tonawanda/remodeling-contractor-north-tonawanda-ny.tsx';
+import NorthTonawandaBathroomRemodeling from './pages/cities/north-tonawanda/north-tonawanda-ny-bathroom-remodeling.tsx';
+import NorthTonawandaKitchenRemodeling from './pages/cities/north-tonawanda/north-tonawanda-ny-kitchen-remodeling.tsx';
+import NorthTonawandaHomeAdditions from './pages/cities/north-tonawanda/north-tonawanda-ny-home-additions.tsx';
+import NorthTonawandaBasementFinishing from './pages/cities/north-tonawanda/north-tonawanda-ny-basement-finishing.tsx';
+import NorthTonawandaFlooringInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-flooring-installation.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -85,6 +92,13 @@ const App: React.FC = () => {
           <Route path="/kenmore-ny-home-additions" element={<KenmoreHomeAdditions />} />
           <Route path="/kenmore-ny-basement-finishing" element={<KenmoreBasementFinishing />} />
           <Route path="/kenmore-ny-flooring-installation" element={<KenmoreFlooringInstallation />} />
+          <Route path="/accessible-remodeling-north-tonawanda-ny" element={<AccessibleRemodelingNorthTonawanda />} />
+          <Route path="/remodeling-contractor-north-tonawanda-ny" element={<RemodelingContractorNorthTonawanda />} />
+          <Route path="/north-tonawanda-ny-bathroom-remodeling" element={<NorthTonawandaBathroomRemodeling />} />
+          <Route path="/north-tonawanda-ny-kitchen-remodeling" element={<NorthTonawandaKitchenRemodeling />} />
+          <Route path="/north-tonawanda-ny-home-additions" element={<NorthTonawandaHomeAdditions />} />
+          <Route path="/north-tonawanda-ny-basement-finishing" element={<NorthTonawandaBasementFinishing />} />
+          <Route path="/north-tonawanda-ny-flooring-installation" element={<NorthTonawandaFlooringInstallation />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
