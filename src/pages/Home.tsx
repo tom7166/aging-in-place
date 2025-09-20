@@ -10,7 +10,7 @@ import FAQ from '../components/FAQ';
 import ContactSection from '../components/ContactSection';
 import FloatingCallButton from '../components/FloatingCallButton';
 import Footer from '../components/Footer';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MessageCircle, ArrowRight, Building, Layers, ChefHat, Hammer } from 'lucide-react';
 
 interface HomeProps {
@@ -19,8 +19,6 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => {
-  const navigate = useNavigate();
-
   return (
     <div className={`min-h-screen ${highContrastMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`}>
       {/* Header Navigation */}
