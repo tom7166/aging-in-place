@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Remodeling Contractor Amherst NY",
+  "description": "Expert remodeling contractors in Amherst NY specializing in accessible home renovations. Kitchen, bathroom, basement, and whole-home remodeling with universal design for Western New York's educational community.",
+  "url": "https://aaronmichaelservices.com/#/remodeling-contractor-amherst-ny",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Home Remodeling and Universal Design",
+  "category": "Home Renovation and Construction Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Amherst homeowners, Property investors, Seniors, Educational families seeking accessibility improvements"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Williamsville",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Getzville",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "East Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Remodeling Contractor Services",
+    "description": "Accessible home renovations with universal design for Amherst NY families",
+    "price": "6500-210000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/remodeling-contractor-amherst-ny"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Remodeling Consultation"
+    }
+  }
+}

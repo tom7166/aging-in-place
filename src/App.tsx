@@ -41,6 +41,13 @@ import NorthTonawandaKitchenRemodeling from './pages/cities/north-tonawanda/nort
 import NorthTonawandaHomeAdditions from './pages/cities/north-tonawanda/north-tonawanda-ny-home-additions.tsx';
 import NorthTonawandaBasementFinishing from './pages/cities/north-tonawanda/north-tonawanda-ny-basement-finishing.tsx';
 import NorthTonawandaFlooringInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-flooring-installation.tsx';
+import AccessibleRemodelingAmherst from './pages/cities/amherst/accessible-remodeling-amherst-ny.tsx';
+import RemodelingContractorAmherst from './pages/cities/amherst/remodeling-contractor-amherst-ny.tsx';
+import AmherstBathroomRemodeling from './pages/cities/amherst/amherst-ny-bathroom-remodeling.tsx';
+import AmherstKitchenRemodeling from './pages/cities/amherst/amherst-ny-kitchen-remodeling.tsx';
+import AmherstHomeAdditions from './pages/cities/amherst/amherst-ny-home-additions.tsx';
+import AmherstBasementFinishing from './pages/cities/amherst/amherst-ny-basement-finishing.tsx';
+import AmherstFlooringInstallation from './pages/cities/amherst/amherst-ny-flooring-installation.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -99,6 +106,13 @@ const App: React.FC = () => {
           <Route path="/north-tonawanda-ny-home-additions" element={<NorthTonawandaHomeAdditions />} />
           <Route path="/north-tonawanda-ny-basement-finishing" element={<NorthTonawandaBasementFinishing />} />
           <Route path="/north-tonawanda-ny-flooring-installation" element={<NorthTonawandaFlooringInstallation />} />
+          <Route path="/accessible-remodeling-amherst-ny" element={<AccessibleRemodelingAmherst />} />
+          <Route path="/remodeling-contractor-amherst-ny" element={<RemodelingContractorAmherst />} />
+          <Route path="/amherst-ny-bathroom-remodeling" element={<AmherstBathroomRemodeling />} />
+          <Route path="/amherst-ny-kitchen-remodeling" element={<AmherstKitchenRemodeling />} />
+          <Route path="/amherst-ny-home-additions" element={<AmherstHomeAdditions />} />
+          <Route path="/amherst-ny-basement-finishing" element={<AmherstBasementFinishing />} />
+          <Route path="/amherst-ny-flooring-installation" element={<AmherstFlooringInstallation />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
