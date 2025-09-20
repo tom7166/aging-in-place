@@ -1,12 +1,182 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Phone, Mail, MapPin, Clock, ArrowRight, Home, MessageCircle, Shield, Award } from 'lucide-react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import FloatingCallButton from '../components/FloatingCallButton';
 
 const Contact: React.FC = () => {
+  useEffect(() => {
+    document.title = "Contact Aaron Michael Services | Buffalo ADA Contractor | Free Consultations";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Contact Aaron Michael Services for free accessibility consultations in Buffalo NY. Call 716-533-7108 for wheelchair ramps, accessible bathrooms, and aging-in-place modifications.');
+    }
+  }, []);
+
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-      <p className="text-lg">Phone: 716-533-7108</p>
-      <p className="text-lg">Email: thomasstory716@hotmail.com</p>
-      <p className="mt-4">Use this contact information to reach us for any questions or service requests.</p>
+    <div className="min-h-screen bg-gray-50">
+      <Header highContrastMode={false} toggleHighContrast={() => {}} />
+      
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-24 pt-32">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <nav className="mb-6 text-blue-200">
+            <div className="flex items-center justify-center space-x-2 text-sm">
+              <Home className="w-4 h-4" />
+              <Link to="/" className="hover:text-white">Home</Link>
+              <ArrowRight className="w-3 h-3" />
+              <span>Contact</span>
+            </div>
+          </nav>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
+          <p className="text-xl max-w-3xl mx-auto">
+            Ready to make your Buffalo home more accessible? Get your free consultation today.
+          </p>
+        </div>
+      </section>
+
+      {/* Contact Information */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12">
+            
+            {/* Contact Details */}
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
+              
+              <div className="space-y-6 mb-8">
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    <Phone className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Phone</h3>
+                    <a href="tel:716-533-7108" className="text-lg text-blue-600 hover:text-blue-800">
+                      (716) 533-7108
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    <Mail className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Email</h3>
+                    <a href="mailto:thomasstory716@hotmail.com" className="text-lg text-blue-600 hover:text-blue-800">
+                      thomasstory716@hotmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    <MapPin className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Service Area</h3>
+                    <p className="text-lg text-gray-600">Buffalo & All of Western New York</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                    <Clock className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">Hours</h3>
+                    <p className="text-lg text-gray-600">Mon-Fri: 7AM-6PM</p>
+                    <p className="text-lg text-gray-600">Emergency Services Available</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-green-50 rounded-lg p-6 border border-green-200">
+                <h3 className="text-xl font-bold text-green-900 mb-4">Free Consultation Includes:</h3>
+                <ul className="space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
+                    <span>Complete accessibility assessment</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
+                    <span>ADA compliance recommendations</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
+                    <span>Detailed cost estimates</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
+                    <span>Insurance and funding guidance</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Trust Indicators */}
+            <div className="space-y-8">
+              <div className="bg-white p-8 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Buffalo Families Trust Us</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center">
+                    <Shield className="w-6 h-6 text-blue-600 mr-3" />
+                    <span className="font-semibold">Licensed & Insured Contractor</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Award className="w-6 h-6 text-green-600 mr-3" />
+                    <span className="font-semibold">22+ Years Construction Experience</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Users className="w-6 h-6 text-purple-600 mr-3" />
+                    <span className="font-semibold">500+ Families Served</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Heart className="w-6 h-6 text-red-600 mr-3" />
+                    <span className="font-semibold">Personal Disability Experience</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-900 text-white rounded-lg p-8">
+                <h3 className="text-2xl font-bold mb-4">Emergency Services</h3>
+                <p className="text-blue-100 mb-6">
+                  Urgent accessibility needs can't wait. We provide emergency installation services 
+                  throughout Buffalo and Western New York.
+                </p>
+                <a 
+                  href="tel:716-533-7108"
+                  className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  <Phone className="w-5 h-5 mr-2" />
+                  Call for Emergency Service
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Service Areas */}
+          <div className="bg-white rounded-lg shadow-lg p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Service Areas</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
+              {[
+                'Buffalo', 'Cheektowaga', 'Amherst', 'Tonawanda', 'West Seneca', 'Lackawanna',
+                'Kenmore', 'Depew', 'Lancaster', 'Williamsville', 'East Amherst', 'Clarence',
+                'Orchard Park', 'Hamburg', 'Niagara Falls', 'Lockport'
+              ].map((city) => (
+                <div key={city} className="p-3 bg-blue-50 rounded-lg text-blue-900 font-medium">
+                  {city}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <FloatingCallButton highContrastMode={false} />
+      <Footer />
     </div>
   );
 };
