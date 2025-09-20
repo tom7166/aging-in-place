@@ -1,0 +1,270 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Home Additions Buffalo NY",
+  "description": "Expert home addition contractors in Buffalo NY specializing in accessible room additions, master bedroom suites, and family room expansions. Professional construction with accessibility features throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/buffalo-ny-home-additions",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Home Additions and Construction",
+  "category": "Home Construction and Accessibility Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Growing families, Seniors aging in place, Multi-generational households"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Home Addition Services",
+    "description": "Accessible home additions and room expansions for Buffalo NY families",
+    "price": "35000-225000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P3Y",
+      "warrantyScope": "Structural Work and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Single Room Addition",
+        "description": "200-400 sq ft room additions with accessibility features",
+        "price": "35000-65000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Master Suite Addition",
+        "description": "400-600 sq ft master bedroom with accessible bathroom",
+        "price": "65000-125000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Two-Story Addition",
+        "description": "800-1200 sq ft multi-level home expansion",
+        "price": "125000-225000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Home Addition Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Master Bedroom Suite Addition",
+          "description": "First-floor accessible master suites with barrier-free bathrooms"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Family Room Addition",
+          "description": "Open-concept family rooms and living space expansions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Sunroom Construction",
+          "description": "Four-season sunrooms and enclosed porch conversions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "In-law Suite Addition",
+          "description": "Multi-generational living spaces with accessibility features"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Kitchen Expansion",
+          "description": "Kitchen additions and dining room expansions"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Home Addition Construction",
+    "Buffalo Building Codes", 
+    "Foundation Construction",
+    "Accessible Home Design",
+    "Master Suite Construction",
+    "Family Room Additions",
+    "Sunroom Construction",
+    "Buffalo Permit Requirements",
+    "Structural Engineering",
+    "Buffalo Soil Conditions",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Home Addition Contractors for Buffalo Families",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "42",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "David K."
+      },
+      "reviewBody": "Aaron built a beautiful master suite addition for our Buffalo home. The accessible bathroom and first-floor location are perfect for aging in place. Professional work and handled all permits smoothly."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Linda M."
+      },
+      "reviewBody": "Outstanding family room addition in Cheektowaga. Aaron understood our need for wheelchair accessibility and created a beautiful space that works for our whole family. Highly recommend for accessible construction."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/buffalo-ny-home-additions"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Home Addition Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services-additions",
+    "https://www.homeadvisor.com/rated.aaron-michael-services.buffalo-ny"
+  ]
+}
