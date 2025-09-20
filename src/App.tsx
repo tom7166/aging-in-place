@@ -27,6 +27,13 @@ import TonawandaKitchenRemodeling from './pages/cities/tonawanda/tonawanda-ny-ki
 import TonawandaHomeAdditions from './pages/cities/tonawanda/tonawanda-ny-home-additions.tsx';
 import TonawandaBasementFinishing from './pages/cities/tonawanda/tonawanda-ny-basement-finishing.tsx';
 import TonawandaFlooringInstallation from './pages/cities/tonawanda/tonawanda-ny-flooring-installation.tsx';
+import AccessibleRemodelingKenmore from './pages/cities/kenmore/accessible-remodeling-kenmore-ny.tsx';
+import RemodelingContractorKenmore from './pages/cities/kenmore/remodeling-contractor-kenmore-ny.tsx';
+import KenmoreBathroomRemodeling from './pages/cities/kenmore/kenmore-ny-bathroom-remodeling.tsx';
+import KenmoreKitchenRemodeling from './pages/cities/kenmore/kenmore-ny-kitchen-remodeling.tsx';
+import KenmoreHomeAdditions from './pages/cities/kenmore/kenmore-ny-home-additions.tsx';
+import KenmoreBasementFinishing from './pages/cities/kenmore/kenmore-ny-basement-finishing.tsx';
+import KenmoreFlooringInstallation from './pages/cities/kenmore/kenmore-ny-flooring-installation.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -71,6 +78,13 @@ const App: React.FC = () => {
           <Route path="/tonawanda-ny-home-additions" element={<TonawandaHomeAdditions />} />
           <Route path="/tonawanda-ny-basement-finishing" element={<TonawandaBasementFinishing />} />
           <Route path="/tonawanda-ny-flooring-installation" element={<TonawandaFlooringInstallation />} />
+          <Route path="/accessible-remodeling-kenmore-ny" element={<AccessibleRemodelingKenmore />} />
+          <Route path="/remodeling-contractor-kenmore-ny" element={<RemodelingContractorKenmore />} />
+          <Route path="/kenmore-ny-bathroom-remodeling" element={<KenmoreBathroomRemodeling />} />
+          <Route path="/kenmore-ny-kitchen-remodeling" element={<KenmoreKitchenRemodeling />} />
+          <Route path="/kenmore-ny-home-additions" element={<KenmoreHomeAdditions />} />
+          <Route path="/kenmore-ny-basement-finishing" element={<KenmoreBasementFinishing />} />
+          <Route path="/kenmore-ny-flooring-installation" element={<KenmoreFlooringInstallation />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
