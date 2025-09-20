@@ -35,6 +35,12 @@ const KenmoreBathroomRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert bathroom remodelers in Kenmore NY. Luxury accessible bathroom renovations with premium finishes. ADA compliant walk-in showers, spa features. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

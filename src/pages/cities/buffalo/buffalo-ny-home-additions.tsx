@@ -35,6 +35,12 @@ const BuffaloHomeAdditionsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert home addition contractors in Buffalo NY. Accessible room additions, master suites, family rooms. Professional construction with permits and accessibility features. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

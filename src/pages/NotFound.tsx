@@ -1,10 +1,26 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Home, ArrowLeft, Phone } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const NotFound: React.FC = () => {
+  useEffect(() => {
+    document.title = "Page Not Found | Aaron Michael Services | Buffalo ADA Contractor";
+    
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Page not found. Return to Aaron Michael Services homepage for Buffalo ADA contractor services including wheelchair ramps, accessible bathrooms, and aging-in-place modifications.');
+    }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header highContrastMode={false} toggleHighContrast={() => {}} />

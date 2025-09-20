@@ -35,6 +35,12 @@ const BuffaloBasementFinishingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert basement finishing contractors in Buffalo NY. Waterproof, accessible basement renovations with moisture control. Family rooms, bedrooms, bathrooms. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

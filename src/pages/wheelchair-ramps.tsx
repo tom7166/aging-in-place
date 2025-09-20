@@ -35,6 +35,12 @@ const WheelchairRampsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional wheelchair ramp installation in Buffalo NY. ADA compliant ramps designed for Buffalo weather. Custom aluminum and wood ramps. Free quotes. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

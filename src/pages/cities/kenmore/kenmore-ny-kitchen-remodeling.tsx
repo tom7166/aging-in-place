@@ -35,6 +35,12 @@ const KenmoreKitchenRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert kitchen remodelers in Kenmore NY. Luxury accessible kitchen renovations with premium universal design. Gourmet ADA compliant solutions. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

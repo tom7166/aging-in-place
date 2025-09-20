@@ -35,6 +35,12 @@ const KenmoreHomeAdditionsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert home addition contractors in Kenmore NY. Luxury accessible room additions, premium master suites, family rooms. Professional construction with upscale finishes. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

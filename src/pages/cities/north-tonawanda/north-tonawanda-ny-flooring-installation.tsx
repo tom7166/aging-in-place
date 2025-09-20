@@ -35,6 +35,12 @@ const NorthTonawandaFlooringInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert flooring installation contractors in North Tonawanda NY. Accessible, slip-resistant flooring solutions for Lumber City. Hardwood, vinyl, tile with canal considerations. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

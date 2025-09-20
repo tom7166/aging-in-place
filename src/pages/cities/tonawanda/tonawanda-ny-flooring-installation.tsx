@@ -35,6 +35,12 @@ const TonawandaFlooringInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert flooring installation contractors in Tonawanda NY. Accessible, slip-resistant flooring solutions for Twin Cities. Hardwood, vinyl, tile with waterfront considerations. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

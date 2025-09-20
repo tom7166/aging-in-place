@@ -35,6 +35,12 @@ const BuffaloBathroomRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert bathroom remodelers in Buffalo NY. Accessible, modern, and affordable bathroom renovation services. ADA compliant walk-in showers, grab bars, aging in place solutions. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

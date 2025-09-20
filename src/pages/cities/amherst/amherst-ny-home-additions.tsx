@@ -35,6 +35,12 @@ const AmherstHomeAdditionsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert home addition contractors in Amherst NY. Accessible room additions, premium master suites, family rooms for educational community. Professional construction. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

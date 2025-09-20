@@ -38,6 +38,12 @@ const AccessibleBathroomsPage = () => {
     structuredDataScript.textContent = JSON.stringify(structuredData);
     document.head.appendChild(structuredDataScript);
     
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
+    
     return () => {
       if (document.head.contains(structuredDataScript)) {
         document.head.removeChild(structuredDataScript);

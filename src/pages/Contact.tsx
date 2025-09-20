@@ -13,6 +13,12 @@ const Contact: React.FC = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Contact Aaron Michael Services for free accessibility consultations in Buffalo NY. Call 716-533-7108 for wheelchair ramps, accessible bathrooms, and aging-in-place modifications.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

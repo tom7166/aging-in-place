@@ -35,6 +35,12 @@ const KenmoreFlooringInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert flooring installation contractors in Kenmore NY. Luxury accessible flooring solutions with premium materials. Hardwood, vinyl, tile with safety features. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

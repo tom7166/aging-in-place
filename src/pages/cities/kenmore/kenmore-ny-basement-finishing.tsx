@@ -35,6 +35,12 @@ const KenmoreBasementFinishingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert basement finishing contractors in Kenmore NY. Luxury waterproof basement renovations with premium finishes. Family rooms, home theaters, accessible features. Call 716-533-7108.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (

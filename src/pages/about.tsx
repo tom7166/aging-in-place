@@ -13,6 +13,12 @@ const About: React.FC = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Learn about Aaron Michael Services, Buffalo\'s trusted ADA contractor. 22+ years experience in wheelchair ramps, accessible bathrooms, and aging-in-place modifications throughout Western New York.');
     }
+    
+    // Set favicon
+    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    }
   }, []);
 
   return (
