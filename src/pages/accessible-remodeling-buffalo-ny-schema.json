@@ -1,0 +1,268 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Accessible Remodeling Buffalo NY",
+  "description": "Expert accessible remodeling contractors in Buffalo NY specializing in ADA compliant home renovations. Universal design bathrooms, kitchens, and whole-home accessibility modifications throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/accessible-remodeling-buffalo-ny",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Accessible Home Remodeling and Universal Design",
+  "category": "Home Renovation and Accessibility Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Seniors, Disabled individuals, Families seeking universal design"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Accessible Remodeling Services",
+    "description": "ADA compliant home renovations with universal design for Buffalo NY families",
+    "price": "8000-150000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Single Room Accessible Remodel",
+        "description": "Basic accessibility features for one room",
+        "price": "8000-18000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Accessible Bathroom Renovation",
+        "description": "Complete ADA compliant bathroom remodel",
+        "price": "12000-35000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Universal Design Kitchen",
+        "description": "Multi-height surfaces and accessible storage systems",
+        "price": "25000-65000", 
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Whole-Home Accessibility Remodel",
+        "description": "Complete universal design home transformation",
+        "price": "75000-150000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accessible Remodeling Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Accessible Bathroom Remodeling",
+          "description": "Complete bathroom renovations with ADA compliance and universal design features"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Universal Design Kitchen Remodeling",
+          "description": "Kitchen renovations with multi-height surfaces and accessible storage"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Whole-Home Accessibility Renovation",
+          "description": "Complete home transformations with universal design principles"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Aging-in-Place Remodeling",
+          "description": "Home modifications for safe and independent aging at home"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Accessible Home Remodeling",
+    "Buffalo Building Codes", 
+    "Universal Design Principles",
+    "ADA Compliance",
+    "Home Accessibility Modifications",
+    "Aging in Place Renovations",
+    "Disability Accommodations",
+    "Buffalo Construction Challenges",
+    "Insurance Documentation",
+    "Permit Applications"
+  ],
+  "slogan": "Expert Accessible Remodeling Contractors for Buffalo Families",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "156",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Jennifer K."
+      },
+      "reviewBody": "Aaron transformed our Buffalo home with accessible features throughout. The universal design kitchen and bathroom work perfectly for our family's needs. Professional work and great attention to accessibility details."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Robert M."
+      },
+      "reviewBody": "Outstanding accessible remodeling in Amherst. Aaron understood our aging in place needs and created beautiful spaces that work for everyone. The whole-home renovation exceeded our expectations."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/accessible-remodeling-buffalo-ny"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Accessible Remodeling Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services-accessible",
+    "https://www.houzz.com/professionals/remodeling-contractors/aaron-michael-services"
+  ]
+}

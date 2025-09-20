@@ -18,6 +18,8 @@ import BuffaloKitchenRemodeling from './pages/buffalo-ny-kitchen-remodeling.tsx'
 import BuffaloHomeAdditions from './pages/buffalo-ny-home-additions.tsx';
 import BuffaloBasementFinishing from './pages/buffalo-ny-basement-finishing.tsx';
 import BuffaloFlooringInstallation from './pages/buffalo-ny-flooring-installation.tsx';
+import AccessibleRemodelingBuffalo from './pages/accessible-remodeling-buffalo-ny.tsx';
+import RemodelingContractorBuffalo from './pages/remodeling-contractor-buffalo-ny.tsx';
 import FAQPage from './pages/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -53,6 +55,8 @@ const App: React.FC = () => {
           <Route path="/services/home-additions" element={<BuffaloHomeAdditions />} />
           <Route path="/services/basement-finishing" element={<BuffaloBasementFinishing />} />
           <Route path="/services/flooring-installation" element={<BuffaloFlooringInstallation />} />
+          <Route path="/accessible-remodeling-buffalo-ny" element={<AccessibleRemodelingBuffalo />} />
+          <Route path="/remodeling-contractor-buffalo-ny" element={<RemodelingContractorBuffalo />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

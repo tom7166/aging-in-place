@@ -51,7 +51,9 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
   { href: '/services/disability-modifications', label: 'Disability Modifications' },
   { href: '/services/home-additions', label: 'Home Additions' },
   { href: '/services/basement-finishing', label: 'Basement Finishing' },
-  { href: '/services/flooring-installation', label: 'Flooring Installation' }
+  { href: '/services/flooring-installation', label: 'Flooring Installation' },
+  { href: '/accessible-remodeling-buffalo-ny', label: 'Accessible Remodeling' },
+  { href: '/remodeling-contractor-buffalo-ny', label: 'Remodeling Contractor' }
 ];
 
   const scrollToSection = (href: string) => {

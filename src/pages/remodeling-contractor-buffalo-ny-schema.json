@@ -1,0 +1,278 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Remodeling Contractor Buffalo NY",
+  "description": "Expert remodeling contractors in Buffalo NY specializing in accessible home renovations. Kitchen, bathroom, basement, and whole-home remodeling with universal design throughout Western New York.",
+  "url": "https://aaronmichaelservices.com/#/remodeling-contractor-buffalo-ny",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "telephone": "+17165337108",
+    "email": "info@aaronmichaelservices.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "42.8864",
+      "longitude": "-78.8784"
+    },
+    "openingHours": [
+      "Mo-Fr 07:00-18:00"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Aaron Michael",
+      "jobTitle": "Owner & Licensed Contractor"
+    }
+  },
+  "serviceType": "Home Remodeling and Universal Design",
+  "category": "Home Renovation and Construction Services",
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Homeowners, Property investors, Seniors, Families seeking accessibility improvements"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Cheektowaga",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "West Seneca",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Hamburg",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Orchard Park",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lackawanna",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lancaster",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Clarence",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "North Tonawanda",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Niagara Falls",
+      "addressRegion": "NY"
+    },
+    {
+      "@type": "City",
+      "name": "Lockport",
+      "addressRegion": "NY"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "name": "Professional Remodeling Contractor Services",
+    "description": "Accessible home renovations with universal design for Buffalo NY families",
+    "price": "5000-200000",
+    "priceCurrency": "USD",
+    "priceValidUntil": "2025-12-31",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2024-01-01",
+    "validThrough": "2025-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "warranty": {
+      "@type": "WarrantyPromise",
+      "durationOfWarranty": "P2Y",
+      "warrantyScope": "Labor and Materials"
+    },
+    "priceSpecification": [
+      {
+        "@type": "PriceSpecification",
+        "name": "Accessible Bathroom Remodel",
+        "description": "Complete bathroom renovation with ADA compliance",
+        "price": "12000-35000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification", 
+        "name": "Universal Design Kitchen",
+        "description": "Kitchen remodeling with accessibility features",
+        "price": "25000-65000",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Basement Finishing",
+        "description": "Waterproof basement renovation with accessibility",
+        "price": "35000-85000", 
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "PriceSpecification",
+        "name": "Whole-Home Accessibility Renovation",
+        "description": "Complete home transformation with universal design",
+        "price": "75000-200000", 
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Remodeling Contractor Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Kitchen Remodeling",
+          "description": "Complete kitchen renovations with universal design and accessibility features"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Bathroom Remodeling",
+          "description": "Accessible bathroom renovations with ADA compliance and safety features"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Basement Finishing",
+          "description": "Waterproof basement renovations with accessibility and safety features"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Home Additions",
+          "description": "Room additions and home expansions with universal design principles"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Flooring Installation",
+          "description": "Slip-resistant flooring with level transitions and accessibility features"
+        }
+      }
+    ]
+  },
+  "additionalType": [
+    "https://schema.org/HomeAndConstructionBusiness",
+    "https://schema.org/Contractor"
+  ],
+  "knowsAbout": [
+    "Home Remodeling",
+    "Buffalo Building Codes", 
+    "Universal Design Principles",
+    "ADA Compliance",
+    "Accessible Home Renovations",
+    "Kitchen Remodeling",
+    "Bathroom Renovations",
+    "Basement Finishing",
+    "Home Additions",
+    "Flooring Installation",
+    "Buffalo Construction Challenges",
+    "Insurance Documentation"
+  ],
+  "slogan": "Expert Remodeling Contractors for Buffalo Universal Design",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "203",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Michael S."
+      },
+      "reviewBody": "Aaron is the best remodeling contractor in Buffalo. Our whole-home renovation included accessibility features throughout. Professional work, on time, and great communication. Highly recommend for any Buffalo remodeling project."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Susan T."
+      },
+      "reviewBody": "Outstanding remodeling contractor in Cheektowaga. Aaron transformed our kitchen and bathroom with beautiful accessible features. The universal design works perfectly for our multi-generational family."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/#/remodeling-contractor-buffalo-ny"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint", 
+      "urlTemplate": "tel:+17165337108"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Free Remodeling Consultation"
+    }
+  },
+  "sameAs": [
+    "https://www.angi.com/companydetails/us/ny/buffalo/aaron-michael-services",
+    "https://www.bbb.org/us/ny/buffalo/profile/contractor/aaron-michael-services"
+  ]
+}

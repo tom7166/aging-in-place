@@ -86,7 +86,9 @@ const NavBar: React.FC = () => {
     { label: 'Disability Modifications', path: '/services/disability-modifications' },
     { label: 'Home Additions', path: '/services/home-additions' },
     { label: 'Basement Finishing', path: '/services/basement-finishing' },
-    { label: 'Flooring Installation', path: '/services/flooring-installation' }
+    { label: 'Flooring Installation', path: '/services/flooring-installation' },
+    { label: 'Accessible Remodeling', path: '/accessible-remodeling-buffalo-ny' },
+    { label: 'Remodeling Contractor', path: '/remodeling-contractor-buffalo-ny' }
   ];
 
   return (
