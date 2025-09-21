@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
-import { FAQS } from './utils/constants';
+import { FAQS } from './components/FAQPage';
 
 import Home from './pages/Home';
 import About from './pages/about.tsx';
@@ -52,7 +52,7 @@ import BuffaloAccessibleBathroomRemodeling from './pages/cities/buffalo/buffalo-
 import AmherstWheelchairRampInstallation from './pages/cities/amherst/amherst-ny-wheelchair-ramp-installation.tsx';
 import KenmoreSmallBathroomRemodel from './pages/cities/kenmore/kenmore-ny-small-bathroom-remodel.tsx';
 import TonawandaBasementFinishingEgress from './pages/cities/tonawanda/tonawanda-ny-basement-finishing-egress.tsx';
-import FAQPage from './utils/constants';
+import FAQPage from './components/FAQPage';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 
