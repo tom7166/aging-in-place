@@ -52,7 +52,7 @@ import BuffaloAccessibleBathroomRemodeling from './pages/cities/buffalo/buffalo-
 import AmherstWheelchairRampInstallation from './pages/cities/amherst/amherst-ny-wheelchair-ramp-installation.tsx';
 import KenmoreSmallBathroomRemodel from './pages/cities/kenmore/kenmore-ny-small-bathroom-remodel.tsx';
 import TonawandaBasementFinishingEgress from './pages/cities/tonawanda/tonawanda-ny-basement-finishing-egress.tsx';
-import FAQPage from './pages/FAQ.tsx';
+import FAQPage from './utils/constants';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 
