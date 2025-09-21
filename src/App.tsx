@@ -3,7 +3,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';
-import { FAQS } from './components/FAQ.tsx';
+import { FAQS } from './utils/constants';
 
 import Home from './pages/Home';
 import About from './pages/about.tsx';
