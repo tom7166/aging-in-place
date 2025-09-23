@@ -52,6 +52,36 @@ import BuffaloAccessibleBathroomRemodeling from './pages/cities/buffalo/buffalo-
 import AmherstWheelchairRampInstallation from './pages/cities/amherst/amherst-ny-wheelchair-ramp-installation.tsx';
 import KenmoreSmallBathroomRemodel from './pages/cities/kenmore/kenmore-ny-small-bathroom-remodel.tsx';
 import TonawandaBasementFinishingEgress from './pages/cities/tonawanda/tonawanda-ny-basement-finishing-egress.tsx';
+import KenmoreWheelchairRampInstallation from './pages/cities/kenmore/kenmore-ny-wheelchair-ramp-installation.tsx';
+import KenmoreGrabBarInstallation from './pages/cities/kenmore/kenmore-ny-grab-bar-installation.tsx';
+import KenmoreStairLiftInstallation from './pages/cities/kenmore/kenmore-ny-stair-lift-installation.tsx';
+import TonawandaWheelchairRampInstallation from './pages/cities/tonawanda/tonawanda-ny-wheelchair-ramp-installation.tsx';
+import NorthTonawandaWheelchairRampInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-wheelchair-ramp-installation.tsx';
+import KenmoreWalkInTubInstallation from './pages/cities/kenmore/kenmore-ny-walk-in-tub-installation.tsx';
+import KenmoreRollInShowerInstallation from './pages/cities/kenmore/kenmore-ny-roll-in-shower-installation.tsx';
+import KenmoreDoorWidening from './pages/cities/kenmore/kenmore-ny-door-widening.tsx';
+import KenmoreKitchenModifications from './pages/cities/kenmore/kenmore-ny-kitchen-modifications.tsx';
+import KenmoreAgingInPlaceDesignConsultation from './pages/cities/kenmore/kenmore-ny-aging-in-place-design-consultation.tsx';
+import KenmoreHomeSafetyAssessments from './pages/cities/kenmore/kenmore-ny-home-safety-assessments.tsx';
+import TonawandaGrabBarInstallation from './pages/cities/tonawanda/tonawanda-ny-grab-bar-installation.tsx';
+import NorthTonawandaGrabBarInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-grab-bar-installation.tsx';
+import TonawandaStairLiftInstallation from './pages/cities/tonawanda/tonawanda-ny-stair-lift-installation.tsx';
+import TonawandaWalkInTubInstallation from './pages/cities/tonawanda/tonawanda-ny-walk-in-tub-installation.tsx';
+import TonawandaRollInShowerInstallation from './pages/cities/tonawanda/tonawanda-ny-roll-in-shower-installation.tsx';
+import TonawandaDoorWidening from './pages/cities/tonawanda/tonawanda-ny-door-widening.tsx';
+import TonawandaKitchenModifications from './pages/cities/tonawanda/tonawanda-ny-kitchen-modifications.tsx';
+import TonawandaAgingInPlaceDesignConsultation from './pages/cities/tonawanda/tonawanda-ny-aging-in-place-design-consultation.tsx';
+import TonawandaHomeSafetyAssessments from './pages/cities/tonawanda/tonawanda-ny-home-safety-assessments.tsx';
+import NorthTonawandaStairLiftInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-stair-lift-installation.tsx';
+import NorthTonawandaWalkInTubInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-walk-in-tub-installation.tsx';
+import NorthTonawandaRollInShowerInstallation from './pages/cities/north-tonawanda/north-tonawanda-ny-roll-in-shower-installation.tsx';
+import NorthTonawandaDoorWidening from './pages/cities/north-tonawanda/north-tonawanda-ny-door-widening.tsx';
+import NorthTonawandaKitchenModifications from './pages/cities/north-tonawanda/north-tonawanda-ny-kitchen-modifications.tsx';
+import NorthTonawandaAgingInPlaceDesignConsultation from './pages/cities/north-tonawanda/north-tonawanda-ny-aging-in-place-design-consultation.tsx';
+import NorthTonawandaHomeSafetyAssessments from './pages/cities/north-tonawanda/north-tonawanda-ny-home-safety-assessments.tsx';
+import KenmoreHomePage from './pages/cities/kenmore/kenmore-home-page.tsx';
+import TonawandaHomePage from './pages/cities/tonawanda/tonawanda-home-page.tsx';
+import NorthTonawandaHomePage from './pages/cities/north-tonawanda/north-tonawanda-home-page.tsx';
 import FAQPage from './components/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
@@ -121,6 +151,36 @@ const App: React.FC = () => {
           <Route path="/amherst-ny-wheelchair-ramp-installation" element={<AmherstWheelchairRampInstallation />} />
           <Route path="/kenmore-ny-small-bathroom-remodel" element={<KenmoreSmallBathroomRemodel />} />
           <Route path="/tonawanda-ny-basement-finishing-egress" element={<TonawandaBasementFinishingEgress />} />
+          <Route path="/kenmore-ny-wheelchair-ramp-installation" element={<KenmoreWheelchairRampInstallation />} />
+          <Route path="/kenmore-ny-grab-bar-installation" element={<KenmoreGrabBarInstallation />} />
+          <Route path="/kenmore-ny-stair-lift-installation" element={<KenmoreStairLiftInstallation />} />
+          <Route path="/tonawanda-ny-wheelchair-ramp-installation" element={<TonawandaWheelchairRampInstallation />} />
+          <Route path="/north-tonawanda-ny-wheelchair-ramp-installation" element={<NorthTonawandaWheelchairRampInstallation />} />
+          <Route path="/kenmore-ny-walk-in-tub-installation" element={<KenmoreWalkInTubInstallation />} />
+          <Route path="/kenmore-ny-roll-in-shower-installation" element={<KenmoreRollInShowerInstallation />} />
+          <Route path="/kenmore-ny-door-widening" element={<KenmoreDoorWidening />} />
+          <Route path="/kenmore-ny-kitchen-modifications" element={<KenmoreKitchenModifications />} />
+          <Route path="/kenmore-ny-aging-in-place-design-consultation" element={<KenmoreAgingInPlaceDesignConsultation />} />
+          <Route path="/kenmore-ny-home-safety-assessments" element={<KenmoreHomeSafetyAssessments />} />
+          <Route path="/tonawanda-ny-grab-bar-installation" element={<TonawandaGrabBarInstallation />} />
+          <Route path="/north-tonawanda-ny-grab-bar-installation" element={<NorthTonawandaGrabBarInstallation />} />
+          <Route path="/tonawanda-ny-stair-lift-installation" element={<TonawandaStairLiftInstallation />} />
+          <Route path="/tonawanda-ny-walk-in-tub-installation" element={<TonawandaWalkInTubInstallation />} />
+          <Route path="/tonawanda-ny-roll-in-shower-installation" element={<TonawandaRollInShowerInstallation />} />
+          <Route path="/tonawanda-ny-door-widening" element={<TonawandaDoorWidening />} />
+          <Route path="/tonawanda-ny-kitchen-modifications" element={<TonawandaKitchenModifications />} />
+          <Route path="/tonawanda-ny-aging-in-place-design-consultation" element={<TonawandaAgingInPlaceDesignConsultation />} />
+          <Route path="/tonawanda-ny-home-safety-assessments" element={<TonawandaHomeSafetyAssessments />} />
+          <Route path="/north-tonawanda-ny-stair-lift-installation" element={<NorthTonawandaStairLiftInstallation />} />
+          <Route path="/north-tonawanda-ny-walk-in-tub-installation" element={<NorthTonawandaWalkInTubInstallation />} />
+          <Route path="/north-tonawanda-ny-roll-in-shower-installation" element={<NorthTonawandaRollInShowerInstallation />} />
+          <Route path="/north-tonawanda-ny-door-widening" element={<NorthTonawandaDoorWidening />} />
+          <Route path="/north-tonawanda-ny-kitchen-modifications" element={<NorthTonawandaKitchenModifications />} />
+          <Route path="/north-tonawanda-ny-aging-in-place-design-consultation" element={<NorthTonawandaAgingInPlaceDesignConsultation />} />
+          <Route path="/north-tonawanda-ny-home-safety-assessments" element={<NorthTonawandaHomeSafetyAssessments />} />
+          <Route path="/kenmore-home" element={<KenmoreHomePage />} />
+          <Route path="/tonawanda-home" element={<TonawandaHomePage />} />
+          <Route path="/north-tonawanda-home" element={<NorthTonawandaHomePage />} />
           <Route path="/faq" element={<FAQPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
