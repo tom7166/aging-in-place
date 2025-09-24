@@ -32,13 +32,6 @@
     "destination": "dist",
     "inlineCss": true,
     "minifyHtml": true,
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox",
-      "--disable-web-security",
-      "--disable-features=VizDisplayCompositor"
-    ],
-    "puppeteerExecutablePath": "/usr/bin/google-chrome-stable",
     "asyncScriptTags": false,
     "preloadImages": false,
     "cacheAjaxRequests": false,
