@@ -1,4 +1,5 @@
 import React from 'react';
+import SEOHelmet from '../components/SEOHelmet';
 
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
@@ -21,6 +22,14 @@ interface HomeProps {
 const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => {
   return (
     <div className={`min-h-screen ${highContrastMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`}>
+      <SEOHelmet 
+        title="Buffalo ADA Contractor | Wheelchair Ramps & Accessible Bathrooms | Aaron Michael Services"
+        description="Buffalo's trusted ADA contractor specializing in wheelchair ramps, accessible bathrooms, and aging-in-place modifications. 22+ years experience serving WNY. Free consultations. Call 716-533-7108."
+        keywords="Buffalo ADA contractor, wheelchair ramps Buffalo, accessible bathroom Buffalo, aging in place WNY, disability home modifications, ADA compliance Buffalo, home accessibility WNY"
+        canonicalUrl="https://aaronmichaelservices.com/"
+        ogImage="https://aaronmichaelservices.com/images/buffalo-ada-contractor.jpg"
+      />
+      
       {/* Header Navigation */}
       <Header highContrastMode={highContrastMode} toggleHighContrast={toggleHighContrast} />
 

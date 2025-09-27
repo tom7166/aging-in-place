@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import SEOHelmet from './components/SEOHelmet';
 
 import NavBar from './components/NavBar';
 import { localBusinessSchema, generateFAQSchema, injectSchema } from './utils/schema';

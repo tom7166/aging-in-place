@@ -3,107 +3,155 @@
 
   <!-- Home Page -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/</loc>
+    <loc>https://aaronmichaelservices.com/</loc>
     <priority>1.0</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>weekly</changefreq>
   </url>
 
   <!-- About Page -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/about</loc>
+    <loc>https://aaronmichaelservices.com/about</loc>
     <priority>0.9</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <!-- Contact Page -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/contact</loc>
+    <loc>https://aaronmichaelservices.com/contact</loc>
     <priority>0.9</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- FAQ Page -->
+  <url>
+    <loc>https://aaronmichaelservices.com/faq</loc>
+    <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <!-- Services Pages -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/wheelchair-ramps</loc>
+    <loc>https://aaronmichaelservices.com/services/wheelchair-ramps</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/accessible-bathrooms</loc>
+    <loc>https://aaronmichaelservices.com/services/accessible-bathrooms</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/bathroom-remodeling</loc>
+    <loc>https://aaronmichaelservices.com/services/bathroom-remodeling</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/kitchen-modifications</loc>
+    <loc>https://aaronmichaelservices.com/services/kitchen-modifications</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/kitchen-remodeling</loc>
+    <loc>https://aaronmichaelservices.com/services/kitchen-remodeling</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/door-widening</loc>
+    <loc>https://aaronmichaelservices.com/services/door-widening</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/aging-in-place</loc>
+    <loc>https://aaronmichaelservices.com/services/aging-in-place</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/disability-modifications</loc>
+    <loc>https://aaronmichaelservices.com/services/disability-modifications</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/home-additions</loc>
+    <loc>https://aaronmichaelservices.com/services/home-additions</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/basement-finishing</loc>
+    <loc>https://aaronmichaelservices.com/services/basement-finishing</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/services/flooring-installation</loc>
+    <loc>https://aaronmichaelservices.com/services/flooring-installation</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/accessible-remodeling-buffalo-ny</loc>
+    <loc>https://aaronmichaelservices.com/accessible-remodeling-buffalo-ny</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/remodeling-contractor-buffalo-ny</loc>
+    <loc>https://aaronmichaelservices.com/remodeling-contractor-buffalo-ny</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
-  <!-- AEO/SEO/GEO Sniper Pages -->
+  <!-- City-Specific Pages -->
   <url>
-    <loc>https://aaronmichaelservices.com/#/buffalo-ny-accessible-bathroom-remodeling</loc>
+    <loc>https://aaronmichaelservices.com/buffalo-ny-accessible-bathroom-remodeling</loc>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://aaronmichaelservices.com/#/amherst-ny-wheelchair-ramp-installation</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://aaronmichaelservices.com/#/kenmore-ny-small-bathroom-remodel</loc>
-    <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/#/tonawanda-ny-basement-finishing-egress</loc>
+    <loc>https://aaronmichaelservices.com/amherst-ny-wheelchair-ramp-installation</loc>
     <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/kenmore-ny-small-bathroom-remodel</loc>
+    <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/tonawanda-ny-basement-finishing-egress</loc>
+    <priority>0.8</priority>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>

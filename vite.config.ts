@@ -14,6 +14,19 @@ export default defineConfig({
 
   build: {
     outDir: "dist",
-    sourcemap: true,
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+          icons: ['lucide-react']
+        }
+      }
+    },
+    chunkSizeWarningLimit: 1000
   },
+  
+  optimizeDeps: {
+    include: ['react', 'react-dom', 'react-router-dom', 'lucide-react']
+  }
 })
