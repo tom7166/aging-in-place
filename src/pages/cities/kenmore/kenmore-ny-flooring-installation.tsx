@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Layers, Grid, Square } from 'lucide-react';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Layers, Grid2x2 as Grid, Square } from 'lucide-react';
 
 const KenmoreFlooringInstallationPage = () => {
   const structuredData = {

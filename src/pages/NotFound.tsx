@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Home, ArrowLeft, Phone } from 'lucide-react';
+import { Chrome as Home, ArrowLeft, Phone } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 

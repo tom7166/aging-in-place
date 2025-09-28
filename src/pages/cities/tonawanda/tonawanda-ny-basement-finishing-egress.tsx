@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Droplets, AlertTriangle, Eye } from 'lucide-react';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Droplets, TriangleAlert as AlertTriangle, Eye } from 'lucide-react';
 
 const TonawandaBasementFinishingEgressPage = () => {
   const structuredData = {

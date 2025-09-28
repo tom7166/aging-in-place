@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, ArrowRight, Home, MessageCircle, Shield, Award } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, ArrowRight, Chrome as Home, MessageCircle, Shield, Award } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';

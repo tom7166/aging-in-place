@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Star, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Heart, UserCheck, Baby } from 'lucide-react';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Star, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Heart, UserCheck, Baby } from 'lucide-react';
 
 const DisabilityModificationsPage = () => {
   const structuredData = {
