@@ -12,6 +12,22 @@ from = "/*"
 to = "/index.html"
 status = 200
 
+# Specific redirects for city pages to maintain SEO
+[[redirects]]
+from = "/kenmore-home"
+to = "/kenmore-home"
+status = 200
+
+[[redirects]]
+from = "/tonawanda-home"
+to = "/tonawanda-home"
+status = 200
+
+[[redirects]]
+from = "/north-tonawanda-home"
+to = "/north-tonawanda-home"
+status = 200
+
 [[headers]]
 for = "/*"
 [headers.values]

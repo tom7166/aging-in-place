@@ -25,6 +25,18 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
       document.title = title;
     }
     
+    // Set favicon for all pages
+    let favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = '/favicon.ico';
+    } else {
+      favicon = document.createElement('link');
+      favicon.rel = 'icon';
+      favicon.type = 'image/x-icon';
+      favicon.href = '/favicon.ico';
+      document.head.appendChild(favicon);
+    }
+    
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription && description) {

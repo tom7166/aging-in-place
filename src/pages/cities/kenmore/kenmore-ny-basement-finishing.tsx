@@ -40,6 +40,12 @@ const KenmoreBasementFinishingPage = () => {
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
     if (favicon) {
       favicon.href = '/favicon.ico';
+    } else {
+      const newFavicon = document.createElement('link');
+      newFavicon.rel = 'icon';
+      newFavicon.type = 'image/x-icon';
+      newFavicon.href = '/favicon.ico';
+      document.head.appendChild(newFavicon);
     }
   }, []);
 

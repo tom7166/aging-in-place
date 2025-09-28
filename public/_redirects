@@ -1,0 +1,7 @@
+# Netlify redirects for SPA routing
+/*    /index.html      200
+
+# Specific redirects for city pages
+/kenmore-home    /kenmore-home    200
+/tonawanda-home    /tonawanda-home    200
+/north-tonawanda-home    /north-tonawanda-home    200
