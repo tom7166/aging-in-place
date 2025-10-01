@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, CheckCircle, Trash2, Clock, Shield, Home } from 'lucide-react';
+import { Phone, CircleCheck as CheckCircle, Trash2, Clock, Shield, Chrome as Home } from 'lucide-react';
 import SEOHelmet from '../../../components/SEOHelmet';
 
 export default function BuffaloEstateCleanouts() {
