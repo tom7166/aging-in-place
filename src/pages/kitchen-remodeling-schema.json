@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Aaron Michael Services",
+  "image": "https://aaronmichaelservices.com/logo.png",
+  "@id": "https://aaronmichaelservices.com",
+  "url": "https://aaronmichaelservices.com",
+  "telephone": "+17165337108",
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Mariemont Ave",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "14220",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.9285,
+    "longitude": -78.8392
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/aaronmichaelservices",
+    "https://www.instagram.com/aaronmichaelservices",
+    "https://www.linkedin.com/company/aaronmichaelservices"
+  ],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore"
+    }
+  ],
+  "serviceType": [
+    "Kitchen Remodeling",
+    "Full Kitchen Renovation",
+    "Cabinet Installation & Refacing",
+    "Countertop Replacement",
+    "Backsplash & Tile Installation",
+    "Flooring Replacement",
+    "Lighting & Fixture Upgrades",
+    "Custom Pantry & Storage Solutions",
+    "Appliance Installation"
+  ],
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does a kitchen remodel take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kitchen remodels typically take 4-8 weeks depending on size and complexity. We provide a full project timeline during consultation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you handle kitchen design and layout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide full design services, helping clients select cabinetry, countertops, flooring, lighting, and appliances to achieve a functional and beautiful kitchen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your kitchen remodels licensed and insured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All kitchen remodeling work is completed by licensed and insured professionals, ensuring safety, quality, and compliance with building codes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you remodel small kitchens?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We specialize in maximizing space, storage, and efficiency in small kitchens while creating a modern and stylish design."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer eco-friendly kitchen options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide sustainable material options, energy-efficient appliances, and environmentally conscious design solutions whenever possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas do you service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide kitchen remodeling services throughout Buffalo, Amherst, Tonawanda, Kenmore, and all of Western New York."
+      }
+    }
+  ]
+}
