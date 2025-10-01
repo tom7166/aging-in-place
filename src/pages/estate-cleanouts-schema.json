@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://aaronmichaelservices.com/estate-cleanouts#service",
+      "serviceType": "Estate Cleanout Services",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://aaronmichaelservices.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Kenmore",
+          "addressRegion": "NY"
+        }
+      ],
+      "description": "Professional estate cleanout services including property clearing, sorting, donation coordination, and final cleaning throughout Buffalo and Western New York.",
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceRange": "$$"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aaronmichaelservices.com/estate-cleanouts#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does an estate cleanout cost in Buffalo and Western New York?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Estate cleanout costs vary based on property size, volume of contents, and services required. For a typical 3-bedroom home in Buffalo, Amherst, Tonawanda, or Kenmore, most estate cleanouts range from $1,500 to $5,000. We provide free consultations and written quotes before any work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a typical estate cleanout take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most residential estate cleanouts in Western New York are completed within 1-5 days, depending on property size and volume of contents. A small apartment might take just one day, while a large family home with full basement, attic, and garage could take 3-5 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to items that are donated or recycled?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We partner with local Buffalo-area charities, thrift stores, and donation centers to ensure usable items find new homes. Electronics are recycled through certified e-waste facilities. We provide donation receipts for tax purposes and divert as much as possible from landfills."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you handle hazardous materials or special disposal items?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we're equipped and licensed to handle most hazardous materials according to New York State regulations, including paint, chemicals, batteries, and fluorescent bulbs. We coordinate with proper disposal facilities to ensure environmental compliance and safety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be present during the entire cleanout process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, you don't need to be present for the entire process. We can establish clear guidelines during consultation and photograph items for your approval. However, we recommend being present for the initial walkthrough to help identify items of value or sentimental importance."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://aaronmichaelservices.com/estate-cleanouts#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://aaronmichaelservices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Estate Cleanouts",
+          "item": "https://aaronmichaelservices.com/estate-cleanouts"
+        }
+      ]
+    }
+  ]
+}

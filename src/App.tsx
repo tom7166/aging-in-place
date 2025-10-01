@@ -86,6 +86,8 @@ import NorthTonawandaHomePage from './pages/cities/north-tonawanda/north-tonawan
 import FAQPage from './components/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
+import EstateCleanouts from './pages/estate-cleanouts.tsx';
+import PropertyCleanoutsHandyman from './pages/property-cleanouts-handyman.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -183,6 +185,8 @@ const App: React.FC = () => {
           <Route path="/tonawanda-home" element={<TonawandaHomePage />} />
           <Route path="/north-tonawanda-home" element={<NorthTonawandaHomePage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/estate-cleanouts" element={<EstateCleanouts />} />
+          <Route path="/property-cleanouts-handyman" element={<PropertyCleanoutsHandyman />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
