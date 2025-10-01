@@ -421,7 +421,7 @@ export default function PropertyCleanouts() {
           </div>
         </section>
 
-         {/* FAQ Section */}
+        {/* FAQ Section */}
         <section className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
@@ -434,3 +434,4 @@ export default function PropertyCleanouts() {
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Property cleanout costs vary based on property size, volume of items, access difficulty, and disposal requirements. A typical single-family home cleanout in Buffalo, Amherst, or Tonawanda ranges from $1,500 to $5,000. Small apartments or condos might cost $800-$2,000, while larger estates or properties with extensive accumulation can exceed $7,000. Commercial cleanouts are priced based on square footage and material volume. We provide free on-site estimates with detailed, itemized pricing so you understand all costs before work begins. Factors affecting price include amount of furniture and appliances, presence of hazardous materials, accessibility challenges like stairs or narrow doors, disposal and recycling fees, and timeline urgency. We work within your budget and can often phase work to spread costs if needed.
+                </p>
