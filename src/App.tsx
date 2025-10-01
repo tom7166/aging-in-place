@@ -87,7 +87,7 @@ import FAQPage from './components/FAQ.tsx';
 import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 import EstateCleanouts from './pages/estate-cleanouts.tsx';
-import PropertyCleanoutsHandyman from './pages/property-cleanouts-handyman.tsx';
+import PropertyCleanouts from './pages/property-cleanouts.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
