@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, CircleCheck as CheckCircle, Wrench, Trash2, Clock, Shield, Chrome as Home, Hammer } from 'lucide-react';
 import SEOHelmet from '../components/SEOHelmet';
-import schemaData from './property-cleanouts-handyman-schema.json';
+import schemaData from './property-cleanouts-schema.json';
 
 export default function PropertyCleanoutsHandyman() {
   return (
