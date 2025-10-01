@@ -8,7 +8,7 @@ export default function PropertyCleanoutsHandyman() {
   return (
     <>
       <SEOHelmet
-        title="Property Cleanouts & Handyman Services Buffalo NY | Aaron Michael Services"
+        title="Property Cleanouts Buffalo NY | Aaron Michael Services"
         description="Complete property cleanout and handyman services in Buffalo, Amherst, Tonawanda & Kenmore NY. Licensed contractor for renovations, repairs, and cleanouts. Call (716) 575-2626."
         keywords="property cleanouts Buffalo NY, handyman services Western New York, property cleanout contractor, renovation and repair Buffalo, Amherst handyman, Tonawanda property services"
         canonicalUrl="https://aaronmichaelservices.com/property-cleanouts-handyman"
