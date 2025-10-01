@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/handyman-services",
+  "logo": "https://aaronmichaelservices.com/logo.png",
+  "image": "https://aaronmichaelservices.com/images/handyman-hero.jpg",
+  "telephone": "716-533-7108",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Insert Street Address",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "142xx",
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Western New York"
+  },
+  "sameAs": [
+    "https://www.facebook.com/AaronMichaelServices",
+    "https://www.linkedin.com/company/aaron-michael-services",
+    "https://www.yelp.com/biz/aaron-michael-services"
+  ],
+  "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
+  "paymentAccepted": "Cash, Credit Card, Check",
+  "service": [
+    {
+      "@type": "Service",
+      "name": "Handyman Services",
+      "serviceType": "General Handyman & Home Repairs",
+      "description": "Small repairs, maintenance, carpentry, plumbing fixes, electrical fixtures, painting, and accessibility modifications."
+    }
+  ],
+  "description": "Aaron Michael Services provides licensed, insured handyman services across Buffalo, Amherst, Tonawanda, Kenmore and Western New York. Call 716-533-7108 for same-day scheduling.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Aaron Michael Services"
+  }
+}
