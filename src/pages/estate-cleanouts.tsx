@@ -621,7 +621,7 @@ export default function PropertyCleanouts() {
                 className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-50 transition-colors"
               >
                 <Phone className="h-6 w-6" />
-                (716) 575-2626
+                (716) 533-7108
               </a>
               <Link
                 to="/contact"
