@@ -234,7 +234,7 @@ export default function PropertyCleanoutsHandyman() {
                 <div>
                   <h4 className="text-lg font-bold text-gray-900 mb-2">Kitchen & Bathroom Updates</h4>
                   <p className="text-gray-700">
-                    From simple cosmetic updates to complete remodels, we transform kitchens and bathrooms. This includes cabinet installation, countertop replacement, backsplash installation, and fixture upgrades. Our expertise in <Link to="/accessible-bathrooms" className="text-blue-600 hover:text-blue-800 font-semibold">accessible bathroom design</Link> and <Link to="/kitchen-modifications" className="text-blue-600 hover:text-blue-800 font-semibold">kitchen accessibility</Link> makes us uniquely qualified for aging-in-place modifications.
+                    From simple cosmetic updates to complete remodels, we transform kitchens and bathrooms. This includes cabinet installation, countertop replacement, backsplash installation, and fixture upgrades. Our expertise in <Link to="/accessible-bathrooms" className="text-blue-600 hover:text-blue-800 font-semibold">accessible bathroom design</Link> and <Link to="/kitchen-modifications" className=\"text-blue-600 hover:text-blue-800 font-semibold">kitchen accessibility</Link> makes us uniquely qualified for aging-in-place modifications.
                   </p>
                 </div>
 
