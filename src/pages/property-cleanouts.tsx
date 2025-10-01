@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, CircleCheck as CheckCircle, Trash2, Clock, Shield, Home, Truck } from 'lucide-react';
+import { Phone, CircleCheck as CheckCircle, Trash2, Clock, Shield, Chrome as Home, Truck } from 'lucide-react';
 import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './property-cleanouts-schema.json';
 
