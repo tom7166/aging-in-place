@@ -31,7 +31,7 @@ export default function PropertyCleanouts() {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
-                  href="tel:7165337208"
+                  href="tel:7165337108"
                   className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-50 transition-colors"
                 >
                   <Phone className="h-6 w-6" />
