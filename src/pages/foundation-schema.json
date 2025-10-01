@@ -1,0 +1,105 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/foundation-repair",
+  "logo": "https://aaronmichaelservices.com/logo.png",
+  "image": "https://aaronmichaelservices.com/images/foundation-hero.jpg",
+  "telephone": "716-533-7108",
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Insert Street Address",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "142xx",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.8864",
+    "longitude": "-78.8784"
+  },
+  "hasMap": "https://www.google.com/maps/place/Aaron+Michael+Services",
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Buffalo, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Amherst, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Tonawanda, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Kenmore, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Western New York"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/AaronMichaelServices",
+    "https://www.linkedin.com/company/aaron-michael-services",
+    "https://www.yelp.com/biz/aaron-michael-services"
+  ],
+  "openingHours": [
+    "Mo-Fr 08:00-18:00",
+    "Sa 09:00-14:00"
+  ],
+  "paymentAccepted": "Cash, Credit Card, Check",
+  "service": [
+    {
+      "@type": "Service",
+      "name": "Foundation Repair",
+      "serviceType": "Foundation Repair & Stabilization",
+      "description": "Comprehensive foundation repair including crack injection, wall anchors, helical piers, and slab lifting."
+    },
+    {
+      "@type": "Service",
+      "name": "Pier & Beam Foundation Repair",
+      "serviceType": "Pier & Beam Repair",
+      "description": "Leveling, pier replacement, joist sistering, and crawlspace stabilization for pier & beam homes."
+    },
+    {
+      "@type": "Service",
+      "name": "Basement Waterproofing",
+      "serviceType": "Waterproofing",
+      "description": "Interior and exterior drainage systems, sump pumps, and vapor barrier installation to prevent water intrusion."
+    },
+    {
+      "@type": "Service",
+      "name": "Slab Lifting",
+      "serviceType": "Slab Repair",
+      "description": "Polyjacking, mudjacking, and void fill to restore level slabs and eliminate settling hazards."
+    },
+    {
+      "@type": "Service",
+      "name": "Structural Inspection",
+      "serviceType": "Inspection & Reporting",
+      "description": "Detailed structural inspections, documentation, and repair plans for homeowners, realtors, and insurance claims."
+    }
+  ],
+  "knowsAbout": [
+    "foundation repair",
+    "pier and beam repair",
+    "basement waterproofing",
+    "slab lifting",
+    "helical piers",
+    "wall anchors",
+    "structural stabilization",
+    "foundation inspection",
+    "Buffalo foundation repair",
+    "Western New York foundation"
+  ],
+  "description": "Aaron Michael Services provides expert foundation repair across Buffalo, Amherst, Tonawanda, Kenmore and Western New York. Call 716-533-7108 for inspections and repair plans.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Aaron Michael Services"
+  }
+}
