@@ -31,7 +31,9 @@ const NavBar: React.FC = () => {
     { title: 'Kitchen Modifications', path: '/services/kitchen-modifications', keywords: ['kitchen', 'accessible', 'counters', 'modifications'] },
     { title: 'Door Widening', path: '/services/door-widening', keywords: ['door', 'widening', 'wheelchair', 'access'] },
     { title: 'Aging in Place', path: '/services/aging-in-place', keywords: ['aging', 'seniors', 'home', 'modifications'] },
-    { title: 'Disability Modifications', path: '/services/disability-modifications', keywords: ['disability', 'autism', 'special needs', 'modifications'] }
+    { title: 'Disability Modifications', path: '/services/disability-modifications', keywords: ['disability', 'autism', 'special needs', 'modifications'] },
+    { title: 'Estate Cleanouts', path: '/services/estate-cleanouts', keywords: ['estate', 'cleanout', 'property', 'removal', 'downsizing'] },
+    { title: 'Property Cleanouts', path: '/services/property-cleanouts', keywords: ['property', 'cleanout', 'foreclosure', 'clearing', 'junk removal'] }
   ];
 
   const handleSearch = (query: string) => {
@@ -87,6 +89,8 @@ const NavBar: React.FC = () => {
     { label: 'Home Additions', path: '/services/home-additions' },
     { label: 'Basement Finishing', path: '/services/basement-finishing' },
     { label: 'Flooring Installation', path: '/services/flooring-installation' },
+    { label: 'Estate Cleanouts', path: '/services/estate-cleanouts' },
+    { label: 'Property Cleanouts', path: '/services/property-cleanouts' },
     { label: 'Accessible Remodeling', path: '/accessible-remodeling-buffalo-ny' },
     { label: 'Remodeling Contractor', path: '/remodeling-contractor-buffalo-ny' }
   ];

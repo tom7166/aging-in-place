@@ -185,6 +185,8 @@ const App: React.FC = () => {
           <Route path="/tonawanda-home" element={<TonawandaHomePage />} />
           <Route path="/north-tonawanda-home" element={<NorthTonawandaHomePage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/services/estate-cleanouts" element={<EstateCleanouts />} />
+          <Route path="/services/property-cleanouts" element={<PropertyCleanouts />} />
           <Route path="/estate-cleanouts" element={<EstateCleanouts />} />
           <Route path="/property-cleanouts" element={<PropertyCleanouts />} />
           <Route path="*" element={<NotFound />} />

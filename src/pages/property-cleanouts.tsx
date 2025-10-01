@@ -11,7 +11,7 @@ export default function PropertyCleanouts() {
         title="Property Cleanouts Buffalo NY | Complete Removal Services"
         description="Professional property cleanout services in Buffalo, Amherst, Tonawanda & Kenmore NY. Full estate, rental, foreclosure & commercial cleanouts. Fast, reliable removal. Call (716) 575-2626."
         keywords="property cleanouts Buffalo NY, estate cleanouts Western New York, rental property cleanout, foreclosure cleanout Buffalo, commercial cleanout services, debris removal Buffalo NY"
-        canonicalUrl="https://aaronmichaelservices.com/property-cleanouts"
+        canonicalUrl="https://aaronmichaelservices.com/services/property-cleanouts"
       />
       <script type="application/ld+json">
         {JSON.stringify(schemaData)}
