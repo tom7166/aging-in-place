@@ -15,24 +15,93 @@
     "postalCode": "142xx",
     "addressCountry": "US"
   },
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Western New York"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.8864",
+    "longitude": "-78.8784"
   },
+  "hasMap": "https://www.google.com/maps/place/Aaron+Michael+Services", 
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Buffalo, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Amherst, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Tonawanda, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Kenmore, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Western New York"
+    }
+  ],
   "sameAs": [
     "https://www.facebook.com/AaronMichaelServices",
     "https://www.linkedin.com/company/aaron-michael-services",
     "https://www.yelp.com/biz/aaron-michael-services"
   ],
-  "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
+  "openingHours": [
+    "Mo-Fr 08:00-18:00",
+    "Sa 09:00-14:00"
+  ],
   "paymentAccepted": "Cash, Credit Card, Check",
   "service": [
     {
       "@type": "Service",
-      "name": "Handyman Services",
-      "serviceType": "General Handyman & Home Repairs",
-      "description": "Small repairs, maintenance, carpentry, plumbing fixes, electrical fixtures, painting, and accessibility modifications."
+      "name": "General Repairs",
+      "serviceType": "Handyman Services",
+      "description": "Drywall patching, door adjustments, trim repair, and small household fixes."
+    },
+    {
+      "@type": "Service",
+      "name": "Plumbing Repairs",
+      "serviceType": "Plumbing Fixes",
+      "description": "Leaky faucets, toilet repairs, minor pipe leaks, and fixture replacements."
+    },
+    {
+      "@type": "Service",
+      "name": "Electrical & Lighting",
+      "serviceType": "Electrical Handyman Work",
+      "description": "Outlet and switch replacement, light fixture installs, ceiling fans, troubleshooting."
+    },
+    {
+      "@type": "Service",
+      "name": "Carpentry",
+      "serviceType": "Carpentry & Custom Builds",
+      "description": "Shelving, framing, stair and railing repair, cabinetry touch-ups."
+    },
+    {
+      "@type": "Service",
+      "name": "Painting",
+      "serviceType": "Interior Painting",
+      "description": "Wall and ceiling painting, patch and repaint, trim finishing, touch-ups."
+    },
+    {
+      "@type": "Service",
+      "name": "Accessibility Modifications",
+      "serviceType": "Accessibility Upgrades",
+      "description": "Grab bar installs, threshold modifications, ramp adjustments for safe living."
     }
+  ],
+  "knowsAbout": [
+    "handyman services",
+    "home repair",
+    "drywall repair",
+    "plumbing repair",
+    "electrical repair",
+    "carpentry",
+    "painting services",
+    "property maintenance",
+    "home accessibility",
+    "Western New York handyman"
   ],
   "description": "Aaron Michael Services provides licensed, insured handyman services across Buffalo, Amherst, Tonawanda, Kenmore and Western New York. Call 716-533-7108 for same-day scheduling.",
   "brand": {
