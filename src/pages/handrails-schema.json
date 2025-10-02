@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Handrail Installation, Repair & Replacement",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": "https://aaronmichaelservices.com/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+17165337108",
+      "contactType": "customer service",
+      "areaServed": "US-NY"
+    }
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Buffalo, Amherst, Tonawanda, Kenmore, Western New York"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Handrail Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Handrail Installation",
+          "description": "Custom and standard handrail installation for stairs, decks, porches, ramps, and more. CAPs certified for senior safety."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Handrail Repair",
+          "description": "Repair wobbly, loose, or damaged handrails to restore safety, compliance, and durability."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Handrail Replacement",
+          "description": "Replace old or worn handrails with new, code-compliant, and visually appealing designs."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "ADA & Senior Safety Handrails",
+          "description": "CAPs certified installations for seniors, hospitals, and accessibility-compliant projects."
+        }
+      }
+    ]
+  },
+  "description": "Professional handrail installation, repair, and replacement services in Buffalo, Amherst, Tonawanda & Kenmore NY. CAPs certified for seniors with 25+ years of trade experience.",
+  "url": "https://aaronmichaelservices.com/services/handrails",
+  "image": "https://aaronmichaelservices.com/images/handrails-service.jpg",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aaronmichaelservices.com/services/handrails"
+  },
+  "keywords": "handrail installation Buffalo NY, handrail repair Western New York, ADA handrails Buffalo, senior safety handrails, staircase handrails replacement, handrail contractors Buffalo",
+  "founder": {
+    "@type": "Person",
+    "name": "Aaron Michael"
+  },
+  "foundingDate": "2000-01-01",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    }
+  },
+  "telephone": "+17165337108",
+  "priceRange": "$$$",
+  "sameAs": [
+    "https://www.facebook.com/aaronmichaelservices",
+    "https://www.instagram.com/aaronmichaelservices",
+    "https://www.linkedin.com/company/aaron-michael-services"
+  ]
+}
