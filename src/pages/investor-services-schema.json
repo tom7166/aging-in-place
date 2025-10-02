@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Investor Property Services",
+  "description": "Comprehensive property renovation, cleanouts, and turnkey solutions for real estate investors in Buffalo, Amherst, Tonawanda, Kenmore, and all of Western New York.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": "https://aaronmichaelservices.com/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaronmichaelservices"
+    ]
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore"
+    }
+  ],
+  "serviceType": [
+    "Property Cleanouts",
+    "Residential & Commercial Renovations",
+    "Turnkey Investment Property Solutions",
+    "Project Management for Investors"
+  ],
+  "telephone": "+17165337108",
+  "url": "https://aaronmichaelservices.com/services/investor-services"
+}
