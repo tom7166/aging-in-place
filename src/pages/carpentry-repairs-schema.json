@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Carpentry Repairs",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": "https://aaronmichaelservices.com/logo.png",
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services"
+    ]
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Buffalo, Amherst, Tonawanda, Kenmore, Western New York"
+  },
+  "description": "Professional carpentry repair services for ranch homes, including interior doors, window frames, shelving, cabinetry, and minor structural adjustments. Step-ladder accessible and senior-friendly.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Carpentry Repair Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Interior Door & Frame Repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Window Frame & Trim Repair"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Shelving & Cabinetry Repairs"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Minor Structural Carpentry Adjustments"
+        }
+      }
+    ]
+  },
+  "telephone": "+17165337108"
+}
