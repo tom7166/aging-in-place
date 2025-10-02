@@ -49,27 +49,59 @@ export default function CarpentryRepairs() {
         </section>
 
         {/* Introduction */}
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 prose prose-lg max-w-none">
-          <p className="text-xl text-gray-700 leading-relaxed mb-6">
-            Aaron Michael Services specializes in <strong>carpentry repairs</strong> for ranch homes across Buffalo, Amherst, Tonawanda, Kenmore, and the Western New York area. Our team is CAPS-certified, experienced in step-ladder work only, and fully committed to safe, high-quality results for senior homeowners.
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 prose prose-lg max-w-none text-gray-700">
+          <p className="mb-6">
+            Aaron Michael Services specializes in <strong>carpentry repairs</strong> for ranch homes across Buffalo, Amherst, Tonawanda, Kenmore, and the greater Western New York area. Our team is CAPS-certified, experienced in step-ladder work only, and fully committed to safe, precise, and durable results for senior homeowners and families.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            From door and window frame repairs to shelving, cabinetry, and minor structural adjustments, we handle every carpentry repair with precision and care. Every project is scoped for safety, efficiency, and long-lasting durability.
+          <p className="mb-6">
+            From door and window frame repairs to shelving, cabinetry, and minor structural adjustments, we approach every project with attention to detail and craftsmanship. Our focus is on keeping your home safe, functional, and aesthetically pleasing. Each repair is scoped for safety, efficiency, and long-lasting durability.
+          </p>
+          <p className="mb-6">
+            We understand that ranch homes have unique requirements for accessibility and structural layout. That’s why all our projects are designed to be step-ladder accessible, ensuring senior safety and compliance with insurance requirements. Our CAPS certification further guarantees that every repair is performed with the highest standards in mind.
+          </p>
+          <p className="mb-6">
+            Whether you need <Link to="/carpentry">interior carpentry repairs</Link>, <Link to="/general-carpentry">custom woodwork fixes</Link>, or <Link to="/handyman">other home improvement solutions</Link>, Aaron Michael Services has the knowledge, tools, and expertise to deliver exceptional results.
+          </p>
+          <p className="mb-6">
+            Every repair project begins with a careful assessment of your home’s condition. We evaluate the woodwork, cabinetry, and structural components to determine the best approach, materials, and techniques for a long-lasting solution. Our goal is to restore your home’s carpentry to its optimal condition while maintaining the ranch-style charm.
+          </p>
+
+          <p className="mb-6">
+            Homeowners in Buffalo often face challenges such as aged cabinetry, warped door frames, or minor structural wear. In Amherst, Tonawanda, and Kenmore, our team addresses similar issues while ensuring that repairs are compliant with safety standards and step-ladder accessibility. No matter the scale, we treat every home as if it were our own.
+          </p>
+
+          <p className="mb-6">
+            Our carpentry repairs include refinishing, repairing cracks or splits, replacing damaged boards, and adjusting frames to ensure doors and windows function properly. We also specialize in repairing shelving and cabinetry that may have worn over time, providing both functional and aesthetic restoration.
+          </p>
+
+          <p className="mb-6">
+            For seniors and homeowners with mobility concerns, our step-ladder accessible approach ensures that repairs can be done safely without compromising quality or efficiency. This method reduces risk while maintaining precision in every cut, joint, and installation.
+          </p>
+
+          <p className="mb-6">
+            Over our 25+ years of service, we’ve completed thousands of carpentry repair projects across Buffalo and Western New York. Our experience has allowed us to develop techniques that not only repair but also enhance the longevity of your home’s woodwork. We pride ourselves on leaving each home neat, organized, and structurally sound.
+          </p>
+
+          <p className="mb-6">
+            Choosing Aaron Michael Services for your carpentry repairs means selecting a team that prioritizes <Link to="/safety">senior-friendly practices</Link>, adherence to step-ladder accessibility, and precise workmanship. Whether it’s a small interior repair or a full-scale structural adjustment, our commitment remains consistent: safe, reliable, and high-quality results.
           </p>
         </section>
 
         {/* Services Section */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Carpentry Repair Services We Offer</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Comprehensive Carpentry Repair Services</h2>
           <ul className="list-disc pl-6 text-gray-700 mb-6 space-y-2">
-            <li>Interior door and frame repair</li>
-            <li>Window frame and trim repairs</li>
-            <li>Step-ladder accessible shelving & cabinetry repairs</li>
-            <li>Ranch home minor structural carpentry adjustments</li>
-            <li>Custom woodwork repair and refinishing</li>
+            <li><Link to="/carpentry-repairs#door-frame-repair">Interior door and frame repair</Link> – precise adjustments and replacements to keep doors functional and safe.</li>
+            <li><Link to="/carpentry-repairs#window-trim-repair">Window frame and trim repairs</Link> – restoring integrity and appearance to your home’s windows.</li>
+            <li><Link to="/carpentry-repairs#cabinet-repairs">Step-ladder accessible shelving & cabinetry repairs</Link> – minor to major repairs with safety-first approach.</li>
+            <li><Link to="/carpentry-repairs#structural-adjustments">Ranch home minor structural carpentry adjustments</Link> – maintain stability and charm without compromising safety.</li>
+            <li><Link to="/carpentry-repairs#custom-woodwork">Custom woodwork repair and refinishing</Link> – tailored solutions for worn or damaged cabinetry and trim.</li>
           </ul>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            All work is performed with care to avoid damage to surrounding surfaces. We take pride in leaving your home neat, safe, and structurally sound. Our team ensures your home’s carpentry remains functional, beautiful, and safe for seniors.
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Our repair process emphasizes precision, safety, and cleanliness. We take care to protect surrounding surfaces and ensure minimal disruption to your home. Every project, no matter how small, receives the same attention to detail that has made us a trusted name in Buffalo and Western New York.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Homeowners seeking comprehensive solutions will find that our team can integrate repairs with other services such as <Link to="/flooring">flooring installation</Link>, <Link to="/general-carpentry">general carpentry upgrades</Link>, and <Link to="/handyman">home maintenance services</Link> — creating a seamless, fully restored living space.
           </p>
         </section>
 
