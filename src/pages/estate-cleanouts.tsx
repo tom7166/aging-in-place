@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, CircleCheck as CheckCircle, Trash2, Clock, Shield, Chrome as Home, Truck } from 'lucide-react';
+import { Phone, CircleCheck as CheckCircle, Trash2, Clock, Shield, Chrome as Home, Truck, Heart } from 'lucide-react';
 import SEOHelmet from '../components/SEOHelmet';
-import schemaData from './property-cleanouts-schema.json';
+import schemaData from './estate-cleanouts-schema.json';
 
-export default function PropertyCleanouts() {
+export default function EstateCleanouts() {
   return (
     <>
       <SEOHelmet
-        title="Property Cleanouts Buffalo NY | Complete Removal Services"
-        description="Professional property cleanout services in Buffalo, Amherst, Tonawanda & Kenmore NY. Full estate, rental, foreclosure & commercial cleanouts. Fast, reliable removal. Call (716) 533-7108."
-        keywords="property cleanouts Buffalo NY, estate cleanouts Western New York, rental property cleanout, foreclosure cleanout Buffalo, commercial cleanout services, debris removal Buffalo NY"
-        canonicalUrl="https://aaronmichaelservices.com/services/property-cleanouts"
+        title="Estate Cleanouts Buffalo NY | Compassionate Property Clearing"
+        description="Professional estate cleanout services in Buffalo, Amherst, Tonawanda & Kenmore NY. Compassionate, thorough property clearing for estates, downsizing & transitions. Call (716) 533-7108."
+        keywords="estate cleanouts Buffalo NY, estate sale cleanup Western New York, downsizing services Buffalo, compassionate estate clearing, property clearing after death, estate liquidation Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/services/estate-cleanouts"
       />
       <script type="application/ld+json">
         {JSON.stringify(schemaData)}
@@ -24,12 +24,12 @@ export default function PropertyCleanouts() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Professional Property Cleanout Services in Buffalo & Western New York
+                Compassionate Estate Cleanout Services in Buffalo & Western New York
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-100">
-                Complete Property Clearing, Debris Removal & Cleanout Solutions
+                Professional Estate Clearing, Downsizing & Property Transition Services
               </p>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <a
                   href="tel:7165337108"
@@ -42,11 +42,11 @@ export default function PropertyCleanouts() {
                   to="/contact"
                   className="inline-flex items-center gap-2 bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900 transition-colors border-2 border-white"
                 >
-                  Free Estimate
+                  Free Consultation
                 </Link>
               </div>
               <p className="mt-6 text-gray-100 text-lg">
-                Same-Day Service Available | Licensed & Insured | Eco-Friendly Disposal
+                Compassionate Service | Licensed & Insured | Donation Coordination
               </p>
             </div>
           </div>
@@ -56,10 +56,10 @@ export default function PropertyCleanouts() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-6">
-              At <strong>Aaron Michael Services</strong>, we specialize in complete property cleanouts throughout <strong>Buffalo, Amherst, Tonawanda, Kenmore, and all of Western New York</strong>. From residential estates to commercial buildings, our professional team ensures that every cleanout is thorough, efficient, and handled with care. We understand that each property presents unique challenges, which is why we tailor our approach to meet the specific needs of each client.
+              At <strong>Aaron Michael Services</strong>, we understand that handling an estate cleanout is often an emotional and overwhelming process. Whether you're managing the estate of a loved one, downsizing for a family member, or preparing a property for sale, our compassionate team provides professional estate cleanout services throughout <strong>Buffalo, Amherst, Tonawanda, Kenmore, and all of Western New York</strong>.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Property cleanouts go far beyond simply hauling away unwanted items. Our team meticulously sorts items for donation, recycling, and proper disposal, minimizing waste while maximizing value recovery. Whether you are managing an estate, preparing a foreclosure, or turning over a rental property, we ensure a seamless, stress-free experience. With years of experience serving Western New York property owners, real estate professionals, and property managers, we pride ourselves on professionalism, reliability, and eco-conscious practices.
+              Estate cleanouts require sensitivity, organization, and expertise. Our team carefully sorts through belongings, identifying items of value, coordinating donations to local charities, and responsibly disposing of unwanted materials. We work closely with families, executors, attorneys, and estate sale companies to ensure every aspect of the cleanout is handled with care and respect. From small condos in Kenmore to large family estates in Amherst, we provide comprehensive estate cleanout solutions tailored to your specific needs.
             </p>
           </div>
         </section>
@@ -68,23 +68,23 @@ export default function PropertyCleanouts() {
         <section className="bg-gray-100 py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">
-              Why Choose Aaron Michael Services for Property Cleanouts
+              Why Choose Aaron Michael Services for Estate Cleanouts
             </h2>
             <div className="space-y-6 prose prose-lg text-gray-700">
               <p>
-                <strong>Local Expertise:</strong> Our team knows Western New York homes and commercial properties inside and out. We navigate Buffalo, Amherst, Tonawanda, Kenmore, and surrounding areas with ease, understanding local property layouts, zoning regulations, and disposal requirements.
+                <strong>Compassionate Approach:</strong> We understand the emotional nature of estate cleanouts. Our team treats every property and its contents with the utmost respect, providing support and understanding during a difficult time.
               </p>
               <p>
-                <strong>Licensed & Insured:</strong> Safety and security are our top priorities. We are fully licensed and insured, ensuring peace of mind during every property cleanout project. No surprises, no liability concerns, just professional service.
+                <strong>Local Expertise:</strong> Our team knows Western New York homes and families. We work with local estate attorneys, appraisers, and donation centers, ensuring a smooth and coordinated process.
               </p>
               <p>
-                <strong>Eco-Friendly Disposal:</strong> We take sustainability seriously. Items that can be recycled or donated are carefully separated from debris, minimizing environmental impact while helping the community.
+                <strong>Licensed & Insured:</strong> Safety and security are our top priorities. We are fully licensed and insured, providing peace of mind for families and executors throughout the estate settlement process.
               </p>
               <p>
-                <strong>Efficient & Thorough:</strong> From attic to basement, garage to yard, no space is overlooked. Our systematic approach ensures nothing is left behind, and we complete each cleanout efficiently without sacrificing attention to detail.
+                <strong>Donation Coordination:</strong> We partner with Buffalo-area charities to ensure usable items benefit the community. We provide donation receipts for tax purposes and help extend your loved one's legacy through charitable giving.
               </p>
               <p>
-                <strong>Same-Day Service:</strong> In urgent situations, we offer same-day cleanouts to help you meet deadlines and keep properties ready for sale, lease, or occupancy.
+                <strong>Thorough & Organized:</strong> From attic to basement, we systematically clear every space while carefully identifying valuable items, important documents, and sentimental belongings for family review.
               </p>
             </div>
           </div>
@@ -93,46 +93,54 @@ export default function PropertyCleanouts() {
         {/* Detailed Services */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Comprehensive Property Cleanout Services
+            Comprehensive Estate Cleanout Services
           </h2>
 
-          {/* Estate Cleanouts */}
+          {/* Complete Estate Clearing */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Estate Cleanouts</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Complete Estate Clearing</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Handling the property of a loved one can be emotionally taxing. Our estate cleanout services relieve you of the stress by professionally removing unwanted items while respecting valuable belongings. We work closely with families, executors, and estate attorneys to ensure all property is managed carefully. Items suitable for donation or resale are separated from debris, maximizing value recovery and reducing waste. From small homes in Kenmore to large estates in Amherst, we provide complete estate cleanout solutions.
+              Our full estate cleanout service handles every aspect of clearing a property after the loss of a loved one. From sorting personal belongings to coordinating with estate sale companies, we manage the entire process with compassion and professionalism. We understand the emotional weight of this work and provide support throughout every step.
             </p>
           </div>
 
-          {/* Rental Property Turnover */}
+          {/* Downsizing Assistance */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Rental Property Turnover</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Downsizing & Senior Transitions</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Landlords and property managers often face tight deadlines when preparing rental units for new tenants. Our team efficiently clears furniture, appliances, trash, and debris, allowing you to minimize vacancy and maximize revenue. We understand Western New York property layouts, including older homes with unique challenges, and ensure the property is ready for inspections, maintenance, or new occupancy.
+              Helping seniors transition to smaller homes or assisted living facilities requires patience and care. Our downsizing services help families sort through decades of memories, identifying items to keep, donate, or dispose of. We coordinate donations to local Buffalo charities and ensure the process is as stress-free as possible for everyone involved.
             </p>
           </div>
 
-          {/* Foreclosure Cleanouts */}
+          {/* Estate Sale Support */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Foreclosure Cleanouts</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Post-Estate Sale Cleanup</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Foreclosed properties require a meticulous approach to remove leftover belongings, debris, and potential hazards. Our foreclosure cleanout services in Buffalo and surrounding areas are designed to meet real estate requirements quickly and efficiently. We help banks, realtors, and investors restore the property to a clean, market-ready state while adhering to safety standards and disposal regulations.
+              After an estate sale, properties often still contain unwanted items, furniture, and debris. Our post-sale cleanup service completes the process by removing everything that wasn't sold, leaving the property clean and ready for the next chapter. We work with estate sale companies and auctioneers throughout Western New York.
             </p>
           </div>
 
-          {/* Commercial Cleanouts */}
+          {/* Donation Coordination */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Commercial Cleanouts</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Donation Coordination</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Businesses, warehouses, and office buildings can accumulate unwanted furniture, equipment, and general debris over time. Our commercial cleanout services remove clutter, making spaces ready for renovations, new tenants, or efficient operation. We handle all types of commercial properties across Buffalo, Tonawanda, and Amherst, providing responsible disposal and maximizing efficiency.
+              We partner with local Buffalo-area charities, thrift stores, and donation centers to ensure usable items find new homes. From furniture and clothing to household goods and antiques, we carefully sort items suitable for donation and provide tax-deductible receipts. Your loved one's belongings can continue to benefit the community.
             </p>
           </div>
 
-          {/* Junk Removal & Debris Hauling */}
+          {/* Sensitive Item Handling */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Junk Removal & Debris Hauling</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Sensitive Item Identification</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Whether you’re renovating your home or clearing your yard, our junk removal and debris hauling services cover every need. We remove unwanted items of all sizes, safely and efficiently. Our team is trained to handle heavy lifting, hazardous materials, and large volumes, ensuring that your property is left spotless.
+              Our experienced team knows how to identify valuable items, important documents, photographs, and sentimental belongings. We set aside anything that may have personal or financial value, allowing families to review these items before final decisions are made. Nothing important is discarded without your approval.
+            </p>
+          </div>
+
+          {/* Property Preparation */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Property Preparation for Sale</h3>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Once an estate is cleared, we can prepare the property for listing. This includes final cleaning, minor repairs, and ensuring the home is presented in the best possible condition. We work with real estate agents throughout Western New York to facilitate quick, successful sales.
             </p>
           </div>
         </section>
@@ -146,19 +154,19 @@ export default function PropertyCleanouts() {
             <div className="space-y-6 prose prose-lg text-gray-700">
 
               <p>
-                <strong>Buffalo, NY:</strong> From Elmwood Village to Allentown, our Buffalo cleanout services address the unique needs of older homes, apartments, and commercial buildings. We are familiar with local property layouts, city ordinances, and disposal requirements, making the process seamless.
+                <strong>Buffalo, NY:</strong> From historic homes in Elmwood Village to waterfront properties, our Buffalo estate cleanout services address the unique needs of older homes and diverse neighborhoods. We understand local property layouts and work with Buffalo-area estate professionals.
               </p>
 
               <p>
-                <strong>Amherst, NY:</strong> In Amherst, we handle residential estates, rental turnovers, and commercial cleanouts. Our team is experienced with homes built in different eras, providing careful handling of belongings and debris for responsible disposal.
+                <strong>Amherst, NY:</strong> In Amherst, we handle estate cleanouts for properties of all sizes, from apartments to large family estates. Our team provides careful, respectful handling of belongings while coordinating with local donation centers and estate sale companies.
               </p>
 
               <p>
-                <strong>Tonawanda & North Tonawanda, NY:</strong> Our local knowledge allows us to quickly navigate residential neighborhoods and commercial zones. We provide timely and thorough cleanouts for foreclosures, estates, and property renovations in the Tonawandas.
+                <strong>Tonawanda & North Tonawanda, NY:</strong> Our local knowledge and connections allow us to provide seamless estate cleanout services in the Tonawandas. We work efficiently while maintaining the compassion and respect that every estate deserves.
               </p>
 
               <p>
-                <strong>Kenmore, NY:</strong> Kenmore residents rely on our professional cleanout services for complete property clearing. We handle everything from small apartments to large family homes, ensuring each property is left clean, safe, and ready for the next chapter.
+                <strong>Kenmore, NY:</strong> Kenmore families trust our professional estate cleanout services for thorough, compassionate property clearing. We handle everything from small apartments to large family homes with care and attention to detail.
               </p>
 
             </div>
@@ -171,43 +179,38 @@ export default function PropertyCleanouts() {
           <div className="space-y-8 prose prose-lg text-gray-700">
 
             <div>
-              <h3 className="text-xl font-bold">What areas do you serve?</h3>
-              <p>We provide property cleanout services throughout Buffalo, Amherst, Tonawanda, Kenmore, and the surrounding Western New York region. No property is too small or too large.</p>
+              <h3 className="text-xl font-bold">How much does an estate cleanout cost?</h3>
+              <p>Estate cleanout costs vary based on property size, volume of contents, and services required. For a typical 3-bedroom home in Buffalo or Western New York, most estate cleanouts range from $1,500 to $5,000. We provide free consultations and written quotes.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">How quickly can you perform a cleanout?</h3>
-              <p>Many projects can be completed the same day, depending on size and complexity. Contact us for scheduling details, and we will work to meet your timeline.</p>
+              <h3 className="text-xl font-bold">How long does an estate cleanout take?</h3>
+              <p>Most residential estate cleanouts are completed within 1-5 days, depending on property size and contents. A small apartment might take just one day, while a large family home could take 3-5 days.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">Do you handle hazardous materials?</h3>
-              <p>We follow local regulations and safely dispose of hazardous materials when necessary. Let us know in advance if items like paint, chemicals, or electronics need special handling.</p>
+              <h3 className="text-xl font-bold">Do I need to be present during the cleanout?</h3>
+              <p>You don't need to be present for the entire process, but we recommend being available for the initial walkthrough to identify items of value or importance. We can photograph items for your review and approval.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">Can you donate items from cleanouts?</h3>
-              <p>Absolutely. We carefully sort items for donation to local charities, ensuring valuable goods benefit the community while reducing waste.</p>
+              <h3 className="text-xl font-bold">What happens to donated items?</h3>
+              <p>We partner with local Buffalo-area charities, thrift stores, and donation centers. We provide donation receipts for tax purposes and ensure usable items benefit the community rather than ending up in landfills.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">Are your services licensed and insured?</h3>
-              <p>Yes, our team is fully licensed and insured for your protection. Safety, accountability, and reliability are top priorities for all projects.</p>
+              <h3 className="text-xl font-bold">Can you handle valuable or sentimental items?</h3>
+              <p>Absolutely. Our team carefully identifies valuable items, important documents, photographs, and sentimental belongings. We set these aside for family review before any final disposal decisions are made.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">What types of properties do you service?</h3>
-              <p>We handle residential homes, apartments, rental units, foreclosures, commercial buildings, and construction sites. Every cleanout is tailored to the property type.</p>
+              <h3 className="text-xl font-bold">Do you work with estate attorneys and executors?</h3>
+              <p>Yes, we regularly work with estate attorneys, executors, and estate sale companies throughout Western New York. We understand the legal and procedural requirements involved in estate settlements.</p>
             </div>
 
             <div>
-              <h3 className="text-xl font-bold">How do you charge for cleanouts?</h3>
-              <p>Our pricing is based on volume, complexity, and specific services requested. Contact us for a free estimate to get a clear, upfront quote.</p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-bold">What makes Aaron Michael Services different?</h3>
-              <p>We combine local expertise, professional handling, eco-conscious disposal, and fast, reliable service. Our team treats every property with care and respect, ensuring client satisfaction every time.</p>
+              <h3 className="text-xl font-bold">What makes your service different?</h3>
+              <p>We combine compassionate service with professional expertise. Our team understands this is a difficult time and treats every property and family with respect, care, and understanding while providing thorough, efficient estate clearing services.</p>
             </div>
 
           </div>
@@ -216,8 +219,8 @@ export default function PropertyCleanouts() {
         {/* CTA Section */}
         <section className="bg-gray-900 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold mb-6">Ready for a Property Cleanout?</h2>
-            <p className="text-lg mb-8">Call (716) 533-7108 today or request a free estimate online. Fast, professional, and eco-friendly service across Western New York.</p>
+            <h2 className="text-3xl font-bold mb-6">Need Compassionate Estate Cleanout Services?</h2>
+            <p className="text-lg mb-8">Call (716) 533-7108 today or request a free consultation. We're here to help during this difficult time with professional, respectful estate clearing services across Western New York.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 href="tel:7165337108"
@@ -230,7 +233,7 @@ export default function PropertyCleanouts() {
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-gray-800 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-900 transition-colors border-2 border-white"
               >
-                Free Estimate
+                Free Consultation
               </Link>
             </div>
           </div>
