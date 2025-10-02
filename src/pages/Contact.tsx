@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, ArrowRight, Chrome as Home, MessageCircle, Shield, Award } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, ArrowRight, Chrome as Home, MessageCircle, Shield, Award, Users, Heart, CircleCheck as CheckCircle } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
@@ -11,20 +11,38 @@ const Contact: React.FC = () => {
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Contact Aaron Michael Services for free accessibility consultations in Buffalo NY. Call 716-533-7108 for wheelchair ramps, accessible bathrooms, and aging-in-place modifications.');
+      metaDescription.setAttribute(
+        'content',
+        'Contact Aaron Michael Services in Buffalo NY for wheelchair ramps, accessible bathrooms, and aging-in-place home modifications. Free consultations available across Western New York. Call 716-533-7108 today.'
+      );
     }
-    
-    // Set favicon
-    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
-    if (favicon) {
-      favicon.href = '/favicon.ico';
-    } else {
-      const newFavicon = document.createElement('link');
-      newFavicon.rel = 'icon';
-      newFavicon.type = 'image/x-icon';
-      newFavicon.href = '/favicon.ico';
-      document.head.appendChild(newFavicon);
-    }
+
+    // Add LocalBusiness Schema
+    const schemaScript = document.createElement("script");
+    schemaScript.type = "application/ld+json";
+    schemaScript.innerHTML = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aaron Michael Services",
+      "image": "https://aaronmichaelservices.com/logo.png",
+      "url": "https://aaronmichaelservices.com/contact",
+      "telephone": "+17165337108",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Buffalo","Amherst","Tonawanda","Cheektowaga","West Seneca","Lackawanna","Williamsville","Lancaster","Niagara Falls","Hamburg"
+      ],
+      "openingHours": "Mo-Fr 07:00-18:00",
+      "sameAs": [
+        "https://www.facebook.com/aaronmichaelservices",
+        "https://www.instagram.com/aaronmichaelservices"
+      ]
+    });
+    document.head.appendChild(schemaScript);
   }, []);
 
   return (
@@ -105,26 +123,18 @@ const Contact: React.FC = () => {
                 </div>
               </div>
 
-              <div className="bg-green-50 rounded-lg p-6 border border-green-200">
-                <h3 className="text-xl font-bold text-green-900 mb-4">Free Consultation Includes:</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-                    <span>Complete accessibility assessment</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-                    <span>ADA compliance recommendations</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-                    <span>Detailed cost estimates</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="w-5 h-5 text-green-600 mr-2" />
-                    <span>Insurance and funding guidance</span>
-                  </li>
-                </ul>
+              {/* Google Maps Embed */}
+              <div className="rounded-lg overflow-hidden shadow-md mb-8">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!...YOUR_GOOGLE_PLACE_ID..."
+                  width="100%"
+                  height="350"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Aaron Michael Services Location"
+                ></iframe>
               </div>
             </div>
 
@@ -170,7 +180,7 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Service Areas */}
-          <div className="bg-white rounded-lg shadow-lg p-8">
+          <div className="bg-white rounded-lg shadow-lg p-8 mt-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Service Areas</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-center">
               {[
