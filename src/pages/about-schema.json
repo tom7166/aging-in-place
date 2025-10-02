@@ -1,0 +1,124 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://aaronmichaelservices.com/#business",
+  "name": "Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com",
+  "logo": "https://aaronmichaelservices.com/logo.png",
+  "image": "https://aaronmichaelservices.com/images/about-placeholder-1.jpg",
+  "description": "Aaron Michael Services provides ADA-compliant home modifications, accessibility solutions, ramps, handrails, and aging-in-place remodeling across Buffalo and Western New York.",
+  "slogan": "Building safer, more accessible homes across Buffalo and Western New York",
+  "telephone": "+17165337108",
+  "email": "info@aaronmichaelservices.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "14220",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Buffalo"
+    },
+    {
+      "@type": "City",
+      "name": "Kenmore"
+    },
+    {
+      "@type": "City",
+      "name": "Tonawanda"
+    },
+    {
+      "@type": "City",
+      "name": "Amherst"
+    },
+    {
+      "@type": "State",
+      "name": "Western New York"
+    }
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Tom Story",
+    "jobTitle": "Founder & Carpenter",
+    "description": "Tom Story, a South Buffalo native with 25+ years in the trades, CAPS certified specialist in aging-in-place and accessibility modifications.",
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "New York State Paralegal Certification Program"
+    },
+    "knowsAbout": [
+      "Carpentry",
+      "Real Estate Investment",
+      "ADA Compliance",
+      "Accessibility Remodeling",
+      "Aging in Place",
+      "Handrail Installation",
+      "Property Rehab"
+    ],
+    "sameAs": [
+      "https://aaronmichaelservices.com/about"
+    ]
+  },
+  "foundingDate": "2015",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Buffalo, NY"
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "ADA Wheelchair Ramp Installation",
+        "url": "https://aaronmichaelservices.com/services/wheelchair-ramps",
+        "serviceType": "Accessibility Modification",
+        "areaServed": "Buffalo NY, Kenmore, Tonawanda, Amherst, WNY"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Accessible Bathroom Remodeling",
+        "url": "https://aaronmichaelservices.com/services/bathroom-remodeling",
+        "serviceType": "Bathroom Accessibility",
+        "areaServed": "Buffalo NY, Kenmore, Tonawanda, Amherst, WNY"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Handrail Repair & Installation",
+        "url": "https://aaronmichaelservices.com/services/handrails",
+        "serviceType": "Safety & Mobility",
+        "areaServed": "Buffalo NY, Kenmore, Tonawanda, Amherst, WNY"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Aging-in-Place Solutions",
+        "url": "https://aaronmichaelservices.com/services/aging-in-place",
+        "serviceType": "Home Modifications for Seniors",
+        "areaServed": "Buffalo NY, Kenmore, Tonawanda, Amherst, WNY"
+      }
+    }
+  ],
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Buffalo Resilience Initiative",
+    "url": "https://aaronmichaelservices.com"
+  },
+  "sameAs": [
+    "https://aaronmichaelservices.com",
+    "https://www.facebook.com/aaronmichaelservices",
+    "https://www.linkedin.com/company/aaronmichaelservices"
+  ]
+}
+</script>
