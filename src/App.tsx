@@ -88,6 +88,13 @@ import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx';
 import EstateCleanouts from './pages/estate-cleanouts.tsx';
 import PropertyCleanouts from './pages/property-cleanouts.tsx';
+import BathroomRemodeling from './pages/bathroom-remodeling.tsx';
+import KitchenRemodeling from './pages/kitchen-remodeling.tsx';
+import FoundationRepair from './pages/FoundationRepair.tsx';
+import HandymanServices from './pages/HamdymanServices.tsx';
+import InvestorServices from './pages/investor-services.tsx';
+import Handrails from './pages/handrails.tsx';
+import BuffaloEstateCleanouts from './pages/cities/buffalo/buffalo-ny-estate-cleanouts.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -185,10 +192,17 @@ const App: React.FC = () => {
           <Route path="/tonawanda-home" element={<TonawandaHomePage />} />
           <Route path="/north-tonawanda-home" element={<NorthTonawandaHomePage />} />
           <Route path="/faq" element={<FAQPage />} />
+          <Route path="/services/bathroom-remodeling" element={<BathroomRemodeling />} />
+          <Route path="/services/kitchen-remodeling" element={<KitchenRemodeling />} />
+          <Route path="/services/foundation-repair" element={<FoundationRepair />} />
+          <Route path="/services/handyman-services" element={<HandymanServices />} />
+          <Route path="/services/investor-services" element={<InvestorServices />} />
+          <Route path="/services/handrails" element={<Handrails />} />
           <Route path="/services/estate-cleanouts" element={<EstateCleanouts />} />
           <Route path="/services/property-cleanouts" element={<PropertyCleanouts />} />
           <Route path="/estate-cleanouts" element={<EstateCleanouts />} />
           <Route path="/property-cleanouts" element={<PropertyCleanouts />} />
+          <Route path="/cities/buffalo/buffalo-ny-estate-cleanouts" element={<BuffaloEstateCleanouts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
