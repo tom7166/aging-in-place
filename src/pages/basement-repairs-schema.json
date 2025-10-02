@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Basement Repairs",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "image": "https://www.aaronmichaelservices.com/logo.png",
+    "telephone": "+17165337108",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "url": "https://www.aaronmichaelservices.com",
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaronmichaelservices",
+      "https://www.yelp.com/biz/aaron-michael-services-buffalo"
+    ]
+  },
+  "areaServed": [
+    { "@type": "Place", "name": "Buffalo, NY" },
+    { "@type": "Place", "name": "Amherst, NY" },
+    { "@type": "Place", "name": "Tonawanda, NY" },
+    { "@type": "Place", "name": "Kenmore, NY" },
+    { "@type": "Place", "name": "Western New York" }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.aaronmichaelservices.com/basement-repairs",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "eligibleRegion": { "@type": "Place", "name": "Western New York" }
+  }
+}
