@@ -39,52 +39,6 @@
       }
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://aaronmichaelservices.com/services/property-cleanouts#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much can I save by using one contractor for cleanout and handyman services?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Property owners typically save 20-35% by using our integrated services compared to hiring separate contractors. You save on coordination time, avoid duplicate fees, and benefit from volume pricing. Our streamlined approach also reduces overall project timeline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What types of properties do you handle?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We work with all property types throughout Buffalo and Western New York: residential homes, commercial properties, investment properties, and specialized properties. Our team has experience from small apartments to large commercial buildings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can you complete a cleanout and renovation project?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A typical rental property turnover takes 5-7 days. A moderate renovation with cleanout, kitchen and bathroom updates, and painting takes 3-4 weeks. We can often begin work within 24-48 hours and bring additional crew for urgent situations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are you licensed and insured for all the services you provide?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Aaron Michael Services is fully licensed and insured for all property cleanout, handyman, and renovation services. We carry comprehensive liability insurance, workers' compensation, and appropriate contractor licenses for specialized work."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you help with property code violations or failed inspections?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. We frequently work with property owners on code violations in Buffalo and Western New York. We're familiar with local codes and can quickly remediate violations, providing documentation for code enforcement offices."
-          }
-        }
-      ]
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://aaronmichaelservices.com/services/property-cleanouts#breadcrumb",
       "itemListElement": [

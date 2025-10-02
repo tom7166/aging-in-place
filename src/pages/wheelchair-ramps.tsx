@@ -30,13 +30,22 @@ const WheelchairRampsPage = () => {
 
   useEffect(() => {
     document.title = "Wheelchair Ramp Installation Buffalo NY | ADA Compliant Ramps | Aaron Michael Services";
-    
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional wheelchair ramp installation in Buffalo NY. ADA compliant ramps designed for Buffalo weather. Custom aluminum and wood ramps. Free quotes. Call 716-533-7108.');
     }
-    
-    // Set favicon
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/wheelchair-ramps');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/wheelchair-ramps');
+      document.head.appendChild(canonical);
+    }
+
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
     if (favicon) {
       favicon.href = '/favicon.ico';

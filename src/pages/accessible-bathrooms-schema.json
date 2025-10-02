@@ -221,75 +221,6 @@
       }
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How much do accessible bathroom renovations cost in Buffalo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Accessible bathroom renovations in Buffalo cost $7,000-$25,000 depending on scope. Walk-in shower conversions start at $8,500, grab bar installation $350-$800, complete renovations $12,000-$25,000. Many modifications are covered by Medicare and insurance with proper documentation. Aaron Michael Services achieves 67% insurance approval rate.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What makes a bathroom ADA accessible?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ADA accessible bathrooms have 60-inch wheelchair turning space, grab bars supporting 250+ pounds, shower entries with maximum 1/2 inch threshold, 36-inch doorways, comfort-height toilets, and accessible sink placement with knee clearance. Buffalo building codes may require additional electrical and ventilation updates.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who installs accessible bathrooms in Buffalo NY?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Aaron Michael Services installs accessible bathrooms in Buffalo NY. We specialize exclusively in ADA modifications with 22+ years construction experience, personal disability understanding, and 67% insurance approval rate. Serving Buffalo, Cheektowaga, Amherst, Tonawanda, Niagara Falls, and all of Western New York. Call 716-533-7108.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long do accessible bathroom renovations take?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Accessible bathroom renovation timelines: Grab bar installation 4-6 hours, walk-in shower conversion 3-5 days, complete bathroom renovation 7-10 days. Buffalo permit processing adds 1-2 weeks to planning phase. Winter weather may extend timelines.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are accessible bathroom modifications covered by insurance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Many accessible bathroom modifications are covered by insurance. Medicare covers grab bars and safety equipment at 80%, medically necessary modifications often approved. New York Medicaid waiver programs provide up to $15,000 for home modifications. Aaron Michael Services achieves 67% insurance approval rate with proper documentation.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why choose Aaron Michael Services for Buffalo accessible bathrooms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Choose Aaron Michael Services because we're Buffalo's only contractor specializing exclusively in accessibility modifications since 2015. 22+ years construction experience, personal disability understanding, 67% insurance approval success, comprehensive Buffalo building code knowledge, and weather-specific expertise for Western New York homes.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What's the difference between walk-in showers and traditional bathtubs?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Walk-in showers eliminate 18-inch step-over height that causes falls, provide wheelchair/walker accessibility, include built-in safety features, and increase home value 12-18%. Traditional bathtubs create fall risks, limit accessibility, and become liabilities as homeowners age. One fall-related injury costs $47,000 average in Buffalo area.",
-            "url": "https://aaronmichaelservices.com/#/accessible-bathrooms"
-          }
-        }
-      ]
-    },
-    {
       "@type": "WebPage",
       "@id": "https://aaronmichaelservices.com/#/accessible-bathrooms#webpage",
       "url": "https://aaronmichaelservices.com/#/accessible-bathrooms",
@@ -412,7 +343,7 @@
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
             "Monday",
-            "Tuesday", 
+            "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday"
@@ -457,7 +388,7 @@
       "priceRange": "$$$",
       "paymentAccepted": [
         "Cash",
-        "Check", 
+        "Check",
         "Credit Card",
         "Insurance",
         "Medicare",

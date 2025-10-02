@@ -35,7 +35,17 @@ const KitchenModificationsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional kitchen accessibility modifications in Buffalo NY. Lowered counters, roll-under sinks, accessible cabinets. ADA compliance for aging in place. Call 716-533-7108.');
     }
-    
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/kitchen-modifications');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/kitchen-modifications');
+      document.head.appendChild(canonical);
+    }
+
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
     structuredDataScript.textContent = JSON.stringify(structuredData);

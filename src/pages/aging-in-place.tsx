@@ -35,7 +35,17 @@ const AgingInPlacePage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional aging in place home modifications in Buffalo NY. Help seniors stay home safely with accessibility upgrades, safety modifications. Alternative to assisted living. Call 716-533-7108.');
     }
-    
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/aging-in-place');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/aging-in-place');
+      document.head.appendChild(canonical);
+    }
+
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
     structuredDataScript.textContent = JSON.stringify(structuredData);

@@ -27,18 +27,27 @@ const AccessibleBathroomsPage = () => {
 
   useEffect(() => {
     document.title = "Accessible Bathroom Renovation Buffalo NY | Walk-in Showers & ADA Compliance | Aaron Michael Services";
-    
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional accessible bathroom renovations in Buffalo NY. Walk-in showers, grab bars, ADA compliance. Medicare coverage available. Call 716-533-7108.');
     }
-    
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/accessible-bathrooms');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/accessible-bathrooms');
+      document.head.appendChild(canonical);
+    }
+
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
     structuredDataScript.textContent = JSON.stringify(structuredData);
     document.head.appendChild(structuredDataScript);
-    
-    // Set favicon
+
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
     if (favicon) {
       favicon.href = '/favicon.ico';
@@ -49,7 +58,7 @@ const AccessibleBathroomsPage = () => {
       newFavicon.href = '/favicon.ico';
       document.head.appendChild(newFavicon);
     }
-    
+
     return () => {
       if (document.head.contains(structuredDataScript)) {
         document.head.removeChild(structuredDataScript);

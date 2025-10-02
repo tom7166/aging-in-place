@@ -35,7 +35,17 @@ const DisabilityModificationsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional disability home modifications in Buffalo NY. Accessible homes for children and adults with autism, cerebral palsy, and disabilities. Personal understanding. Call 716-533-7108.');
     }
-    
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/disability-modifications');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/disability-modifications');
+      document.head.appendChild(canonical);
+    }
+
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
     structuredDataScript.textContent = JSON.stringify(structuredData);

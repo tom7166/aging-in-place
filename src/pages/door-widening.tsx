@@ -35,7 +35,17 @@ const DoorWideningPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional door widening in Buffalo NY for wheelchair accessibility. ADA compliant door modifications. Expert framing, drywall, and finish work. Free quotes. Call 716-533-7108.');
     }
-    
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/door-widening');
+    } else {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      canonical.setAttribute('href', 'https://aaronmichaelservices.com/services/door-widening');
+      document.head.appendChild(canonical);
+    }
+
     // Set favicon
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
     if (favicon) {
