@@ -153,6 +153,90 @@
     <changefreq>monthly</changefreq>
   </url>
 
+  <url>
+    <loc>https://aaronmichaelservices.com/services/basement-repairs</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/bathroom-repairs</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/carpentry-repairs</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/carpentry</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/exterior-door-repair</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/interior-door-repair</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/gutter-repairs</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/kitchen-repairs</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/stair-repair</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/window-screen-repair</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/trim-carpentry</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/laminate-flooring</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <!-- Buffalo City Pages -->
   <url>
     <loc>https://aaronmichaelservices.com/accessible-remodeling-buffalo-ny</loc>

@@ -95,6 +95,18 @@ import HandymanServices from './pages/HamdymanServices.tsx';
 import InvestorServices from './pages/investor-services.tsx';
 import Handrails from './pages/handrails.tsx';
 import BuffaloEstateCleanouts from './pages/cities/buffalo/buffalo-ny-estate-cleanouts.tsx';
+import BasementRepairs from './pages/BasementRepairs.tsx';
+import BathroomRepairs from './pages/BathroomRepairs.tsx';
+import CarpentryRepairs from './pages/CarpentryRepairs.jsx';
+import Carpentry from './pages/Carpentry.tsx';
+import ExteriorDoorRepair from './pages/ExteriorDoorRepair.tsx';
+import InteriorDoorRepair from './pages/InteriorDoorRepair.tsx';
+import GutterRepairs from './pages/GutterRepairs.tsx';
+import KitchenRepairs from './pages/KitchenRepairs.tsx';
+import StairRepair from './pages/StairRepair.tsx';
+import WindowScreenRepair from './pages/WindowScreenRepair.tsx';
+import TrimCarpentry from './pages/TrimCarpentry.tsx';
+import LaminateFlooring from './pages/laminate-flooring.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -201,6 +213,18 @@ const App: React.FC = () => {
           <Route path="/estate-cleanouts" element={<EstateCleanouts />} />
           <Route path="/property-cleanouts" element={<PropertyCleanouts />} />
           <Route path="/cities/buffalo/buffalo-ny-estate-cleanouts" element={<BuffaloEstateCleanouts />} />
+          <Route path="/services/basement-repairs" element={<BasementRepairs />} />
+          <Route path="/services/bathroom-repairs" element={<BathroomRepairs />} />
+          <Route path="/services/carpentry-repairs" element={<CarpentryRepairs />} />
+          <Route path="/services/carpentry" element={<Carpentry />} />
+          <Route path="/services/exterior-door-repair" element={<ExteriorDoorRepair />} />
+          <Route path="/services/interior-door-repair" element={<InteriorDoorRepair />} />
+          <Route path="/services/gutter-repairs" element={<GutterRepairs />} />
+          <Route path="/services/kitchen-repairs" element={<KitchenRepairs />} />
+          <Route path="/services/stair-repair" element={<StairRepair />} />
+          <Route path="/services/window-screen-repair" element={<WindowScreenRepair />} />
+          <Route path="/services/trim-carpentry" element={<TrimCarpentry />} />
+          <Route path="/services/laminate-flooring" element={<LaminateFlooring />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

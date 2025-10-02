@@ -37,7 +37,19 @@ const NavBar: React.FC = () => {
     { title: 'Investor Services', path: '/services/investor-services', keywords: ['investor', 'property', 'rental', 'flip', 'renovation', 'real estate'] },
     { title: 'Handrails', path: '/services/handrails', keywords: ['handrail', 'grab bar', 'safety', 'stairs', 'railing'] },
     { title: 'Estate Cleanouts', path: '/services/estate-cleanouts', keywords: ['estate', 'cleanout', 'property', 'removal', 'downsizing'] },
-    { title: 'Property Cleanouts', path: '/services/property-cleanouts', keywords: ['property', 'cleanout', 'foreclosure', 'clearing', 'junk removal'] }
+    { title: 'Property Cleanouts', path: '/services/property-cleanouts', keywords: ['property', 'cleanout', 'foreclosure', 'clearing', 'junk removal'] },
+    { title: 'Basement Repairs', path: '/services/basement-repairs', keywords: ['basement', 'repair', 'crack', 'waterproofing', 'foundation'] },
+    { title: 'Bathroom Repairs', path: '/services/bathroom-repairs', keywords: ['bathroom', 'repair', 'plumbing', 'fixture', 'leak'] },
+    { title: 'Carpentry Repairs', path: '/services/carpentry-repairs', keywords: ['carpentry', 'repair', 'wood', 'trim', 'door', 'frame'] },
+    { title: 'Carpentry', path: '/services/carpentry', keywords: ['carpentry', 'wood', 'trim', 'custom', 'installation'] },
+    { title: 'Exterior Door Repair', path: '/services/exterior-door-repair', keywords: ['exterior', 'door', 'repair', 'replacement', 'weather'] },
+    { title: 'Interior Door Repair', path: '/services/interior-door-repair', keywords: ['interior', 'door', 'repair', 'replacement', 'hinge'] },
+    { title: 'Gutter Repairs', path: '/services/gutter-repairs', keywords: ['gutter', 'repair', 'cleaning', 'drainage', 'downspout'] },
+    { title: 'Kitchen Repairs', path: '/services/kitchen-repairs', keywords: ['kitchen', 'repair', 'cabinet', 'countertop', 'fixture'] },
+    { title: 'Stair Repair', path: '/services/stair-repair', keywords: ['stair', 'repair', 'steps', 'railing', 'tread'] },
+    { title: 'Window Screen Repair', path: '/services/window-screen-repair', keywords: ['window', 'screen', 'repair', 'replacement', 'mesh'] },
+    { title: 'Trim Carpentry', path: '/services/trim-carpentry', keywords: ['trim', 'carpentry', 'molding', 'baseboards', 'crown'] },
+    { title: 'Laminate Flooring', path: '/services/laminate-flooring', keywords: ['laminate', 'flooring', 'installation', 'floor', 'wood'] }
   ];
 
   const handleSearch = (query: string) => {
@@ -100,7 +112,19 @@ const NavBar: React.FC = () => {
     { label: 'Estate Cleanouts', path: '/services/estate-cleanouts' },
     { label: 'Property Cleanouts', path: '/services/property-cleanouts' },
     { label: 'Accessible Remodeling', path: '/accessible-remodeling-buffalo-ny' },
-    { label: 'Remodeling Contractor', path: '/remodeling-contractor-buffalo-ny' }
+    { label: 'Remodeling Contractor', path: '/remodeling-contractor-buffalo-ny' },
+    { label: 'Basement Repairs', path: '/services/basement-repairs' },
+    { label: 'Bathroom Repairs', path: '/services/bathroom-repairs' },
+    { label: 'Carpentry Repairs', path: '/services/carpentry-repairs' },
+    { label: 'Carpentry', path: '/services/carpentry' },
+    { label: 'Exterior Door Repair', path: '/services/exterior-door-repair' },
+    { label: 'Interior Door Repair', path: '/services/interior-door-repair' },
+    { label: 'Gutter Repairs', path: '/services/gutter-repairs' },
+    { label: 'Kitchen Repairs', path: '/services/kitchen-repairs' },
+    { label: 'Stair Repair', path: '/services/stair-repair' },
+    { label: 'Window Screen Repair', path: '/services/window-screen-repair' },
+    { label: 'Trim Carpentry', path: '/services/trim-carpentry' },
+    { label: 'Laminate Flooring', path: '/services/laminate-flooring' }
   ];
 
   return (
