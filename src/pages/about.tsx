@@ -11,19 +11,10 @@ const About: React.FC = () => {
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Learn about Aaron Michael Services, Buffalo\'s trusted ADA contractor. 22+ years experience in wheelchair ramps, accessible bathrooms, and aging-in-place modifications throughout Western New York.');
-    }
-    
-    // Set favicon
-    const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
-    if (favicon) {
-      favicon.href = '/favicon.ico';
-    } else {
-      const newFavicon = document.createElement('link');
-      newFavicon.rel = 'icon';
-      newFavicon.type = 'image/x-icon';
-      newFavicon.href = '/favicon.ico';
-      document.head.appendChild(newFavicon);
+      metaDescription.setAttribute(
+        'content', 
+        "Learn about Aaron Michael Services, Buffalo's trusted ADA contractor. 25+ years experience in wheelchair ramps, accessible bathrooms, handrails, and aging-in-place modifications throughout Western New York."
+      );
     }
   }, []);
 
@@ -45,7 +36,7 @@ const About: React.FC = () => {
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Aaron Michael Services</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Creating safer, more accessible homes for independent living across Western New York
+              Building safer, more accessible homes across Buffalo and Western New York
             </p>
           </div>
         </div>
@@ -59,72 +50,60 @@ const About: React.FC = () => {
             {/* Story Section */}
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <div className="space-y-4 text-gray-600">
+              <div className="space-y-5 text-gray-600">
                 <p>
-                  Aaron Michael Services was founded with a simple yet powerful mission: to help people 
-                  age comfortably and safely in their own homes. We understand that home isn't just a 
-                  place—it's where memories are made, families gather, and independence thrives.
+                  My name is <strong>Tom Story</strong>, founder of Aaron Michael Services. I’ve spent over 
+                  25 years in the trades as both a <strong>real estate investor</strong> and a <strong>carpenter</strong>. 
+                  Raised in South Buffalo, I was trained by old-school craftsmen who taught me that the only way to 
+                  truly understand this work is to swing a hammer.
                 </p>
                 <p>
-                  With years of experience in home modifications and accessibility solutions, we've 
-                  helped hundreds of families across Buffalo, Kenmore, Tonawanda, and throughout 
-                  Western New York create spaces that adapt to their changing needs.
+                  After the passing of my brother Aaron in 2015, I rebranded from T&amp;N Construction to Aaron Michael Services 
+                  to honor his memory. Today, we serve Buffalo, Kenmore, Tonawanda, and all of Western New York, focusing on 
+                  <Link to="/services/aging-in-place" className="text-blue-600 hover:text-blue-800 font-semibold"> aging-in-place solutions</Link>, 
+                  <Link to="/services/wheelchair-ramps" className="text-blue-600 hover:text-blue-800 font-semibold"> ADA-compliant ramps</Link>, 
+                  <Link to="/services/bathroom-remodeling" className="text-blue-600 hover:text-blue-800 font-semibold"> accessible bathrooms</Link>, 
+                  and <Link to="/services/handrails" className="text-blue-600 hover:text-blue-800 font-semibold"> handrail installations</Link>.
                 </p>
                 <p>
-                  Every modification we make is designed with both safety and dignity in mind, ensuring 
-                  that your home remains a place of comfort and independence for years to come.
+                  My youngest son, Noah, is non-verbal and on the autism spectrum. Because of him, I shifted my focus toward 
+                  helping families and individuals with disabilities live safely at home. As a <strong>Certified Aging-in-Place Specialist (CAPS)</strong> since 2011, 
+                  I provide modifications that don’t just solve today’s problems—they prevent tomorrow’s.
+                </p>
+                <p>
+                  Before the pandemic, we worked as exclusive contractors for the <strong>Hyatt</strong> and <strong>Holiday Inn</strong>, 
+                  completing projects across the U.S. including the Niagara Falls Hyatt Place renovation. Locally, 
+                  we’ve completed hundreds of property rehabs and flips, and continue to invest in multi-family properties 
+                  throughout Erie County and the Southern Tier.
+                </p>
+                <p>
+                  We’re not chasing jobs or checks—we’re chasing reputation, results, and satisfied homeowners. 
+                  If we work together, you’ll know exactly what’s needed, why it matters, and how to prevent issues 
+                  from happening again.
                 </p>
               </div>
             </div>
 
-            {/* Values/Stats Section */}
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Us</h3>
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900">Licensed & Insured</h4>
-                    <p className="text-gray-600">Fully licensed contractors with comprehensive insurance coverage</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900">ADA Compliant</h4>
-                    <p className="text-gray-600">All modifications meet or exceed ADA accessibility standards</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900">Quick Turnaround</h4>
-                    <p className="text-gray-600">Most projects completed within 1-3 weeks</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900">Local Expertise</h4>
-                    <p className="text-gray-600">Serving Western NY with personalized, community-focused service</p>
-                  </div>
-                </div>
-              </div>
+            {/* Placeholder Image */}
+            <div>
+              <img 
+                src="/images/about-placeholder-1.jpg" 
+                alt="Tom Story and family in Buffalo, NY" 
+                className="rounded-lg shadow-lg"
+              />
             </div>
           </div>
 
-          {/* Services Overview */}
+          {/* Second Image */}
+          <div className="mb-20">
+            <img 
+              src="/images/about-placeholder-2.jpg" 
+              alt="Aaron Michael Services carpentry project in Buffalo" 
+              className="rounded-lg shadow-lg mx-auto"
+            />
+          </div>
+
+          {/* Services Overview (unchanged) */}
           <div className="mb-20">
             <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Specialized Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
