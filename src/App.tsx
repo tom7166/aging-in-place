@@ -122,8 +122,8 @@ const App: React.FC = () => {
           <Route path="/services/door-widening" element={<DoorWidening />} />
           <Route path="/services/aging-in-place" element={<AgingInPlace />} />
           <Route path="/services/disability-modifications" element={<DisabilityModifications />} />
-          <Route path="/services/bathroom-remodeling" element={<BuffaloBathroomRemodeling />} />
-          <Route path="/services/kitchen-remodeling" element={<BuffaloKitchenRemodeling />} />
+          <Route path="/services/bathroom-remodeling" element={<BathroomRemodeling />} />
+          <Route path="/services/kitchen-remodeling" element={<KitchenRemodeling />} />
           <Route path="/services/home-additions" element={<BuffaloHomeAdditions />} />
           <Route path="/services/basement-finishing" element={<BuffaloBasementFinishing />} />
           <Route path="/services/flooring-installation" element={<BuffaloFlooringInstallation />} />
@@ -192,8 +192,6 @@ const App: React.FC = () => {
           <Route path="/tonawanda-home" element={<TonawandaHomePage />} />
           <Route path="/north-tonawanda-home" element={<NorthTonawandaHomePage />} />
           <Route path="/faq" element={<FAQPage />} />
-          <Route path="/services/bathroom-remodeling" element={<BathroomRemodeling />} />
-          <Route path="/services/kitchen-remodeling" element={<KitchenRemodeling />} />
           <Route path="/services/foundation-repair" element={<FoundationRepair />} />
           <Route path="/services/handyman-services" element={<HandymanServices />} />
           <Route path="/services/investor-services" element={<InvestorServices />} />
