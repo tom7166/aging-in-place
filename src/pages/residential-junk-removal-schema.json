@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Residential Junk Removal | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/residential-junk-removal",
+  "description": "Aaron Michael Services provides professional residential junk removal in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, efficient, and eco-friendly disposal of furniture, appliances, electronics, yard debris, and more.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Residential Junk Removal FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you take hazardous materials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We do not take materials like asbestos or chemicals. We provide guidance on proper disposal for these items in compliance with EPA regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does residential junk removal cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pricing depends on volume, weight, and type of items. We provide transparent, upfront quotes with no hidden fees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I schedule same-day removal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many cases, yes. Our availability varies based on location and demand. Contact us for scheduling in Buffalo, Kenmore, Tonawanda, North Tonawanda, or Cheektowaga."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Residential Junk Removal",
+        "item": "https://aaronmichaelservices.com/services/residential-junk-removal"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buffalo, NY",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14201",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    }
+  },
+  "inLanguage": "en-US"
+}
