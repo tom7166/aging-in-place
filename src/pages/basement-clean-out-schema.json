@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Basement Clean Out Services | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/basement-clean-out",
+  "description": "Aaron Michael Services provides professional basement clean out services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe removal of debris, old furniture, and clutter with full sanitation.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Basement Clean Out FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a typical basement clean out take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most standard basement clean outs are completed within 1–3 days, depending on the size and volume of items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you recycle or donate items?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we sort items for donation, recycling, and proper disposal according to local regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your services insured and licensed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services is fully licensed and insured, providing safe and reliable basement clean out services."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Basement Clean Out",
+        "item": "https://aaronmichaelservices.com/services/basement-clean-out"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
