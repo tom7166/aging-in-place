@@ -1,0 +1,101 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Slip-Resistant and Low-Pile Flooring Installation",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "image": "https://www.aaronmichaelservices.com/images/logo.png",
+    "telephone": "+1-716-533-7108",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Your Street Address Here",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "142xx",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Buffalo"
+      },
+      {
+        "@type": "City",
+        "name": "Kenmore"
+      },
+      {
+        "@type": "City",
+        "name": "Tonawanda"
+      },
+      {
+        "@type": "City",
+        "name": "North Tonawanda"
+      },
+      {
+        "@type": "City",
+        "name": "Cheektowaga"
+      }
+    ],
+    "url": "https://www.aaronmichaelservices.com"
+  },
+  "description": "Aaron Michael Services provides expert installation of slip-resistant and low-pile flooring for homes and businesses. Serving Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Slip-Resistant and Low-Pile Flooring Options",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Vinyl Flooring",
+          "description": "Low-pile, slip-resistant vinyl flooring for residential and commercial use."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Rubber Flooring",
+          "description": "Durable, low-pile rubber flooring with natural slip resistance."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Low-Pile Carpet",
+          "description": "Commercial-grade low-pile carpet suitable for wheelchairs, walkers, and high-traffic areas."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Ceramic and Porcelain Tile",
+          "description": "Slip-resistant, low-pile tiles with textured finishes for safety in kitchens and bathrooms."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Engineered Hardwood",
+          "description": "Low-pile engineered hardwood with anti-slip finishes for residential safety."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Luxury Vinyl Tile (LVT)",
+          "description": "Durable, low-pile LVT with textured surfaces for slip resistance and aesthetic appeal."
+        }
+      }
+    ]
+  }
+}
