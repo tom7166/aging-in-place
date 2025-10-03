@@ -63,16 +63,59 @@ const NavBar: React.FC = () => {
     {
       name: 'Accessibility Solutions',
       icon: '♿',
+      subcategories: [
+        {
+          label: 'Wheelchair Ramp Installation',
+          services: [
+            { label: 'Wheelchair Ramps', path: '/services/wheelchair-ramps' }
+          ]
+        },
+        {
+          label: 'Accessible Bathroom Remodels',
+          services: [
+            { label: 'Accessible Bathrooms', path: '/services/accessible-bathrooms' }
+          ]
+        },
+        {
+          label: 'Accessible Kitchen Modifications',
+          services: [
+            { label: 'Kitchen Modifications', path: '/services/kitchen-modifications' }
+          ]
+        },
+        {
+          label: 'Door Widening & Hallway Adjustments',
+          services: [
+            { label: 'Door Widening', path: '/services/door-widening' }
+          ]
+        },
+        {
+          label: 'Aging-in-Place Upgrades',
+          services: [
+            { label: 'Aging in Place', path: '/services/aging-in-place' }
+          ]
+        },
+        {
+          label: 'Specialized Disability Modifications',
+          services: [
+            { label: 'Disability Modifications', path: '/services/disability-modifications' }
+          ]
+        },
+        {
+          label: 'Home Additions & Expansions (Accessible)',
+          services: []
+        },
+        {
+          label: 'Basement Finishing & Waterproofing (Accessible)',
+          services: []
+        },
+        {
+          label: 'Accessible Flooring Installation',
+          services: [
+            { label: 'Laminate Flooring', path: '/services/laminate-flooring' }
+          ]
+        }
+      ],
       services: [
-        { label: 'Wheelchair Ramp Installation', path: '/services/accessibility/wheelchair-ramps' },
-        { label: 'Accessible Bathroom Remodels', path: '/services/accessibility/accessible-bathrooms' },
-        { label: 'Accessible Kitchen Modifications', path: '/services/accessibility/kitchen-modifications' },
-        { label: 'Door Widening & Hallway Adjustments', path: '/services/accessibility/door-widening' },
-        { label: 'Aging-in-Place Upgrades', path: '/services/accessibility/aging-in-place' },
-        { label: 'Specialized Disability Modifications', path: '/services/accessibility/disability-modifications' },
-        { label: 'Home Additions & Expansions (Accessible)', path: '/services/accessibility/home-additions' },
-        { label: 'Basement Finishing & Waterproofing (Accessible)', path: '/services/accessibility/basement-finishing' },
-        { label: 'Accessible Flooring Installation', path: '/services/accessibility/flooring-installation' },
         { label: 'Handrails & Grab Bars', path: '/services/handrails' }
       ]
     },
@@ -270,7 +313,36 @@ const NavBar: React.FC = () => {
 
                   {expandedCategories.has(category.name) && (
                     <div className="pl-6 pb-2 space-y-1">
-                      {category.services.map((service) => (
+                      {category.subcategories && category.subcategories.map((subcategory) => (
+                        <div key={subcategory.label} className="mb-1">
+                          <button
+                            onClick={() => toggleCategory(`${category.name}-${subcategory.label}`)}
+                            className="w-full flex items-center justify-between px-3 py-2 hover:bg-gray-50 rounded-lg transition-colors text-left"
+                          >
+                            <span className="font-medium text-gray-600 text-xs">{subcategory.label}</span>
+                            {expandedCategories.has(`${category.name}-${subcategory.label}`) ? (
+                              <ChevronUp size={16} className="text-gray-400" />
+                            ) : (
+                              <ChevronDown size={16} className="text-gray-400" />
+                            )}
+                          </button>
+                          {expandedCategories.has(`${category.name}-${subcategory.label}`) && subcategory.services.length > 0 && (
+                            <div className="pl-4 space-y-1">
+                              {subcategory.services.map((service) => (
+                                <Link
+                                  key={service.path}
+                                  to={service.path}
+                                  onClick={closeMenu}
+                                  className="block px-3 py-2 rounded-lg hover:bg-green-50 hover:text-green-600 transition-colors text-gray-500 text-xs"
+                                >
+                                  {service.label}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                      {category.services && category.services.map((service) => (
                         <Link
                           key={service.path}
                           to={service.path}
