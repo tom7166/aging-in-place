@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Modern Flooring Installation & Maintenance",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "areaServed": [
+    {"@type": "City","name": "Buffalo"},
+    {"@type": "City","name": "Kenmore"},
+    {"@type": "City","name": "Tonawanda"},
+    {"@type": "City","name": "North Tonawanda"},
+    {"@type": "City","name": "Cheektowaga"}
+  ],
+  "description": "Aaron Michael Services offers modern flooring solutions including hardwood, luxury vinyl plank, tile, and eco-friendly options in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Expert installation, maintenance, and repairs.",
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Modern Flooring FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which flooring type is best for high-traffic areas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LVP and tile are highly durable and low-maintenance, making them ideal for kitchens, entryways, and hallways."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I combine hardwood and LVP in one room?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with proper transition strips and subfloor preparation, multiple flooring types can coexist seamlessly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I maintain my flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular sweeping or vacuuming and cleaning with manufacturer-approved products will keep floors looking new. Hardwood may require periodic refinishing every 5–10 years."
+          }
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
