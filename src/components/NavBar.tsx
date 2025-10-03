@@ -43,6 +43,14 @@ const NavBar: React.FC = () => {
     { title: 'Handrails', path: '/services/handrails', keywords: ['handrail', 'grab bar', 'safety', 'stairs', 'railing'] },
     { title: 'Estate Cleanouts', path: '/services/estate-cleanouts', keywords: ['estate', 'cleanout', 'property', 'removal', 'downsizing'] },
     { title: 'Property Cleanouts', path: '/services/property-cleanouts', keywords: ['property', 'cleanout', 'foreclosure', 'clearing', 'junk removal'] },
+    { title: 'Residential Junk Removal', path: '/services/residential-junk-removal', keywords: ['residential', 'junk', 'removal', 'hauling', 'disposal'] },
+    { title: 'Clean Out Services', path: '/services/clean-out-services', keywords: ['clean', 'out', 'services', 'cleanout', 'removal'] },
+    { title: 'Foreclosure Clean Out', path: '/services/foreclosure-clean-out', keywords: ['foreclosure', 'clean', 'out', 'property', 'bank'] },
+    { title: 'Hoarding Clean Up', path: '/services/hoarding-clean-up', keywords: ['hoarding', 'cleanup', 'clutter', 'removal'] },
+    { title: 'Basement Clean Out', path: '/services/basement-clean-out', keywords: ['basement', 'clean', 'out', 'removal'] },
+    { title: 'Garage Clean Out', path: '/services/garage-clean-out', keywords: ['garage', 'clean', 'out', 'removal'] },
+    { title: 'Light Demolition', path: '/services/light-demolition', keywords: ['demolition', 'demo', 'removal', 'tear', 'down'] },
+    { title: 'Same Day Junk Removal', path: '/services/same-day-junk-removal', keywords: ['same', 'day', 'junk', 'removal', 'fast', 'quick'] },
     { title: 'Basement Repairs', path: '/services/basement-repairs', keywords: ['basement', 'repair', 'crack', 'waterproofing', 'foundation'] },
     { title: 'Bathroom Repairs', path: '/services/bathroom-repairs', keywords: ['bathroom', 'repair', 'plumbing', 'fixture', 'leak'] },
     { title: 'Carpentry Repairs', path: '/services/carpentry-repairs', keywords: ['carpentry', 'repair', 'wood', 'trim', 'door', 'frame'] },
@@ -170,6 +178,21 @@ const NavBar: React.FC = () => {
     {
       name: 'Specialized Services',
       icon: '⭐',
+      subcategories: [
+        {
+          label: 'Junk Removal',
+          services: [
+            { label: 'Residential Junk Removal', path: '/services/residential-junk-removal' },
+            { label: 'Clean Out Services', path: '/services/clean-out-services' },
+            { label: 'Foreclosure Clean Out', path: '/services/foreclosure-clean-out' },
+            { label: 'Hoarding Clean Up', path: '/services/hoarding-clean-up' },
+            { label: 'Basement Clean Out', path: '/services/basement-clean-out' },
+            { label: 'Garage Clean Out', path: '/services/garage-clean-out' },
+            { label: 'Light Demolition', path: '/services/light-demolition' },
+            { label: 'Same Day Junk Removal', path: '/services/same-day-junk-removal' }
+          ]
+        }
+      ],
       services: [
         { label: 'Handyman Services', path: '/services/handyman-services' },
         { label: 'Investor Services', path: '/services/investor-services' },

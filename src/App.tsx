@@ -113,6 +113,14 @@ import MaintenanceTips from './pages/maintenance-tips.tsx';
 import SlipResistantFlooring from './pages/slip-resistant-flooring.tsx';
 import FlooringTransitions from './pages/flooring-transitions.tsx';
 import MaintenanceDurability from './pages/maintenance-durability.tsx';
+import ResidentialJunkRemoval from './pages/residential-junk-removal.tsx';
+import CleanOutServices from './pages/clean-out-services.tsx';
+import ForeclosureCleanOut from './pages/foreclosure-clean-out.tsx';
+import HoardingCleanUp from './pages/hoarding-clean-up.tsx';
+import BasementCleanOut from './pages/basement-clean-out.tsx';
+import GarageCleanOut from './pages/garage-clean-out.tsx';
+import LightDemolition from './pages/LightDemolition.tsx';
+import SameDayJunkRemoval from './pages/SameDayJunkRemoval.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -237,6 +245,14 @@ const App: React.FC = () => {
           <Route path="/services/slip-resistant-flooring" element={<SlipResistantFlooring />} />
           <Route path="/services/flooring-transitions" element={<FlooringTransitions />} />
           <Route path="/services/maintenance-durability" element={<MaintenanceDurability />} />
+          <Route path="/services/residential-junk-removal" element={<ResidentialJunkRemoval />} />
+          <Route path="/services/clean-out-services" element={<CleanOutServices />} />
+          <Route path="/services/foreclosure-clean-out" element={<ForeclosureCleanOut />} />
+          <Route path="/services/hoarding-clean-up" element={<HoardingCleanUp />} />
+          <Route path="/services/basement-clean-out" element={<BasementCleanOut />} />
+          <Route path="/services/garage-clean-out" element={<GarageCleanOut />} />
+          <Route path="/services/light-demolition" element={<LightDemolition />} />
+          <Route path="/services/same-day-junk-removal" element={<SameDayJunkRemoval />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
