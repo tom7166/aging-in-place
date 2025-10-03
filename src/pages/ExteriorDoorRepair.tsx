@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './exterior-door-repair-schema.json';
 
@@ -132,3 +133,26 @@ export default function ExteriorDoorRepair() {
               <p>We perform carpentry repairs to restore frame integrity and ensure proper weather sealing.</p>
             </div>
             <div>
+              <h3 className="font-semibold">How long does a door repair take?</h3>
+              <p>Most exterior door repairs are completed within a few hours, depending on the scope of work.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="cta bg-blue-600 text-white py-12 text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready to Fix Your Exterior Door?</h2>
+          <p className="text-lg mb-6">
+            Contact Aaron Michael Services today for expert exterior door repair in Buffalo and Western NY.
+          </p>
+          <a
+            href="tel:7165337108"
+            className="inline-block bg-white text-blue-600 px-6 py-3 rounded shadow hover:bg-gray-100"
+          >
+            Call (716) 533-7108
+          </a>
+        </section>
+      </main>
+    </>
+  );
+}
