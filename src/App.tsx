@@ -103,7 +103,7 @@ import ExteriorDoorRepair from './pages/ExteriorDoorRepair.tsx';
 import InteriorDoorRepair from './pages/InteriorDoorRepair.tsx';
 import GutterRepairs from './pages/GutterRepairs.tsx';
 import KitchenRepairs from './pages/KitchenRepairs.tsx';
-import StairRepair from './pages/StairRepair.tsx';
+import StairRepair from './pages/StairRepair.jsx';
 import WindowScreenRepair from './pages/WindowScreenRepair.tsx';
 import TrimCarpentry from './pages/TrimCarpentry.tsx';
 import LaminateFlooring from './pages/laminate-flooring.tsx';
