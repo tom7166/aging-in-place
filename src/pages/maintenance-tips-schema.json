@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Ramp and Accessibility Maintenance",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "image": "https://aaronmichaelservices.com/logo.png",
+    "telephone": "+17162550555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buffalo, NY",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14201",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Buffalo NY",
+      "Kenmore NY",
+      "Tonawanda NY",
+      "North Tonawanda NY",
+      "Cheektowaga NY"
+    ],
+    "url": "https://aaronmichaelservices.com"
+  },
+  "description": "Comprehensive maintenance tips for accessibility ramps, home modifications, and safety features in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://aaronmichaelservices.com/maintenance-tips",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How often should I inspect my ramp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monthly inspections are recommended, with additional checks after extreme weather."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I maintain a ramp myself?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, basic cleaning and tightening fasteners are fine, but for major repairs, consult professionals."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What’s the lifespan of a well-maintained ramp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Wood: 10–15 years, Aluminum: 20+ years, Concrete: 30+ years. Proper maintenance can extend life significantly."
+        }
+      }
+    ]
+  }
+}
