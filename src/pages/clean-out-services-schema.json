@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Clean Out Services | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/clean-out-services",
+  "description": "Aaron Michael Services provides professional clean out services for homes, garages, attics, basements, and estates in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, efficient, and eco-friendly removal of unwanted items.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Clean Out Services FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you handle estate clean outs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide complete estate clean outs including sorting, removal, donation, and disposal in compliance with local regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you remove hazardous materials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We do not handle hazardous chemicals or asbestos, but we guide clients to proper disposal methods following EPA guidelines."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can you schedule a clean out?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scheduling is flexible; same-week service is often available depending on location in Buffalo, Kenmore, Tonawanda, North Tonawanda, or Cheektowaga."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Clean Out Services",
+        "item": "https://aaronmichaelservices.com/services/clean-out-services"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buffalo, NY",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14201",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    }
+  },
+  "inLanguage": "en-US"
+}
