@@ -160,7 +160,7 @@ const MaintenanceTips: React.FC = () => {
               Our certified team ensures ADA compliance and optimal safety year-round in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.
             </p>
             <p className="text-lg text-gray-700 mt-4">
-              Call <a href="tel:17162550555" className="text-blue-600 hover:underline font-semibold">(716) 255-0555</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline">Contact Page</Link>
+              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline">Contact Page</Link>
               {' '}to schedule a maintenance check or repair today.
             </p>
           </section>
