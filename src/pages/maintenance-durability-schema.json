@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Maintenance and Durability | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/maintenance-durability",
+  "description": "Expert guide on maintenance and durability of ramps, flooring, and home modifications. Aaron Michael Services ensures safe, long-lasting solutions in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Maintenance and Durability FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How often should I inspect my ramps and flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Monthly inspections and after severe weather events are recommended to ensure safety and durability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I perform maintenance myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Basic cleaning and tightening fasteners are safe for homeowners. For sealants, structural repairs, or ADA compliance checks, consult a professional."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the expected lifespan of ramps and flooring with proper maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wood ramps last 10–15 years, Aluminum ramps 20+ years, Flooring 10–30 years depending on material. Proper care significantly extends life."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Maintenance and Durability",
+        "item": "https://aaronmichaelservices.com/services/maintenance-durability"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buffalo, NY",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14201",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    }
+  },
+  "inLanguage": "en-US"
+}
