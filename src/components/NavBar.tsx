@@ -26,6 +26,9 @@ const NavBar: React.FC = () => {
     { title: 'About', path: '/about', keywords: ['about', 'story', 'experience', 'tom', 'founder'] },
     { title: 'Contact', path: '/contact', keywords: ['contact', 'phone', 'email', 'consultation'] },
     { title: 'Wheelchair Ramp Installation', path: '/services/accessibility/wheelchair-ramps', keywords: ['wheelchair', 'ramps', 'ada', 'accessibility'] },
+    { title: 'Types of Ramps', path: '/services/types-of-ramps', keywords: ['types', 'ramps', 'wood', 'aluminum', 'concrete', 'modular', 'portable'] },
+    { title: 'ADA Compliance Details', path: '/services/ada-compliance-details-and-local-regulations', keywords: ['ada', 'compliance', 'regulations', 'local', 'building codes'] },
+    { title: 'Maintenance Tips', path: '/services/maintenance-tips', keywords: ['maintenance', 'tips', 'ramp care', 'upkeep', 'inspection'] },
     { title: 'Accessible Bathroom Remodels', path: '/services/accessibility/accessible-bathrooms', keywords: ['bathroom', 'accessible', 'walk-in', 'shower', 'grab bars'] },
     { title: 'Accessible Kitchen Modifications', path: '/services/accessibility/kitchen-modifications', keywords: ['kitchen', 'accessible', 'counters', 'modifications'] },
     { title: 'Door Widening & Hallway Adjustments', path: '/services/accessibility/door-widening', keywords: ['door', 'widening', 'wheelchair', 'access', 'hallway'] },
@@ -67,7 +70,10 @@ const NavBar: React.FC = () => {
         {
           label: 'Wheelchair Ramp Installation',
           services: [
-            { label: 'Wheelchair Ramps', path: '/services/wheelchair-ramps' }
+            { label: 'Wheelchair Ramps', path: '/services/wheelchair-ramps' },
+            { label: 'Types of Ramps', path: '/services/types-of-ramps' },
+            { label: 'ADA Compliance Details', path: '/services/ada-compliance-details-and-local-regulations' },
+            { label: 'Maintenance Tips', path: '/services/maintenance-tips' }
           ]
         },
         {
