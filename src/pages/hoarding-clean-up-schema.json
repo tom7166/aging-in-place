@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Hoarding Clean Up Services | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/hoarding-clean-up",
+  "description": "Aaron Michael Services provides professional hoarding clean up services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, discreet, and thorough removal of clutter and debris from homes.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Hoarding Clean Up FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the process discreet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our team works respectfully and privately to protect homeowner dignity during every clean up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you sort items for donation or recycling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Whenever possible, items are donated or recycled to reduce waste and benefit the community."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga, following all local health and safety guidelines."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Hoarding Clean Up",
+        "item": "https://aaronmichaelservices.com/services/hoarding-clean-up"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
