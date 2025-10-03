@@ -121,6 +121,11 @@ import BasementCleanOut from './pages/basement-clean-out.tsx';
 import GarageCleanOut from './pages/garage-clean-out.tsx';
 import LightDemolition from './pages/LightDemolition.tsx';
 import SameDayJunkRemoval from './pages/SameDayJunkRemoval.tsx';
+import HardwoodFloors from './pages/HardwoodFloors.tsx';
+import LuxuryVinylPlank from './pages/LuxuryVinylPlank.tsx';
+import ModernFlooring from './pages/ModernFlooring.tsx';
+import HardwoodFlooringInstallersNearMe from './pages/HardwoodFlooringInstallersNearMe.tsx';
+import NearMeFlooringInstallers from './pages/NearMeFlooringInstallers.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -253,6 +258,11 @@ const App: React.FC = () => {
           <Route path="/services/garage-clean-out" element={<GarageCleanOut />} />
           <Route path="/services/light-demolition" element={<LightDemolition />} />
           <Route path="/services/same-day-junk-removal" element={<SameDayJunkRemoval />} />
+          <Route path="/services/hardwood-floors" element={<HardwoodFloors />} />
+          <Route path="/services/luxury-vinyl-plank" element={<LuxuryVinylPlank />} />
+          <Route path="/services/modern-flooring" element={<ModernFlooring />} />
+          <Route path="/services/hardwood-flooring-installers-near-me" element={<HardwoodFlooringInstallersNearMe />} />
+          <Route path="/services/near-me-flooring-installers" element={<NearMeFlooringInstallers />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

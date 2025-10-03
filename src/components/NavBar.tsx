@@ -66,6 +66,11 @@ const NavBar: React.FC = () => {
     { title: 'Slip-Resistant Flooring', path: '/services/slip-resistant-flooring', keywords: ['slip', 'resistant', 'flooring', 'non-slip', 'safety', 'low-pile'] },
     { title: 'Flooring Transitions', path: '/services/flooring-transitions', keywords: ['flooring', 'transitions', 'seamless', 'level', 'threshold'] },
     { title: 'Maintenance and Durability', path: '/services/maintenance-durability', keywords: ['maintenance', 'durability', 'flooring', 'care', 'longevity'] },
+    { title: 'Hardwood Floors', path: '/services/hardwood-floors', keywords: ['hardwood', 'floors', 'wood', 'flooring', 'installation'] },
+    { title: 'Luxury Vinyl Plank', path: '/services/luxury-vinyl-plank', keywords: ['luxury', 'vinyl', 'plank', 'lvp', 'flooring'] },
+    { title: 'Modern Flooring', path: '/services/modern-flooring', keywords: ['modern', 'flooring', 'contemporary', 'installation'] },
+    { title: 'Hardwood Flooring Installers Near Me', path: '/services/hardwood-flooring-installers-near-me', keywords: ['hardwood', 'installers', 'near', 'me', 'local'] },
+    { title: 'Near Me Flooring Installers', path: '/services/near-me-flooring-installers', keywords: ['flooring', 'installers', 'near', 'me', 'local'] },
     { title: 'Bathroom Remodeling', path: '/services/bathroom-remodeling', keywords: ['bathroom', 'remodel', 'renovation', 'upgrade'] },
     { title: 'Kitchen Remodeling', path: '/services/kitchen-remodeling', keywords: ['kitchen', 'remodel', 'renovation', 'upgrade'] },
     { title: 'Home Additions', path: '/services/home-additions', keywords: ['addition', 'expansion', 'room', 'extension'] },
@@ -167,12 +172,24 @@ const NavBar: React.FC = () => {
     {
       name: 'Carpentry & Flooring',
       icon: '🪚',
+      subcategories: [
+        {
+          label: 'Flooring',
+          services: [
+            { label: 'Flooring Installation', path: '/services/flooring-installation' },
+            { label: 'Laminate Flooring', path: '/services/laminate-flooring' },
+            { label: 'Hardwood Floors', path: '/services/hardwood-floors' },
+            { label: 'Luxury Vinyl Plank', path: '/services/luxury-vinyl-plank' },
+            { label: 'Modern Flooring', path: '/services/modern-flooring' },
+            { label: 'Hardwood Flooring Installers Near Me', path: '/services/hardwood-flooring-installers-near-me' },
+            { label: 'Near Me Flooring Installers', path: '/services/near-me-flooring-installers' }
+          ]
+        }
+      ],
       services: [
         { label: 'Carpentry', path: '/services/carpentry' },
         { label: 'Trim Carpentry', path: '/services/trim-carpentry' },
-        { label: 'Carpentry Repairs', path: '/services/carpentry-repairs' },
-        { label: 'Flooring Installation', path: '/services/flooring-installation' },
-        { label: 'Laminate Flooring', path: '/services/laminate-flooring' }
+        { label: 'Carpentry Repairs', path: '/services/carpentry-repairs' }
       ]
     },
     {
