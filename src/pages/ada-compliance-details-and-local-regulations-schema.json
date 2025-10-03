@@ -27,53 +27,51 @@
       "url": "https://aaronmichaelservices.com/images/logo.png"
     }
   },
-  "mainEntity": [
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need a permit to install a ramp in Buffalo?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, most municipalities require permits for any structural modification, including ramps. Aaron Michael Services handles permitting for you."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What slope is allowed for ramps?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The maximum slope allowed by ADA is 1:12, which means 1 inch of rise for every 12 inches of run."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are handrails required?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, handrails are required on both sides for ramps that rise more than 6 inches, with heights between 34 and 38 inches."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What about ramp width?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "ADA mandates a minimum ramp width of 36 inches for single-user ramps to accommodate wheelchairs safely."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should I inspect my ramps?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Monthly inspections are recommended, with additional checks after storms or heavy snow."
-          }
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a permit to install a ramp in Buffalo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, most municipalities require permits for any structural modification, including ramps. Aaron Michael Services handles permitting for you."
         }
-      ]
-    }
-  ],
+      },
+      {
+        "@type": "Question",
+        "name": "What slope is allowed for ramps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The maximum slope allowed by ADA is 1:12, which means 1 inch of rise for every 12 inches of run."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are handrails required?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, handrails are required on both sides for ramps that rise more than 6 inches, with heights between 34 and 38 inches."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What about ramp width?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ADA mandates a minimum ramp width of 36 inches for single-user ramps to accommodate wheelchairs safely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How often should I inspect my ramps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Monthly inspections are recommended, with additional checks after storms or heavy snow."
+        }
+      }
+    ]
+  },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 42.8864,
