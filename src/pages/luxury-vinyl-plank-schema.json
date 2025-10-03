@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Luxury Vinyl Plank Flooring Installation & Maintenance",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "areaServed": [
+    {"@type": "City","name": "Buffalo"},
+    {"@type": "City","name": "Kenmore"},
+    {"@type": "City","name": "Tonawanda"},
+    {"@type": "City","name": "North Tonawanda"},
+    {"@type": "City","name": "Cheektowaga"}
+  ],
+  "description": "Aaron Michael Services provides professional Luxury Vinyl Plank (LVP) flooring installation, maintenance, and repairs in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Durable, waterproof flooring for modern homes.",
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Luxury Vinyl Plank Flooring FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is LVP waterproof?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most LVP products are waterproof, making them ideal for kitchens, bathrooms, and basements. Always confirm the product specifications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install LVP over existing flooring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, LVP can often be installed over tile, vinyl, or wood, provided the subfloor is clean and level."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does LVP last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-quality LVP can last 20–30 years with proper care and regular maintenance."
+          }
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
