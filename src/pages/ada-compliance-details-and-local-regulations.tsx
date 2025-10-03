@@ -4,7 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
-import schemaData from './ada-compliance-details-schema.json';
+import schemaData from './ada-compliance-details-and-local-regulations-schema.json';
 
 const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
   useEffect(() => {
