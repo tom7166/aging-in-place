@@ -25,12 +25,15 @@ const NavBar: React.FC = () => {
     { title: 'Home', path: '/', keywords: ['home', 'main', 'buffalo', 'ada', 'contractor'] },
     { title: 'About', path: '/about', keywords: ['about', 'story', 'experience', 'tom', 'founder'] },
     { title: 'Contact', path: '/contact', keywords: ['contact', 'phone', 'email', 'consultation'] },
-    { title: 'Wheelchair Ramps', path: '/services/wheelchair-ramps', keywords: ['wheelchair', 'ramps', 'ada', 'accessibility'] },
-    { title: 'Accessible Bathrooms', path: '/services/accessible-bathrooms', keywords: ['bathroom', 'accessible', 'walk-in', 'shower', 'grab bars'] },
-    { title: 'Kitchen Modifications', path: '/services/kitchen-modifications', keywords: ['kitchen', 'accessible', 'counters', 'modifications'] },
-    { title: 'Door Widening', path: '/services/door-widening', keywords: ['door', 'widening', 'wheelchair', 'access'] },
-    { title: 'Aging in Place', path: '/services/aging-in-place', keywords: ['aging', 'seniors', 'home', 'modifications'] },
-    { title: 'Disability Modifications', path: '/services/disability-modifications', keywords: ['disability', 'autism', 'special needs', 'modifications'] },
+    { title: 'Wheelchair Ramp Installation', path: '/services/accessibility/wheelchair-ramps', keywords: ['wheelchair', 'ramps', 'ada', 'accessibility'] },
+    { title: 'Accessible Bathroom Remodels', path: '/services/accessibility/accessible-bathrooms', keywords: ['bathroom', 'accessible', 'walk-in', 'shower', 'grab bars'] },
+    { title: 'Accessible Kitchen Modifications', path: '/services/accessibility/kitchen-modifications', keywords: ['kitchen', 'accessible', 'counters', 'modifications'] },
+    { title: 'Door Widening & Hallway Adjustments', path: '/services/accessibility/door-widening', keywords: ['door', 'widening', 'wheelchair', 'access', 'hallway'] },
+    { title: 'Aging-in-Place Upgrades', path: '/services/accessibility/aging-in-place', keywords: ['aging', 'seniors', 'home', 'modifications'] },
+    { title: 'Specialized Disability Modifications', path: '/services/accessibility/disability-modifications', keywords: ['disability', 'autism', 'special needs', 'modifications'] },
+    { title: 'Home Additions & Expansions (Accessible)', path: '/services/accessibility/home-additions', keywords: ['addition', 'expansion', 'accessible', 'room', 'extension'] },
+    { title: 'Basement Finishing & Waterproofing (Accessible)', path: '/services/accessibility/basement-finishing', keywords: ['basement', 'finishing', 'accessible', 'waterproofing'] },
+    { title: 'Accessible Flooring Installation', path: '/services/accessibility/flooring-installation', keywords: ['flooring', 'accessible', 'installation', 'barrier-free'] },
     { title: 'Foundation Repair', path: '/services/foundation-repair', keywords: ['foundation', 'repair', 'crack', 'basement', 'waterproofing', 'stabilization'] },
     { title: 'Handyman Services', path: '/services/handyman-services', keywords: ['handyman', 'repair', 'maintenance', 'fix', 'small jobs'] },
     { title: 'Investor Services', path: '/services/investor-services', keywords: ['investor', 'property', 'rental', 'flip', 'renovation', 'real estate'] },
@@ -58,15 +61,19 @@ const NavBar: React.FC = () => {
 
   const serviceCategories = [
     {
-      name: 'Accessibility Services',
+      name: 'Accessibility Solutions',
       icon: '♿',
       services: [
-        { label: 'Wheelchair Ramps', path: '/services/wheelchair-ramps' },
-        { label: 'Accessible Bathrooms', path: '/services/accessible-bathrooms' },
-        { label: 'Door Widening', path: '/services/door-widening' },
-        { label: 'Handrails & Grab Bars', path: '/services/handrails' },
-        { label: 'Aging in Place', path: '/services/aging-in-place' },
-        { label: 'Disability Modifications', path: '/services/disability-modifications' }
+        { label: 'Wheelchair Ramp Installation', path: '/services/accessibility/wheelchair-ramps' },
+        { label: 'Accessible Bathroom Remodels', path: '/services/accessibility/accessible-bathrooms' },
+        { label: 'Accessible Kitchen Modifications', path: '/services/accessibility/kitchen-modifications' },
+        { label: 'Door Widening & Hallway Adjustments', path: '/services/accessibility/door-widening' },
+        { label: 'Aging-in-Place Upgrades', path: '/services/accessibility/aging-in-place' },
+        { label: 'Specialized Disability Modifications', path: '/services/accessibility/disability-modifications' },
+        { label: 'Home Additions & Expansions (Accessible)', path: '/services/accessibility/home-additions' },
+        { label: 'Basement Finishing & Waterproofing (Accessible)', path: '/services/accessibility/basement-finishing' },
+        { label: 'Accessible Flooring Installation', path: '/services/accessibility/flooring-installation' },
+        { label: 'Handrails & Grab Bars', path: '/services/handrails' }
       ]
     },
     {
@@ -76,8 +83,7 @@ const NavBar: React.FC = () => {
         { label: 'Bathroom Remodeling', path: '/services/bathroom-remodeling' },
         { label: 'Kitchen Remodeling', path: '/services/kitchen-remodeling' },
         { label: 'Basement Finishing', path: '/services/basement-finishing' },
-        { label: 'Home Additions', path: '/services/home-additions' },
-        { label: 'Kitchen Modifications', path: '/services/kitchen-modifications' }
+        { label: 'Home Additions', path: '/services/home-additions' }
       ]
     },
     {
