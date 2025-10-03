@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "ADA Compliance and Accessibility Regulations",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "image": "https://aaronmichaelservices.com/logo.png",
+    "telephone": "+17162550555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Buffalo, NY",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14201",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      "Buffalo NY",
+      "Kenmore NY",
+      "Tonawanda NY",
+      "North Tonawanda NY",
+      "Cheektowaga NY"
+    ],
+    "url": "https://aaronmichaelservices.com"
+  },
+  "description": "Learn about ADA compliance for accessibility ramps, entrances, and modifications in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Aaron Michael Services ensures every installation meets ADA standards and local building codes.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://aaronmichaelservices.com/ada-compliance-details-and-local-regulations",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock"
+  },
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do all homes need to be ADA compliant?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, but following ADA guidelines ensures safety and accessibility for residents and visitors alike."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get a permit for a ramp in Buffalo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You’ll need to submit an application to the Buffalo Building Permits Office. Aaron Michael Services assists with this process."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if a business ignores ADA requirements?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Businesses may face fines, lawsuits, and required modifications. Compliance ensures accessibility and protects against legal action."
+        }
+      }
+    ]
+  }
+}
