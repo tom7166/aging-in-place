@@ -141,7 +141,7 @@ const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
             <p className="text-lg text-gray-700">
               <strong>Aaron Michael Services</strong> ensures all accessibility modifications meet ADA standards
               and local regulations across Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.
-              Call us at <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className="text-blue-600 hover:underline">Contact Page</Link>
+              Call us at <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline">Contact Page</Link>
               {' '}to schedule your compliance consultation today.
             </p>
           </section>
