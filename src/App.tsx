@@ -228,9 +228,9 @@ const App: React.FC = () => {
           <Route path="/services/window-screen-repair" element={<WindowScreenRepair />} />
           <Route path="/services/trim-carpentry" element={<TrimCarpentry />} />
           <Route path="/services/laminate-flooring" element={<LaminateFlooring />} />
-          <Route path="/types-of-ramps" element={<TypesOfRamps />} />
-          <Route path="/ada-compliance-details-and-local-regulations" element={<ADAComplianceDetailsAndLocalRegulations />} />
-          <Route path="/maintenance-tips" element={<MaintenanceTips />} />
+          <Route path="/services/types-of-ramps" element={<TypesOfRamps />} />
+          <Route path="/services/ada-compliance-details-and-local-regulations" element={<ADAComplianceDetailsAndLocalRegulations />} />
+          <Route path="/services/maintenance-tips" element={<MaintenanceTips />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
