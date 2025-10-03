@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Light Demolition Services | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/light-demolition",
+  "description": "Aaron Michael Services provides professional light demolition services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe removal of walls, fixtures, and flooring for residential remodeling projects.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Light Demolition FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you remove load-bearing walls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We only handle non-load-bearing walls and minor structural modifications. Load-bearing walls require a structural engineer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is debris disposed of?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All debris is removed from your property and disposed of according to local waste and recycling regulations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your services insured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services is fully licensed and insured, ensuring safe and professional demolition services."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Light Demolition",
+        "item": "https://aaronmichaelservices.com/services/light-demolition"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
