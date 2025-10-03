@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Local Flooring Installation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "areaServed": [
+    {"@type": "City","name": "Buffalo"},
+    {"@type": "City","name": "Kenmore"},
+    {"@type": "City","name": "Tonawanda"},
+    {"@type": "City","name": "North Tonawanda"},
+    {"@type": "City","name": "Cheektowaga"}
+  ],
+  "description": "Aaron Michael Services provides local flooring installation near you in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Hardwood, LVP, tile, and modern flooring installers ready for your project.",
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Near Me Flooring Installers FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What areas do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga for all flooring installation projects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide free estimates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer free consultations and estimates to help homeowners make informed decisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you install multiple flooring types in one home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Our team specializes in combining hardwood, LVP, tile, and other modern flooring with seamless transitions."
+          }
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
