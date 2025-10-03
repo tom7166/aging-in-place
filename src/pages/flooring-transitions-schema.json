@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Seamless Flooring Transitions Installation",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Aaron Michael Services",
+    "image": "https://www.aaronmichaelservices.com/images/logo.png",
+    "telephone": "+1-716-533-7108",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Your Street Address Here",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "142xx",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Buffalo"},
+      {"@type": "City", "name": "Kenmore"},
+      {"@type": "City", "name": "Tonawanda"},
+      {"@type": "City", "name": "North Tonawanda"},
+      {"@type": "City", "name": "Cheektowaga"}
+    ],
+    "url": "https://www.aaronmichaelservices.com"
+  },
+  "description": "Aaron Michael Services provides professional installation of seamless flooring transitions between hardwood, tile, carpet, vinyl, and other surfaces. Ensuring safety, ADA compliance, and aesthetic continuity in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Types of Flooring Transitions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "T-Molding Transition",
+          "description": "Connects two floors of equal height like hardwood to laminate for a smooth, safe walkable surface."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Reducer Strip",
+          "description": "Bridges floors of different heights like hardwood to vinyl, reducing trip hazards and protecting edges."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Carpet to Hard Surface Transition",
+          "description": "Secure metal or vinyl edge strips for transitioning from carpet to tile or hardwood safely."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Thresholds",
+          "description": "ADA-compliant doorway thresholds that maintain a low profile, safe passage, and aesthetic continuity."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Custom Flooring Transitions",
+          "description": "Tailored solutions using wood, metal, or engineered materials to create smooth, safe, and visually appealing transitions."
+        }
+      }
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.aaronmichaelservices.com/services/flooring-transitions"
+  }
+}
