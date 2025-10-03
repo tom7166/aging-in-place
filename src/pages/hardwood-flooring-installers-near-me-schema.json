@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Hardwood Flooring Installation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "url": "https://aaronmichaelservices.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "areaServed": [
+    {"@type": "City","name": "Buffalo"},
+    {"@type": "City","name": "Kenmore"},
+    {"@type": "City","name": "Tonawanda"},
+    {"@type": "City","name": "North Tonawanda"},
+    {"@type": "City","name": "Cheektowaga"}
+  ],
+  "description": "Aaron Michael Services provides local hardwood flooring installation near you in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Certified installers ready for your home.",
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Hardwood Flooring Installers Near Me FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you serve all areas near Buffalo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we serve Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga for all hardwood flooring projects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you install hardwood over existing floors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, yes. We inspect your subfloor to ensure proper adhesion and longevity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Time varies by project size, but our team works efficiently while maintaining top-quality workmanship."
+          }
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
