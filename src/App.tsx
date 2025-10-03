@@ -107,6 +107,9 @@ import StairRepair from './pages/StairRepair.tsx';
 import WindowScreenRepair from './pages/WindowScreenRepair.tsx';
 import TrimCarpentry from './pages/TrimCarpentry.tsx';
 import LaminateFlooring from './pages/laminate-flooring.tsx';
+import TypesOfRamps from './pages/types-of-ramps.tsx';
+import ADAComplianceDetailsAndLocalRegulations from './pages/ada-compliance-details-and-local-regulations.tsx';
+import MaintenanceTips from './pages/maintenance-tips.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -225,6 +228,9 @@ const App: React.FC = () => {
           <Route path="/services/window-screen-repair" element={<WindowScreenRepair />} />
           <Route path="/services/trim-carpentry" element={<TrimCarpentry />} />
           <Route path="/services/laminate-flooring" element={<LaminateFlooring />} />
+          <Route path="/types-of-ramps" element={<TypesOfRamps />} />
+          <Route path="/ada-compliance-details-and-local-regulations" element={<ADAComplianceDetailsAndLocalRegulations />} />
+          <Route path="/maintenance-tips" element={<MaintenanceTips />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

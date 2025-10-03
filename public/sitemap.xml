@@ -237,6 +237,28 @@
     <changefreq>monthly</changefreq>
   </url>
 
+  <!-- Information & Resource Pages -->
+  <url>
+    <loc>https://aaronmichaelservices.com/types-of-ramps</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/ada-compliance-details-and-local-regulations</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/maintenance-tips</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
   <!-- Buffalo City Pages -->
   <url>
     <loc>https://aaronmichaelservices.com/accessible-remodeling-buffalo-ny</loc>
