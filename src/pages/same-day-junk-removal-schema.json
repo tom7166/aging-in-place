@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Same Day Junk Removal | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/same-day-junk-removal",
+  "description": "Aaron Michael Services offers fast, reliable same-day junk removal for homes and businesses in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Efficient clean-outs, debris removal, and clutter solutions.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Same Day Junk Removal FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What items do you remove?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We remove furniture, appliances, electronics, yard waste, construction debris, and general clutter from homes and businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you charge extra for same-day service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our pricing includes same-day service. Contact us for a personalized estimate based on volume and type of items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are you licensed and insured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services is fully licensed and insured to provide safe and professional junk removal services throughout Western New York."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Same Day Junk Removal",
+        "item": "https://aaronmichaelservices.com/services/same-day-junk-removal"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
