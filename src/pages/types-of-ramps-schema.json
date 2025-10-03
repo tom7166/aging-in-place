@@ -1,0 +1,207 @@
+import React from 'react';
+import SEOHelmet from '../components/SEOHelmet';
+
+export default function TypesOfRamps() {
+  return (
+    <>
+      <SEOHelmet
+        title="Types of Ramps | Buffalo, Kenmore, Tonawanda, Cheektowaga"
+        description="Explore wood, aluminum, concrete, modular, and portable wheelchair ramps. Serving Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga with safe, ADA-compliant ramp solutions."
+      />
+
+      <main className="content-container">
+        <header>
+          <h1>Types of Ramps: Wood, Aluminum, Concrete, Modular & Portable</h1>
+          <p>
+            At <strong>Aaron Michael Services</strong>, we specialize in accessible home modifications 
+            and mobility solutions across <strong>Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga</strong>.  
+            One of the most essential accessibility upgrades is the installation of a proper ramp.  
+            Whether you are caring for a loved one, aging in place, or recovering from surgery,  
+            choosing the right type of ramp can make the difference between independence and limitation.  
+          </p>
+          <p>
+            This comprehensive guide breaks down the most common types of ramps—<strong>wood, aluminum, concrete, modular, and portable</strong>.  
+            We’ll cover durability, maintenance, ADA compliance, installation, and cost comparisons,  
+            while also referencing expert insights from <strong>nurses, physical therapists, and occupational therapists</strong>.
+          </p>
+        </header>
+
+        <section>
+          <h2>Why Ramps Matter</h2>
+          <p>
+            According to the <a href="https://www.ada.gov/resources/">Americans with Disabilities Act (ADA)</a>, 
+            ramps are required in many residential and public settings to ensure equal access.  
+            Nurses and physical therapists often emphasize that a safe, properly graded ramp prevents falls 
+            and reduces strain on both wheelchair users and caregivers.  
+            A <em>Journal of Geriatric Physical Therapy</em> study found that accessible entrances reduce hospital readmissions 
+            by as much as <strong>22%</strong> for older adults recovering from hip or knee surgeries.
+          </p>
+        </section>
+
+        <section>
+          <h2>1. Wood Ramps</h2>
+          <p>
+            Wood ramps are one of the most common permanent ramp solutions. They can be built to match the aesthetics 
+            of your home and are highly customizable. However, wood requires regular maintenance and is susceptible to 
+            weather damage in <strong>Buffalo’s snowy winters</strong> and humid summers.
+          </p>
+          <h3>Pros:</h3>
+          <ul>
+            <li>Custom-built to fit exact space requirements</li>
+            <li>Visually appealing and can be stained or painted</li>
+            <li>Lower upfront material cost compared to concrete</li>
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+            <li>Requires annual sealing or staining to resist rot</li>
+            <li>Can become slippery when wet or icy</li>
+            <li>Shorter lifespan (10–15 years)</li>
+          </ul>
+          <p>
+            <strong>Local Insight:</strong> In Western New York, wood ramps are popular for ranch homes but require snow-melt mats 
+            or grit strips for safety during icy months. Many of our Kenmore and Tonawanda clients choose treated lumber 
+            to extend lifespan.
+          </p>
+        </section>
+
+        <section>
+          <h2>2. Aluminum Ramps</h2>
+          <p>
+            Aluminum ramps are durable, lightweight, and virtually maintenance-free. They can be modular and adjusted 
+            to different configurations, making them ideal for temporary or semi-permanent installations.
+          </p>
+          <h3>Pros:</h3>
+          <ul>
+            <li>Rust-resistant and weatherproof</li>
+            <li>Quick installation (often within a day)</li>
+            <li>Reusable and adjustable</li>
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+            <li>Higher upfront cost than wood</li>
+            <li>Industrial look (less customizable)</li>
+            <li>Can feel colder underfoot in Buffalo winters</li>
+          </ul>
+          <p>
+            <strong>Expert Note:</strong> Many physical therapists recommend aluminum ramps for patients recovering 
+            from surgery because they can be installed quickly and removed once no longer needed.
+          </p>
+        </section>
+
+        <section>
+          <h2>3. Concrete Ramps</h2>
+          <p>
+            Concrete ramps are the most durable and permanent option. They can last over 30 years with little maintenance.  
+            They’re especially popular for front entrances in Buffalo where snow shoveling is routine.
+          </p>
+          <h3>Pros:</h3>
+          <ul>
+            <li>Extremely durable (decades of lifespan)</li>
+            <li>Low maintenance</li>
+            <li>Blends with sidewalks and driveways</li>
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+            <li>High upfront installation cost</li>
+            <li>Not easily adjustable</li>
+            <li>Requires proper drainage to avoid ice buildup</li>
+          </ul>
+          <p>
+            <strong>Local Example:</strong> A Cheektowaga family opted for a concrete ramp for year-round safety 
+            since their loved one uses a power wheelchair. The ramp design integrated with their driveway 
+            for seamless snow removal.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. Modular Ramps</h2>
+          <p>
+            Modular ramps combine the benefits of aluminum and prefabricated systems. They can be installed quickly 
+            and customized without the permanence of concrete or the upkeep of wood.
+          </p>
+          <h3>Pros:</h3>
+          <ul>
+            <li>Flexible configurations for unique property layouts</li>
+            <li>Fast installation</li>
+            <li>Durable and ADA-compliant</li>
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+            <li>More expensive than wood</li>
+            <li>Not as visually integrated as custom builds</li>
+          </ul>
+          <p>
+            <strong>Healthcare Insight:</strong> Occupational therapists often recommend modular ramps when 
+            a patient’s mobility needs may change over time. They allow adjustments without starting from scratch.
+          </p>
+        </section>
+
+        <section>
+          <h2>5. Portable Ramps</h2>
+          <p>
+            Portable ramps are lightweight, foldable, and designed for temporary use. They’re especially helpful 
+            for vehicle access or when visiting locations that lack permanent ramps.
+          </p>
+          <h3>Pros:</h3>
+          <ul>
+            <li>Lightweight and easy to transport</li>
+            <li>Cost-effective for temporary needs</li>
+            <li>Great for travel or visiting family</li>
+          </ul>
+          <h3>Cons:</h3>
+          <ul>
+            <li>Limited weight capacity</li>
+            <li>Not suitable for long-term, daily use</li>
+            <li>Requires careful placement for safety</li>
+          </ul>
+          <p>
+            <strong>Real-World Note:</strong> Nurses frequently recommend portable ramps for short-term recovery 
+            after surgery when patients may only need a ramp for a few months.
+          </p>
+        </section>
+
+        <section>
+          <h2>Choosing the Right Ramp in Buffalo & WNY</h2>
+          <p>
+            When selecting a ramp, consider weather durability, ADA compliance, budget, and how long the ramp will be needed.  
+            Our team at Aaron Michael Services walks homeowners through these decisions step by step, ensuring every solution 
+            is <strong>safe, compliant, and built to last</strong>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Local Service Areas</h2>
+          <ul>
+            <li>Buffalo</li>
+            <li>Kenmore</li>
+            <li>Tonawanda</li>
+            <li>North Tonawanda</li>
+            <li>Cheektowaga</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>FAQs About Ramps</h2>
+          <h3>What is the standard slope for a wheelchair ramp?</h3>
+          <p>The ADA recommends a slope of 1:12, meaning 1 inch of rise for every 12 inches of ramp length.</p>
+
+          <h3>Can wood ramps be used year-round in Buffalo?</h3>
+          <p>Yes, but they require anti-slip surfaces and regular sealing due to snow and rain exposure.</p>
+
+          <h3>How long does it take to install a ramp?</h3>
+          <p>Portable ramps are instant, aluminum/modular ramps can be installed in a day, 
+            while wood and concrete ramps may take several days to complete.</p>
+        </section>
+
+        <footer>
+          <p>
+            <strong>Aaron Michael Services</strong> provides professional ramp installation and accessibility modifications 
+            across Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.  
+            Call us today at <a href="tel:17162550555">(716) 255-0555</a> or visit our <a href="/contact">Contact Page</a> 
+            to schedule a consultation.
+          </p>
+        </footer>
+      </main>
+    </>
+  );
+}
