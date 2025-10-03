@@ -55,6 +55,9 @@ const NavBar: React.FC = () => {
     { title: 'Window Screen Repair', path: '/services/window-screen-repair', keywords: ['window', 'screen', 'repair', 'replacement', 'mesh'] },
     { title: 'Trim Carpentry', path: '/services/trim-carpentry', keywords: ['trim', 'carpentry', 'molding', 'baseboards', 'crown'] },
     { title: 'Laminate Flooring', path: '/services/laminate-flooring', keywords: ['laminate', 'flooring', 'installation', 'floor', 'wood'] },
+    { title: 'Slip-Resistant Flooring', path: '/services/slip-resistant-flooring', keywords: ['slip', 'resistant', 'flooring', 'non-slip', 'safety', 'low-pile'] },
+    { title: 'Flooring Transitions', path: '/services/flooring-transitions', keywords: ['flooring', 'transitions', 'seamless', 'level', 'threshold'] },
+    { title: 'Maintenance and Durability', path: '/services/maintenance-durability', keywords: ['maintenance', 'durability', 'flooring', 'care', 'longevity'] },
     { title: 'Bathroom Remodeling', path: '/services/bathroom-remodeling', keywords: ['bathroom', 'remodel', 'renovation', 'upgrade'] },
     { title: 'Kitchen Remodeling', path: '/services/kitchen-remodeling', keywords: ['kitchen', 'remodel', 'renovation', 'upgrade'] },
     { title: 'Home Additions', path: '/services/home-additions', keywords: ['addition', 'expansion', 'room', 'extension'] },
@@ -117,7 +120,10 @@ const NavBar: React.FC = () => {
         {
           label: 'Accessible Flooring Installation',
           services: [
-            { label: 'Laminate Flooring', path: '/services/laminate-flooring' }
+            { label: 'Laminate Flooring', path: '/services/laminate-flooring' },
+            { label: 'Slip-Resistant Flooring', path: '/services/slip-resistant-flooring' },
+            { label: 'Flooring Transitions', path: '/services/flooring-transitions' },
+            { label: 'Maintenance & Durability', path: '/services/maintenance-durability' }
           ]
         }
       ],

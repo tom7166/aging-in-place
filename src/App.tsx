@@ -110,6 +110,9 @@ import LaminateFlooring from './pages/laminate-flooring.tsx';
 import TypesOfRamps from './pages/types-of-ramps.tsx';
 import ADAComplianceDetailsAndLocalRegulations from './pages/ada-compliance-details-and-local-regulations.tsx';
 import MaintenanceTips from './pages/maintenance-tips.tsx';
+import SlipResistantFlooring from './pages/slip-resistant-flooring.tsx';
+import FlooringTransitions from './pages/flooring-transitions.tsx';
+import MaintenanceDurability from './pages/maintenance-durability.tsx';
 
 const App: React.FC = () => {
   const [highContrastMode, setHighContrastMode] = useState(false);
@@ -231,6 +234,9 @@ const App: React.FC = () => {
           <Route path="/services/types-of-ramps" element={<TypesOfRamps />} />
           <Route path="/services/ada-compliance-details-and-local-regulations" element={<ADAComplianceDetailsAndLocalRegulations />} />
           <Route path="/services/maintenance-tips" element={<MaintenanceTips />} />
+          <Route path="/services/slip-resistant-flooring" element={<SlipResistantFlooring />} />
+          <Route path="/services/flooring-transitions" element={<FlooringTransitions />} />
+          <Route path="/services/maintenance-durability" element={<MaintenanceDurability />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

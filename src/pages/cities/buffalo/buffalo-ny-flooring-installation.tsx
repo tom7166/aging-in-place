@@ -525,12 +525,12 @@ const BuffaloFlooringInstallationPage = () => {
               </div>
 
               {/* Why Choose Us */}
-              <div className="bg-white rounded-2xl shadow-lg p-6">
+              <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Why Buffalo Homeowners Choose Us</h3>
                 <div className="space-y-3">
                   {[
                     "22+ years construction experience",
-                    "200+ flooring installations completed", 
+                    "200+ flooring installations completed",
                     "Licensed contractor with safety expertise",
                     "Buffalo climate specialists",
                     "Accessibility compliance guaranteed",
@@ -543,6 +543,34 @@ const BuffaloFlooringInstallationPage = () => {
                       <span className="text-sm text-gray-700">{reason}</span>
                     </div>
                   ))}
+                </div>
+              </div>
+
+              {/* Flooring Resources */}
+              <div className="bg-white rounded-2xl shadow-lg p-6">
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Flooring Resources</h3>
+                <div className="space-y-3">
+                  <Link
+                    to="/services/slip-resistant-flooring"
+                    className="block p-3 border border-gray-200 rounded-lg hover:border-amber-500 hover:bg-amber-50 transition-colors"
+                  >
+                    <h4 className="font-semibold text-amber-900 mb-1">Slip-Resistant Flooring</h4>
+                    <p className="text-sm text-gray-600">Types of slip-resistant and low-pile flooring options</p>
+                  </Link>
+                  <Link
+                    to="/services/flooring-transitions"
+                    className="block p-3 border border-gray-200 rounded-lg hover:border-amber-500 hover:bg-amber-50 transition-colors"
+                  >
+                    <h4 className="font-semibold text-amber-900 mb-1">Flooring Transitions</h4>
+                    <p className="text-sm text-gray-600">Seamless transitions between different flooring types</p>
+                  </Link>
+                  <Link
+                    to="/services/maintenance-durability"
+                    className="block p-3 border border-gray-200 rounded-lg hover:border-amber-500 hover:bg-amber-50 transition-colors"
+                  >
+                    <h4 className="font-semibold text-amber-900 mb-1">Maintenance & Durability</h4>
+                    <p className="text-sm text-gray-600">Keep your flooring safe and long-lasting</p>
+                  </Link>
                 </div>
               </div>
             </div>

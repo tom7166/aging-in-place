@@ -239,21 +239,42 @@
 
   <!-- Information & Resource Pages -->
   <url>
-    <loc>https://aaronmichaelservices.com/types-of-ramps</loc>
+    <loc>https://aaronmichaelservices.com/services/types-of-ramps</loc>
     <priority>0.8</priority>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/ada-compliance-details-and-local-regulations</loc>
+    <loc>https://aaronmichaelservices.com/services/ada-compliance-details-and-local-regulations</loc>
     <priority>0.8</priority>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://aaronmichaelservices.com/maintenance-tips</loc>
+    <loc>https://aaronmichaelservices.com/services/maintenance-tips</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/slip-resistant-flooring</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/flooring-transitions</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/maintenance-durability</loc>
     <priority>0.8</priority>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
