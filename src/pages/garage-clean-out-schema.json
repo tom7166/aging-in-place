@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Garage Clean Out Services | Aaron Michael Services",
+  "url": "https://aaronmichaelservices.com/services/garage-clean-out",
+  "description": "Aaron Michael Services provides professional garage clean out services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe removal of clutter, debris, and unwanted items with recycling and hazardous material handling.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaron Michael Services",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aaronmichaelservices.com/images/logo.png"
+    },
+    "sameAs": [
+      "https://www.facebook.com/aaronmichaelservices",
+      "https://www.linkedin.com/company/aaron-michael-services",
+      "https://www.instagram.com/aaronmichaelservices/"
+    ]
+  },
+  "mainEntity": [
+    {
+      "@type": "FAQPage",
+      "name": "Garage Clean Out FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a garage clean out take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depending on garage size and clutter volume, most clean outs are completed in 1–2 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle hazardous materials?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our team follows EPA HHW guidelines to safely remove paints, chemicals, oils, and other hazardous materials."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your services licensed and insured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aaron Michael Services is fully licensed and insured to provide safe and professional garage clean out services."
+          }
+        }
+      ]
+    }
+  ],
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aaronmichaelservices.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://aaronmichaelservices.com/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Garage Clean Out",
+        "item": "https://aaronmichaelservices.com/services/garage-clean-out"
+      }
+    ]
+  },
+  "geo": {
+    "@type": "Place",
+    "name": "Aaron Michael Services",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Mariemont Ave",
+      "addressLocality": "Buffalo",
+      "addressRegion": "NY",
+      "postalCode": "14220",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.9053,
+      "longitude": -78.8487
+    }
+  },
+  "inLanguage": "en-US"
+}
