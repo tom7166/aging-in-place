@@ -246,7 +246,7 @@ export default function TypesOfRamps() {
             <p className="text-lg text-gray-700">
               Serving Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga with over
               25 years of carpentry experience, Aaron Michael Services specializes in ADA-compliant
-              accessibility modifications. Call <a href="tel:+17168257501" className="text-blue-600 hover:underline font-semibold">(716) 825-7501</a> to
+              accessibility modifications. Call <a href="tel:+17165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> to
               schedule your free consultation and make your home safer and more accessible today.
             </p>
           </section>
