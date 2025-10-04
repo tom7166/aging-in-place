@@ -1,6 +1,7 @@
 import React from 'react';
 import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './carpentry-schema.json';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
 export default function Carpentry() {
