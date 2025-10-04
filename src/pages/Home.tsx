@@ -27,7 +27,7 @@ const Home: React.FC<HomeProps> = ({ highContrastMode, toggleHighContrast }) => 
         description="Buffalo's trusted ADA contractor specializing in wheelchair ramps, accessible bathrooms, and aging-in-place modifications. 22+ years experience serving WNY. Free consultations. Call 716-533-7108."
         keywords="Buffalo ADA contractor, wheelchair ramps Buffalo, accessible bathroom Buffalo, aging in place WNY, disability home modifications, ADA compliance Buffalo, home accessibility WNY"
         canonicalUrl="https://aaronmichaelservices.com/"
-        ogImage="https://aaronmichaelservices.com/images/buffalo-ada-contractor.jpg"
+        ogImage="https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/546627908_1593237335374251_3492794431366842422_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=qGx7RIl0brQQ7kNvwGDcTiL&_nc_oc=AdkAMUny0s33kxURFdsg5lT_ONRYh_ViOJfpe2kp25TYFbHoDqTH25zjnQjntL39v8D2PvKElZeongkv_ZsapLyE&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=FQ3LQHUUzA5_LVLo4VmMrQ&oh=00_AfdUcPdwnzvRPdIQQJ1gjclV23QInT4kGrJ7L0DeMsexRw&oe=68E6F759"
       />
       
       {/* Header Navigation */}
