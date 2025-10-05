@@ -74,7 +74,10 @@ const BasementCleanOut: React.FC = () => {
             <ul className="list-disc list-inside ml-4 space-y-2 text-gray-700">
               <li><strong>Full Basement Clean Outs:</strong> Complete removal of debris, old furniture, and clutter.</li>
               <li><strong>Partial or Room-Specific Clean Outs:</strong> Targeted cleaning for specific basement areas.</li>
-              <li><strong>Sanitation & Mold Prevention:</strong> Cleaning and disinfecting surfaces to prevent mold growth, following <a href="https://www.cdc.gov/mold/" className=\"text-green-700 hover:underline">CDC guidelines</a>.</li>
+              <li>
+                <strong>Sanitation & Mold Prevention:</strong> Cleaning and disinfecting surfaces to prevent mold growth, following 
+                <a href="https://www.cdc.gov/mold/" className="text-green-700 hover:underline"> CDC guidelines</a>.
+              </li>
               <li><strong>Furniture & Large Item Removal:</strong> Safe removal of heavy items, including appliances, couches, and storage units.</li>
               <li><strong>Recycling & Donation:</strong> Items sorted for donation or recycling whenever possible to reduce waste.</li>
             </ul>
