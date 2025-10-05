@@ -106,7 +106,7 @@ const ResidentialJunkRemoval: React.FC = () => {
               Our team prioritizes safety, using proper lifting techniques and protective gear to prevent injury. We follow OSHA and local safety guidelines to ensure your home remains damage-free during removal.
             </p>
             <p>
-              Environmental stewardship is key — we donate usable items to local charities such as <a href="https://www.buffalohumane.org/" className="text-green-600 hover:underline">Buffalo area nonprofits</a> and recycle materials at certified centers to reduce landfill waste. E-waste and hazardous materials are disposed of in compliance with <a href="https://www.epa.gov/recycle" className=\"text-green-600 hover:underline">EPA regulations</a>.
+              Environmental stewardship is key — we donate usable items to local charities such as <a href="https://www.buffalohumane.org/" className="text-green-600 hover:underline">Buffalo area nonprofits</a> and recycle materials at certified centers to reduce landfill waste. E-waste and hazardous materials are disposed of in compliance with <a href="https://www.epa.gov/recycle" className="text-green-600 hover:underline">EPA regulations</a>.
             </p>
           </section>
 
