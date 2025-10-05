@@ -187,7 +187,7 @@ const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
               Aaron Michael Services provides comprehensive ADA compliance assessments, ramp installations, handrail placement, and ongoing inspections. We ensure your home or business in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga is fully compliant and safe.
             </p>
             <p>
-              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className="text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a consultation and make your property accessible today.
+              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a consultation and make your property accessible today.
             </p>
           </section>
 

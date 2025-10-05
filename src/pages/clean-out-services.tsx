@@ -99,7 +99,7 @@ const CleanOutServices: React.FC = () => {
               Our clean out services follow all OSHA safety guidelines and local municipal regulations. Protective gear, proper lifting techniques, and safe transportation practices ensure your property and our team remain secure throughout the process.
             </p>
             <p>
-              We donate usable items to local organizations like <a href="https://www.buffalohumane.org/" className="text-purple-600 hover:underline">Buffalo area charities</a> and recycle materials responsibly to minimize landfill contributions. Hazardous waste is disposed of in compliance with <a href="https://www.epa.gov/recycle" className="text-purple-600 hover:underline">EPA regulations</a>.
+              We donate usable items to local organizations like <a href="https://www.buffalohumane.org/" className="text-purple-600 hover:underline">Buffalo area charities</a> and recycle materials responsibly to minimize landfill contributions. Hazardous waste is disposed of in compliance with <a href="https://www.epa.gov/recycle" className=\"text-purple-600 hover:underline">EPA regulations</a>.
             </p>
           </section>
 
