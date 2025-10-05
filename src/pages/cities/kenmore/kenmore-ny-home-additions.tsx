@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Square, CirclePlus as PlusCircle } from 'lucide-react';
 
 const KenmoreHomeAdditionsPage = () => {
@@ -51,6 +52,12 @@ const KenmoreHomeAdditionsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Home Additions Kenmore NY | Luxury Room Additions & Accessible Expansions | Aaron Michael Services"
+        description="Expert home addition contractors in Kenmore NY. Luxury accessible room additions, premium master suites, family rooms. Professional construction with upscale finishes. Call 716-533-7108."
+        keywords="home additions Kenmore NY, room additions Kenmore, home expansion Kenmore, accessible addition Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-home-additions"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-green-900 via-emerald-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

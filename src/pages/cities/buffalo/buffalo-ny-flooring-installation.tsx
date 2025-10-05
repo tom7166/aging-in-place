@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Layers, Grid2x2 as Grid, Square } from 'lucide-react';
 
 const BuffaloFlooringInstallationPage = () => {
@@ -51,6 +52,12 @@ const BuffaloFlooringInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Flooring Installation Buffalo NY | Accessible Flooring Solutions | Aaron Michael Services"
+        description="Expert flooring installation contractors in Buffalo NY. Accessible, slip-resistant flooring solutions. Hardwood, vinyl, tile, carpet installation with safety features. Call 716-533-7108."
+        keywords="flooring installation Buffalo NY, hardwood flooring Buffalo, accessible flooring Buffalo, vinyl plank Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/buffalo-ny-flooring-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-amber-900 via-yellow-800 to-amber-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

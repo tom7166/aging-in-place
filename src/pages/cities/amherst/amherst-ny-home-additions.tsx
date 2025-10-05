@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Hammer, Square, PlusCircle } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Square, CirclePlus as PlusCircle } from 'lucide-react';
 
 const AmherstHomeAdditionsPage = () => {
   const structuredData = {
@@ -45,6 +46,12 @@ const AmherstHomeAdditionsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Home Additions Amherst NY | Room Additions & Accessible Expansions | Aaron Michael Services"
+        description="Expert home addition contractors in Amherst NY. Accessible room additions, premium master suites, family rooms for educational community. Professional construction. Call 716-533-7108."
+        keywords="home additions Amherst NY, room additions Amherst, home expansion Amherst, accessible addition Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-home-additions"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-green-900 via-emerald-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

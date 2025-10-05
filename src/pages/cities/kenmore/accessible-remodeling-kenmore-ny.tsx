@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Hammer, Accessibility, Bath, ChefHat, Layers } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Accessibility, Bath, ChefHat, Layers } from 'lucide-react';
 
 const AccessibleRemodelingKenmorePage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const AccessibleRemodelingKenmorePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Accessible Remodeling Kenmore NY | ADA Compliant Home Renovations | Aaron Michael Services"
+        description="Expert accessible remodeling contractors in Kenmore NY. ADA compliant home renovations, universal design bathrooms, kitchens, whole-home accessibility. Serving all WNY. Call 716-533-7108."
+        keywords="accessible remodeling Kenmore NY, ADA renovation Kenmore, universal design Kenmore, disability modifications Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/accessible-remodeling-kenmore-ny"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-violet-900 via-purple-800 to-indigo-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

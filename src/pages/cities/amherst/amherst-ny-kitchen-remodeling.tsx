@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, ChefHat, Utensils, Lightbulb } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, ChefHat, Utensils, Lightbulb } from 'lucide-react';
 
 const AmherstKitchenRemodelingPage = () => {
   const structuredData = {
@@ -45,6 +46,12 @@ const AmherstKitchenRemodelingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Kitchen Remodeling Amherst NY | Accessible Kitchen Renovations | Aaron Michael Services"
+        description="Expert kitchen remodelers in Amherst NY. Accessible kitchen renovations with universal design for educational community. ADA compliant solutions. Call 716-533-7108."
+        keywords="kitchen remodeling Amherst NY, kitchen renovation Amherst, accessible kitchen Amherst, ADA kitchen Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-kitchen-remodeling"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-orange-900 via-amber-800 to-red-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

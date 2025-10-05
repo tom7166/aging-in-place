@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Ruler, Maximize } from 'lucide-react';
 
 const KenmoreSmallBathroomRemodelPage = () => {
@@ -62,6 +63,12 @@ const KenmoreSmallBathroomRemodelPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Small Bathroom Remodels — Kenmore, NY (Budget & Layouts) | Space-Saving Solutions | Aaron Michael Services"
+        description="Professional small bathroom remodel Kenmore NY. Space-saving fixtures, roll-in shower options, budget to premium layouts. Maximize compact bathroom space. Call 716-533-7108."
+        keywords="small bathroom remodel Kenmore NY, compact bathroom Kenmore, space saving bathroom Kenmore, budget bathroom Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-small-bathroom-remodel"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

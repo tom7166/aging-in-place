@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Layers, Grid, Square } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Layers, Grid2x2 as Grid, Square } from 'lucide-react';
 
 const AmherstFlooringInstallationPage = () => {
   const structuredData = {
@@ -45,6 +46,12 @@ const AmherstFlooringInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Flooring Installation Amherst NY | Premium Accessible Flooring Solutions | Aaron Michael Services"
+        description="Expert flooring installation contractors in Amherst NY. Premium accessible flooring solutions with sophisticated materials. Hardwood, vinyl, tile with safety features. Call 716-533-7108."
+        keywords="flooring installation Amherst NY, hardwood flooring Amherst, accessible flooring Amherst, vinyl plank Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-flooring-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-amber-900 via-yellow-800 to-orange-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

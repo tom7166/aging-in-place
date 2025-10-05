@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Heart, UserCheck, Eye } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Heart, UserCheck, Eye } from 'lucide-react';
 
 const TonawandaAgingInPlaceDesignConsultationPage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const TonawandaAgingInPlaceDesignConsultationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Aging-in-Place Design Consultation Tonawanda NY | Twin Cities Home Accessibility Planning | Aaron Michael Services"
+        description="Professional aging-in-place design consultation Tonawanda NY. Comprehensive home accessibility planning for Twin Cities homes. Expert guidance for aging in place. Call 716-533-7108."
+        keywords="aging in place consultation Tonawanda NY, home accessibility planning Tonawanda, CAPS certified Tonawanda, senior home planning Tonawanda"
+        canonicalUrl="https://aaronmichaelservices.com/tonawanda-ny-aging-in-place-design-consultation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-emerald-900 via-green-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

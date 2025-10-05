@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Wrench, Zap, Layers, Square } from 'lucide-react';
 
 const RemodelingContractorBuffaloPage = () => {
@@ -62,6 +63,12 @@ const RemodelingContractorBuffaloPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Remodeling Contractor Buffalo NY | Home Renovation Specialists | Aaron Michael Services"
+        description="Expert remodeling contractors in Buffalo NY. Kitchen, bathroom, basement, and whole-home renovations with accessibility features. Licensed, insured, 22+ years experience. Call 716-533-7108."
+        keywords="remodeling contractor Buffalo NY, home renovation Buffalo, general contractor Buffalo, home improvement Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/remodeling-contractor-buffalo-ny"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-gray-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

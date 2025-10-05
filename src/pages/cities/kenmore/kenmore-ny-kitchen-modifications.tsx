@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, ChefHat, Utensils, Lightbulb } from 'lucide-react';
 
 const KenmoreKitchenModificationsPage = () => {
@@ -62,6 +63,12 @@ const KenmoreKitchenModificationsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Kitchen Modifications Kenmore NY | Luxury Accessible Kitchen Design | Aaron Michael Services"
+        description="Professional kitchen accessibility modifications Kenmore NY. Premium lowered counters, accessible cabinets, luxury universal design for aging in place. Call 716-533-7108."
+        keywords="kitchen modifications Kenmore NY, accessible kitchen Kenmore, ADA kitchen Kenmore, universal design kitchen Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-kitchen-modifications"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-orange-900 via-amber-800 to-red-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

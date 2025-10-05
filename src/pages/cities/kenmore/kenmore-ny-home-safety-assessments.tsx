@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Eye, TriangleAlert as AlertTriangle, Search } from 'lucide-react';
 
 const KenmoreHomeSafetyAssessmentsPage = () => {
@@ -62,6 +63,12 @@ const KenmoreHomeSafetyAssessmentsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Home Safety Assessments Kenmore NY | Luxury Home Fall Risk Evaluation | Aaron Michael Services"
+        description="Professional home safety assessments Kenmore NY. Comprehensive fall risk evaluation and accessibility planning for luxury homes. Expert safety consultation. Call 716-533-7108."
+        keywords="home safety assessment Kenmore NY, fall risk evaluation Kenmore, safety consultation Kenmore, aging in place assessment Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-home-safety-assessments"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-indigo-900 via-blue-800 to-purple-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

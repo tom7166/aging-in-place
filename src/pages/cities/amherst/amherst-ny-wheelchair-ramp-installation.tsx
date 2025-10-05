@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Accessibility, Snowflake, Thermometer } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Accessibility, Snowflake, Thermometer } from 'lucide-react';
 
 const AmherstWheelchairRampInstallationPage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const AmherstWheelchairRampInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Wheelchair Ramp Installation — Amherst, NY | Wood, Composite & Concrete Ramps | Aaron Michael Services"
+        description="Professional wheelchair ramp installation Amherst NY. Wood, composite, concrete ramps designed for WNY snow loads, frost conditions. ADA compliant. Call 716-533-7108."
+        keywords="wheelchair ramp Amherst NY, ramp installation Amherst, ADA ramp Amherst, accessible ramp Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-wheelchair-ramp-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-green-900 via-emerald-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

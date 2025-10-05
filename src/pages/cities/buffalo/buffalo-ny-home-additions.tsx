@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Square, CirclePlus as PlusCircle } from 'lucide-react';
 
 const BuffaloHomeAdditionsPage = () => {
@@ -51,6 +52,12 @@ const BuffaloHomeAdditionsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Home Additions Buffalo NY | Room Additions & Accessible Expansions | Aaron Michael Services"
+        description="Expert home addition contractors in Buffalo NY. Accessible room additions, master suites, family rooms. Professional construction with permits and accessibility features. Call 716-533-7108."
+        keywords="home additions Buffalo NY, room additions Buffalo, home expansion Buffalo, accessible addition Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/buffalo-ny-home-additions"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-green-900 via-teal-800 to-green-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

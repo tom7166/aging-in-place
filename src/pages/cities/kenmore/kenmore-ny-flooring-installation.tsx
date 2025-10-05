@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Layers, Grid2x2 as Grid, Square } from 'lucide-react';
 
 const KenmoreFlooringInstallationPage = () => {
@@ -51,6 +52,12 @@ const KenmoreFlooringInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Flooring Installation Kenmore NY | Luxury Accessible Flooring Solutions | Aaron Michael Services"
+        description="Expert flooring installation contractors in Kenmore NY. Luxury accessible flooring solutions with premium materials. Hardwood, vinyl, tile with safety features. Call 716-533-7108."
+        keywords="flooring installation Kenmore NY, hardwood flooring Kenmore, accessible flooring Kenmore, luxury vinyl Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-flooring-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-amber-900 via-yellow-800 to-orange-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

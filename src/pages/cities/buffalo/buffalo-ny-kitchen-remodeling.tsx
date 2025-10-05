@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, ChefHat, Utensils, Lightbulb } from 'lucide-react';
 
 const BuffaloKitchenRemodelingPage = () => {
@@ -51,6 +52,12 @@ const BuffaloKitchenRemodelingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Kitchen Remodeling Buffalo NY | Accessible Kitchen Renovations | Aaron Michael Services"
+        description="Expert kitchen remodelers in Buffalo NY. Accessible, modern kitchen renovations with universal design. ADA compliant solutions for aging in place. Call 716-533-7108."
+        keywords="kitchen remodeling Buffalo NY, kitchen renovation Buffalo, accessible kitchen Buffalo, ADA kitchen Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/buffalo-ny-kitchen-remodeling"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-orange-900 via-red-800 to-orange-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

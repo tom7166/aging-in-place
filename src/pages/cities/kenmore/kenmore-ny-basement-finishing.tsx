@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Droplets, Zap, Wrench } from 'lucide-react';
 
 const KenmoreBasementFinishingPage = () => {
@@ -51,6 +52,12 @@ const KenmoreBasementFinishingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Basement Finishing Kenmore NY | Luxury Waterproof Basement Renovations | Aaron Michael Services"
+        description="Expert basement finishing contractors in Kenmore NY. Luxury waterproof basement renovations with premium finishes. Family rooms, home theaters, accessible features. Call 716-533-7108."
+        keywords="basement finishing Kenmore NY, basement renovation Kenmore, waterproof basement Kenmore, luxury basement Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-basement-finishing"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-gray-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

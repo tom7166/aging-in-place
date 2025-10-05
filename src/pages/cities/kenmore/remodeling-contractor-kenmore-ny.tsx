@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Hammer, Wrench, Zap, Layers, Square } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Hammer, Wrench, Zap, Layers, Square } from 'lucide-react';
 
 const RemodelingContractorKenmorePage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const RemodelingContractorKenmorePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Remodeling Contractor Kenmore NY | Home Renovation Specialists | Aaron Michael Services"
+        description="Expert remodeling contractors in Kenmore NY. Kitchen, bathroom, basement, and whole-home renovations with accessibility features. Licensed, insured, suburban specialists. Call 716-533-7108."
+        keywords="remodeling contractor Kenmore NY, home renovation Kenmore, general contractor Kenmore, home improvement Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/remodeling-contractor-kenmore-ny"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-indigo-900 via-blue-800 to-purple-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

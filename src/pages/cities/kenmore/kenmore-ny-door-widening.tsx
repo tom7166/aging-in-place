@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, DoorOpen, Ruler, Wrench } from 'lucide-react';
 
 const KenmoreDoorWideningPage = () => {
@@ -62,6 +63,12 @@ const KenmoreDoorWideningPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Door Widening Kenmore NY | Premium Wheelchair Accessible Doorways | Aaron Michael Services"
+        description="Professional door widening Kenmore NY for wheelchair accessibility. Premium ADA compliant door modifications with luxury finishes for upscale homes. Call 716-533-7108."
+        keywords="door widening Kenmore NY, wheelchair accessible doorway Kenmore, ADA door Kenmore, accessible entry Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-door-widening"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-emerald-900 via-green-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

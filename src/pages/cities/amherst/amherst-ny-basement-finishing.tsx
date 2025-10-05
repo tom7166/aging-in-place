@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Droplets, Zap, Wrench } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Droplets, Zap, Wrench } from 'lucide-react';
 
 const AmherstBasementFinishingPage = () => {
   const structuredData = {
@@ -45,6 +46,12 @@ const AmherstBasementFinishingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Basement Finishing Amherst NY | Premium Waterproof Basement Renovations | Aaron Michael Services"
+        description="Expert basement finishing contractors in Amherst NY. Premium waterproof basement renovations with sophisticated finishes. Family rooms, home offices, accessible features. Call 716-533-7108."
+        keywords="basement finishing Amherst NY, basement renovation Amherst, waterproof basement Amherst, basement contractor Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-basement-finishing"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-gray-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

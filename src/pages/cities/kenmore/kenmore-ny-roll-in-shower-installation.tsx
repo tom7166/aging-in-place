@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Droplets, Accessibility } from 'lucide-react';
 
 const KenmoreRollInShowerInstallationPage = () => {
@@ -62,6 +63,12 @@ const KenmoreRollInShowerInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Roll-In Shower Installation Kenmore NY | Zero-Threshold Luxury Showers | Aaron Michael Services"
+        description="Professional roll-in shower installation Kenmore NY. Zero-threshold showers with luxury finishes for wheelchair accessibility. Premium ADA compliant design. Call 716-533-7108."
+        keywords="roll in shower Kenmore NY, zero threshold shower Kenmore, wheelchair shower Kenmore, accessible shower Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-roll-in-shower-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-cyan-900 via-teal-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

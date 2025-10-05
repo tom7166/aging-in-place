@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Star, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Heart, Building, Bath, ChefHat, Accessibility, Wrench, Eye, ArrowUp, DoorOpen, Layers } from 'lucide-react';
 import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
@@ -68,6 +69,12 @@ const KenmoreHomePage = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="ADA Contractor Kenmore NY | Wheelchair Ramps & Accessible Bathrooms | Aaron Michael Services"
+        description="Professional ADA contractor serving Kenmore NY. Wheelchair ramps, accessible bathrooms, aging in place modifications for Western New York's premier suburban community. Call 716-533-7108."
+        keywords="ADA contractor Kenmore NY, wheelchair ramp Kenmore, accessible remodeling Kenmore, aging in place Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-home-page"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
       
       {/* Hero Section */}

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Wrench, Anchor, Zap } from 'lucide-react';
 
 const KenmoreGrabBarInstallationPage = () => {
@@ -62,6 +63,12 @@ const KenmoreGrabBarInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Grab Bar Installation Kenmore NY | Premium Safety Bars | Aaron Michael Services"
+        description="Professional grab bar installation Kenmore NY. Premium safety bars rated for 250+ pounds. ADA compliant installation for luxury bathrooms and aging in place. Call 716-533-7108."
+        keywords="grab bar installation Kenmore NY, safety bars Kenmore, bathroom grab bars Kenmore, ADA grab bars Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-grab-bar-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

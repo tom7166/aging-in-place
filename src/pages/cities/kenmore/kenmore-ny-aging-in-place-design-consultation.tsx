@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Heart, UserCheck, Eye } from 'lucide-react';
 
 const KenmoreAgingInPlaceDesignConsultationPage = () => {
@@ -62,6 +63,12 @@ const KenmoreAgingInPlaceDesignConsultationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Aging-in-Place Design Consultation Kenmore NY | Luxury Home Accessibility Planning | Aaron Michael Services"
+        description="Professional aging-in-place design consultation Kenmore NY. Comprehensive home accessibility planning for luxury homes. Expert guidance for aging in place. Call 716-533-7108."
+        keywords="aging in place consultation Kenmore NY, home accessibility planning Kenmore, CAPS certified Kenmore, senior home planning Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-aging-in-place-design-consultation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-emerald-900 via-green-800 to-teal-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

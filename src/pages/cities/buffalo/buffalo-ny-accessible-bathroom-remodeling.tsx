@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Droplets, Wrench } from 'lucide-react';
 
 const BuffaloAccessibleBathroomRemodelingPage = () => {
@@ -62,6 +63,12 @@ const BuffaloAccessibleBathroomRemodelingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Accessible Bathroom Remodeling — Buffalo, NY | ADA Compliant Renovations | Aaron Michael Services"
+        description="Professional accessible bathroom remodel Buffalo NY. ADA compliant walk-in showers, grab bars, comfort-height toilets. Expert permits, insurance assistance. Call 716-533-7108."
+        keywords="accessible bathroom remodeling Buffalo NY, ADA bathroom renovation Buffalo, wheelchair accessible bathroom Buffalo, walk-in shower Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/buffalo-ny-accessible-bathroom-remodeling"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-teal-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

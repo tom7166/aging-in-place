@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Droplets } from 'lucide-react';
 
 const KenmoreBathroomRemodelingPage = () => {
@@ -51,6 +52,12 @@ const KenmoreBathroomRemodelingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Bathroom Remodeling Kenmore NY | Luxury Accessible Bathroom Renovations | Aaron Michael Services"
+        description="Expert bathroom remodelers in Kenmore NY. Luxury accessible bathroom renovations with premium finishes. ADA compliant walk-in showers, spa features. Call 716-533-7108."
+        keywords="bathroom remodeling Kenmore NY, bathroom renovation Kenmore, accessible bathroom Kenmore, luxury bathroom Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-bathroom-remodeling"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-indigo-800 to-purple-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

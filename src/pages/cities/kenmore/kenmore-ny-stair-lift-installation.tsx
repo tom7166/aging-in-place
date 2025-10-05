@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Zap, ArrowUp, Settings } from 'lucide-react';
 
 const KenmoreStairLiftInstallationPage = () => {
@@ -62,6 +63,12 @@ const KenmoreStairLiftInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Stair Lift Installation Kenmore NY | Premium Stair Lifts | Aaron Michael Services"
+        description="Professional stair lift installation Kenmore NY. Premium curved and straight stair lifts for luxury homes. Safe multi-level access for aging in place. Call 716-533-7108."
+        keywords="stair lift installation Kenmore NY, stair lift Kenmore, chair lift Kenmore, home elevator Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-stair-lift-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-purple-900 via-indigo-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

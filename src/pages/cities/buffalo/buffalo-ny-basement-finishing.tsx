@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Droplets, Zap, Wrench } from 'lucide-react';
 
 const BuffaloBasementFinishingPage = () => {
@@ -51,6 +52,12 @@ const BuffaloBasementFinishingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Basement Finishing Buffalo NY | Waterproof Basement Renovations | Aaron Michael Services"
+        description="Expert basement finishing contractors in Buffalo NY. Waterproof, accessible basement renovations with moisture control. Family rooms, bedrooms, bathrooms. Call 716-533-7108."
+        keywords="basement finishing Buffalo NY, basement renovation Buffalo, waterproof basement Buffalo, basement contractor Buffalo"
+        canonicalUrl="https://aaronmichaelservices.com/buffalo-ny-basement-finishing"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

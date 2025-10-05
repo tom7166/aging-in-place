@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHelmet from '../../../components/SEOHelmet';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Droplets, Heart } from 'lucide-react';
 
 const KenmoreWalkInTubInstallationPage = () => {
@@ -62,6 +63,12 @@ const KenmoreWalkInTubInstallationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Walk-In Tub Installation Kenmore NY | Premium Therapeutic Tubs | Aaron Michael Services"
+        description="Professional walk-in tub installation Kenmore NY. Premium therapeutic walk-in tubs with safety features for luxury bathrooms. Aging in place solutions. Call 716-533-7108."
+        keywords="walk in tub Kenmore NY, walk-in bathtub Kenmore, accessible tub Kenmore, therapeutic tub Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/kenmore-ny-walk-in-tub-installation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-teal-800 to-cyan-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Heart, UserCheck, Eye } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Heart, UserCheck, Eye } from 'lucide-react';
 
 const NorthTonawandaAgingInPlaceDesignConsultationPage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const NorthTonawandaAgingInPlaceDesignConsultationPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Aging-in-Place Design Consultation North Tonawanda NY | Lumber City Home Accessibility Planning | Aaron Michael Services"
+        description="Professional aging-in-place design consultation North Tonawanda NY. Comprehensive home accessibility planning for Lumber City homes. Expert guidance for aging in place. Call 716-533-7108."
+        keywords="aging in place consultation North Tonawanda NY, home accessibility planning North Tonawanda, CAPS certified North Tonawanda, senior home planning North Tonawanda"
+        canonicalUrl="https://aaronmichaelservices.com/north-tonawanda-ny-aging-in-place-design-consultation"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-slate-900 via-gray-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, Clock, CheckCircle, Users, DollarSign, Shield, ArrowRight, Home, Award, TrendingUp, Quote, Building, Bath, Droplets } from 'lucide-react';
+import SEOHelmet from '../../../components/SEOHelmet';
+import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Building, Bath, Droplets } from 'lucide-react';
 
 const AmherstBathroomRemodelingPage = () => {
   const structuredData = {
@@ -56,6 +57,12 @@ const AmherstBathroomRemodelingPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Bathroom Remodeling Amherst NY | Accessible Bathroom Renovations | Aaron Michael Services"
+        description="Expert bathroom remodelers in Amherst NY. Accessible, modern, sophisticated bathroom renovation services for educational community. ADA compliant walk-in showers. Call 716-533-7108."
+        keywords="bathroom remodeling Amherst NY, bathroom renovation Amherst, accessible bathroom Amherst, ADA bathroom Amherst"
+        canonicalUrl="https://aaronmichaelservices.com/amherst-ny-bathroom-remodeling"
+      />
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-teal-900 via-blue-800 to-cyan-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
