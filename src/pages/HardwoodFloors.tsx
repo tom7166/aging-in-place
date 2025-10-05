@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './hardwood-floors-schema.json';
 
 const HardwoodFloors: React.FC = () => {
@@ -30,6 +31,12 @@ const HardwoodFloors: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Hardwood Flooring Installation & Maintenance | Buffalo, Kenmore, Tonawanda"
+        description="Aaron Michael Services provides expert hardwood flooring installation, refinishing, and maintenance in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Durable, beautiful flooring solutions for your home."
+        keywords="hardwood flooring Buffalo, hardwood floor installation, floor refinishing Kenmore, hardwood maintenance Tonawanda"
+        canonicalUrl="https://aaronmichaelservices.com/services/hardwood-floors"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

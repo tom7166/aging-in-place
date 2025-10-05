@@ -1,25 +1,21 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Chrome as Home, Users, Award, Shield, CircleCheck as CheckCircle, Phone, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 
 const About: React.FC = () => {
-  useEffect(() => {
-    document.title = "About Aaron Michael Services | Buffalo ADA Contractor | Accessibility Specialists";
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        'content', 
-        "Learn about Aaron Michael Services, Buffalo's trusted ADA contractor. 25+ years experience in wheelchair ramps, accessible bathrooms, handrails, and aging-in-place modifications throughout Western New York."
-      );
-    }
-  }, []);
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="About Aaron Michael Services | Buffalo ADA Contractor | Accessibility Specialists"
+        description="Learn about Aaron Michael Services, Buffalo's trusted ADA contractor. 25+ years experience in wheelchair ramps, accessible bathrooms, handrails, and aging-in-place modifications throughout Western New York."
+        keywords="About Aaron Michael Services, Buffalo ADA contractor, accessibility specialist Buffalo, CAPS certified contractor"
+        canonicalUrl="https://aaronmichaelservices.com/about"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
       
       {/* Hero Section */}

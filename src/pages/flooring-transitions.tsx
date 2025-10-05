@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './flooring-transitions-schema.json';
 
 const FlooringTransitions: React.FC = () => {
@@ -30,6 +31,12 @@ const FlooringTransitions: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Seamless Flooring Transitions | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Learn how to create seamless transitions between different flooring types in your home or business. Aaron Michael Services serves Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga."
+        keywords="flooring transitions Buffalo, seamless flooring, floor transition strips, flooring installation Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/flooring-transitions"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

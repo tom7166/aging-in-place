@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './modern-flooring-schema.json';
 
 const ModernFlooring: React.FC = () => {
@@ -30,6 +31,12 @@ const ModernFlooring: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Modern Flooring Solutions | Buffalo, Kenmore, Tonawanda | Aaron Michael Services"
+        description="Aaron Michael Services offers modern flooring solutions including hardwood, LVP, tile, and eco-friendly options in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Expert installation, maintenance, and repairs."
+        keywords="modern flooring Buffalo, flooring installation, hardwood floors, LVP flooring, tile installation"
+        canonicalUrl="https://aaronmichaelservices.com/services/modern-flooring"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

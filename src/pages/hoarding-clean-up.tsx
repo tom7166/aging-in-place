@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './hoarding-clean-up-schema.json';
 
 const HoardingCleanUp: React.FC = () => {
@@ -30,6 +31,12 @@ const HoardingCleanUp: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Hoarding Clean Up Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services provides professional hoarding clean up services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, discreet, and thorough removal of clutter and debris."
+        keywords="hoarding clean up Buffalo, hoarding cleanup service, clutter removal, discreet cleaning Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/hoarding-clean-up"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

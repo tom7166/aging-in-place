@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './hardwood-flooring-installers-near-me-schema.json';
 
 const HardwoodFlooringInstallersNearMe: React.FC = () => {
@@ -30,6 +31,12 @@ const HardwoodFlooringInstallersNearMe: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Hardwood Flooring Installers Near Me | Buffalo, Kenmore, Tonawanda | Aaron Michael Services"
+        description="Aaron Michael Services offers expert hardwood flooring installation near you in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Certified local hardwood installers ready for your home."
+        keywords="hardwood flooring installers near me, local hardwood installation Buffalo, hardwood contractor Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/hardwood-flooring-installers-near-me"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

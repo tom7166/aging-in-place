@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './basement-clean-out-schema.json';
 
 const BasementCleanOut: React.FC = () => {
@@ -30,6 +31,12 @@ const BasementCleanOut: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Basement Clean Out Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services provides professional basement clean out services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Efficient removal of debris, old furniture, and clutter."
+        keywords="basement clean out Buffalo, basement cleaning service, debris removal, junk removal basement"
+        canonicalUrl="https://aaronmichaelservices.com/services/basement-clean-out"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
@@ -67,7 +74,7 @@ const BasementCleanOut: React.FC = () => {
             <ul className="list-disc list-inside ml-4 space-y-2 text-gray-700">
               <li><strong>Full Basement Clean Outs:</strong> Complete removal of debris, old furniture, and clutter.</li>
               <li><strong>Partial or Room-Specific Clean Outs:</strong> Targeted cleaning for specific basement areas.</li>
-              <li><strong>Sanitation & Mold Prevention:</strong> Cleaning and disinfecting surfaces to prevent mold growth, following <a href="https://www.cdc.gov/mold/" className="text-green-700 hover:underline">CDC guidelines</a>.</li>
+              <li><strong>Sanitation & Mold Prevention:</strong> Cleaning and disinfecting surfaces to prevent mold growth, following <a href="https://www.cdc.gov/mold/" className=\"text-green-700 hover:underline">CDC guidelines</a>.</li>
               <li><strong>Furniture & Large Item Removal:</strong> Safe removal of heavy items, including appliances, couches, and storage units.</li>
               <li><strong>Recycling & Donation:</strong> Items sorted for donation or recycling whenever possible to reduce waste.</li>
             </ul>

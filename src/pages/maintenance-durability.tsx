@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './maintenance-durability-schema.json';
 
 const MaintenanceDurability: React.FC = () => {
@@ -30,6 +31,12 @@ const MaintenanceDurability: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Maintenance and Durability | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Expert 1500-word guide on maintenance and durability of ramps, flooring, and home modifications. Aaron Michael Services ensures long-lasting solutions in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga."
+        keywords="maintenance durability Buffalo, long-lasting home modifications, durable ramps, flooring durability"
+        canonicalUrl="https://aaronmichaelservices.com/services/maintenance-durability"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

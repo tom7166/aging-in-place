@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './garage-clean-out-schema.json';
 
 const GarageCleanOut: React.FC = () => {
@@ -30,6 +31,12 @@ const GarageCleanOut: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Garage Clean Out Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services provides professional garage clean out services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Efficient removal of clutter, debris, and unwanted items."
+        keywords="garage clean out Buffalo, garage cleanout service, garage debris removal Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/garage-clean-out"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
@@ -67,7 +74,7 @@ const GarageCleanOut: React.FC = () => {
             <ul className="list-disc list-inside ml-4 space-y-2 text-gray-700">
               <li><strong>Full Garage Clean Outs:</strong> Complete removal of clutter, tools, and old furniture.</li>
               <li><strong>Partial or Area-Specific Clean Outs:</strong> Focused cleaning for corners, storage areas, or sections of your garage.</li>
-              <li><strong>Hazardous Material Handling:</strong> Proper disposal of paints, chemicals, and oils according to EPA guidelines (<a href="https://www.epa.gov/hw/household-hazardous-waste-hhw" className="text-gray-800 hover:underline">EPA HHW guidelines</a>).</li>
+              <li><strong>Hazardous Material Handling:</strong> Proper disposal of paints, chemicals, and oils according to EPA guidelines (<a href="https://www.epa.gov/hw/household-hazardous-waste-hhw" className=\"text-gray-800 hover:underline">EPA HHW guidelines</a>).</li>
               <li><strong>Recycling & Donation:</strong> Items sorted for donation or recycling wherever possible.</li>
               <li><strong>Sanitation & Cleanup:</strong> Sweeping, scrubbing, and deodorizing to leave your garage ready for use.</li>
             </ul>

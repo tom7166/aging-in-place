@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './ada-compliance-details-and-local-regulations-schema.json';
 
 const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
@@ -30,6 +31,12 @@ const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="ADA Compliance Details and Local Regulations | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Comprehensive guide to ADA compliance and local accessibility regulations for ramps, handrails, and home modifications in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga."
+        keywords="ADA compliance Buffalo, accessibility regulations NY, wheelchair ramp codes, ADA standards Western New York"
+        canonicalUrl="https://aaronmichaelservices.com/services/ada-compliance-details-and-local-regulations"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
@@ -180,7 +187,7 @@ const ADAComplianceDetailsAndLocalRegulations: React.FC = () => {
               Aaron Michael Services provides comprehensive ADA compliance assessments, ramp installations, handrail placement, and ongoing inspections. We ensure your home or business in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga is fully compliant and safe.
             </p>
             <p>
-              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className="text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a consultation and make your property accessible today.
+              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a consultation and make your property accessible today.
             </p>
           </section>
 

@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './clean-out-services-schema.json';
 
 const CleanOutServices: React.FC = () => {
@@ -30,6 +31,12 @@ const CleanOutServices: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Clean Out Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services offers professional clean out services for homes, garages, attics, basements, and estates in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, thorough, and eco-friendly."
+        keywords="clean out services Buffalo, property clean out, estate clean out, garage clean out Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/clean-out-services"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
@@ -92,7 +99,7 @@ const CleanOutServices: React.FC = () => {
               Our clean out services follow all OSHA safety guidelines and local municipal regulations. Protective gear, proper lifting techniques, and safe transportation practices ensure your property and our team remain secure throughout the process.
             </p>
             <p>
-              We donate usable items to local organizations like <a href="https://www.buffalohumane.org/" className="text-purple-600 hover:underline">Buffalo area charities</a> and recycle materials responsibly to minimize landfill contributions. Hazardous waste is disposed of in compliance with <a href="https://www.epa.gov/recycle" className="text-purple-600 hover:underline">EPA regulations</a>.
+              We donate usable items to local organizations like <a href="https://www.buffalohumane.org/" className="text-purple-600 hover:underline">Buffalo area charities</a> and recycle materials responsibly to minimize landfill contributions. Hazardous waste is disposed of in compliance with <a href="https://www.epa.gov/recycle" className=\"text-purple-600 hover:underline">EPA regulations</a>.
             </p>
           </section>
 

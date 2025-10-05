@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './slip-resistant-flooring-schema.json';
 
 const SlipResistantLowPileFlooring: React.FC = () => {
@@ -30,6 +31,12 @@ const SlipResistantLowPileFlooring: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Types of Slip-Resistant and Low-Pile Flooring | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Explore types of slip-resistant and low-pile flooring for homes and businesses. Aaron Michael Services provides flooring solutions in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga."
+        keywords="slip resistant flooring Buffalo, low pile flooring, non-slip flooring, safety flooring Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/slip-resistant-flooring"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

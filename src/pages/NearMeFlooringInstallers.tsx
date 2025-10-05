@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './near-me-flooring-installers-schema.json';
 
 const NearMeFlooringInstallers: React.FC = () => {
@@ -30,6 +31,12 @@ const NearMeFlooringInstallers: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Near Me Flooring Installers | Buffalo, Kenmore, Tonawanda | Aaron Michael Services"
+        description="Aaron Michael Services provides expert flooring installation near you in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Hardwood, LVP, tile, and modern flooring installers ready for your project."
+        keywords="flooring installers near me, local flooring contractor Buffalo, flooring installation Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/near-me-flooring-installers"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

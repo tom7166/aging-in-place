@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './types-of-ramps-schema.json';
 
 export default function TypesOfRamps() {
@@ -30,6 +31,12 @@ export default function TypesOfRamps() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Types of Ramps | Accessibility Ramps Buffalo NY | Aaron Michael Services"
+        description="Explore wood, aluminum, concrete, modular, and portable ramps for homes in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Professional ADA-compliant ramp installation and carpentry expertise."
+        keywords="types of ramps Buffalo, wheelchair ramp types, modular ramps, portable ramps, aluminum ramps"
+        canonicalUrl="https://aaronmichaelservices.com/services/types-of-ramps"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-24 pt-32">

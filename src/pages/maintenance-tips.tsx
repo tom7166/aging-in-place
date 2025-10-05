@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './maintenance-tips-schema.json';
 
 const MaintenanceTips: React.FC = () => {
@@ -30,6 +31,12 @@ const MaintenanceTips: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Maintenance Tips | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Comprehensive maintenance tips for accessibility ramps, home modifications, and safety features. Serving Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga."
+        keywords="maintenance tips Buffalo, ramp maintenance, home modification care, accessibility equipment maintenance"
+        canonicalUrl="https://aaronmichaelservices.com/services/maintenance-tips"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
@@ -204,7 +211,7 @@ const MaintenanceTips: React.FC = () => {
               Aaron Michael Services offers inspections, winter prep, and repairs for all ramp types. Our certified team ensures ADA compliance and optimal safety year-round in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.
             </p>
             <p>
-              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className="text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a maintenance check today.
+              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a maintenance check today.
             </p>
           </section>
 

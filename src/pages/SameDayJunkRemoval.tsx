@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './same-day-junk-removal-schema.json';
 
 const SameDayJunkRemoval: React.FC = () => {
@@ -30,6 +31,12 @@ const SameDayJunkRemoval: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Same Day Junk Removal | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services offers fast, reliable same-day junk removal for homes and businesses in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Efficient clean-outs, debris removal, and clutter solutions."
+        keywords="same day junk removal Buffalo, fast junk removal, debris removal Kenmore, clutter removal service"
+        canonicalUrl="https://aaronmichaelservices.com/services/same-day-junk-removal"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

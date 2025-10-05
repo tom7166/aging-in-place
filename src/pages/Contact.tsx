@@ -1,52 +1,21 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, ArrowRight, Chrome as Home, MessageCircle, Shield, Award, Users, Heart, CircleCheck as CheckCircle } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 
 const Contact: React.FC = () => {
-  useEffect(() => {
-    document.title = "Contact Aaron Michael Services | Buffalo ADA Contractor | Free Consultations";
-    
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute(
-        'content',
-        'Contact Aaron Michael Services in Buffalo NY for wheelchair ramps, accessible bathrooms, and aging-in-place home modifications. Free consultations available across Western New York. Call 716-533-7108 today.'
-      );
-    }
-
-    // Add LocalBusiness Schema
-    const schemaScript = document.createElement("script");
-    schemaScript.type = "application/ld+json";
-    schemaScript.innerHTML = JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Aaron Michael Services",
-      "image": "https://aaronmichaelservices.com/logo.png",
-      "url": "https://aaronmichaelservices.com/contact",
-      "telephone": "+17165337108",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Buffalo",
-        "addressRegion": "NY",
-        "addressCountry": "US"
-      },
-      "areaServed": [
-        "Buffalo","Amherst","Tonawanda","Cheektowaga","West Seneca","Lackawanna","Williamsville","Lancaster","Niagara Falls","Hamburg"
-      ],
-      "openingHours": "Mo-Fr 07:00-18:00",
-      "sameAs": [
-        "https://www.facebook.com/aaronmichaelservices",
-        "https://www.instagram.com/aaronmichaelservices"
-      ]
-    });
-    document.head.appendChild(schemaScript);
-  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <SEOHelmet
+        title="Contact Aaron Michael Services | Buffalo ADA Contractor | Free Consultations"
+        description="Contact Aaron Michael Services in Buffalo NY for wheelchair ramps, accessible bathrooms, and aging-in-place home modifications. Free consultations available across Western New York. Call 716-533-7108 today."
+        keywords="contact Buffalo ADA contractor, free accessibility consultation, wheelchair ramp quote Buffalo, accessible bathroom estimate"
+        canonicalUrl="https://aaronmichaelservices.com/contact"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
       
       {/* Hero Section */}

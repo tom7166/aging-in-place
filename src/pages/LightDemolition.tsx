@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './light-demolition-schema.json';
 
 const LightDemolition: React.FC = () => {
@@ -30,6 +31,12 @@ const LightDemolition: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Light Demolition Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services provides professional light demolition services in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe removal of walls, fixtures, and flooring for remodeling projects."
+        keywords="light demolition Buffalo, interior demolition, wall removal, demolition contractor Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/light-demolition"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

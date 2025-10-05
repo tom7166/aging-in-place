@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './luxury-vinyl-plank-schema.json';
 
 const LuxuryVinylPlank: React.FC = () => {
@@ -30,6 +31,12 @@ const LuxuryVinylPlank: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Luxury Vinyl Plank Flooring Installation & Maintenance | Buffalo, Kenmore, Tonawanda"
+        description="Aaron Michael Services provides professional Luxury Vinyl Plank (LVP) flooring installation, maintenance, and repairs in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Durable, waterproof flooring for modern homes."
+        keywords="LVP flooring Buffalo, luxury vinyl plank installation, waterproof flooring, vinyl plank Kenmore"
+        canonicalUrl="https://aaronmichaelservices.com/services/luxury-vinyl-plank"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}

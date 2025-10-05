@@ -4,6 +4,7 @@ import { Chrome as Home, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
+import SEOHelmet from '../components/SEOHelmet';
 import schemaData from './foreclosure-clean-out-schema.json';
 
 const ForeclosureCleanOut: React.FC = () => {
@@ -30,6 +31,12 @@ const ForeclosureCleanOut: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHelmet
+        title="Foreclosure Clean Out Services | Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+        description="Aaron Michael Services provides professional foreclosure clean out services for homes and properties in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Safe, thorough, and efficient removal of debris, furniture, and personal property."
+        keywords="foreclosure clean out Buffalo, foreclosure property clean out, bank foreclosure cleanout service"
+        canonicalUrl="https://aaronmichaelservices.com/services/foreclosure-clean-out"
+      />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
