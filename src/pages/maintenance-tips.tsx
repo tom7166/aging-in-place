@@ -211,7 +211,7 @@ const MaintenanceTips: React.FC = () => {
               Aaron Michael Services offers inspections, winter prep, and repairs for all ramp types. Our certified team ensures ADA compliance and optimal safety year-round in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga.
             </p>
             <p>
-              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className=\"text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a maintenance check today.
+              Call <a href="tel:7165337108" className="text-blue-600 hover:underline font-semibold">(716) 533-7108</a> or visit our <Link to="/contact" className="text-blue-600 hover:underline font-semibold">Contact Page</Link> to schedule a maintenance check today.
             </p>
           </section>
 
