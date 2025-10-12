@@ -182,11 +182,8 @@ const NavBar: React.FC = () => {
             { label: 'Laminate Flooring', path: '/services/laminate-flooring' },
             { label: 'Hardwood Floors', path: '/services/hardwood-floors' },
             { label: 'Hardwood Floor Refinishing', path: '/services/hardwood-floor-refinishing' },
-            { label: 'Hardwood Flooring Buffalo NY', path: '/services/hardwood-flooring-Buffalo-ny' },
             { label: 'Luxury Vinyl Plank', path: '/services/luxury-vinyl-plank' },
-            { label: 'Modern Flooring', path: '/services/modern-flooring' },
-            { label: 'Hardwood Flooring Installers Near Me', path: '/services/hardwood-flooring-installers-near-me' },
-            { label: 'Near Me Flooring Installers', path: '/services/near-me-flooring-installers' }
+            { label: 'Modern Flooring', path: '/services/modern-flooring' }
           ]
         }
       ],
