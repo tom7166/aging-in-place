@@ -19,9 +19,9 @@ export default function FoundationRepair() {
   return (
     <>
       <SEOHelmet
-        title="Foundation Repair Buffalo NY | Aaron Michael Services"
-        description="Foundation repair in Buffalo, Amherst, Tonawanda & Kenmore. Crack repair, basement waterproofing, slab lifting, pier & beam foundation repair and structural stabilization. Call (716) 533-7108."
-        keywords="foundation repair Buffalo NY, pier and beam repair, basement crack repair, foundation stabilization Buffalo, slab repair Tonawanda, waterproofing Kenmore"
+        title="Pier & Beam Foundation Repair Specialists Buffalo NY | Aaron Michael Services"
+        description="One of the last contractors in WNY with pier & beam foundation expertise. Serving Buffalo, Kenmore, Tonawanda for 22+ years. Also: crack repair, waterproofing, slab lifting. Call (716) 533-7108."
+        keywords="pier and beam foundation repair Buffalo NY, pier beam specialist Kenmore, foundation repair Buffalo, crawlspace repair, joist sistering, foundation leveling Western New York"
         canonicalUrl="https://aaronmichaelservices.com/services/foundation-repair"
       />
       <script type="application/ld+json">
@@ -33,10 +33,10 @@ export default function FoundationRepair() {
         <section className="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Foundation Repair in Buffalo & Western New York
+              Pier & Beam Foundation Repair Specialists | Buffalo & Western NY
             </h1>
             <p className="text-xl md:text-2xl mb-6 text-gray-100">
-              Foundation crack repairs, basement waterproofing, slab lifting, stabilization, and pier & beam foundation solutions.
+              One of the last few contractors in Western New York with the expertise to repair pier & beam foundations. Serving Buffalo for over 22 years.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -67,17 +67,21 @@ export default function FoundationRepair() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="prose prose-lg max-w-none text-gray-700">
             <p>
-              Your home’s foundation is the single most important structural element — and when it shows signs of stress,
-              early intervention saves thousands. Aaron Michael Services specializes in residential and light commercial
-              foundation repair across Western New York. From visible cracks and uneven floors to moisture issues in basements,
-              we diagnose the root cause, provide clear repair options, and execute work with long-term stability in mind.
+              <strong>Pier & beam foundation repair is a dying trade in Western New York — and we're one of the last contractors with the know-how to do it right.</strong>
+              Many older homes in Buffalo, Kenmore, Tonawanda, and surrounding areas were built on pier & beam foundations, but finding a contractor
+              who understands the unique challenges of leveling, sistering joists, replacing failing piers, and managing crawlspace issues is increasingly difficult.
             </p>
 
             <p>
-              We treat foundation repair as structural engineering in the field: careful inspection, appropriate materials,
-              and installation techniques matched to the type of foundation — whether poured concrete, concrete block, slab-on-grade,
-              or pier & beam. Our approach prioritizes safety, durability, and clear documentation for insurance, buyers, or
-              property managers.
+              Aaron Michael Services brings over 22 years of hands-on experience repairing pier & beam foundations across Western New York. We understand
+              the structural nuances, moisture control requirements, and proper shimming techniques that keep these historic foundations stable for decades.
+              Whether you're dealing with sagging floors, bouncy joists, settling piers, or crawlspace moisture, we diagnose the root cause and deliver
+              long-term solutions — not quick patches.
+            </p>
+
+            <p>
+              Beyond pier & beam work, we also handle poured concrete, concrete block, and slab-on-grade foundation repairs including crack repair,
+              waterproofing, and stabilization. Our approach prioritizes safety, durability, and clear documentation for insurance, buyers, or property managers.
             </p>
           </div>
         </section>
@@ -88,6 +92,36 @@ export default function FoundationRepair() {
             <h2 className="text-3xl font-bold text-center mb-10">Foundation Repair Services</h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-blue-800 p-6 rounded-lg border-2 border-yellow-400">
+                <div className="inline-block bg-yellow-400 text-blue-900 px-3 py-1 rounded text-sm font-bold mb-3">
+                  SPECIALTY SERVICE
+                </div>
+                <h3 className="text-xl font-bold mb-3">Pier & Beam Foundation Repair</h3>
+                <p className="text-blue-50 mb-3">
+                  <strong>One of the last contractors in WNY with pier & beam expertise.</strong> Leveling, sistering joists, replacing damaged piers,
+                  and improving crawlspace ventilation and support for historic pier & beam homes.
+                </p>
+                <ul className="text-blue-50 text-sm space-y-2">
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Jacking & beam leveling</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Replacement of failing piers</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Crawlspace repair & moisture control</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Joist sistering & reinforcement</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Proper shimming techniques</li>
+                </ul>
+              </div>
+
+              <div className="bg-blue-800 p-6 rounded-lg">
+                <h3 className="text-xl font-bold mb-3">Foundation Stabilization</h3>
+                <p className="text-blue-50 mb-3">
+                  Helical piers, pressed pilings, wall anchors, and carbon-fiber reinforcement to stop movement and restore structural integrity.
+                </p>
+                <ul className="text-blue-50 text-sm space-y-2">
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Helical pier installation</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Wall anchor systems</li>
+                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Carbon fiber reinforcement</li>
+                </ul>
+              </div>
+
               <div className="bg-blue-800 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Crack Repair & Structural Patching</h3>
                 <p className="text-blue-50 mb-3">
@@ -124,34 +158,39 @@ export default function FoundationRepair() {
               </div>
 
               <div className="bg-blue-800 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Foundation Stabilization</h3>
-                <p className="text-blue-50 mb-3">
-                  Helical piers, pressed pilings, wall anchors, and carbon-fiber reinforcement to stop movement and restore structural integrity.
-                </p>
-                <ul className="text-blue-50 text-sm space-y-2">
-                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Helical pier installation</li>
-                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Wall anchor systems</li>
-                </ul>
-              </div>
-
-              <div className="bg-blue-800 p-6 rounded-lg">
-                <h3 className="text-xl font-bold mb-3">Pier & Beam Foundation Repair</h3>
-                <p className="text-blue-50 mb-3">
-                  Leveling, sistering joists, replacing damaged piers, and improving crawlspace ventilation and support for pier & beam homes.
-                </p>
-                <ul className="text-blue-50 text-sm space-y-2">
-                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Jacking & beam leveling</li>
-                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Replacement of failing piers</li>
-                  <li className="flex items-start gap-2"><CheckCircle className="h-5 w-5" /> Crawlspace repair & moisture control</li>
-                </ul>
-              </div>
-
-              <div className="bg-blue-800 p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Structural Inspections & Reports</h3>
                 <p className="text-blue-50 mb-3">
                   Written evaluations, repair plans, and cost estimates — essential for insurance claims, real estate transactions, and long-term maintenance planning.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* WHY PIER & BEAM SPECIALISTS */}
+        <section className="bg-yellow-50 py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Why Pier & Beam Foundation Expertise Matters</h2>
+            <div className="prose prose-lg text-gray-700 max-w-none">
+              <p>
+                <strong>Pier & beam foundations are a dying specialty.</strong> Most contractors today only work with poured concrete or
+                block foundations. But many historic Buffalo-area homes — especially bungalows, craftsman-style houses, and older structures
+                built before the 1950s — sit on pier & beam systems. These foundations require specialized knowledge of:
+              </p>
+
+              <ul>
+                <li><strong>Proper jacking techniques</strong> to level floors without damaging joists or load-bearing beams</li>
+                <li><strong>Crawlspace moisture management</strong> that prevents rot and pest damage</li>
+                <li><strong>Shimming and pier replacement</strong> using materials that match the original construction methods</li>
+                <li><strong>Joist sistering and reinforcement</strong> when original lumber has weakened or sagged</li>
+                <li><strong>Ventilation improvements</strong> that reduce humidity while maintaining structural support</li>
+              </ul>
+
+              <p>
+                We've spent over two decades mastering these techniques. When other contractors say "we don't do that type of foundation,"
+                we show up with the tools, materials, and experience to fix it right. If you have a pier & beam foundation showing signs
+                of settling, bouncy floors, or crawlspace issues — call us. We're one of the last few who can help.
+              </p>
             </div>
           </div>
         </section>
@@ -290,16 +329,20 @@ export default function FoundationRepair() {
         {/* CASE STUDY (LOCAL) */}
         <section className="bg-gradient-to-r from-gray-100 to-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg text-gray-700">
-            <h2 className="text-2xl font-bold mb-4">Local Case Study — Buffalo Bungalow Stabilized</h2>
+            <h2 className="text-2xl font-bold mb-4">Case Study — Kenmore Pier & Beam Foundation Leveled</h2>
             <p>
-              A Buffalo bungalow with settling near the back porch showed stair-step foundation cracks and a wet crawlspace.
-              After an on-site evaluation we installed helical piers under affected bearing points, tied in a new interior drain,
-              and leveled the porch slab. The homeowner received before/after documentation and a 5-year workmanship warranty on the pier work.
-              Follow-up inspections showed full stabilization and no recurring water intrusion.
+              A 1940s Kenmore bungalow built on pier & beam showed significant floor sagging in the living room and bouncy spots near interior walls.
+              Several contractors declined the job, citing lack of experience with pier & beam systems. After our inspection, we identified three
+              failing piers, rotted rim joists, and inadequate crawlspace ventilation.
             </p>
             <p>
-              Case studies like this illustrate how targeted stabilization plus drainage correction solves both the symptom and the cause —
-              which is the only way to deliver lasting value.
+              We replaced the compromised piers with properly-sized concrete supports, sistered the damaged joists with treated lumber, and
+              re-leveled the floor using hydraulic jacks and precision shimming. We also installed crawlspace vents and a vapor barrier to
+              prevent future moisture damage. The homeowner now has a solid, level floor — and documentation for future resale.
+            </p>
+            <p>
+              This is the kind of specialized work most contractors can't or won't do. But for homes built on pier & beam, it's the only
+              way to restore structural integrity and protect property value.
             </p>
           </div>
         </section>
