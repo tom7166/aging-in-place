@@ -82,7 +82,7 @@ const HardwoodFloorRefinishing: React.FC = () => {
         "name": "What is the cost of hardwood floor refinishing in Western New York?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Hardwood floor refinishing in Buffalo and Western NY typically costs $3-$5 per square foot for standard refinishing, including sanding, staining, and polyurethane finish. Factors affecting price include floor condition, square footage, wood species, stain selection, and repair needs. We provide free, detailed estimates with transparent pricing."
+          "text": "Hardwood floor refinishing in Buffalo and Western NY starts at $6.00 per square foot for standard refinishing, including sanding, staining, and polyurethane finish. Screen and recoat services start at $3.50 per square foot. Stair refinishing is $100 per step. Water damage repair with board replacement ranges from $10-$16 per square foot. Factors affecting final price include floor condition, square footage, wood species, stain selection, and extent of repairs needed. We provide free, detailed estimates with transparent pricing."
         }
       },
       {
@@ -560,19 +560,19 @@ const HardwoodFloorRefinishing: React.FC = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center border-b pb-3">
                     <span className="font-semibold text-gray-700">Standard Refinishing (sanding, staining, 3 coats poly)</span>
-                    <span className="text-amber-700 font-bold text-lg">$3.00 - $5.00/sq ft</span>
+                    <span className="text-amber-700 font-bold text-lg">Starting at $6.00/sq ft</span>
                   </div>
                   <div className="flex justify-between items-center border-b pb-3">
                     <span className="font-semibold text-gray-700">Screen & Recoat (maintenance)</span>
-                    <span className="text-amber-700 font-bold text-lg">$1.50 - $2.50/sq ft</span>
+                    <span className="text-amber-700 font-bold text-lg">Starting at $3.50/sq ft</span>
                   </div>
                   <div className="flex justify-between items-center border-b pb-3">
                     <span className="font-semibold text-gray-700">Stair Refinishing (per step, tread + riser)</span>
-                    <span className="text-amber-700 font-bold text-lg">$40 - $75/step</span>
+                    <span className="text-amber-700 font-bold text-lg">$100/step</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-semibold text-gray-700">Water Damage Repair (includes board replacement)</span>
-                    <span className="text-amber-700 font-bold text-lg">$5.00 - $8.00/sq ft</span>
+                    <span className="text-amber-700 font-bold text-lg">$10.00 - $16.00/sq ft</span>
                   </div>
                 </div>
               </div>
