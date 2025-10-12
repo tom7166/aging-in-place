@@ -95,14 +95,14 @@ const Contact: React.FC = () => {
               {/* Google Maps Embed */}
               <div className="rounded-lg overflow-hidden shadow-md mb-8">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!...YOUR_GOOGLE_PLACE_ID..."
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2920.6607764842595!2d-78.8787!3d42.9857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3126b8f6b8c6d%3A0x7e4f6b8c6d8e9f0!2sBuffalo%2C%20NY!5e0!3m2!1sen!2sus!4v1234567890"
                   width="100%"
                   height="350"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Aaron Michael Services Location"
+                  title="Aaron Michael Services - Buffalo, NY Service Area"
                 ></iframe>
               </div>
             </div>
