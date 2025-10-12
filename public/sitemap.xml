@@ -868,4 +868,61 @@
     <changefreq>monthly</changefreq>
   </url>
 
+  <url>
+    <loc>https://aaronmichaelservices.com/services/hardwood-flooring-Buffalo-ny</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/services/hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Hardwood Floor Refinishing City Pages -->
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/buffalo-ny-hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/kenmore-ny-hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/tonawanda-ny-hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/north-tonawanda-ny-hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/amherst-ny-hardwood-floor-refinishing</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://aaronmichaelservices.com/cities/buffalo/hardwood-flooring-Buffalo-ny</loc>
+    <priority>0.8</priority>
+    <lastmod>2025-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
 </urlset>
