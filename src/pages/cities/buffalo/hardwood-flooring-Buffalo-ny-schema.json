@@ -10,10 +10,10 @@
   "description": "Aaron Michael Services provides expert hardwood floor refinishing, installation, repair, and maintenance throughout Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga, NY. Call (716) 533-7108 for a free estimate.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Kenmore Ave",
+    "streetAddress": "14 mariemont ave",
     "addressLocality": "Buffalo",
     "addressRegion": "NY",
-    "postalCode": "14217",
+    "postalCode": "14220",
     "addressCountry": "US"
   },
   "geo": {
