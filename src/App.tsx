@@ -126,7 +126,7 @@ import LuxuryVinylPlank from './pages/LuxuryVinylPlank.tsx';
 import ModernFlooring from './pages/ModernFlooring.tsx';
 import HardwoodFlooringInstallersNearMe from './pages/HardwoodFlooringInstallersNearMe.tsx';
 import NearMeFlooringInstallers from './pages/NearMeFlooringInstallers.tsx';
-import HardwoodFlooringBuffaloNY from './pages/cities/buffalo/hardwood-flooring-Buffalo-ny.tsx';
+import HardwoodFlooringBuffalo from './pages/cities/buffalo/hardwood-flooring-Buffalo-ny.tsx';
 import HardwoodFloorRefinishing from './pages/hardwood-floor-refinishing.tsx';
 
 
@@ -266,7 +266,7 @@ const App: React.FC = () => {
           <Route path="/services/modern-flooring" element={<ModernFlooring />} />
           <Route path="/services/hardwood-flooring-installers-near-me" element={<HardwoodFlooringInstallersNearMe />} />
           <Route path="/services/near-me-flooring-installers" element={<NearMeFlooringInstallers />} />
-          <Route path="/services/hardwood-flooring-Buffalo-ny" element={<HardwoodFlooringBuffaloNy />} />
+          <Route path="/services/hardwood-flooring-Buffalo-ny" element={<HardwoodFlooringBuffalo />} />
           <Route path="/services/hardwood-floor-refinishing" element={<HardwoodFloorRefinishing />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

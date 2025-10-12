@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Home as HomeIcon, ArrowRight } from 'lucide-react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import FloatingCallButton from '../components/FloatingCallButton';
-import SEOHelmet from '../components/SEOHelmet';
+import Header from '../../../components/Header';
+import Footer from '../../../components/Footer';
+import FloatingCallButton from '../../../components/FloatingCallButton';
+import SEOHelmet from '../../../components/SEOHelmet';
 import schemaData from './hardwood-flooring-Buffalo-ny-schema.json';
 
 const PHONE_DISPLAY = '(716) 533-7108';
