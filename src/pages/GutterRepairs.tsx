@@ -9,7 +9,7 @@ export default function GutterRepairs() {
         title="Gutter & Downspout Repair Buffalo NY | Aaron Michael Services"
         description="Expert gutter and downspout repair for ranch homes in Buffalo, Amherst, Tonawanda & Kenmore NY. Step-ladder accessible repairs only. Call (716) 533-7108."
         keywords="gutter repair Buffalo NY, downspout repair Amherst, gutter cleaning Tonawanda, gutter replacement Kenmore, ranch home gutter repair Buffalo"
-        canonical="https://www.aaronmichaelservices.com/gutter-repair"
+        canonicalUrl="https://aaronmichaelservices.com/services/gutter-repairs"
         schema={schemaData}
       />
 

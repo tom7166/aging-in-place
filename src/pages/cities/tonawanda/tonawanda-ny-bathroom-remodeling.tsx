@@ -30,23 +30,32 @@ const TonawandaBathroomRemodelingPage = () => {
 
   useEffect(() => {
     document.title = "Bathroom Remodeling Tonawanda NY | Accessible Bathroom Renovations | Aaron Michael Services";
-    
+
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert bathroom remodelers in Tonawanda NY. Accessible, modern, affordable bathroom renovation services for Twin Cities. ADA compliant walk-in showers, grab bars. Call 716-533-7108.');
     }
-    
+
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-bathroom-remodeling');
+
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
     structuredDataScript.textContent = JSON.stringify(structuredData);
     document.head.appendChild(structuredDataScript);
-    
+
     // Set favicon
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;
     if (favicon) {
       favicon.href = '/favicon.ico';
     }
-    
+
     return () => {
       if (document.head.contains(structuredDataScript)) {
         document.head.removeChild(structuredDataScript);

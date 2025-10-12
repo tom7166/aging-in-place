@@ -10,7 +10,7 @@ export default function ExteriorDoorRepair() {
         title="Exterior Door Repair Buffalo NY | Aaron Michael Services"
         description="Professional exterior door repair and replacement in Buffalo, Amherst, Tonawanda & Kenmore NY. Ranch home specialists with 25+ years carpentry experience. Call (716) 533-7108."
         keywords="exterior door repair Buffalo NY, storm door repair Amherst, patio door replacement Tonawanda, ranch home door repair Kenmore, carpentry services Buffalo"
-        canonical="https://www.aaronmichaelservices.com/exterior-door-repair"
+        canonicalUrl="https://aaronmichaelservices.com/services/exterior-door-repair"
         schema={schemaData}
       />
 

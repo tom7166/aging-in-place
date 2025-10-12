@@ -35,6 +35,15 @@ const TonawandaKitchenRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert kitchen remodelers in Tonawanda NY. Accessible, modern kitchen renovations with universal design for Twin Cities. ADA compliant solutions. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-kitchen-remodeling');
+
     
     // Set favicon
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;

@@ -35,6 +35,15 @@ const RemodelingContractorTonawandaPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert remodeling contractors in Tonawanda NY. Kitchen, bathroom, basement, and whole-home renovations with accessibility features. Licensed, insured, Twin Cities specialists. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/remodeling-contractor-tonawanda-ny');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

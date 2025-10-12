@@ -35,6 +35,15 @@ const NorthTonawandaKitchenRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert kitchen remodelers in North Tonawanda NY. Accessible kitchen renovations with universal design for Lumber City. ADA compliant solutions. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-kitchen-remodeling');
+
     
     // Set favicon
     const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement;

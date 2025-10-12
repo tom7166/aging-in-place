@@ -9,7 +9,7 @@ export default function InteriorDoorRepair() {
         title="Interior Door Repair Buffalo NY | Aaron Michael Services"
         description="Professional interior door repair and replacement in Buffalo, Amherst, Tonawanda & Kenmore NY. Ranch home specialists with 25+ years carpentry experience. Call (716) 533-7108."
         keywords="interior door repair Buffalo NY, door frame repair Amherst, closet door repair Tonawanda, ranch home carpentry Kenmore, door replacement Buffalo"
-        canonical="https://www.aaronmichaelservices.com/interior-door-repair"
+        canonicalUrl="https://aaronmichaelservices.com/services/interior-door-repair"
         schema={schemaData}
       />
 

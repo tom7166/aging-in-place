@@ -35,6 +35,15 @@ const TonawandaDoorWideningPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional door widening Tonawanda NY for wheelchair accessibility. ADA compliant door modifications for Twin Cities homes with historic preservation. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-door-widening');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

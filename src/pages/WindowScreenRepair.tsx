@@ -9,7 +9,7 @@ export default function WindowScreenRepair() {
         title="Window & Screen Repair Buffalo NY | Aaron Michael Services"
         description="Expert window and screen repair in Buffalo, Amherst, Tonawanda & Kenmore NY. Ranch home specialists, 25+ years experience. CAPS-certified for safety. Call (716) 533-7108."
         keywords="window repair Buffalo NY, screen repair Amherst, window replacement Tonawanda, ranch home window services Kenmore, CAPS-certified window repair Buffalo"
-        canonical="https://www.aaronmichaelservices.com/window-screen-repair"
+        canonicalUrl="https://aaronmichaelservices.com/services/window-screen-repair"
         schema={schemaData}
       />
 

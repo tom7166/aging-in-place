@@ -9,8 +9,7 @@ export default function BasementRepairs() {
         title="Basement Repairs Buffalo NY | Aaron Michael Services"
         description="Expert basement repairs in Buffalo, Amherst, Tonawanda & Kenmore NY. Wall cracks, waterproofing, sump pumps, flooring & finishing repairs. Call (716) 533-7108."
         keywords="basement repairs Buffalo NY, waterproofing Amherst, foundation cracks Tonawanda, sump pump repair Kenmore, basement finishing Buffalo, basement handyman Western New York"
-        canonical="https://www.aaronmichaelservices.com/basement-repairs"
-        schema={schemaData}
+        canonicalUrl="https://aaronmichaelservices.com/services/basement-repairs"
       />
 
       <main className="service-page basement-repairs">

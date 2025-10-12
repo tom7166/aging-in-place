@@ -35,6 +35,15 @@ const NorthTonawandaRollInShowerInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional roll-in shower installation North Tonawanda NY. Zero-threshold showers for wheelchair accessibility in Lumber City homes. ADA compliant design. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-roll-in-shower-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

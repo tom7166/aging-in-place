@@ -35,6 +35,15 @@ const AccessibleRemodelingTonawandaPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert accessible remodeling contractors in Tonawanda NY. ADA compliant home renovations, universal design bathrooms, kitchens, whole-home accessibility. Serving all WNY. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/accessible-remodeling-tonawanda-ny');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

@@ -41,6 +41,15 @@ const NorthTonawandaHomePage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional ADA contractor serving North Tonawanda NY. Wheelchair ramps, accessible bathrooms, aging in place modifications for the Lumber City and Western New York. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-home');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

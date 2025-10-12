@@ -35,6 +35,15 @@ const TonawandaHomeSafetyAssessmentsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional home safety assessments Tonawanda NY. Comprehensive fall risk evaluation and accessibility planning for Twin Cities homes. Expert safety consultation. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-home-safety-assessments');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

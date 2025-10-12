@@ -35,6 +35,15 @@ const TonawandaWheelchairRampInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional wheelchair ramp installation Tonawanda NY. Wood, composite, concrete ramps designed for WNY snow loads, Twin Cities waterfront conditions. ADA compliant. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-wheelchair-ramp-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

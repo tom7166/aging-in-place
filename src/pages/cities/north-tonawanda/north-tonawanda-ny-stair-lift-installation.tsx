@@ -35,6 +35,15 @@ const NorthTonawandaStairLiftInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional stair lift installation North Tonawanda NY. Curved and straight stair lifts for Lumber City homes. Safe multi-level access for aging in place. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-stair-lift-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

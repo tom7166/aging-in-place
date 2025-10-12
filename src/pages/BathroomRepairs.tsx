@@ -9,7 +9,7 @@ export default function BathroomRepairs() {
         title="Bathroom Repairs Buffalo NY | Aaron Michael Services"
         description="Expert bathroom repairs in Buffalo, Amherst, Tonawanda & Kenmore NY. Toilet, sink, shower, tile, drywall & flooring repair. Call (716) 533-7108."
         keywords="bathroom repairs Buffalo NY, shower repair Buffalo, tile repair Amherst, bathroom plumbing Tonawanda, drywall repair Kenmore, bathroom handyman Western New York"
-        canonical="https://www.aaronmichaelservices.com/bathroom-repairs"
+        canonicalUrl="https://aaronmichaelservices.com/services/bathroom-repairs"
         schema={schemaData}
       />
 

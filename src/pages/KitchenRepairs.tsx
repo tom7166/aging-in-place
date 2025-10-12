@@ -9,7 +9,7 @@ export default function KitchenRepairs() {
         title="Kitchen Repairs Buffalo NY | Aaron Michael Services"
         description="Expert kitchen repairs in Buffalo, Amherst, Tonawanda, and Kenmore NY. Cabinet repair, countertop fixes, flooring, plumbing, drywall, and more. Call (716) 533-7108."
         keywords="kitchen repairs Buffalo NY, cabinet repair, countertop repair, kitchen plumbing, drywall repair, Amherst kitchen repair, Tonawanda kitchen repair, Kenmore kitchen repair"
-        canonical="https://www.aaronmichaelservices.com/kitchen-repairs"
+        canonicalUrl="https://aaronmichaelservices.com/services/kitchen-repairs"
         schema={schemaData}
       />
 

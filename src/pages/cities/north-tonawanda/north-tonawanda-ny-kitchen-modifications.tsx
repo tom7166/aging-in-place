@@ -35,6 +35,15 @@ const NorthTonawandaKitchenModificationsPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional kitchen accessibility modifications North Tonawanda NY. Lowered counters, accessible cabinets, universal design for aging in place in Lumber City homes. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-kitchen-modifications');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

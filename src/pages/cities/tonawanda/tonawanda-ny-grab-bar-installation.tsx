@@ -35,6 +35,15 @@ const TonawandaGrabBarInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional grab bar installation Tonawanda NY. Safety bars rated for 250+ pounds for Twin Cities homes. ADA compliant installation for aging in place. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-grab-bar-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

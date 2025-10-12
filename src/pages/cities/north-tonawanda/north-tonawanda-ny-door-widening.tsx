@@ -35,6 +35,15 @@ const NorthTonawandaDoorWideningPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional door widening North Tonawanda NY for wheelchair accessibility. ADA compliant door modifications for Lumber City homes with industrial heritage preservation. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-door-widening');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

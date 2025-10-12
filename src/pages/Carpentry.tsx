@@ -11,7 +11,7 @@ export default function Carpentry() {
         title="Carpentry Services Buffalo NY | Aaron Michael Services"
         description="Expert carpentry services for ranch homes in Buffalo, Amherst, Tonawanda & Kenmore NY. Repairs, installations, custom projects. CAPS-certified, 25+ years experience. Call (716) 533-7108."
         keywords="carpentry Buffalo NY, ranch home carpentry Amherst, custom carpentry Tonawanda, home repairs Kenmore, step-ladder accessible carpentry Buffalo"
-        canonical="https://www.aaronmichaelservices.com/carpentry"
+        canonicalUrl="https://aaronmichaelservices.com/services/carpentry"
         schema={schemaData}
       />
 

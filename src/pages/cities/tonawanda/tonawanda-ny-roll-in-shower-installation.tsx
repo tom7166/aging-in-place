@@ -35,6 +35,15 @@ const TonawandaRollInShowerInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional roll-in shower installation Tonawanda NY. Zero-threshold showers for wheelchair accessibility in Twin Cities homes. ADA compliant design. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/tonawanda-ny-roll-in-shower-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

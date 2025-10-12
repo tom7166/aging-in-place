@@ -9,7 +9,7 @@ export default function TrimCarpentry() {
         title="Trim Carpentry Buffalo NY | Aaron Michael Services"
         description="Professional trim carpentry in Buffalo, Amherst, Tonawanda & Kenmore NY. Ranch home specialists, 25+ years experience, CAPS-certified for older homeowners. Call (716) 533-7108."
         keywords="trim carpentry Buffalo NY, crown molding installation Amherst, baseboard repair Tonawanda, window & door trim Kenmore, ranch home carpentry Buffalo"
-        canonical="https://www.aaronmichaelservices.com/trim-carpentry"
+        canonicalUrl="https://aaronmichaelservices.com/services/trim-carpentry"
         schema={schemaData}
       />
 

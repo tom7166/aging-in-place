@@ -35,6 +35,15 @@ const NorthTonawandaWalkInTubInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional walk-in tub installation North Tonawanda NY. Therapeutic walk-in tubs with safety features for Lumber City homes. Aging in place solutions. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-walk-in-tub-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

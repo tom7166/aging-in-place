@@ -35,6 +35,15 @@ const NorthTonawandaGrabBarInstallationPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Professional grab bar installation North Tonawanda NY. Industrial-grade safety bars rated for 250+ pounds for Lumber City homes. ADA compliant installation. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-grab-bar-installation');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';

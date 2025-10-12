@@ -35,6 +35,15 @@ const NorthTonawandaBathroomRemodelingPage = () => {
     if (metaDescription) {
       metaDescription.setAttribute('content', 'Expert bathroom remodelers in North Tonawanda NY. Accessible, modern bathroom renovation services for Lumber City. ADA compliant walk-in showers, grab bars. Call 716-533-7108.');
     }
+    // Add canonical URL
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement('link');
+      canonicalLink.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonicalLink);
+    }
+    canonicalLink.setAttribute('href', 'https://aaronmichaelservices.com/north-tonawanda-ny-bathroom-remodeling');
+
     
     const structuredDataScript = document.createElement('script');
     structuredDataScript.type = 'application/ld+json';
