@@ -139,6 +139,15 @@ import KenmoreHardwoodFloorMaintenance from './pages/hardwood-flooring/kenmore-h
 import AmherstEngineeredHardwoodInstallation from './pages/hardwood-flooring/amherst-engineered-hardwood-installation.tsx';
 import TonawandaHardwoodFloorRefinishingCost from './pages/hardwood-flooring/tonawanda-hardwood-floor-refinishing-cost.tsx';
 import WestSenecaHardwoodFloorCleaning from './pages/hardwood-flooring/west-seneca-hardwood-floor-cleaning.tsx';
+import KitchenFloorContractors from './pages/flooring/kitchen-floor-contractors.tsx';
+import FlooringContractorsBuffaloNY from './pages/flooring/flooring-contractors-buffalo-ny.tsx';
+import BuffaloFlooring from './pages/flooring/buffalo-flooring.tsx';
+import FlooringServicesBuffaloNY from './pages/flooring/flooring-services-buffalo-ny.tsx';
+import FlooringCompaniesBuffaloNY from './pages/flooring/flooring-companies-buffalo-ny.tsx';
+import FloorRemodeling from './pages/flooring/floor-remodeling.tsx';
+import FlooringRenovation from './pages/flooring/flooring-renovation.tsx';
+import WoodFloorReplacementNearMe from './pages/flooring/wood-floor-replacement-near-me.tsx';
+import FloorRenovations from './pages/flooring/floor-renovations.tsx';
 
 
 const App: React.FC = () => {
@@ -290,6 +299,15 @@ const App: React.FC = () => {
           <Route path="/services/hardwood-flooring/amherst-engineered-hardwood-installation" element={<AmherstEngineeredHardwoodInstallation />} />
           <Route path="/services/hardwood-flooring/tonawanda-hardwood-floor-refinishing-cost" element={<TonawandaHardwoodFloorRefinishingCost />} />
           <Route path="/services/hardwood-flooring/west-seneca-hardwood-floor-cleaning" element={<WestSenecaHardwoodFloorCleaning />} />
+          <Route path="/services/flooring/kitchen-floor-contractors" element={<KitchenFloorContractors />} />
+          <Route path="/services/flooring/flooring-contractors-buffalo-ny" element={<FlooringContractorsBuffaloNY />} />
+          <Route path="/services/flooring/buffalo-flooring" element={<BuffaloFlooring />} />
+          <Route path="/services/flooring/flooring-services-buffalo-ny" element={<FlooringServicesBuffaloNY />} />
+          <Route path="/services/flooring/flooring-companies-buffalo-ny" element={<FlooringCompaniesBuffaloNY />} />
+          <Route path="/services/flooring/floor-remodeling" element={<FloorRemodeling />} />
+          <Route path="/services/flooring/flooring-renovation" element={<FlooringRenovation />} />
+          <Route path="/services/flooring/wood-floor-replacement-near-me" element={<WoodFloorReplacementNearMe />} />
+          <Route path="/services/flooring/floor-renovations" element={<FloorRenovations />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
