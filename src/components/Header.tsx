@@ -181,7 +181,7 @@ const Header: React.FC<HeaderProps> = ({ highContrastMode, toggleHighContrast })
                     ? 'bg-white/20 text-white hover:bg-white/30'
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
-                aria-label="Toggle high contrast mode"
+                aria-label="Toggle light mode"
               >
                 <Eye size={18} />
               </button>

@@ -142,7 +142,7 @@ import WestSenecaHardwoodFloorCleaning from './pages/hardwood-flooring/west-sene
 
 
 const App: React.FC = () => {
-  const [highContrastMode, setHighContrastMode] = useState(false);
+  const [highContrastMode, setHighContrastMode] = useState(true);
   const toggleHighContrast = () => setHighContrastMode(prev => !prev);
 
   useEffect(() => {
