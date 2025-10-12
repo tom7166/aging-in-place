@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aaron Michael Services",
+  "image": "https://aaronmichaelservices.com/assets/logo.png",
+  "url": "https://aaronmichaelservices.com/hardwood-flooring-buffalo-ny",
+  "telephone": "+17165337108",
+  "email": "thomasstory716@hotmail.com",
+  "priceRange": "$$",
+  "description": "Aaron Michael Services provides expert hardwood floor refinishing, installation, repair, and maintenance throughout Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga, NY. Call (716) 533-7108 for a free estimate.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Kenmore Ave",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "14217",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.965",
+    "longitude": "-78.870"
+  },
+  "areaServed": [
+    {
+      "@type": "Place",
+      "name": "Buffalo, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Kenmore, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Tonawanda, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "North Tonawanda, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Cheektowaga, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Amherst, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Williamsville, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Clarence, NY"
+    },
+    {
+      "@type": "Place",
+      "name": "Lancaster, NY"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/AaronMichaelServices",
+    "https://www.instagram.com/aaronmichaelservices",
+    "https://aaronmichaelservices.com"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hardwood Flooring Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hardwood Floor Refinishing",
+          "description": "Full sanding, repairs, staining and finish restoration for hardwood floors across Buffalo and surrounding areas."
+        },
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hardwood Floor Installation",
+          "description": "Professional installation of solid and engineered hardwood flooring for residential and commercial spaces."
+        },
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Hardwood Floor Repair",
+          "description": "Repair of damaged, scratched, or water-stained hardwood flooring using precision matching and refinishing techniques."
+        },
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Screen and Recoat Maintenance",
+          "description": "Light sanding and recoating to restore sheen and protect hardwood floors between full refinishing projects."
+        },
+        "priceCurrency": "USD"
+      }
+    ]
+  }
+}
