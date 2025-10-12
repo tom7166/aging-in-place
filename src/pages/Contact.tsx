@@ -17,10 +17,31 @@ const Contact: React.FC = () => {
         canonicalUrl="https://aaronmichaelservices.com/contact"
       />
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
-      
+
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-24 pt-32">
-        <div className="max-w-7xl mx-auto px-4 text-center">
+      <section className="relative text-white py-24 pt-32 overflow-hidden">
+        {/* Background Video */}
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
+          <div className="absolute inset-0 w-full h-full" style={{ transform: 'scale(1.5)' }}>
+            <iframe
+              className="absolute top-1/2 left-1/2 w-screen h-screen -translate-x-1/2 -translate-y-1/2"
+              style={{
+                width: '100vw',
+                height: '56.25vw',
+                minHeight: '100vh',
+                minWidth: '177.77vh',
+                pointerEvents: 'none',
+              }}
+              src="https://www.youtube.com/embed/gldB7EncFSg?autoplay=1&mute=1&loop=1&playlist=gldB7EncFSg&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&enablejsapi=1&disablekb=1&fs=0"
+              title="Background Video"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            ></iframe>
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-indigo-900/60 to-blue-900/70"></div>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 text-center">
           <nav className="mb-6 text-blue-200">
             <div className="flex items-center justify-center space-x-2 text-sm">
               <Home className="w-4 h-4" />
