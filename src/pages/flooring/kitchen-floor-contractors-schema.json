@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://aaronmichaelservices.com/services/flooring/kitchen-floor-contractors#service",
+      "name": "Kitchen Floor Contractors Buffalo NY",
+      "description": "Expert kitchen floor contractors in Buffalo NY specializing in hardwood, tile, vinyl, and luxury flooring installation. Professional kitchen flooring renovation with 22+ years experience serving Western New York.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://aaronmichaelservices.com/#organization"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Buffalo",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Amherst",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Cheektowaga",
+          "addressRegion": "NY"
+        },
+        {
+          "@type": "City",
+          "name": "Tonawanda",
+          "addressRegion": "NY"
+        }
+      ],
+      "serviceType": "Kitchen Floor Installation",
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$2500-$12000",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://aaronmichaelservices.com/#organization",
+      "name": "Aaron Michael Services",
+      "telephone": "+17165337108",
+      "priceRange": "$$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "14 Mariemont Ave",
+        "addressLocality": "Buffalo",
+        "addressRegion": "NY",
+        "postalCode": "14220",
+        "addressCountry": "US"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "287"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much do kitchen floor contractors charge in Buffalo NY?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional kitchen floor contractors in Buffalo charge $6-$18 per square foot installed, depending on material choice and project complexity. A typical 150 SF Buffalo kitchen floor costs $3,500-$9,500 including materials, labor, old floor removal, and subfloor preparation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the best kitchen flooring for Buffalo's climate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luxury vinyl plank (LVP) is the #1 choice for Buffalo kitchens due to 100% waterproof construction, freeze-thaw resistance, and easy maintenance. LVP handles Buffalo's humidity fluctuations better than hardwood while providing realistic wood appearance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does kitchen floor installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Professional kitchen floor installation takes 2-5 days for most Buffalo kitchens. Day 1: Remove old flooring and prepare subfloor. Days 2-3: Material acclimation. Days 3-4: Install new flooring. Day 5: Trim work and finishing."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://aaronmichaelservices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Flooring Services",
+          "item": "https://aaronmichaelservices.com/services/flooring-installation"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Kitchen Floor Contractors",
+          "item": "https://aaronmichaelservices.com/services/flooring/kitchen-floor-contractors"
+        }
+      ]
+    }
+  ]
+}
