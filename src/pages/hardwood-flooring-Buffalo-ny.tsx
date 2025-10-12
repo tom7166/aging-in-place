@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import FloatingCallButton from '../components/FloatingCallButton';
 import SEOHelmet from '../components/SEOHelmet';
-import schemaData from './hardwood-flooring-schema.json';
+import schemaData from './hardwood-flooring-Buffalo-ny-schema.json';
 
 const PHONE_DISPLAY = '(716) 533-7108';
 const PHONE_TEL = 'tel:+17165337108';
