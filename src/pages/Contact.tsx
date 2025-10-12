@@ -95,9 +95,9 @@ const Contact: React.FC = () => {
               {/* Google Maps Embed */}
               <div className="rounded-lg overflow-hidden shadow-md mb-8">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.1234567890!2d-78.8256862!3d42.8414863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d30f006c770741%3A0xe549fa00be8e34c!2sAaron%20Michael%20Services!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2262.679990005937!2d-78.8256862248745!3d42.8414862711523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d30f006c770741%3A0xe549fa00be8e34c!2sAaron%20Michael%20Services!5e1!3m2!1sen!2sus!4v1760239899059!5m2!1sen!2sus"
                   width="100%"
-                  height="350"
+                  height="450"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
