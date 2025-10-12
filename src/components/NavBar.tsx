@@ -39,6 +39,7 @@ const NavBar: React.FC = () => {
     { title: 'Accessible Flooring Installation', path: '/services/accessibility/flooring-installation', keywords: ['flooring', 'accessible', 'installation', 'barrier-free'] },
     { title: 'Foundation Repair', path: '/services/foundation-repair', keywords: ['foundation', 'repair', 'crack', 'basement', 'waterproofing', 'stabilization'] },
     { title: 'Handyman Services', path: '/services/handyman-services', keywords: ['handyman', 'repair', 'maintenance', 'fix', 'small jobs'] },
+    { title: 'Mobile Handyman Services', path: '/services/mobile-handyman-services', keywords: ['mobile handyman', 'handyman pricing', 'handyman rates', 'home repair', 'same day service'] },
     { title: 'Investor Services', path: '/services/investor-services', keywords: ['investor', 'property', 'rental', 'flip', 'renovation', 'real estate'] },
     { title: 'Handrails', path: '/services/handrails', keywords: ['handrail', 'grab bar', 'safety', 'stairs', 'railing'] },
     { title: 'Estate Cleanouts', path: '/services/estate-cleanouts', keywords: ['estate', 'cleanout', 'property', 'removal', 'downsizing'] },
@@ -213,6 +214,7 @@ const NavBar: React.FC = () => {
       ],
       services: [
         { label: 'Handyman Services', path: '/services/handyman-services' },
+        { label: 'Mobile Handyman Services', path: '/services/mobile-handyman-services' },
         { label: 'Investor Services', path: '/services/investor-services' },
         { label: 'Estate Cleanouts', path: '/services/estate-cleanouts' },
         { label: 'Property Cleanouts', path: '/services/property-cleanouts' }

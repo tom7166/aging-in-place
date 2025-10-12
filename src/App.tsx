@@ -128,6 +128,7 @@ import HardwoodFlooringInstallersNearMe from './pages/HardwoodFlooringInstallers
 import NearMeFlooringInstallers from './pages/NearMeFlooringInstallers.tsx';
 import HardwoodFlooringBuffalo from './pages/cities/buffalo/hardwood-flooring-Buffalo-ny.tsx';
 import HardwoodFloorRefinishing from './pages/hardwood-floor-refinishing.tsx';
+import MobileHandymanServices from './pages/mobile-handyman-services.tsx';
 
 
 const App: React.FC = () => {
@@ -268,6 +269,7 @@ const App: React.FC = () => {
           <Route path="/services/near-me-flooring-installers" element={<NearMeFlooringInstallers />} />
           <Route path="/services/hardwood-flooring-Buffalo-ny" element={<HardwoodFlooringBuffalo />} />
           <Route path="/services/hardwood-floor-refinishing" element={<HardwoodFloorRefinishing />} />
+          <Route path="/services/mobile-handyman-services" element={<MobileHandymanServices />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
