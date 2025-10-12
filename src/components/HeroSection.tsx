@@ -12,13 +12,23 @@ const HeroSection: React.FC<HeroSectionProps> = ({ highContrastMode }) => {
 
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
-        <iframe
-          className="absolute top-1/2 left-1/2 w-[100vw] h-[100vh] md:w-[177.77vh] md:h-[56.25vw] min-h-[100vh] min-w-[100vw] -translate-x-1/2 -translate-y-1/2"
-          src="https://www.youtube.com/embed/S8GyCVkMdmE?autoplay=1&mute=1&loop=1&playlist=S8GyCVkMdmE&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1&disablekb=1"
-          title="Background Video"
-          allow="autoplay; encrypted-media"
-          style={{ pointerEvents: 'none' }}
-        ></iframe>
+        <div className="absolute inset-0 w-full h-full" style={{ transform: 'scale(1.5)' }}>
+          <iframe
+            className="absolute top-1/2 left-1/2 w-screen h-screen -translate-x-1/2 -translate-y-1/2"
+            style={{
+              width: '100vw',
+              height: '56.25vw',
+              minHeight: '100vh',
+              minWidth: '177.77vh',
+              pointerEvents: 'none',
+            }}
+            src="https://www.youtube.com/embed/S8GyCVkMdmE?autoplay=1&mute=1&loop=1&playlist=S8GyCVkMdmE&controls=0&showinfo=0&rel=0&modestbranding=1&iv_load_policy=3&playsinline=1&enablejsapi=1&disablekb=1&fs=0"
+            title="Background Video"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div
           className={`absolute inset-0 ${
             highContrastMode
