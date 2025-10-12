@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Bella Floor Refinishing",
+  "alternateName": "Aaron Michael Services",
+  "image": "https://aaronmichaelservices.com/images/logo.png",
+  "url": "https://aaronmichaelservices.com/services/hardwood-flooring-buffalo-ny",
+  "telephone": "+17165337108",
+  "email": "Thomasstory716@hotmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Mariemont Ave",
+    "addressLocality": "Buffalo",
+    "addressRegion": "NY",
+    "postalCode": "14220",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.9498,
+    "longitude": -78.8605
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "08:00",
+    "closes": "18:00"
+  },
+  "priceRange": "$$$",
+  "sameAs": [
+    "https://www.facebook.com/aaronmichaelservices",
+    "https://www.instagram.com/aaronmichaelservices"
+  ],
+  "description": "Bella Floor Refinishing (Aaron Michael Services) provides expert hardwood floor refinishing, repair, and installation in Buffalo, Kenmore, Tonawanda, North Tonawanda, and Cheektowaga. Free estimates, premium finishes, and top-quality craftsmanship.",
+  "founder": {
+    "@type": "Person",
+    "name": "Thomas Story"
+  },
+  "foundingDate": "2015-01-01",
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    },
+    "geoRadius": 50
+  },
+  "makesOffer": [
+    {
+      "@type": "Service",
+      "name": "Hardwood Floor Refinishing",
+      "description": "Complete hardwood floor refinishing services including sanding, staining, finishing, and repair of damaged boards.",
+      "serviceType": "Hardwood Floor Refinishing",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Hardwood Floor Installation",
+      "description": "Professional installation of solid and engineered hardwood flooring with premium materials and expert craftsmanship.",
+      "serviceType": "Floor Installation",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Hardwood Floor Repair",
+      "description": "Repair of scratches, dents, water damage, pet stains, and loose boards, with seamless blending and restoration.",
+      "serviceType": "Floor Repair",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Screen and Recoat Maintenance",
+      "description": "Surface sanding and topcoat application to refresh floors and restore shine without full refinishing.",
+      "serviceType": "Floor Maintenance",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Wax & Residue Removal",
+      "description": "Professional removal of wax, polish, and residue buildup for proper floor care and finishing preparation.",
+      "serviceType": "Floor Cleaning",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Buffalo, Kenmore, Tonawanda, North Tonawanda, Cheektowaga"
+      }
+    }
+  ],
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Buffalo Homeowner"
+      },
+      "datePublished": "2025-01-15",
+      "reviewBody": "Bella Floor Refinishing transformed my worn hardwood floors. The team was professional, timely, and meticulous. Highly recommend!",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "North Tonawanda Client"
+      },
+      "datePublished": "2024-11-20",
+      "reviewBody": "They repaired water-damaged boards and refinished the floors flawlessly. Great craftsmanship and attention to detail.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    }
+  ]
+}
