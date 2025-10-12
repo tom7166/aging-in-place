@@ -206,7 +206,7 @@ const HardwoodFloorRefinishing: React.FC = () => {
       <Header highContrastMode={false} toggleHighContrast={() => {}} />
 
       {/* Hero Section */}
-      <section className="relative text-white py-24 pt-32 overflow-hidden">
+      <section className="relative text-white py-24 pt-20 overflow-hidden">
         {/* Background Video */}
         <div className="absolute inset-0 w-full h-full overflow-hidden">
           <div className="absolute inset-0 w-full h-full" style={{ transform: 'scale(1.5)' }}>
@@ -226,7 +226,7 @@ const HardwoodFloorRefinishing: React.FC = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-amber-900/90 via-amber-800/80 to-yellow-700/90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-amber-900/70 via-amber-800/60 to-yellow-700/70"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="mb-6 text-amber-200 text-sm flex items-center justify-center md:justify-start space-x-2">
