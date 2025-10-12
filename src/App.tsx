@@ -129,6 +129,16 @@ import NearMeFlooringInstallers from './pages/NearMeFlooringInstallers.tsx';
 import HardwoodFlooringBuffalo from './pages/cities/buffalo/hardwood-flooring-Buffalo-ny.tsx';
 import HardwoodFloorRefinishing from './pages/hardwood-floor-refinishing.tsx';
 import MobileHandymanServices from './pages/mobile-handyman-services.tsx';
+import BuffaloHardwoodFloorRefinishing from './pages/hardwood-flooring/buffalo-hardwood-floor-refinishing.tsx';
+import KenmoreHardwoodFlooringInstallation from './pages/hardwood-flooring/kenmore-hardwood-flooring-installation.tsx';
+import AmherstHardwoodFloorSanding from './pages/hardwood-flooring/amherst-hardwood-floor-sanding.tsx';
+import TonawandaHardwoodFloorRepair from './pages/hardwood-flooring/tonawanda-hardwood-floor-repair.tsx';
+import WestSenecaHardwoodFlooringContractor from './pages/hardwood-flooring/west-seneca-hardwood-flooring-contractor.tsx';
+import BuffaloHardwoodFloorStaining from './pages/hardwood-flooring/buffalo-hardwood-floor-staining.tsx';
+import KenmoreHardwoodFloorMaintenance from './pages/hardwood-flooring/kenmore-hardwood-floor-maintenance.tsx';
+import AmherstEngineeredHardwoodInstallation from './pages/hardwood-flooring/amherst-engineered-hardwood-installation.tsx';
+import TonawandaHardwoodFloorRefinishingCost from './pages/hardwood-flooring/tonawanda-hardwood-floor-refinishing-cost.tsx';
+import WestSenecaHardwoodFloorCleaning from './pages/hardwood-flooring/west-seneca-hardwood-floor-cleaning.tsx';
 
 
 const App: React.FC = () => {
@@ -270,6 +280,16 @@ const App: React.FC = () => {
           <Route path="/services/hardwood-flooring-Buffalo-ny" element={<HardwoodFlooringBuffalo />} />
           <Route path="/services/hardwood-floor-refinishing" element={<HardwoodFloorRefinishing />} />
           <Route path="/services/mobile-handyman-services" element={<MobileHandymanServices />} />
+          <Route path="/services/hardwood-flooring/buffalo-hardwood-floor-refinishing" element={<BuffaloHardwoodFloorRefinishing />} />
+          <Route path="/services/hardwood-flooring/kenmore-hardwood-flooring-installation" element={<KenmoreHardwoodFlooringInstallation />} />
+          <Route path="/services/hardwood-flooring/amherst-hardwood-floor-sanding" element={<AmherstHardwoodFloorSanding />} />
+          <Route path="/services/hardwood-flooring/tonawanda-hardwood-floor-repair" element={<TonawandaHardwoodFloorRepair />} />
+          <Route path="/services/hardwood-flooring/west-seneca-hardwood-flooring-contractor" element={<WestSenecaHardwoodFlooringContractor />} />
+          <Route path="/services/hardwood-flooring/buffalo-hardwood-floor-staining" element={<BuffaloHardwoodFloorStaining />} />
+          <Route path="/services/hardwood-flooring/kenmore-hardwood-floor-maintenance" element={<KenmoreHardwoodFloorMaintenance />} />
+          <Route path="/services/hardwood-flooring/amherst-engineered-hardwood-installation" element={<AmherstEngineeredHardwoodInstallation />} />
+          <Route path="/services/hardwood-flooring/tonawanda-hardwood-floor-refinishing-cost" element={<TonawandaHardwoodFloorRefinishingCost />} />
+          <Route path="/services/hardwood-flooring/west-seneca-hardwood-floor-cleaning" element={<WestSenecaHardwoodFloorCleaning />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

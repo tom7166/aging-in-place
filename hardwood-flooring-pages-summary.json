@@ -1,0 +1,227 @@
+{
+  "project": "Hardwood Flooring Local Sniper Pages",
+  "total_pages": 10,
+  "completion_status": "All pages generated and integrated",
+  "pages": [
+    {
+      "page_number": 1,
+      "slug": "buffalo-hardwood-floor-refinishing",
+      "town": "Buffalo",
+      "url": "/services/hardwood-flooring/buffalo-hardwood-floor-refinishing",
+      "meta_title": "Buffalo Hardwood Floor Refinishing | Expert Sanding & Staining NY",
+      "h1": "Buffalo Hardwood Floor Refinishing",
+      "primary_keyword": "buffalo hardwood floor refinishing",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 2,
+      "slug": "kenmore-hardwood-flooring-installation",
+      "town": "Kenmore",
+      "url": "/services/hardwood-flooring/kenmore-hardwood-flooring-installation",
+      "meta_title": "Kenmore Hardwood Flooring Installation | Expert Installation NY",
+      "h1": "Kenmore Hardwood Flooring Installation",
+      "primary_keyword": "kenmore hardwood flooring installation",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 3,
+      "slug": "amherst-hardwood-floor-sanding",
+      "town": "Amherst",
+      "url": "/services/hardwood-flooring/amherst-hardwood-floor-sanding",
+      "meta_title": "Amherst Hardwood Floor Sanding | Professional Restoration NY",
+      "h1": "Amherst Hardwood Floor Sanding & Restoration",
+      "primary_keyword": "amherst hardwood floor sanding",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 4,
+      "slug": "tonawanda-hardwood-floor-repair",
+      "town": "Tonawanda",
+      "url": "/services/hardwood-flooring/tonawanda-hardwood-floor-repair",
+      "meta_title": "Tonawanda Hardwood Floor Repair | Board Replacement & Fixes NY",
+      "h1": "Tonawanda Hardwood Floor Repair & Board Replacement",
+      "primary_keyword": "tonawanda hardwood floor repair",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 5,
+      "slug": "west-seneca-hardwood-flooring-contractor",
+      "town": "West Seneca",
+      "url": "/services/hardwood-flooring/west-seneca-hardwood-flooring-contractor",
+      "meta_title": "West Seneca Hardwood Flooring Contractor | Installation & Refinishing",
+      "h1": "West Seneca Hardwood Flooring Contractor",
+      "primary_keyword": "west seneca hardwood flooring contractor",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 6,
+      "slug": "buffalo-hardwood-floor-staining",
+      "town": "Buffalo",
+      "url": "/services/hardwood-flooring/buffalo-hardwood-floor-staining",
+      "meta_title": "Buffalo Hardwood Floor Staining | Custom Colors & Finishes NY",
+      "h1": "Buffalo Hardwood Floor Staining Services",
+      "primary_keyword": "buffalo hardwood floor staining",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~650",
+      "schema_included": true
+    },
+    {
+      "page_number": 7,
+      "slug": "kenmore-hardwood-floor-maintenance",
+      "town": "Kenmore",
+      "url": "/services/hardwood-flooring/kenmore-hardwood-floor-maintenance",
+      "meta_title": "Kenmore Hardwood Floor Maintenance | Professional Care & Recoating",
+      "h1": "Kenmore Hardwood Floor Maintenance & Care",
+      "primary_keyword": "kenmore hardwood floor maintenance",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 8,
+      "slug": "amherst-engineered-hardwood-installation",
+      "town": "Amherst",
+      "url": "/services/hardwood-flooring/amherst-engineered-hardwood-installation",
+      "meta_title": "Amherst Engineered Hardwood Installation | Expert Installers NY",
+      "h1": "Amherst Engineered Hardwood Installation",
+      "primary_keyword": "amherst engineered hardwood installation",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 9,
+      "slug": "tonawanda-hardwood-floor-refinishing-cost",
+      "town": "Tonawanda",
+      "url": "/services/hardwood-flooring/tonawanda-hardwood-floor-refinishing-cost",
+      "meta_title": "Tonawanda Hardwood Floor Refinishing Cost | Pricing Guide 2025",
+      "h1": "Tonawanda Hardwood Floor Refinishing Cost Guide",
+      "primary_keyword": "tonawanda hardwood floor refinishing cost",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    },
+    {
+      "page_number": 10,
+      "slug": "west-seneca-hardwood-floor-cleaning",
+      "town": "West Seneca",
+      "url": "/services/hardwood-flooring/west-seneca-hardwood-floor-cleaning",
+      "meta_title": "West Seneca Hardwood Floor Cleaning | Professional Deep Cleaning",
+      "h1": "West Seneca Hardwood Floor Cleaning Services",
+      "primary_keyword": "west seneca hardwood floor cleaning",
+      "h2_count": 3,
+      "faq_count": 3,
+      "internal_links": 4,
+      "word_count": "~600",
+      "schema_included": true
+    }
+  ],
+  "features": {
+    "seo_optimization": {
+      "meta_titles": "Unique per page with primary keyword + town",
+      "meta_descriptions": "155-160 characters, actionable with phone number",
+      "canonical_urls": "Proper canonical tags on all pages",
+      "schema_markup": "LocalBusiness Service schema on every page",
+      "h1_structure": "Main keyword + town name",
+      "h2_structure": "2-4 high-intent questions per page",
+      "internal_linking": "4 relevant internal links per page"
+    },
+    "aeo_optimization": {
+      "faq_sections": "3 FAQs per page answering common searches",
+      "direct_answers": "Answer-first content structure",
+      "local_targeting": "Town-specific content and examples",
+      "search_intent": "Transactional and informational queries"
+    },
+    "geo_targeting": {
+      "towns_covered": [
+        "Buffalo (3 pages)",
+        "Kenmore (2 pages)",
+        "Amherst (2 pages)",
+        "Tonawanda (2 pages)",
+        "West Seneca (2 pages)"
+      ],
+      "local_references": "Street names, neighborhoods, landmarks",
+      "service_area": "Western New York / WNY",
+      "local_schema": "City-specific structured data"
+    },
+    "content_quality": {
+      "word_count": "400-700 words per page",
+      "readability": "Professional, persuasive, conversational",
+      "expertise": "Industry-specific knowledge and tips",
+      "cta_placement": "Subtle calls-to-action throughout",
+      "phone_visibility": "Multiple phone CTAs per page"
+    }
+  },
+  "integration": {
+    "routing": "All 10 pages added to App.tsx routes",
+    "navigation": "All pages searchable in NavBar",
+    "search_keywords": "Town + service combinations",
+    "build_status": "Successfully compiled",
+    "mobile_responsive": "Yes, Tailwind CSS responsive design"
+  },
+  "keyword_targeting": {
+    "primary_keywords": [
+      "buffalo hardwood floor refinishing",
+      "kenmore hardwood flooring installation",
+      "amherst hardwood floor sanding",
+      "tonawanda hardwood floor repair",
+      "west seneca hardwood flooring contractor",
+      "buffalo hardwood floor staining",
+      "kenmore hardwood floor maintenance",
+      "amherst engineered hardwood installation",
+      "tonawanda hardwood floor refinishing cost",
+      "west seneca hardwood floor cleaning"
+    ],
+    "secondary_keywords": [
+      "hardwood floor sanding [town]",
+      "hardwood floor installation [town]",
+      "hardwood floor repair [town]",
+      "hardwood flooring contractor [town]",
+      "floor refinishing cost [town]",
+      "hardwood floor maintenance [town]"
+    ],
+    "long_tail_keywords": [
+      "how much does hardwood floor refinishing cost in [town]",
+      "best hardwood flooring contractor in [town]",
+      "professional floor sanding [town] ny",
+      "hardwood floor repair near me [town]",
+      "hardwood floor cleaning services [town]"
+    ]
+  },
+  "performance_metrics": {
+    "page_load": "Optimized with Vite build",
+    "seo_score_target": "90+",
+    "mobile_friendly": "Yes",
+    "schema_validation": "Valid JSON-LD",
+    "internal_link_density": "4 links per page",
+    "cta_conversion": "Multiple phone CTAs"
+  }
+}
