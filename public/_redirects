@@ -1,6 +1,10 @@
 # SEO Redirects - Consolidate handyman pages
 /services/handyman-services    /services/mobile-handyman-services    301!
 
+# Legacy URL redirects
+/aarons-handyman/    /services/mobile-handyman-services    301!
+/pier-beam-repair-buffalo/    /services/foundation-repair    301!
+
 # Netlify redirects for SPA routing
 /*    /index.html      200
 
