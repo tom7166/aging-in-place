@@ -149,6 +149,9 @@ import FlooringRenovation from './pages/flooring/flooring-renovation.tsx';
 import WoodFloorReplacementNearMe from './pages/flooring/wood-floor-replacement-near-me.tsx';
 import FloorRenovations from './pages/flooring/floor-renovations.tsx';
 import BingIndexing from './pages/BingIndexing.tsx';
+import AccessibilityServicesHub from './pages/hubs/AccessibilityServicesHub.tsx';
+import FlooringServicesHub from './pages/hubs/FlooringServicesHub.tsx';
+import RemodelingServicesHub from './pages/hubs/RemodelingServicesHub.tsx';
 
 
 const App: React.FC = () => {
@@ -310,6 +313,9 @@ const App: React.FC = () => {
           <Route path="/services/flooring/wood-floor-replacement-near-me" element={<WoodFloorReplacementNearMe />} />
           <Route path="/services/flooring/floor-renovations" element={<FloorRenovations />} />
           <Route path="/bing-indexing" element={<BingIndexing />} />
+          <Route path="/services/accessibility" element={<AccessibilityServicesHub />} />
+          <Route path="/services/flooring" element={<FlooringServicesHub />} />
+          <Route path="/services/remodeling" element={<RemodelingServicesHub />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

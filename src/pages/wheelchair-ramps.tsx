@@ -1,6 +1,12 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, MapPin, Clock, CircleCheck as CheckCircle, Star, Users, DollarSign, Shield, ArrowRight, Chrome as Home, Award, TrendingUp, Quote, Ruler, Zap } from 'lucide-react';
+import Breadcrumbs from '../components/Breadcrumbs';
+import RelatedServices from '../components/RelatedServices';
+import YouMightAlsoLike from '../components/YouMightAlsoLike';
+import { InlineLink } from '../components/ContextualLinks';
+import Footer from '../components/Footer';
+import NavBar from '../components/NavBar';
 
 const WheelchairRampsPage = () => {
   const structuredData = {
@@ -60,24 +66,22 @@ const WheelchairRampsPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+      <NavBar />
+
+      <Breadcrumbs
+        items={[
+          { label: "Services", path: "/services/accessibility" },
+          { label: "Accessibility", path: "/services/accessibility" },
+          { label: "Wheelchair Ramps", path: "/services/wheelchair-ramps" }
+        ]}
+      />
+
       {/* Header/Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 via-indigo-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 py-16 sm:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              {/* Breadcrumb */}
-              <nav className="mb-6 text-blue-200">
-                <div className="flex items-center space-x-2 text-sm">
-                  <Home className="w-4 h-4" />
-                  <Link to="/" className="hover:text-white">Home</Link>
-                  <ArrowRight className="w-3 h-3" />
-                  <span>Services</span>
-                  <ArrowRight className="w-3 h-3" />
-                  <span>Wheelchair Ramps</span>
-                </div>
-              </nav>
-
               <h1 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">
                 Wheelchair Ramp Installation <span className="text-blue-300">Buffalo NY</span>
               </h1>
@@ -186,6 +190,15 @@ const WheelchairRampsPage = () => {
                   <p className="text-gray-700 mb-6">
                     Buffalo's harsh winters, extreme temperature swings, and heavy snow loads destroy improperly installed ramps within months. That's why Aaron Michael Services has developed Buffalo-specific engineering standards that ensure your ramp provides safe, reliable access for 15+ years, regardless of what Mother Nature throws at it.
                   </p>
+
+                  <div className="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
+                    <p className="text-sm font-semibold text-gray-800 mb-2">Related Resources:</p>
+                    <ul className="space-y-2">
+                      <li><InlineLink to="/services/types-of-ramps">Types of Wheelchair Ramps</InlineLink> - Compare different ramp styles and materials</li>
+                      <li><InlineLink to="/services/ada-compliance-details-and-local-regulations">ADA Compliance Guidelines</InlineLink> - Understanding federal and local requirements</li>
+                      <li><InlineLink to="/services/accessible-bathrooms">Accessible Bathrooms</InlineLink> - Complete your home's accessibility upgrades</li>
+                    </ul>
+                  </div>
 
                   <h3 className="text-2xl font-bold text-gray-900 mb-4 border-b-2 border-blue-500 pb-2">
                     Buffalo Wheelchair Ramp Cost Guide 2024
@@ -383,6 +396,79 @@ const WheelchairRampsPage = () => {
           </div>
         </div>
       </section>
+
+      <RelatedServices
+        title="Complete Your Home's Accessibility"
+        services={[
+          {
+            title: "Accessible Bathrooms",
+            description: "Walk-in tubs, roll-in showers, and safety grab bars for complete bathroom accessibility",
+            link: "/services/accessible-bathrooms"
+          },
+          {
+            title: "Door Widening",
+            description: "Expand doorways to 36+ inches for full wheelchair accessibility throughout your home",
+            link: "/services/door-widening"
+          },
+          {
+            title: "Handrails & Grab Bars",
+            description: "Professional installation of safety handrails and ADA-compliant grab bars",
+            link: "/services/handrails"
+          },
+          {
+            title: "Flooring Transitions",
+            description: "Eliminate tripping hazards with smooth, wheelchair-friendly floor transitions",
+            link: "/services/flooring-transitions"
+          },
+          {
+            title: "Kitchen Modifications",
+            description: "Accessible kitchen design with lowered countertops and roll-under sinks",
+            link: "/services/kitchen-modifications"
+          },
+          {
+            title: "Aging in Place Solutions",
+            description: "Comprehensive home modifications to maintain independence and safety",
+            link: "/services/aging-in-place"
+          }
+        ]}
+      />
+
+      <YouMightAlsoLike
+        suggestions={[
+          {
+            title: "Types of Wheelchair Ramps",
+            description: "Learn about permanent vs. portable ramps, materials, and which design is right for your home",
+            link: "/services/types-of-ramps"
+          },
+          {
+            title: "ADA Compliance & Regulations",
+            description: "Understand federal ADA requirements and Buffalo-specific building codes for ramps",
+            link: "/services/ada-compliance-details-and-local-regulations"
+          },
+          {
+            title: "Slip-Resistant Flooring",
+            description: "Safe, non-slip flooring options perfect for ramps and accessible pathways",
+            link: "/services/slip-resistant-flooring"
+          },
+          {
+            title: "Disability Home Modifications",
+            description: "Explore all available modifications to make your home fully accessible",
+            link: "/services/disability-modifications"
+          },
+          {
+            title: "Buffalo Accessible Remodeling",
+            description: "Complete accessibility remodeling services throughout Buffalo and WNY",
+            link: "/accessible-remodeling-buffalo-ny"
+          },
+          {
+            title: "Maintenance & Durability Tips",
+            description: "Keep your ramp safe and functional through Buffalo's harsh winters",
+            link: "/services/maintenance-durability"
+          }
+        ]}
+      />
+
+      <Footer />
     </div>
   );
 };
