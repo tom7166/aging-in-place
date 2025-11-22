@@ -73,15 +73,28 @@ const About: React.FC = () => {
                   throughout Erie County and the Southern Tier.
                 </p>
                <p>
-                  My journey in the trades began early. At just eight years old, I was building sheds with my father for Heartland Sheds, and together we built hundreds of them throughout Western New York. Those years taught me the value of workmanship, responsibility, and doing a job correctly the first time.
-The moment I knew I wanted to become a carpenter came in 7th grade in Mr. Martha’s technology class. That classroom sparked something in me that never faded. Around the same time, I was also learning customer service and work ethic from two people who deeply influenced me: Anne Smith and John Braymiller. Mrs. Smith, who had also been my 7th grade math teacher, and John trusted me to help open and operate Johns Corner Store in the Forest Glen neighborhood in Hamburg. The lessons I learned from them, including how to deal with people, how to stay calm under pressure, and how to treat customers with respect, still guide me today. </p>
+                  My journey in the trades began early. At just eight years old, I was building sheds with my father for Heartland Sheds, 
+                 and together we built hundreds of them throughout Western New York. Those years taught me the value of workmanship, responsibility, 
+                 and doing a job correctly the first time. The moment I knew I wanted to become a carpenter came in 7th grade in Mr. Martha’s technology class. 
+                 That classroom sparked something in me that never faded. Around the same time, I was also learning customer service and work ethic from two
+                 people who deeply influenced me: Anne Smith and John Braymiller. Mrs. Smith, who had also been my 7th grade math teacher, 
+                 and John trusted me to help open and operate Johns Corner Store in the Forest Glen neighborhood in Hamburg. 
+                 The lessons I learned from them, including how to deal with people, how to stay calm under pressure, and how to treat customers with respect, 
+                 still guide me today. </p>
 </p>
-From there, my education became a foundation for everything I do. I completed formal training in Preservation Carpentry at the North Bennett Street School in Boston MA, one of the most respected craft schools in the country. After returning home to Buffalo, I enrolled in the Building Management and Maintenance program at Erie Community College, becoming the only student to complete the program without using books. I maintained a three point five GPA and earned my associate degree. </p>
+                From there, my education became a foundation for everything I do. I completed formal training in Preservation Carpentry 
+                at the North Bennett Street School in Boston MA, one of the most respected craft schools in the country. 
+                After returning home to Buffalo, I enrolled in the Building Management and Maintenance program at Erie Community College, 
+                becoming the only student to complete the program without using books. I maintained a three point five GPA and earned my associate degree. </p>
 </p>
-I continued my studies at Buffalo State College, earning my bachelors degree in Urban and Regional Planning and Analysis, which allowed me to understand not only how buildings are constructed but how neighborhoods, infrastructure, and communities function as a whole.
-Throughout my career, I have had the privilege of working under craftsmen whose skill and mentorship shaped me into the tradesman I am today. One of the most influential was Scott Starr, a master carpenter from North Tonawanda who refined and elevated my hands on skills. I also had the honor of working for the late Carmen "Carm" Cibella of TACS Maintenance in Amherst NY, a man widely respected in the field. </p>
+                I continued my studies at Buffalo State College, earning my bachelors degree in Urban and Regional Planning and Analysis, which allowed me 
+                to understand not only how buildings are constructed but how neighborhoods, infrastructure, and communities function as a whole.
+                Throughout my career, I have had the privilege of working under craftsmen whose skill and mentorship shaped me into the tradesman I am today. 
+                One of the most influential was Scott Starr, a master carpenter from North Tonawanda who refined and elevated my hands on skills. 
+                I also had the honor of working for the late Carmen "Carm" Cibella of TACS Maintenance in Amherst NY, a man widely respected in the field. </p>
 </p>
-Each experience, each mentor, and each job added a layer to my craft. Today, as the owner of Aaron Michael Services, I carry forward everything I learned from the men and women who taught me, guided me, and believed in me long before I had customers of my own.
+                Each experience, each mentor, and each job added a layer to my craft. Today, as the owner of Aaron Michael Services, 
+                I carry forward everything I learned from the men and women who taught me, guided me, and believed in me long before I had customers of my own.
                 </p>
                 <p>
                   We’re not chasing jobs or checks—we’re chasing reputation, results, and satisfied homeowners. 
