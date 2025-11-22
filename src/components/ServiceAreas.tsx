@@ -39,7 +39,7 @@ const ServiceAreas: React.FC<ServiceAreasProps> = ({ highContrastMode }) => {
                 highContrastMode ? 'bg-gray-800' : 'bg-blue-50'
               }`}>
                 <img 
-                  src="https://upstatenyaatsp.org/wp-content/uploads/2015/05/nys-map-western.gif" 
+                  src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/564188351_1627359611962023_88637996692197689_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=e4Ubp5eqrhoQ7kNvwEgEXEa&_nc_oc=AdkktfzrevgjmleEUAGd_a4z48fEIjMHo-BrlGiyPs03etgA1UIKMevHhYDEqcGYMZ_Fjx1UGH1sty_-A8yC3z0U&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=k6FcvnXX2hs4ug9HXsmcgA&oh=00_Afi1CAWdcnWSc-JqhM2mxrpv09CqU5PqL959Ql8ZQ9Clkg&oe=6927A0F6" 
                   alt="Buffalo and Western New York service area map showing Aaron Michael Services coverage"
                   className="w-full h-full object-cover opacity-80"
                   loading="lazy"
