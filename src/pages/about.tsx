@@ -97,7 +97,7 @@ Each experience, each mentor, and each job added a layer to my craft. Today, as 
             {/* Placeholder Image */}
             <div>
               <img 
-                src="/images/about-placeholder-1.jpg" 
+                src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/564581522_1628863455144972_6725392423504462378_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MrCdv8DkHSkQ7kNvwHrSAsI&_nc_oc=AdmFs-KgOLb2ZHVlK-9EmFIWBPVSfpL2R6cc1wxtCXYrdhk5uyJY5cqf4mZnpoHDQ7N8pTPDFAluilRJXsZTJoxC&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=shjN6Krj2CkYnRVaYt4MDg&oh=00_AfidSeTLESnqTfnwO-7dPhZVYJtmMnFy7Pyun38vVax6XQ&oe=69277349" 
                 alt="Tom Story and family in Buffalo, NY" 
                 className="rounded-lg shadow-lg"
               />
