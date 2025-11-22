@@ -117,7 +117,7 @@ const About: React.FC = () => {
           {/* Second Image */}
           <div className="mb-20">
             <img 
-              src="/images/about-placeholder-2.jpg" 
+              src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/577066998_1648280846536566_2447573224824010387_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vPMEqXrEJsoQ7kNvwFBPttW&_nc_oc=Adkl-F-G9ldfRjayujmAgznSVVuYZtvu1NVNjtpYqBsyxCHRoUiNFne5J78D4DtRaV6Eh9TMSZKkorlb9C3H2yYt&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=gBPpKNEFilzbxnnfZHYvZg&oh=00_Afj1tb0DCqGPbMdObYts9ozbTISsVVivg0rN6QHqupdIJQ&oe=69279BD3" 
               alt="Aaron Michael Services carpentry project in Buffalo" 
               className="rounded-lg shadow-lg mx-auto"
             />
